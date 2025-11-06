@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Game Catalog</title>
-<meta name="description" content="Локальный каталог игр — скриншоты, описание и видео. Автоматически читает INI." />
+<title>EmuGames List</title>
+<meta name="description" content="Retro games catalog – screenshots, descriptions, and gameplay videos." />
 <style>
   :root{
     --bg:#0b0b0d; --panel:#0f1113; --muted:#9aa0a6; --accent:#7dd3fc;
@@ -42,8 +42,8 @@
 <body>
   <div class="wrap">
     <header>
-      <h1>🎮 Game Catalog — INI → Web</h1>
-      <div style="color:var(--muted);font-size:13px">Авто-парс INI · Скриншоты · YouTube</div>
+      <h1>Retro games catalog</h1>
+      <div style="color:var(--muted);font-size:13px">Screenshots · Descriptions · Gameplay</div>
     </header>
 
     <aside class="panel">
@@ -77,9 +77,9 @@
         </div>
 
         <div class="tabs" id="tabs">
-          <div class="tab active" data-tab="screens">🖼️ Скриншоты</div>
-          <div class="tab" data-tab="info">ℹ️ Информация</div>
-          <div class="tab" data-tab="youtube">▶️ YouTube</div>
+          <div class="tab active" data-tab="screens">Скриншоты</div>
+          <div class="tab" data-tab="info">Информация</div>
+          <div class="tab" data-tab="youtube">Геймплей</div>
         </div>
 
         <div id="tab-screens">
@@ -202,9 +202,6 @@ async function init(){
 /* === load and merge Games.ini / Emulators.ini / Demos.ini === */
 async function loadGamesForSystem(systemDir){
   const candidates = [
-    `data/Games.ini`,
-    `data/Emulators.ini`,
-    `data/Demos.ini`,
     `data/${encodeURIComponent(systemDir)}/Games.ini`,
     `data/${encodeURIComponent(systemDir)}/Emulators.ini`,
     `data/${encodeURIComponent(systemDir)}/Demos.ini`
