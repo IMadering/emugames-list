@@ -1,2 +1,2 @@
-# emugames-list
+# EmuGames List
 Retro games catalog
