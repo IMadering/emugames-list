@@ -1,10 +1,18 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>EmuGames List</title>
-<meta name="description" content="Retro games catalog – screenshots, descriptions, and gameplay videos." />
+<meta name="description" content="Retro games catalog – screenshots, descriptions and gameplay videos." />
+<meta name="keywords" content="game catalog, retro games, gaming systems" />
+<meta name="robots" content="index, follow" />
+<!-- <link rel="canonical" href="https://[YOUR_DOMAIN].com/" /> -->
+<meta property="og:title" content="EmuGames List" />
+<meta property="og:description" content="Retro games catalog – screenshots, descriptions and gameplay videos." />
+<meta property="og:type" content="website" />
+<!-- <meta property="og:url" content="https://[YOUR_DOMAIN].com/" /> -->
+<!-- <meta property="og:image" content="https://[YOUR_DOMAIN].com/images/preview.jpg" /> -->
 <style>
   :root{
     --bg:#0b0b0d; --panel:#0f1113; --muted:#9aa0a6; --accent:#7dd3fc;
@@ -48,24 +56,24 @@
 
     <aside class="panel">
       <div style="margin-bottom:10px">
-        <label style="color:var(--muted);font-size:13px" for="system-select">Системы</label>
+        <label style="color:var(--muted);font-size:13px" for="system-select">Systems</label>
         <select id="system-select" class="search" style="margin-top:8px"></select>
       </div>
 
       <div style="margin-bottom:10px">
-        <label style="color:var(--muted);font-size:13px">Поиск игр</label>
-        <input id="search" class="search" placeholder="По названию..." />
+        <label style="color:var(--muted);font-size:13px">Search Games</label>
+        <input id="search" class="search" placeholder="By title..." />
       </div>
 
       <div style="margin-top:8px">
-        <label style="color:var(--muted);font-size:13px">Игры</label>
+        <label style="color:var(--muted);font-size:13px">Games</label>
         <div id="game-list" style="margin-top:8px"></div>
       </div>
     </aside>
 
     <main class="panel" id="details">
       <div id="placeholder">
-        <div class="no-data">Выберите систему и игру слева — затем переключай вкладки Скриншоты / Информация / YouTube.</div>
+        <div class="no-data">Select a system and a game on the left — then switch between Screenshots / Info / Gameplay.</div>
       </div>
 
       <div id="game-area" style="display:none">
@@ -77,14 +85,14 @@
         </div>
 
         <div class="tabs" id="tabs">
-          <div class="tab active" data-tab="screens">Скриншоты</div>
-          <div class="tab" data-tab="info">Информация</div>
-          <div class="tab" data-tab="youtube">Геймплей</div>
+          <div class="tab active" data-tab="screens">Screenshots</div>
+          <div class="tab" data-tab="info">Info</div>
+          <div class="tab" data-tab="youtube">Gameplay</div>
         </div>
 
         <div id="tab-screens">
           <div class="screens" id="screens-list"></div>
-          <div id="screens-empty" class="no-data" style="display:none">Скриншоты не найдены.</div>
+          <div id="screens-empty" class="no-data" style="display:none">Screenshots not found.</div>
         </div>
 
         <div id="tab-info" style="display:none">
@@ -103,15 +111,12 @@
 /* === INI parser (simple, robust for our INI shape) === */
 function parseIni(text){
   const result = {}; let section = null;
-  // Normalize line endings and explicitly strip potential Unicode BOM character (U+FEFF), 
-  // just in case TextDecoder didn't handle it fully.
   text = text.replace(/\ufeff/g, '').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
   const lines = text.split('\n');
   for (let raw of lines){
     const line = raw.trim();
     if (!line || line.startsWith(';') || line.startsWith('#')) continue;
     
-    // Ключевой фрагмент: ищет [Секция]
     const sect = line.match(/^\[(.+?)\]$/);
     if (sect){
       section = sect[1];
@@ -130,28 +135,25 @@ function parseIni(text){
   return result;
 }
 
-/* === utils to fetch INI files from data/ === */
+/* === utils to fetch INI files from data/ (UTF-16 LE BOM SUPPORT) === */
 async function fetchIniFile(path){
   try{
     const r = await fetch(path, {cache:'no-cache'});
     if (!r.ok) {
-        console.error(`Ошибка загрузки файла INI: ${path}. Статус: ${r.status}`);
+        console.error(`INI file loading error: ${path}. Status: ${r.status}`);
         return null;
     }
     
-    // --- ИЗМЕНЕНИЕ ДЛЯ UTF-16 LE BOM ---
-    // 1. Читаем файл как ArrayBuffer (сырые байты)
+    // Read as ArrayBuffer (raw bytes)
     const buffer = await r.arrayBuffer();
     
-    // 2. Декодируем байты как UTF-16 Little Endian (LE). 
-    // TextDecoder('utf-16le') корректно обрабатывает байты и символ BOM.
+    // Decode as UTF-16 Little Endian (LE) to support the required encoding + BOM
     const decoder = new TextDecoder('utf-16le');
     const txt = decoder.decode(buffer); 
-    // ------------------------------------
 
     return parseIni(txt);
   }catch(e){
-    console.error(`Критическая ошибка при чтении или парсинге ${path}:`, e);
+    console.error(`Critical error reading or parsing ${path}:`, e);
     return null;
   }
 }
@@ -166,10 +168,10 @@ let shownGames = [];
 let currentGame = null;
 
 async function init(){
-  const systems = await fetchIniFile('data/Systems.ini');
+  const systems = await fetchIniFile('Systems.ini');
   systemSelectEl.innerHTML = '';
   if (!systems || Object.keys(systems).length === 0){
-    systemSelectEl.innerHTML = '<option disabled selected>Не найден data/Systems.ini или файл пуст</option>';
+    systemSelectEl.innerHTML = '<option disabled selected>Systems.ini not found or empty</option>';
     return;
   }
   
@@ -181,7 +183,7 @@ async function init(){
     const dir = systems[sec]['Dir'] || sec; 
     const option = document.createElement('option');
     option.value = dir;
-    option.textContent = sec; // Устанавливает видимое имя (например, "Aamber Pegasus (1981)")
+    option.textContent = sec;
     systemSelectEl.appendChild(option);
     
     if (i === 0) {
@@ -202,9 +204,9 @@ async function init(){
 /* === load and merge Games.ini / Emulators.ini / Demos.ini === */
 async function loadGamesForSystem(systemDir){
   const candidates = [
-    `data/${encodeURIComponent(systemDir)}/Games.ini`,
-    `data/${encodeURIComponent(systemDir)}/Emulators.ini`,
-    `data/${encodeURIComponent(systemDir)}/Demos.ini`
+    `Systems/${encodeURIComponent(systemDir)}/Games.ini`,
+    `Systems/${encodeURIComponent(systemDir)}/Emulators.ini`,
+    `Systems/${encodeURIComponent(systemDir)}/Demos.ini`
   ];
   const merged = {};
   const tried = new Set();
@@ -258,7 +260,7 @@ function renderGameList(){
   shownGames = allGames.filter(g => (g.name||'').toLowerCase().includes(q));
   gameListEl.innerHTML = '';
   if (shownGames.length===0){
-    gameListEl.innerHTML = '<div class="no-data">Игры не найдены.</div>';
+    gameListEl.innerHTML = '<div class="no-data">No games found.</div>';
     return;
   }
   for (const g of shownGames){
@@ -276,16 +278,16 @@ function showGame(g){
   currentGame = g;
   document.getElementById('placeholder').style.display='none';
   document.getElementById('game-area').style.display='block';
-  document.getElementById('game-title').textContent = g.name || '(без имени)';
+  document.getElementById('game-title').textContent = g.name || '(No Name)';
   document.getElementById('game-sub').textContent = `${g.dir || ''} ${g.year ? ' • ' + g.year : ''}`;
   
   const info = document.getElementById('info-area');
   info.innerHTML = `
-    <div class="info-row"><strong>Название:</strong> ${escapeHtml(g.name)}</div>
-    <div class="info-row"><strong>Директория / Дата:</strong> ${escapeHtml(g.dir)} ${g.year ? ' • ' + escapeHtml(g.year) : ''}</div>
-    <div class="info-row"><strong>Рейтинг:</strong> ${escapeHtml(g.rating || '—')}</div>
-    <div class="info-row"><strong>Найдено:</strong> ${escapeHtml(g.found || '—')}</div>
-    <div class="info-row"><strong>Комментарий:</strong> ${escapeHtml(g.comment || '')}</div>
+    <div class="info-row"><strong>Title:</strong> ${escapeHtml(g.name)}</div>
+    <div class="info-row"><strong>Directory / Year:</strong> ${escapeHtml(g.dir)} ${g.year ? ' • ' + escapeHtml(g.year) : ''}</div>
+    <div class="info-row"><strong>Rating:</strong> ${escapeHtml(g.rating || '—')}</div>
+    <div class="info-row"><strong>Found:</strong> ${escapeHtml(g.found || '—')}</div>
+    <div class="info-row"><strong>Comment:</strong> ${escapeHtml(g.comment || '')}</div>
   `;
 
   const screensList = document.getElementById('screens-list');
