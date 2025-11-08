@@ -1,0 +1,5 @@
+﻿This is a simulation of an electronic octopus.
+
+This game is very similar to "Kono e Tako" (Mitchell 2003).
+
+Naoyuki Sawa

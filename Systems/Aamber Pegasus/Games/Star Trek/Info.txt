@@ -1,0 +1,63 @@
+﻿Load from Cassette:
+Insert the cartridge with BASIC and after the monitor boots, press: B
+Then type the command: LOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN
+
+As captain of the Starship "Enterprise", you must seek out and destroy a galactic invasion fleet of Klingon battlecruisers. You have a specified number of 'days' (time intervals, where each command takes 1 time interval), starbases (where you can replenish energy and torpedo stocks), and Klingon invaders (all of which must be destroyed within the given time interval to win the game).
+
+The galaxy is divided into an 8x8 sector grid, similar to a chessboard. Each sector contains a number of stars, Klingons, and starbases. Navigation between sectors is accomplished by the Warp command and within a sector by the cursor keys.
+
+Commands
+- - - - - - - -
+Commands are invoked by typing the first letter of their name.
+
+Note:
+  1. When entering information for a command (e.g., amount of energy to use), press (return) afterward.
+  2. These commands will not work if the unit is damaged; automatic repair takes a random number of days.
+
+1. Warp
+To travel between sectors, you must use the warp drive. The computer will ask for two things in response to this command:
+  a) Warp power
+     Warp power of 1 will move you 1 sector, 2 will move you 2 sectors, and so on, costing 50 units of energy per sector. Note that the command will be ignored if there is not enough energy.
+  b) Direction
+     The direction of travel is determined by numbers: 1 for right, 2 for up, 3 for left, and 4 for down.
+
+2. Shield
+Allows you to enter the amount of energy you wish to divert to your defensive shields—this is what prevents Klingon ships from destroying you when they fire. If your shield energy reaches zero and you are hit, you will be instantly vaporized, and you will lose the game. Note that all Klingon ships within range will automatically fire on you, and this is reflected in the drop in shield energy.
+
+3. Torpedo
+You can launch a photon torpedo with this command and aim it at an enemy—it will destroy any Klingon ship on contact. It is guided with the arrow keys and has a limited range of 8 squares. Note that a wasted torpedo can be self-destructed by pressing the (return) key. Stars and starbases are not damaged by photon torpedoes.
+
+4. Phaser
+Phaser shots are automatically aimed by the computer at any enemy within range (i.e., in the current sector), and the total energy of the shot (specified by you) is automatically distributed among all available targets.
+E - Up, S - Left, D - Right, X - Down are used for navigation and torpedo control.
+
+Scanners
+- - - - - - - -
+The short-range scanners provide an image of your current sector:
+* = Star
+O = Starbase
+K = Klingon ship
+E = You, the Enterprise
+
+Note: Attempts to move through another object will cause the Enterprise to disappear until you move away from that object. This is just a warning and does not cause permanent damage.
+
+The long-range scanners provide a view of all adjacent sectors, with your current sector displayed in the center. Information is encoded as a 3-digit number for each sector:
+The first digit (X) is the number of stars.
+The second digit (X) is the number of starbases.
+The third digit (X) is the number of Klingon ships.
+
+Status
+- - - - - - - -
+Your status is constantly displayed on the screen. All of the following are continuously updated as you issue commands.
+Energy: Remaining energy.
+Time: Number of time intervals left to complete your mission.
+Shield: Energy in your shields.
+Klingon: Remaining enemies.
+Torpedo: Number of remaining torpedoes.
+Sector: Position in the galaxy.
+
+Docking
+- - - - - - - -
+You can resupply your torpedoes and recharge your energy banks by docking with a starbase. This is accomplished by navigating to a starbase. Note that you are still a target for the Klingons while docked.

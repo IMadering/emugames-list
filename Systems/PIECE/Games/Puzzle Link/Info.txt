@@ -1,0 +1,24 @@
+﻿Connect the interconnected puzzles! This game is very similar to Puzzle Link (Yumekobo, 1999).
+
+How to Play
+Connect the distant targets (*1) with the parts (*2) to erase them.
+When a certain number of targets are destroyed in each round, a clear target will appear.
+When you connect and erase clear targets, the round is cleared.
+When the target reaches the bottom of the screen, the game ends.
+
+(*1) "Target" refers to the block falling from the top of the screen.
+(*2) "Parts" are the blocks that the player shoots.
+
+Left / Right buttons: Move the player left / right.
+Down button: Makes the target descend faster.
+A button: Shoots parts.
+The color of the part will be the same as the target that the part first shot.
+B button: Erases parts.
+
+Afterword
+This is a game with rules that are quite difficult to explain.
+You probably can't imagine what kind of game this is just by reading the rules described above.
+The rules are actually not that complicated; it's like a "Samegame" where you forcefully connect and erase pieces.
+You will naturally learn the rules after playing a few times, so please try it.
+
+Naoyuki Sawa

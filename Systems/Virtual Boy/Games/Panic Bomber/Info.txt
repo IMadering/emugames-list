@@ -1,0 +1,14 @@
+﻿Bomberman Blasts the Island of Ever Mist!
+
+Get ready for explosive puzzler action with Bomberman! Detonate the worlds of Scary Ruins, Sinister Forest, and Desert Desolation. Conquer the Island of Ever Mist and capture the three celestial models of power.
+
+Don’t panic! Or you might get scorched by greedy Ms. Flashy or the deadly Count Dracu-Doom. Ignite the dreaded Doom Castle with bombastic moves and combustive strategy. Only then can you open the gates to the legendary Golden Statue of Bomberman. It’s a puzzling blast!
+
+* Rotate rapidly falling blocks or move them from side to side! Line up three of the same blocks and watch them disappear!
+* Blast through four worlds of searing enemies and bombastic bosses!
+* Skull mode play increases the excitement with explosive elements and challenging effects!
+* Password lets you start your game where you left off!
+
+Cheats (VBjin, Mednafen Emulator):
+0500D0AF 00 - Time (seconds)
+0500D0B0 00 - Time (minutes)

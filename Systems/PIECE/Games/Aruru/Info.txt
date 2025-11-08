@@ -1,0 +1,13 @@
+﻿Aruru's Operation Hive Minigame
+
+Control Aruru to scare away the bees.
+Use the A button to perform a torch smoke attack and the B button to jump.
+If you fall from a jump, you can crush the bee with your foot.
+
+When you take damage, you lose one life point.
+If you lose all your lives, the game is over.
+When you take damage, you become invincible for a short time.
+
+As you accumulate points, the number of bees flying at the same time will increase.
+In fact, since the bees are endlessly spawning, it may be impossible to remove the hive.
+Poor Aruru...

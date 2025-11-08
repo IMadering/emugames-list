@@ -1,0 +1,18 @@
+﻿Grab enemies with the anchor and destroy them by throwing or rubbing against other enemies. Throwing the anchor and hitting them with it is more effective than rubbing.
+The anchor cannot grab large enemies with rings around them. Damage them and remove the rings before grabbing them.
+When you destroy a large enemy, the bullets on the screen turn into "bananas" and you get "banana money".
+
+When you are hit by an enemy or a bullet, the damage accumulates, and if it exceeds a certain amount, the game ends. The damage slowly regenerates over time.
+
+Controls
+Up, Down, Left, Right Buttons: Control the charaster/anchor.
+Pressing the A Button: Shoot/pull the anchor.
+Releasing the A Button: Throw.
+Pressing the B button: Lock the ship/control the anchor. (This is a sub-operation, so you can play without using it.)
+SELECT button: Return to the main screen.
+
+Original version:
+http://nagoya.cool.ne.jp/o_mega/product.html
+http://nagoya.cool.ne.jp/o_mega/product/exelinya.html
+
+Naoyuki Sawa

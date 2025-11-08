@@ -1,0 +1,22 @@
+﻿The goal is to break the bank in this popular card game for two players. A win depends not only on the player's cards, but also on how the player makes the bets, bluffing and exerting psychological pressure on the partner.
+
+Control
+<Down arrow> - to decrease a bet.
+<Up arrow> or <Select> - to increase a bet.
+<Left arrow> - to set a "drop."
+<Right arrow> - to place a maximum bet.
+To change the cards, select each card by <Left/Right arrows> and press <Select>.
+Then press <Enter>.
+Press <Esc> to exit.
+
+The classic combinations of cards in a poker hand are:
+Pair - two cards of the same rank.
+Two pairs - two cards of one rank and two cards of another rank.
+Three of a kind - three cards of the same rank.
+Straight - five cards in sequence.
+Flush - five cards of the same suit that are not in sequence.
+Full house - three of a kind and one pair.
+Four of a kind - four cards of the same rank.
+Straight flush - a sequence of five cards in the same suit.
+The highest hand wins the bank.
+The game can be played until one of the players has the points in the pocket.

@@ -1,0 +1,9 @@
+﻿Intellectual shooting game. Outgun your enemy or be destroyed!
+
+If you play against CYBIKO, you can fire when you see a flag above your gun. Your gun controls are active when it's your turn.
+
+Controls
+Use <Left/Right arrows> to rotate the barrel.
+Use <Up/Down arrows> to select the initial speed of the missile. The length of the bar in the lower part of the screen indicates its velocity.
+Press <Enter> to fire the missile.
+Press <Esc> to quit the game.

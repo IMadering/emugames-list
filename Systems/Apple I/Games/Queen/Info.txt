@@ -1,0 +1,8 @@
+﻿Find the Queen created by Paolo Di Leo.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.1FFFR
+E2B3R
+RUN

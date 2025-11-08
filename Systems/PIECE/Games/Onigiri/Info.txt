@@ -1,0 +1,8 @@
+﻿This is a rice ball rolling game.
+
+The rules are simple. All you have to do is control the rice ball as it rolls down, avoiding any snakes, spiders or webs.
+Going down one level earns you 1 point, and picking up a pickled plum earns you 5 points.
+
+Use the A button during the game.
+The rice ball keeps rolling, so press the button to change direction.
+The left and right sides of the screen are connected.

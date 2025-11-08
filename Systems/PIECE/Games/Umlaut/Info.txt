@@ -1,0 +1,3 @@
+﻿Your character is a ball that moves up and down the screen. You can move it left and right with the gamepad. Hitting the ball with the same-colored balls at the top and bottom of the screen earns you points and increases the remaining time. Hitting a certain number of balls increases your level. As you progress, the speed of the ball and the number of blocks increases, but there is a limit.
+
+If you hit a ball of a different color, that color will become the color of your character. However, accidentally hitting a block will result in the end of the game, so be careful.

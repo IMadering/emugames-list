@@ -1,0 +1,7 @@
+﻿Simple clock for Apple I computer.
+
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

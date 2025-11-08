@@ -1,0 +1,10 @@
+﻿This is a single player game. The object is to flip all the pairs of the same cards in minimum time.
+
+At the beginning of the game, you can see all the cards turned over. You need to flip the cards face up in pairs — with the same pictures one after another. When you do this, the part of the animated picture that was hidden under this card opens. When you flip all the pairs of the same cards face up, the picture will be opened and animated and the game ends. You'll receive penalty points for clicking on any card. The less the penalty points you score the easier it is for you to enter in the Top 10.
+
+Controls
+When you play "Expert" version of the game:
+Press <Arrows> to move the cursor over the game field.
+Press <Enter> to open the selected card.
+Press <Tab> to show the Top 10 list on the Expert level.
+Press <Esc> to exit to the game menu.

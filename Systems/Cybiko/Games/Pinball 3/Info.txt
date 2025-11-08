@@ -1,0 +1,12 @@
+﻿Your goal is to become the Pinball champ by scoring the most points.
+You have three balls in the game. You launch a ball into playing board and you drive it on the board using flippers. If you don't hit a ball, it goes off the board and you have to launch the next ball.
+The board has different obstacles. If a ball hits them, you get points added to your score. Some obstacles change the speed and direction of the ball.
+The board has a wall composed of bricks, which you can destroy brick by brick. Each brick is destroyed if a ball hits it six times.
+Different tasks are given to you. Targets will appear with an arrow pointing to them. If you hit this place, you are rewarded lots of points and next target appears on the screen.
+The game ends if you lose all your three balls.
+
+How to Play
+Press <Enter> to fire the ball. The longer you hold <Enter>, the stronger the shot will be. The shot will be completed when you release <Enter>.
+Press <Left arrow> or <1> or <2> to control the left bat.
+Press <Right arrow> or <0> or <BkSp> to control the right bat.
+Press <Del> and <Ins> for horizontal and vertical tilt, respectively.

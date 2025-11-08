@@ -1,0 +1,8 @@
+﻿Number 7
+
+Number 7 is a number puzzle game.
+By sucking up blocks that slide from above and launching them elsewhere. The goal is to get the sum of the numbers to be 7.
+
+For more information, see the included manual.html.
+
+Yuichi Aida

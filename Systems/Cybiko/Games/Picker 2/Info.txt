@@ -1,0 +1,5 @@
+﻿Your goal is to score the most points by picking all the "good" things while avoiding the "bad" ones and obstacles. After a short period of time (if you haven't been killed!) you are advanced to the next level. The game has six levels. There are many bonuses; some of them will help you, but be wary — some will hinder your quest!
+
+Controls
+Use <Arrows> to control the picker.
+Press <Esc> to exit the game or start a new game.

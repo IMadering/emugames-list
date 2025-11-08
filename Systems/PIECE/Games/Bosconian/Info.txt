@@ -1,0 +1,8 @@
+﻿Control your ship and destroy the enemy base.
+As the round progresses, Myship's beam will become slightly more powerful.
+
+To destroy the enemy base, you can either destroy its core (the center part) directly, or destroy all six surrounding artillery towers.
+As the rounds progress, enemy bases will begin to defend their positions and launch missiles from their positions.
+
+Be sure to shoot down the reconnaissance planes that appear from time to time.
+If the recon plane misses, an all-out attack of enemy missiles will begin!

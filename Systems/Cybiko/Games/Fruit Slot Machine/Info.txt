@@ -1,0 +1,13 @@
+﻿This is a Slot Machine game with the fruit theme. You have 10 coins at the beginning. You drop the coins (not more than 10) into the slot and pull down the handle to start the three machine reels with fruit pictures. A machine reel stops after some time. When all reels come to rest you see three fruit pictures.
+If you see two identical pictures, you win five times the amount that you bet.
+If you see three identical pictures, you win ten times the amount that you bet.
+If all three pictures are apples, you hit the jackpot, which is equal to twenty times the amount that you bet.
+
+The game ends if you lose all money. You can end the game yourself whenever you want.
+
+Controls
+Press <Up arrow> to drop a coin.
+Press <Down arrow> to take back a coin.
+Press <Enter> to pull down the handle.
+Press <Tab> to view winning information.
+Press <Esc> to exit.

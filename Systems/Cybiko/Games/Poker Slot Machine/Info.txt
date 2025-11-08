@@ -1,0 +1,21 @@
+﻿Are you ready to take a chance with Poker Slot Machine? Try now!
+
+Pair (two cards of the same rank from Jack) – 1.
+Two pairs (two cards of one rank and two cards of another rank) – 2.
+Three of a kind (three cards of the same rank) – 3.
+Straight (five cards in sequence) – 4.
+Flush (five cards of the same suit) – 5.
+Full house (three of a kind and one pair) – 8.
+Four of a kind (four cards of the same rank) – 25.
+Straight flush (a sequence of five cards in the same suit) – 50.
+Royal flush (a sequence ten to Ace in one suit) – 1,000.
+
+Controls
+<Down arrow> – to decrease a stake.
+<Up arrow> or <Select> – to increase a stake.
+<Left arrow> – to make a minimum stake.
+<Right arrow> – to make a maximum stake.
+Press <Enter>.
+
+Select card for discarding using <Left/Right arrows> and press <Select> when you want to select all cards you want. To discard, press <Enter>. The Gain shows how many points you win. Press <Enter> to refresh the bank.
+Press <Esc> to exit.

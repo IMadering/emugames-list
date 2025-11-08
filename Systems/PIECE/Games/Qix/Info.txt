@@ -1,0 +1,17 @@
+﻿Imitation Qix
+
+This game is very similar to Qix (c) TAITO.
+
+How to play
+Draw a line around the board and fill it.
+If you fill more than the specified percentage in each round, the round is lost.
+If an enemy touches the line while you are drawing it, you will have to redraw it. Doing so will reduce the remaining time by 10 seconds.
+When the time runs out, the game ends.
+(Real Qix is ​​based on remaining lives, but fake QIX is based on time.)
+
+During the game
+Without pressing the A or B buttons: Use the up, down, left, and right buttons to move around the frame.
+While holding down the A or B button: Use the up, down, left, and right buttons to move around the board and draw lines.
+If you release the A or B button while drawing a line: You will quickly retrace your steps along the line.
+
+Naoyuki Sawa

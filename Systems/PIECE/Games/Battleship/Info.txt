@@ -1,0 +1,14 @@
+﻿Battleship (ver. 1.00)
+
+"Battleship Game" is a competitive shooting game. Win battles and upgrade your ship. Aim to become the best pilot.
+
+Your ship will turn left or right on the pad, accelerate, decelerate and retreat.
+The B button fires the left weapon, and the A button fires the light weapon. Note that you will not be able to fire if you have no weapon. You can forcefully end the battle by pressing the SELECT button during the battle.
+
+By winning a match, you will earn battle points that you can use to upgrade your ship. Buy the parts you like from the Parts Shop and install them at the Service Station.
+
+As you win more games, your cards will automatically be positioned to face stronger opponents. The stronger the enemies you defeat, the more battle points you will earn.
+
+In this game, positioning yourself relative to enemy planes is key. Be sure to keep a good eye on enemy aircraft movements and try to get behind them. When fighting enemies using mines, the "hit and run to the side" tactic is effective.
+
+The weapon has a reserve of energy. Although it is restored automatically, losing a shot can lead to a fatal mistake when the time comes. It is especially difficult to use powerful weapons. Until you get the hang of it, use a smaller caliber weapon that consumes less energy.

@@ -1,0 +1,23 @@
+﻿Lost in Labyrinth. Are you valiant enough to try your strength and dexterity in the dangerous maze of the Labyrinth? If so, come in! Fight with terrible extraterrestrial monsters.
+
+Your global mission is to find The Spiral of Knowledge. This Spiral is located on the highest level '0'. You will start the game from level 99. During each session of the game you increase or, at times, decrease levels.
+When you first start the game you will have 12 lives. When you lose all of your lives, you will automatically drop to the lower level 99.
+
+Your current session mission is to find a Teleporter to increase levels. If you're playing alone, your Labyrinth will have a Local Teleporter, which usually teleports one level.
+Usually Teleporters teleport up, but sometimes they fail and end up teleporting you down.
+Initially you will have a lot of time to find the Teleporter, but on upper levels you will have very limited time.
+
+You can continue playing until you reach Level '0' where … you will try to find the Spiral of Knowledge!
+
+Controls
+<Up arrow> - walk forward.
+<Down arrow> - walk backward.
+<Right arrow> - turn to the right.
+<Left arrow> - turn to the left.
+<Shift> - slide left.
+<Fn> - slide right.
+<Space>, <Enter> - fire.
+<Tab> - look at Labyrinth map.
+<Ins> - select a rival.
+<Select> - view inventory.
+<Esc> - open Labyrinth menu.

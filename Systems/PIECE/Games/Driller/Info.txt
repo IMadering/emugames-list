@@ -1,0 +1,21 @@
+﻿Mini Driller
+
+This game is similar to the "Driller Mode" of Mr. Driller (Namco, 1999).
+
+How to play
+Control the player to dig deeper and deeper into the underground blocks.
+If the player is crushed by a falling block, the game will end.
+
+The "AIR" bar on the right side of the screen shows the remaining amount of air (oxygen).
+The air supply decreases over time, and when it reaches zero, the game will end.
+Picking up the air capsule will restore 20% of your air supply.
+
+You cannot destroy blocks marked with an "X" until you have dug them up five times.
+Be careful, if you destroy a block marked with an "X", your air supply will decrease by 20%.
+
+Controls
+Up, Down, Left, Right - Buttons　Move the player left/right.
+A or B button　- Dig a block.
+SELECT button　- Stop the game and return to the title screen.
+
+Naoyuki Sawa

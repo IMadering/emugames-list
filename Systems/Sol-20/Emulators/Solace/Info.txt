@@ -1,0 +1,13 @@
+﻿Solace (Sol Anachronistic Computer Emulation)
+
+So, with this emulator and an x86 windows machine, anybody can have the experience of running two decade old Sol programs. A Pentium-class machine (probably 100 MHz and higher) is required to get full speed emulation. This emulator runs under Windows as a Win32 application, not as a DOS program, as many other emulators do.
+
+Solace features an integrated debugger, which can be quite handy for new code development, patching old programs, or doing reverse engineering.
+
+In a case of wicked overkill, Solace has support for virtual cassette storage. Using the emulated cassettes is just about as clumsy and tedious as the real thing, except it is probably a lot more reliable than the real thing.
+
+Once you get tired of fiddling with virtual cassette tapes, you can step up to a virtual Northstar DS/DD floppy disk system.
+
+Emulation isn't complete. Currently the serial port and parallel port are not at all supported. One long-term goal is to emulate the Helios disk subsystem and get PT-DOS running again.
+
+Official website: https://www.sol20.org/solace.html

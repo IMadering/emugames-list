@@ -1,0 +1,14 @@
+﻿In this version of QUBIC the playing surfaces are represented on the
+video screen, and you are given an opportunity to select whether to play against another person or the computer. (CPU stands for the computer.)
+As you or the computer make your move, it is recorded on the screen; the program will even place your marker in the position whose code you enter, and then give you an opportunity to change your move!
+It IS possible to win a game of QUBIC against the computer.
+Occasionally, the computer will cheat at the end of a close game by
+changing one of your markers to its own. (It will never cheat in your
+favor, of course.)
+
+Launch commands in the Solace emulator:
+Load Program: Qubic.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.

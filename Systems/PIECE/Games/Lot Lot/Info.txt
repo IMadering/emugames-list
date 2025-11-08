@@ -1,0 +1,15 @@
+﻿Lot Lot Simulation
+
+This game is very similar to Lot Lot (c) Irem/Tokuma Shoten.
+
+Use the two arrows to swap the ball and throw it to the highest scoring area.
+
+One of the arrows will move according to your control.
+The other arrow will follow a little later.
+When you press the button, the balls in the room where the two arrows point will swap.
+
+When the ball lands in the lower left room, a crab will jump out and cut the wire.
+Hurry up and swap the balls to clear the lower left room.
+If the crab cuts the wire, the game is over.
+
+Naoyuki Sawa

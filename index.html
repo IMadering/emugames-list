@@ -7,12 +7,9 @@
 <meta name="description" content="Retro games catalog – screenshots, descriptions and gameplay videos." />
 <meta name="keywords" content="game catalog, retro games, gaming systems" />
 <meta name="robots" content="index, follow" />
-<!-- <link rel="canonical" href="https://[YOUR_DOMAIN].com/" /> -->
 <meta property="og:title" content="EmuGames List" />
 <meta property="og:description" content="Retro games catalog – screenshots, descriptions and gameplay videos." />
 <meta property="og:type" content="website" />
-<!-- <meta property="og:url" content="https://[YOUR_DOMAIN].com/" /> -->
-<!-- <meta property="og:image" content="https://[YOUR_DOMAIN].com/images/preview.jpg" /> -->
 <style>
   :root{
     --bg:#0b0b0d; --panel:#0f1113; --muted:#9aa0a6; --accent:#7dd3fc;
@@ -34,9 +31,23 @@
   .tabs{display:flex;gap:8px;margin-bottom:12px}
   .tab{padding:8px 12px;border-radius:8px;background:#0e1112;border:1px solid rgba(255,255,255,.03);cursor:pointer}
   .tab.active{background:linear-gradient(90deg,#08303c,#0b4a55);color:#fff}
-  .screens{display:flex;gap:8px;flex-wrap:wrap}
-  .screens img{max-width:100%;border-radius:8px;display:block;box-shadow:0 8px 20px rgba(0,0,0,.6)}
-  .screenshot-card{width:48%;min-width:220px}
+  
+  /* Стили для карусели скриншотов */
+  #screenshot-carousel { position: relative; width: 100%; max-width: 600px; margin: 0 auto; }
+  .screenshot-item { display: none; } /* Скрываем все, кроме активного */
+  .screenshot-item.active { display: block; }
+
+  .screens img{max-width:100%;border-radius:8px;display:block;box-shadow:0 8px 20px rgba(0,0,0,.6); cursor:pointer;}
+  
+  .carousel-control {
+    position: absolute; top: 50%; transform: translateY(-50%); 
+    background: rgba(0, 0, 0, 0.5); color: white; border: none; 
+    padding: 10px; cursor: pointer; z-index: 10; font-size: 24px;
+    line-height: 1; border-radius: 4px; user-select: none;
+  }
+  #prev-btn { left: 10px; }
+  #next-btn { right: 10px; }
+  
   .info-row{margin-bottom:8px}
   iframe{width:100%;height:360px;border-radius:8px;border:0;background:#000}
   .no-data{color:var(--muted);padding:12px}
@@ -44,6 +55,7 @@
     .wrap{grid-template-columns:1fr; padding:10px}
     #game-list{height:220px}
     #details{height:auto}
+    #screenshot-carousel { max-width: 100%; }
   }
 </style>
 </head>
@@ -91,8 +103,13 @@
         </div>
 
         <div id="tab-screens">
-          <div class="screens" id="screens-list"></div>
-          <div id="screens-empty" class="no-data" style="display:none">Screenshots not found.</div>
+            <div id="screenshot-carousel">
+                <div class="screens" id="screens-list">
+                    </div>
+                <button id="prev-btn" class="carousel-control" style="display:none;">&#10094;</button>
+                <button id="next-btn" class="carousel-control" style="display:none;">&#10095;</button>
+            </div>
+            <div id="screens-empty" class="no-data" style="text-align:center;display:none;margin-top:20px;">Screenshots not found.</div>
         </div>
 
         <div id="tab-info" style="display:none">
@@ -111,8 +128,10 @@
 /* === INI parser (simple, robust for our INI shape) === */
 function parseIni(text){
   const result = {}; let section = null;
+  // Обработка разных типов переноса строк и BOM
   text = text.replace(/\ufeff/g, '').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
   const lines = text.split('\n');
+  
   for (let raw of lines){
     const line = raw.trim();
     if (!line || line.startsWith(';') || line.startsWith('#')) continue;
@@ -124,7 +143,7 @@ function parseIni(text){
       continue;
     }
     
-    if (!section) continue;
+    if (!section) continue; 
     const kv = line.split('=');
     if (kv.length >= 2){
       const key = kv[0].trim();
@@ -135,19 +154,18 @@ function parseIni(text){
   return result;
 }
 
-/* === utils to fetch INI files from data/ (UTF-16 LE BOM SUPPORT) === */
+/* === utils to fetch INI files from Systems/ (UTF-16 LE BOM SUPPORT) === */
 async function fetchIniFile(path){
   try{
     const r = await fetch(path, {cache:'no-cache'});
     if (!r.ok) {
-        console.error(`INI file loading error: ${path}. Status: ${r.status}`);
+        if (!path.includes('Games.ini') && !path.includes('Emulators.ini') && !path.includes('Demos.ini')) {
+             console.error(`INI file loading error: ${path}. Status: ${r.status}`);
+        }
         return null;
     }
     
-    // Read as ArrayBuffer (raw bytes)
     const buffer = await r.arrayBuffer();
-    
-    // Decode as UTF-16 Little Endian (LE) to support the required encoding + BOM
     const decoder = new TextDecoder('utf-16le');
     const txt = decoder.decode(buffer); 
 
@@ -162,10 +180,18 @@ async function fetchIniFile(path){
 const systemSelectEl = document.getElementById('system-select'); 
 const gameListEl = document.getElementById('game-list');
 const searchInput = document.getElementById('search');
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
 
 let allGames = [];
 let shownGames = [];
 let currentGame = null;
+let currentScreenshots = []; 
+let currentScreenIndex = 0; 
+
+// Параметры для GitHub API, основанные на вашем URL
+const GITHUB_USERNAME = 'imadering';
+const GITHUB_REPO_NAME = 'emugames-list';
 
 async function init(){
   const systems = await fetchIniFile('Systems.ini');
@@ -195,6 +221,10 @@ async function init(){
   systemSelectEl.addEventListener('change', (e) => {
     loadGamesForSystem(e.target.value);
   });
+  
+  prevBtn.addEventListener('click', () => changeScreenshot(-1));
+  nextBtn.addEventListener('click', () => changeScreenshot(1));
+
 
   if (firstDir) {
     loadGamesForSystem(firstDir);
@@ -204,52 +234,49 @@ async function init(){
 /* === load and merge Games.ini / Emulators.ini / Demos.ini === */
 async function loadGamesForSystem(systemDir){
   const candidates = [
-    `Systems/${encodeURIComponent(systemDir)}/Games.ini`,
-    `Systems/${encodeURIComponent(systemDir)}/Emulators.ini`,
-    `Systems/${encodeURIComponent(systemDir)}/Demos.ini`
+    { file: `Systems/${encodeURIComponent(systemDir)}/Games.ini`, source: 'Games' },
+    { file: `Systems/${encodeURIComponent(systemDir)}/Emulators.ini`, source: 'Emulators' },
+    { file: `Systems/${encodeURIComponent(systemDir)}/Demos.ini`, source: 'Demos' }
   ];
   const merged = {};
-  const tried = new Set();
-  for (const p of candidates){
-    if (tried.has(p)) continue;
-    tried.add(p);
-    const data = await fetchIniFile(p);
+  
+  for (const { file, source } of candidates){
+    const data = await fetchIniFile(file);
     if (!data) continue;
+    
     for (const sec of Object.keys(data)){
-      merged[`${p}||${sec}`] = data[sec];
+      // Ключ для слияния - гарантирует уникальность и хранит источник
+      const uniqueKey = `${source}||${sec}`; 
+      // Добавляем источник в объект игры
+      merged[uniqueKey] = { ...data[sec], __source: source }; 
     }
   }
+  
+  // Преобразуем объект с объединенными данными в массив игр
   const arr = Object.values(merged).map(obj => {
-    return {
-      Name: obj['Name'] || obj['NAME'] || obj['name'] || '',
-      Dir: obj['Dir'] || obj['DIR'] || obj['dir'] || '',
-      Year: obj['Year'] || obj['year'] || '',
-      Rating: obj['Rating'] || obj['rating'] || '',
-      Comment: obj['Comment'] || obj['COMMENT'] || '',
-      Found: obj['Found'] || obj['found'] || ''
-    };
+    const Name = obj['Name'] || obj['NAME'] || obj['name'] || '';
+    const Dir = obj['Dir'] || obj['DIR'] || obj['dir'] || '';
+    const Year = obj['Year'] || obj['year'] || '';
+    const Rating = obj['Rating'] || obj['rating'] || '';
+    const Comment = obj['Comment'] || obj['COMMENT'] || '';
+    const Found = obj['Found'] || obj['found'] || '';
+    const Source = obj['__source'] || 'Games'; 
+    
+    return { Name, Dir, Year, Rating, Comment, Found, Source };
   });
 
-  const sys = systemDir.toLowerCase();
-  const matches = arr.filter(g => {
-    if (!g.Dir && !g.Name) return false;
-    const d = (g.Dir || '').toLowerCase();
-    const n = (g.Name || '').toLowerCase();
-    if (d.startsWith(sys)) return true;
-    if (d.includes(sys)) return true;
-    if (sys && d.split(' ').some(tok=>sys.includes(tok) || tok.includes(sys))) return true;
-    return false;
-  });
-
-  allGames = (matches.length>0 ? matches : arr).map((g, idx) => ({
+  allGames = arr.map((g, idx) => ({
     id: idx,
     name: g.Name,
-    dir: g.Dir,
+    dir: g.Dir, 
     year: g.Year,
     rating: g.Rating,
     comment: g.Comment,
-    found: g.Found
-  }));
+    found: g.Found,
+    source: g.Source 
+  })).filter(g => g.name || g.dir); 
+  
+  console.log(`Loaded ${allGames.length} games for system ${systemDir}`);
 
   renderGameList();
 }
@@ -263,6 +290,11 @@ function renderGameList(){
     gameListEl.innerHTML = '<div class="no-data">No games found.</div>';
     return;
   }
+  
+  if (currentGame && !shownGames.find(g => g.id === currentGame.id)) {
+      showPlaceholder();
+  }
+  
   for (const g of shownGames){
     const el = document.createElement('div');
     el.className = 'game-item';
@@ -273,60 +305,153 @@ function renderGameList(){
   }
 }
 
+function showPlaceholder(){
+    document.getElementById('placeholder').style.display='block';
+    document.getElementById('game-area').style.display='none';
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+    currentGame = null;
+}
+
 /* === show game details (tabs, screenshots, info, youtube) === */
 function showGame(g){
   currentGame = g;
   document.getElementById('placeholder').style.display='none';
   document.getElementById('game-area').style.display='block';
   document.getElementById('game-title').textContent = g.name || '(No Name)';
-  document.getElementById('game-sub').textContent = `${g.dir || ''} ${g.year ? ' • ' + g.year : ''}`;
+  document.getElementById('game-sub').textContent = `${g.dir || ''} • Source: ${g.source} ${g.year ? ' • ' + g.year : ''}`;
   
+  // INFO TAB
   const info = document.getElementById('info-area');
   info.innerHTML = `
     <div class="info-row"><strong>Title:</strong> ${escapeHtml(g.name)}</div>
-    <div class="info-row"><strong>Directory / Year:</strong> ${escapeHtml(g.dir)} ${g.year ? ' • ' + escapeHtml(g.year) : ''}</div>
-    <div class="info-row"><strong>Rating:</strong> ${escapeHtml(g.rating || '—')}</div>
+    <div class="info-row"><strong>Directory:</strong> ${escapeHtml(g.dir)}</div>
+    <div class="info-row"><strong>Source File:</strong> ${escapeHtml(g.source)}.ini</div>
+    <div class="info-row"><strong>Year / Rating:</strong> ${escapeHtml(g.year || '—')} / ⭐${escapeHtml(g.rating || '—')}</div>
     <div class="info-row"><strong>Found:</strong> ${escapeHtml(g.found || '—')}</div>
     <div class="info-row"><strong>Comment:</strong> ${escapeHtml(g.comment || '')}</div>
   `;
 
-  const screensList = document.getElementById('screens-list');
-  screensList.innerHTML = '';
-  const base = g.dir || g.name || '';
-  const extCandidates = ['png','jpg','jpeg','webp'];
-  let foundAny = false;
-  for (let i=1;i<=8;i++){
-    for (const ext of extCandidates){
-      const path = `data/screenshots/${encodeURIComponent(base)}_${i}.${ext}`;
-      const img = new Image();
-      img.dataset.tryPath = path;
-      img.style.display = 'none';
-      img.onload = () => {
-        foundAny = true;
-        img.style.display = 'block';
-        const card = document.createElement('div');
-        card.className = 'screenshot-card';
-        card.appendChild(img);
-        img.style.cursor='pointer';
-        img.onclick = () => window.open(path, '_blank');
-        screensList.appendChild(card);
-        document.getElementById('screens-empty').style.display = 'none';
-      };
-      img.onerror = () => {};
-      img.src = path;
-    }
-  }
-  setTimeout(()=> {
-    if (!screensList.children.length) {
-      document.getElementById('screens-empty').style.display = 'block';
-    } else {
-      document.getElementById('screens-empty').style.display = 'none';
-    }
-  }, 600);
-
+  // YOUTUBE TAB
   const yt = document.getElementById('youtube-area');
   const q = encodeURIComponent((g.name || '') + ' gameplay');
   yt.innerHTML = `<iframe src="https://www.youtube.com/embed?listType=search&list=${q}" allowfullscreen></iframe>`;
+  
+  // SCREENS TAB (Карусель)
+  loadScreenshots(g);
+}
+
+// ====================================================================
+// ИСПРАВЛЕННАЯ ФУНКЦИЯ ЗАГРУЗКИ СКРИНШОТОВ С GITHUB API
+// ====================================================================
+async function loadScreenshots(g) {
+  const screensList = document.getElementById('screens-list');
+  screensList.innerHTML = '';
+  currentScreenshots = [];
+  currentScreenIndex = 0;
+
+  const folderName = g.dir; 
+  const sourceBase = g.source || 'Games'; 
+  const currentSystemDir = systemSelectEl.value; 
+
+  if (!folderName || !currentSystemDir) {
+      document.getElementById('screens-empty').textContent = 'Screenshots not found (Empty Dir).';
+      document.getElementById('screens-empty').style.display = 'block';
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+      return;
+  }
+  
+  // 1. Формируем путь к папке в репозитории: Systems/{SystemDir}/{Games|Emulators|Demos}/{GameDir}
+  const repoPath = `Systems/${currentSystemDir}/${sourceBase}/${folderName}`;
+  
+  // 2. Формируем URL для GitHub API
+  const apiUrl = `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/contents/${encodeURIComponent(repoPath)}`;
+  
+  // 3. Загружаем список файлов с помощью fetch
+  try {
+      const response = await fetch(apiUrl);
+      
+      // Обработка ошибок
+      if (response.status === 404) {
+          document.getElementById('screens-empty').textContent = `Screenshots folder not found in GitHub: ${repoPath}`;
+          document.getElementById('screens-empty').style.display = 'block';
+          return;
+      }
+      if (!response.ok) throw new Error(`GitHub API error! Status: ${response.status}`);
+      
+      const contents = await response.json(); 
+      
+      // 4. Фильтруем файлы по типу и расширению (.jpg или .png)
+      const imageFiles = contents
+          .filter(item => 
+              item.type === 'file' && 
+              (item.name.toLowerCase().endsWith('.jpg') || item.name.toLowerCase().endsWith('.png'))
+          )
+          .sort((a, b) => a.name.localeCompare(b.name)); // Сортируем по имени файла
+      
+      if (imageFiles.length > 0) {
+          document.getElementById('screens-empty').style.display = 'none';
+          
+          imageFiles.forEach((item) => {
+              // URL для прямого доступа к файлу
+              // Используем item.download_url или raw.githubusercontent.com
+              const rawUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/main/${item.path}`;
+
+              const img = new Image();
+              img.className = 'screenshot-item';
+              img.src = rawUrl;
+              img.onclick = () => window.open(rawUrl, '_blank');
+              
+              currentScreenshots.push({ path: item.path, element: img });
+              screensList.appendChild(img);
+          });
+          
+          currentScreenIndex = 0;
+          updateScreenshotDisplay();
+
+      } else {
+          document.getElementById('screens-empty').textContent = 'Screenshots not found (0 files with .jpg or .png).';
+          document.getElementById('screens-empty').style.display = 'block';
+          prevBtn.style.display = 'none';
+          nextBtn.style.display = 'none';
+      }
+
+  } catch (error) {
+      console.error("Failed to fetch screenshot list from GitHub API:", error);
+      document.getElementById('screens-empty').textContent = 'Error loading screenshot list from GitHub API.';
+      document.getElementById('screens-empty').style.display = 'block';
+  }
+}
+// ====================================================================
+
+function updateScreenshotDisplay() {
+    const screens = document.querySelectorAll('#screens-list .screenshot-item');
+    screens.forEach((el, index) => {
+        el.style.display = (index === currentScreenIndex) ? 'block' : 'none';
+    });
+
+    if (currentScreenshots.length > 1) {
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+    } else {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+    }
+}
+
+function changeScreenshot(delta) {
+    if (currentScreenshots.length === 0) return;
+    
+    currentScreenIndex += delta;
+    
+    if (currentScreenIndex < 0) {
+        currentScreenIndex = currentScreenshots.length - 1;
+    } else if (currentScreenIndex >= currentScreenshots.length) {
+        currentScreenIndex = 0;
+    }
+    
+    updateScreenshotDisplay();
 }
 
 /* === simple tab handling === */
@@ -339,6 +464,10 @@ document.getElementById('tabs').addEventListener('click', (e)=>{
   document.getElementById('tab-screens').style.display = tabName==='screens' ? 'block' : 'none';
   document.getElementById('tab-info').style.display = tabName==='info' ? 'block' : 'none';
   document.getElementById('tab-youtube').style.display = tabName==='youtube' ? 'block' : 'none';
+  
+  const isScreensTab = tabName === 'screens' && currentScreenshots.length > 1;
+  prevBtn.style.display = isScreensTab ? 'block' : 'none';
+  nextBtn.style.display = isScreensTab ? 'block' : 'none';
 });
 
 /* === search handler === */
@@ -353,5 +482,6 @@ function escapeHtml(s){
 /* === init on page load === */
 init();
 </script>
+
 </body>
 </html>

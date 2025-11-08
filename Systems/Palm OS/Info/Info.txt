@@ -1,0 +1,9 @@
+﻿Palm OS (also known as Garnet OS) is a discontinued mobile operating system initially developed by Palm, Inc., for personal digital assistants (PDAs) in 1996. Palm OS was designed for ease of use with a touchscreen-based graphical user interface. It was provided with a suite of basic applications for personal information management. Later versions of the OS were extended to support smartphones.
+
+Palm OS was a proprietary mobile operating system. Designed in 1996 for Palm Computing, Inc.'s new Pilot PDA, it has been implemented on a wide array of mobile devices, including smartphones, wrist watches, handheld gaming consoles, barcode readers and GPS devices.
+
+Palm OS versions earlier than 5.0 run on Motorola 68000 processors. From version 5.0 onwards, Palm OS runs on ARM architecture-based processors.
+
+Sites:
+https://archive.org/details/palm_os
+https://archive.org/details/palmkiwadump

@@ -1,0 +1,15 @@
+﻿This is a game where you shoot down or run away from mysterious tiles (enemies) falling from the sky.
+If the player is hit by an enemy or an enemy bullet, the game will be over and the player will be destroyed.
+
+Left and Right buttons: Move the player.
+A button: Fires a shot.
+B button: Rapidly fires.
+SELECT button: Returns to the title screen.
+
+This is a fixed screen shooter game made using D and SDL.
+The levels quickly increase and become quite difficult in a short period of time, allowing you to enjoy a quick score.
+It is fun to shoot the red enemies that rush at you at high speed and decide whether to destroy the blue enemies or let them pass.
+The characteristics of the red enemy that stays on the ground and chases the player are reminiscent of a bomber with balloons.
+The feeling of the blue enemy returning fire reminded me of Halley's Comet.
+
+Naoyuki Sawa

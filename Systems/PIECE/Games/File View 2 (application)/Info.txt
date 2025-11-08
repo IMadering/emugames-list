@@ -1,0 +1,19 @@
+﻿File Viewer version 2002.04.25
+
+Its main features are as follows:
+- Display files in Flash as "file list" or "icon list" (with sorting function).
+- Display text (standard/short), dump, pdg image, pid image, WindowsBitmap image.
+- Execute pex files (applications).
+- Play pmd files (music).
+- Play ppd files (PCM/ADPCM).
+- Unpack fpk files (FilePack).
+- Delete files.
+- Send and receive files via infrared port
+- Joystick mode function (when connected to PC via USB)
+- Time setting function.
+- View device information.
+- Alternative to startup.pex
+- Fine-tune operation using configuration files.
+- Supports pceCaps v2001.12.21
+
+Programed by まかべひろし

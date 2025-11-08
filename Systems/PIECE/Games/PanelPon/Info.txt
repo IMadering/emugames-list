@@ -1,0 +1,13 @@
+﻿This game is very similar to "Panel de Pon" (1995, Intelligent Systems).
+
+How to play
+Swap the left and right panels and line them up in rows of three or more to remove them.
+If you do nothing, the panel will gradually rise.
+When the panel reaches the top, the game ends.
+
+Controls
+Up, Down, Left, Right buttons Move the cursor.
+Button: Swap panels.
+Button B: Raises the panel quickly.
+
+Naoyuki Sawa

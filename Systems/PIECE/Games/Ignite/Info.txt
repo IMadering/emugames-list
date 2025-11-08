@@ -1,0 +1,5 @@
+﻿I tried to revive a small part of the game "Snake", which disappeared with Semigra. The most remarkable thing about this snake is that it can not only stretch, but also explode.
+
+Control the ever-growing snake so that it does not collide with the body (■), the outer wall, or the mines (□).
+Gas comes out of the snake's body, and when the gas fills the body or the space enclosed by the walls, an explosion occurs.
+Any area adjacent to the explosion will be destroyed, and points will be awarded according to the number of mines that fall into the explosion zone. You can get a high score by trapping several mines at once.

@@ -1,0 +1,10 @@
+﻿Vince's new version of the classic 1970's BASIC game, Star Trek.
+
+Apple Star-Trek is a sci-fi strategy game that was written in Integer BASIC for the Apple-1 by Robert J. Bishop and released by McPheters, Wolfe & Jones. It is based on a text-based game originally created in 1971.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.3FFFR
+E2B3R
+RUN

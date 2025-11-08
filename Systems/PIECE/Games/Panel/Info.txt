@@ -1,0 +1,1 @@
+﻿A simple game where you need to move blocks and make matching combinations from them, which are automatically removed and bring points. If the blocks reach the top of the glass, the game is over.

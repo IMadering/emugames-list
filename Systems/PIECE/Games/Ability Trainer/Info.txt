@@ -1,0 +1,17 @@
+﻿How to play
+Please check all boxes except "○ with notch on top" and "○ with notch on bottom".
+Please do not check "○ with notch on top" or "○ with notch on bottom".
+Compete to see who can check the most boxes correctly in 30 seconds.
+
+Controls
+Left button: Moves the cursor forward.
+Right button: Moves the cursor to the next position.
+Up and Down buttons: Not used.
+Button A: Check the box. Clicking on an already checked circle again will uncheck it.
+Button B: Cancel the remaining time and start scoring immediately.
+
+Scoring system
+If you check any circle except "Circle with notch on top" or "Circle with notch on bottom", you will get 1 point.
+If you mark "○ with notch on top" and "○ with notch on bottom" you will get -5 points. Everything else does not count.
+
+Naoyuki Sawa

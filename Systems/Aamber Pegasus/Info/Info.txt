@@ -1,0 +1,26 @@
+﻿The Aamber Pegasus is a home computer first produced in New Zealand in 1981 by Technosys Research Labs.
+
+Technical Specifications
+CPU: Motorola MC6809C at 4 MHz
+Memory: 4k RAM, later versions 64KB RAM
+Input: QWERTY style key-matrix keyboard
+Output: TV via RF modulator
+Display: 32x16 characters, ASCII character set; 256x256 pixels monochrome at 50Hz
+
+- - - - - - - - - - - - - - - - -
+
+The Aamber Pegasus was a unique phenomenon. It wasn't a mass-market product like the Commodore 64 or ZX Spectrum, but it played a key role in popularizing home computing in New Zealand. As the first computer designed in the country, it became a significant milestone for local enthusiasts and programmers.
+
+Paul Gillingwater, Technosys founder, CTO, Pegasus software engineer.
+Many years ago (in 1981), I was one of a small group of people in New Zealand who were part of the first wave of computer entrepreneurship, and defying logic and common sense, felt that we could compete by designing and building our own personal computer.
+
+Nigel Keam, Pegasus software developer.
+I started working on Pegasus while still in 7th form having been introduced to Stewart Holmes (then an MSc student) by my father who is a physics assoc prof.
+My first computer job, therefore, involved being part of a very small group which in a few short months designed and built hardware, wrote an 'Operating System', ported/wrote a bunch of languages, assembler, word processor, and a collection of games – all before the IBM PC was out.
+I have particularly fond memories of the first time I got Tank (a fun piece of 2.5D graphics) working. Paul Gillingwater and I played it essentially all night. It was quite an art to drive since two people huddled around a single keyboard operating seven buttons each: Forward left track. Backward left track, forward right track, backward right track, Fire, Bullet left, and bullet right. You could control the bullets once fired to achieve some complicated round-the-corner(s) shots.
+The company, Technosys Research, was officially formed in late 1980 / early 1981, then after the DFC (we nicknamed it the 'disappearing finance company') pulled the financial rug from under us, the company was sold and renamed Computer Machinery Ltd which ran for a brief time building and selling Pegasus before collapsing late in 1981.
+Stewart, Ernie, and I formed a partnership and built a new 6809-based computer, the Unicorn, which was designed to run Flex - the same operating system as the SWTPC machines we used for development.
+
+Paul Carter, Pegasus software developer.
+We had some real fun times at Technosys back then - For example, to demonstrate the Tiny Basic interpreter, I invented and wrote a version of snakes where the snake grows by eating a block - it was different from versions of snake/worms that existed back then, where you simply had to avoid obstacles. The growing version is the version that you can now find on cell-phones and all-round the net. I sent it to Paul Gillingwater and got a shock 2 days later when many of the folks at Technosys were crowded around a Pegasus and betting real money on snakes! To my delight, when snakes was installed on the demonstration Pegasus in the Byte Shop in down-town Auckland, people were queing to play snakes on the Pegasus and were ignoring all the much more fancy games and computers.
+I have very fond memories of those hectic and very fulfilling days at Technosys.

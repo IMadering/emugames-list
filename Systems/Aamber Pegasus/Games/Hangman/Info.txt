@@ -1,0 +1,6 @@
+﻿Hangman is a classic word guessing game where the player tries to reveal a hidden word by guessing letters.
+
+Player inputs one letter at a time, and the program checks if that letter is in the target word. If the letter is there, it's revealed in its correct position. If not, a part of the hangman is added.
+
+Load from Cart:
+After the monitor boots up, press the first letter of the program on the cartridge: H

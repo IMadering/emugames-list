@@ -1,0 +1,16 @@
+﻿Chain Reaction
+
+This is the P/ECE version of the classic computer board game Chain Reaction.
+
+How to play
+
+- Choose a square and place your piece on it.
+- You cannot place a piece on a square that already has a piece of a different color.
+- If you place a piece on a square that already has a piece of the same color, the piece will become larger.
+- In the squares at the four corners, if a piece becomes two sizes larger, it will split.
+- In the squares near the wall, if a piece becomes three times larger, it will split.
+- In any other square, if a piece becomes four times larger, it will split.
+- If an opponent's piece is on the square where a piece is split, it becomes your piece.
+- You win if you remove all of your opponent's pieces from the board.
+
+Naoyuki Sawa

@@ -1,0 +1,11 @@
+﻿Your object is to become the first boxer in the rating list by beating your opponents in boxing matches. Upon starting the game, you choose your opponent that has a higher rating in the list than you do, or you are challenged. One match is one level in the game. There are five rounds in each match. You box by attacking your opponent, and defending against his attack. Be sharp and fast, strike effectively, and use different combinations of boxing blows for extra points. Keep defending yourself when you need to fill up your endurance and health. When you lose your health, you lose the game. You win the match if you deliver a knockout, if your advantage in score reaches 20 points, or if your score is higher when the match ends. In this case, you may go up in the rating list; otherwise, you go down. You win the game if you are the first in the rating list.
+
+Controls
+Press <Up/Down arrows> to move forward or backward.
+Press <Tab><Left arrow> to deliver an upper-cut.
+Press <Tab><Right arrow> to deliver a hook to the head.
+Press <Enter><Right arrow> to deliver a long blow to the head.
+Press <Enter><Left arrow> to deliver a long blow to the body.
+Press <Left arrow> to form a block that protects from the blows to the head.
+Press <Right arrow> to form a block that protects from body-blows.
+Press <Esc> to go to the game menu.

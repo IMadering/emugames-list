@@ -1,0 +1,13 @@
+﻿Defeat all enemies and clear the level.
+If you get hit by a bullet, you die.
+If you lose a life, your time will increase by 10 seconds.
+When you run out of lives, the game is over.
+Also, if you fail to clear the level within 30 seconds, the enemies will become stronger.
+
+Your ship can move in four directions.
+If you continue moving in the same direction, you will speed up.
+You can turn 90 degrees without losing speed.
+Switching in the opposite direction will stop the engine.
+Also, if it hits an enemy, it will be thrown back and lose speed.
+The power of your ship's shots changes depending on how fast you are moving.
+The faster you are, the more power you have and the further your projectile will fly.

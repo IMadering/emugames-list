@@ -1,0 +1,8 @@
+﻿Connect the triangle patterns to form four corners and erase from the board. You will need an eye to quickly find the right pattern.
+
+Controls
+Direction buttons: move the cursor
+A button: turn the board right
+B button: turn the board left
+START button: call up the menu
+SELECT button: turn on/off the sound

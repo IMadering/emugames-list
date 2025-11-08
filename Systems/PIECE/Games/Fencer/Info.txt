@@ -1,0 +1,3 @@
+﻿This is a game where you have to avoid getting hit by bombs (●) and explosions.
+The bombs will explode when they collide with your plane's trajectory. Either keep enough distance or use the flight path as a shield to avoid the explosion.
+If an explosion occurs, your points will be added. You can get a high score by detonating several bombs.

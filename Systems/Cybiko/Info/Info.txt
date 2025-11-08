@@ -1,0 +1,31 @@
+﻿Cybiko is a line of personal digital assistants and handheld game consoles first released by Cybiko Inc. in 2000. Cybiko Inc. was a startup founded by David Young; the handheld of the same name was first marketed in New York City in April 2000 and released nationwide in May 2000. It was designed for teenagers.
+
+Cybikos can communicate with each other wirelessly over a maximum range of 100 meters (330 feet).
+An optional MP3 player with a memory card slot was also made for the device.
+It was possible to increase the device's memory by attaching an expansion card to the back of the Cybiko. It provides 256 kilobytes of static RAM and 1 megabyte of flash data memory. The RAM allows programs with large memory requirements to run. The flash data memory allows more programs to be stored. Some Cybiko programs will not run unless the extended memory is connected.
+
+The Cybiko Xtreme is the second generation of Cybiko portable computers. It features various improvements over the original Cybiko model, such as a faster processor, more RAM, more storage, a new operating system, a new keyboard layout and case design, longer wireless range, a microphone, improved audio output, and a smaller size.
+
+By the end of 2000, over 500,000 units of the Cybiko Classic had been sold. The company discontinued production of the devices after two product versions and several years on the market.
+
+Technical Specifications - Cybiko Classic
+CPU: Hitachi H8S/2241 (11.0592 MHz)
+Co-processor: Atmel AT90S2313 (4 MHz)
+RAM: 256 KB
+ROM: 512 KB
+Display: 160 x 100 resolution, 4-bit greyscale LCD
+Sound: mono speaker
+Battery: NiMH 2.4v 700mAh
+
+Technical Specifications - Cybiko Xtreme
+CPU: Hitachi H8S/2323 (18 MHz)
+Co-processor: Atmel AT90S2313 (4 MHz)
+RAM: 1.5 MB
+ROM: 512 KB
+Display: 160 x 100 resolution, 4-bit greyscale LCD
+Sound: mono speaker and microphone
+Battery: NiMH 2.4v 700mAh
+
+Sites:
+https://oldhandhelds.com/?dir=Misc%20Handhelds/Cybiko
+https://archive.org/details/cybiko-files

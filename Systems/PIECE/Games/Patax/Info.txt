@@ -1,0 +1,25 @@
+﻿Simple Ataxx
+
+For those of you who are not familiar with Ataxx, here is a brief explanation.
+Ataxx is an arcade game released by Capcom about 10 years ago.
+At first glance, it looks like a game of Reversi, but the rules are slightly different.
+
+The conditions for moving a piece are as follows:
+Eight squares adjacent to your piece. In this case, the frame in its original position will not disappear. That is, it splits.
+16 squares adjacent to your piece. At this time, the piece in its original position will disappear. This is a normal move.
+And if there are enemy pieces next to the destination position, they will be flipped.
+When all the enemy pieces are destroyed or there is no free space left on the field, the player with the most pieces wins.
+
+Simple Ataxx was created as a teaching material for the P/ECE Simple library.
+
+The working method is as follows:
+Select the piece you want to move and press the A button to confirm.
+Select the destination and press the A button to confirm.
+Pressing B in step 1 will skip that move.
+If you press B in step 2, you can go back to step 1 and re-select the original piece.
+The current program is very weak, as it only looks one move ahead.
+
+If you are interested in the Ataxx series of games, we highly recommend you try the original Ataxx!
+The slightly weird graphics and sound will hook you.
+
+Naoyuki Sawa

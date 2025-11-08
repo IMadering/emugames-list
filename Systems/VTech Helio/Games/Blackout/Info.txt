@@ -1,0 +1,1 @@
+﻿A simple, but addictive little game. Click on the squares, and try to turn all of them black in the minimum number of steps. If you are an expert and manage to solve all 35 levels, then use the random mode to keep playing. The combinations are almost endless.

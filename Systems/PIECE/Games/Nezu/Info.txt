@@ -1,0 +1,9 @@
+﻿In this world, earthquakes are common, so warehouses and other buildings are made up of many columns. The densely packed columns make it difficult to manage the warehouse. The damage to food supplies, especially by rats and other pests, is immeasurable. They tried to destroy the rats with a warehouse crawler robot developed by a Japanese appliance manufacturer, but it was not very successful. Each company develops a new type of destroyer. The game takes place in an experimental warehouse of the developer company. The mouse that invades the world is the character that the player controls.
+
+D-pad - Move the player character.
+
+SELECT / START - Not used during gameplay.
+
+A - Switch skill focus.
+
+B - Activate a skill using focus. Also, if the skill is already activated, it will be canceled.

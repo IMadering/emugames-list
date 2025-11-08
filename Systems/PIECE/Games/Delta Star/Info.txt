@@ -1,0 +1,10 @@
+﻿Delta Star (Gratuitous version)
+
+The game is very similar to the game Asteroids.
+
+Controls
+Left - Turn the player's ship left.
+Right - Turn the player's ship right.
+Up - Accelerate the player's ship forward.
+Down - Accelerate the player's ship backward.
+A Button - Shoot the player's ship.

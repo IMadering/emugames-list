@@ -1,0 +1,8 @@
+﻿Any algorithm for a computer consists of two complementary parts a description of the actions to be performed, and a description of the data on which the actions are to be performed. The aim of the language Pascal, designed by Professor Niklaus Wirth in 1968, is to provide a set of statements (action) and data types which are at the same time comprehensive (to cover all eventualities) and succinct (to convey the meaning without getting too complicated). Other languages such as BASIC allow for actions and data types too, so any comparison is not so much about what they can do but more how elegantly and efficiently that they do it.
+
+While this version of Pascal is designed to run with a standard 4K RAM Pegasus, the memory size limits the number of lines of program that may be successfully compiled.
+In normal programs this allows in excess of 50 lines of source which is adequate for small programs and most teach-ing applications.
+However, for large programs it is recommended that the 64K RAM expansion be fitted to the Pegasus.
+
+Load from Cart 1 [A] + Cart 2 [B]:
+After the monitor boots up, press the first letter of the program on the cartridge: P

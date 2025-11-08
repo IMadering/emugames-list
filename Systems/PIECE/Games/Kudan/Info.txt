@@ -1,0 +1,6 @@
+﻿The Kraepelin Test-style game has undergone significant changes. However, it still requires simple calculations, so long play sessions can be mentally taxing.
+
+How to Play
+When you press a button, a number is added to the cursor's position (▼). However, if the sum exceeds 10, the addition is not possible. When 5 or more adjacent numbers form a sequence, such as "1-2-3-4-5" or "5-6-7-8-9," they disappear and you earn points. The sequences do not have to be straight lines; branching is also allowed.
+
+The game ends when the time runs out (reaches 0). Time is added each time you successfully add a number.

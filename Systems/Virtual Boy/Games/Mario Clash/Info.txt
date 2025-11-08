@@ -1,0 +1,14 @@
+﻿Mario finds himself pitted against a host of evil and nasty enemies. You must help him outwit the Spikes, Para-Goombahs, and other beasts and evils that lurk inside a tower that reaches to the clouds. After stunning a Koopa, he uses it as ammo against his enemies! The attack is relentless!
+
+But watch out, there are also creatures made of fire and ice that must be avoided — hazards at every turn. Even the narrow ledges on which Mario teeters and the pipes he races through must be traversed with caution!
+
+The pace gets hotter at each level, and the action jumps right out at you! Hold on! This 3-D Virtual Boy game offers a white-knuckled adventure that will keep you on the edge of your seat!
+
+* Incredible 3-D adventure!
+* Single-player feature gives you total control!
+* Non-stop action!
+
+Cheats (VBjin, Mednafen Emulator):
+05009A77 64 - Unlimited Lives
+05009AE0 C8 - Unlimited Time
+05004F90 04 - Mushrooms

@@ -1,0 +1,22 @@
+﻿Blackjack
+Hit or stand, win or lose.
+
+Also referred to as 21. Sold by Apple Computer on cassette tape for $5, order code A1T004X.
+
+This is some kind of mystery. It is (still) unknown who the author of this game was. In 2005 this game was recovered from tape.
+
+In 1977, the Kilobaud magazine published a review of the Apple-1 Computer. A photograph is shown that contains a screenshot of this particular game. It has the exact opening text WELCOME TO 21. YOUR NAME? and is loaded from tape.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN
+
+Instructions
+The objective of the game is to beat the computer (the dealer) by getting a card-count as close to 21 as possible, without going over it. An ace is worth 1 or 11. All face cards are worth 10.
+
+After entering your name you can place a bet by entering a number. The dealer shows one card and two of your own cards are shown. For example 5S is 5 of Spades and 3H for 3 of Hearts.
+
+The game asks HIT?. Enter N to stand (not ask for another card) or Y to hit (ask for another card in attempt to get closer to 21, or even hit 21 exactly). You'll receive your bet if you win and the score is displayed after each deal.

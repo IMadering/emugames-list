@@ -1,0 +1,13 @@
+﻿Your object is to pass three stages of the game with your hero Angel: the jungle, the mountain waterfall and the sky, getting as many points as it possible. Each stage includes four levels or screens. On each level, Angel has to move up to the top of the screen, while getting the points for gathered objects. There are different enemies on every game stage. Any encounter with them results in the loss of one of our hero's lives.
+In the jungle, you have to go up using the branches of the exotic trees and pick the apples. Avoid the enemies: termites, mosquitoes and nuts!
+If Angel successfully overcomes the jungle, he goes to mountain waterfall. New enemies are waiting for you here: bats, butterflies and monkeys.
+If Angel passes the mountain waterfall, he'll find himself in the sky, where he has to fly and pick up the stars. The imps, the eagles and the eggs are all very dangerous for you. When you start the game you have 4 lives. There are 4 types of bonuses in the game.
+If Angel loses all his lives, the game ends. If you pass all of the stages, the game ends and you are a winner.
+
+Controls
+Use <Right/Left arrows> to move the traveler right or left.
+Press <Enter> to make the traveler jump.
+Press <Enter><Left/Right arrows> to make the traveler jump to the left/right.
+Hold <Enter> to achieve the highest possible jump.
+Press <Enter> several times during the traveler's downfall to slow down the fall.
+Press <Esc> to exit or restart the game.

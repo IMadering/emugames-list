@@ -1,0 +1,16 @@
+﻿Hurkle is an old text-based computer game that was popular in the 1970s and 80s, especially among those learning to program in the BASIC language. Its name comes from the Scottish word "hurkle," which means "to hunch down" or "crouch," a good description of how players try to find the hidden creature.
+
+Load from Cassette:
+Insert the cartridge with XBASIC and after the monitor boots, press: X
+Then type the command: TLOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN
+
+How to play
+The game's premise is simple:
+  The program hides a "hurkle" at a random point on an invisible grid (for example, 10x10).
+  You input coordinates (X, Y), trying to guess where it is.
+  The program tells you which direction you need to move to find it. For example, it might say, "You are at 5,10. The hurkle is to the southeast."
+  You continue entering coordinates, searching for the hurkle until you find it.
+
+The fewer attempts you take, the better your score.

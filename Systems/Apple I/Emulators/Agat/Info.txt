@@ -1,0 +1,12 @@
+﻿This is a very good Apple I, II and Agat 7/9 (a Russian Apple II clone) emulator.
+
+Features:
+Full emulation of Agat-7, Agat-9.
+Full emulation of Apple ][, Apple ][ Plus, Apple ][ J-Plus, Apple I, Apple //e and Pravetz 82/8A.
+Optional hardware emulation (RAM cards, Mockingboard, Clocks etc).
+Fully configurable modular target system emulation.
+Internal debugger compatible with Apple's System Monitor.
+Base support of Acorn Atom.
+
+Official website: https://agatemulator.sourceforge.net/english.html
+Repository: https://sourceforge.net/projects/agatemulator/

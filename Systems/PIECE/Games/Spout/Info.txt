@@ -1,0 +1,8 @@
+﻿Spout (Version 1.1)
+
+This is a pixel game in the style of Moon Landing.
+
+How to play
+Move your ship up without hitting the wall.
+When you press the button, something is thrown out, allowing you to destroy walls or move using recoil.
+When you reach a checkpoint (line), your time will be added, and the remaining time will be added as a bonus.

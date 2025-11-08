@@ -1,0 +1,9 @@
+﻿Magic squares by Bamse.
+The sum of rows/cols/diagonal will be 175.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

@@ -1,0 +1,15 @@
+﻿Enjoy the interpretation of this funny, entertaining arcade game!
+
+Rules
+You have the board at the bottom of the playing field.
+At the top different things you find in a Men's Room.
+Use the ball to hit the objects and destroy each of them. You can move the board right or left to kick off the ball.
+If you don't kick off the ball it will disappear.
+
+The game has 16 levels. One level is completed if all objects are destroyed.
+Your goal is to score the most points.
+
+How to Play
+Press <Enter> to begin the game or to continue the game with a new ball.
+Press <Enter> to detonate all mines when the timer appears on the board.
+Use <Left/Right arrows> to move the board. Press <Select> to catch a ball.

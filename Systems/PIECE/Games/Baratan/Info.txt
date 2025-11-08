@@ -1,0 +1,10 @@
+﻿Imitation Baratan
+
+This game is very similar to the game "Baratan" that appears in the TV program "English Talk Night" (NHK General TV, 2005).
+
+Select panels with English letters to complete an English word.
+They compete to see who can correctly pronounce the most English words before the 60-second timer at the top of the screen runs out.
+
+For example, if the correct English word is "RED", then "R" will be selected. The panel contains the remaining two letters: "E" and "D", and an additional letter: "Z".
+Select a panel, and when only one remains, press the A button again to determine if you have selected it correctly.
+You can also press the B button at any time to go back one move.

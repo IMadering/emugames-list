@@ -1,0 +1,8 @@
+﻿There are seven types of shapes. When you arrange five or more identical shapes into a line (horizontally, vertically or diagonally), they disappear and you will be awarded a certain amount of points (that is a successive move). You may arrange such a line by moving shapes through the board - one shape in one move. You may move the shape to certain squares if the path of movement is free. The next three shapes appear after each non-successive move and are placed by chance. The game is over when there are no free squares on the board. Your goal is to score the most points.
+
+Controls
+Use <Arrows> to move through the board.
+Press <Enter> to select or to place the shape.
+Press <Fn><E> to switch on/off the next shapes viewing.
+Press <Fn><N> to begin a new game.
+Press <Esc> to end the game.

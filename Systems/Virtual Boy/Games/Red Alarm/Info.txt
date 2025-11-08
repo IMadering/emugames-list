@@ -1,0 +1,20 @@
+﻿Pilot a high-speed space craft into an incredible 3-D space!
+
+Bursting through incredible dimensions of Virtual space the final mission is clear. Obliterate all enemies and obstacles created by KAOS and terminate this menacing battle system from within.
+
+Employing an impressive arsenal of high-tech weapons and evasive maneuvers the Tech-Wing Fighter speeds on. Spinning deaths, spy pods and mosquito mechs appear from everywhere! The fate of humanity will soon be defined. Red Alarm! Red Alarm! Alarm Condition Red!!
+
+* Arcade style battle game with thrilling 3-D flight simulation!
+* Travel freely through three dimensions of Virtual space!
+* Pilot a futuristic spacecraft loaded with powerful weapons to combat an alien attack!
+* Watch video recorded replays and review your progress from a variety of different angles!
+
+Cheats (VBjin, Mednafen Emulator):
+050087C8 0A - Shield
+0500030C 7844 - Fuel
+
+Cheats (ArtMoney):
+10[-1] (1 byte) - Shield
+
+Cheat Menu
+At the title screen, press Select 60 times (1 press in patched version), then start a new game. Now press L+R+Select+A simultaneosly at any time during game play, then a cheat menu will appear.

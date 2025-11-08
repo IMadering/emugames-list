@@ -1,0 +1,24 @@
+﻿Simple La-Pa-Pa
+
+This game is very similar to La-Pa-Pa (Data East, 1982).
+
+How to play
+- Control the player, the pipe, and collect notes on the screen.
+The collected notes will fly away and you can knock down enemies.
+When you collect all the notes on the screen, the level is completed.
+
+- By collecting pauses that appear from time to time, you will weaken the enemies. You can defeat weakened enemies by ramming them. Be careful though, the dark grey guitars don't weaken, they just stop for a while.
+
+- If you collect the extra items that appear from time to time, one pipe will be added.
+
+- If you touch an enemy or an enemy attack, one pipe will disappear. Enemy attacks include ring attacks triggered by headphones and traps dropped by triangles. Cymbals also throw out musical notes to prevent the player from completing the pattern.
+
+- If you press the A or B button, the pipe will temporarily become invisible. While it is invisible, enemies and enemy attacks cannot hit it. However, while it is invisible, it cannot pick up musical notes.
+
+- When the pipe runs out of lives, the game ends.
+
+Controls
+Up/Down/Left/Right Buttons: Move the pipe.
+A/B Buttons: Make the pipe transparent.
+
+Naoyuki Sawa

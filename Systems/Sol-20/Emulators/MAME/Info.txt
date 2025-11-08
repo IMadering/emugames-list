@@ -1,0 +1,60 @@
+﻿MAME (originally an acronym for Multiple Arcade Machine Emulator) is a multi-platform, open-source, multi-system emulator written in C++. The philosophy behind the project is to focus on recreating the workings of various machines through emulation, with the software's ability to actually play console games being described as "a nice side effect". MAME is incredibly large, supporting thousands of machines and ROM sets.
+
+Official website: https://www.mamedev.org
+Repository: https://github.com/mamedev/mame
+Cheat Collection: https://www.mamecheat.co.uk
+GameInit.dat: https://www.progettosnaps.net/gameinit/
+Command.dat: https://www.progettosnaps.net/command/
+Mameinfo.dat: https://mameinfo.mameworld.info
+History.xml: https://www.arcade-history.com
+Snapshots: https://www.progettosnaps.net/snapshots/
+
+- - - - - - - - - - - -
+
+Sol-20 - Tips
+PTC SOL 20
+==========
+System Setup (to play games etc).
+- In the Dipswitches (not the Configuration), turn cursor flashing OFF.
+- Loading via wav files works, so load a tape image in the file manager
+- In UPPER CASE, enter XE press enter, cassette will load.
+- At the end, the program will start by itself.
+- When it says use 2,4,6,8 keys, you can use the keyboard arrow keys.
+
+Monitor Commands:
+TE - return to terminal mode
+DU addr1 (addr2) - Display contents of memory. Only one location displayed if second address omitted or less than first address.
+EN addr - Insert values into memory. Values accepted until terminated by a slash (/) or an illegal value. Value followed by colon (:) adjusts current address pointer.
+EX addr - Go (execute)
+CU - Insert or remove a custom command
+SE - Set parameters (eg tape speed)
+SA - Save
+GE - Load
+XE - Load and run
+CA - List the files on a tape
+
+How to use the music system:
+1. Choose the "music" item from the software list
+2. Type XEQ press Enter
+3. When the program starts, press R, you are back in the monitor
+4. Type GET press Enter
+5. When this finishes loading, type EX 0 press Enter, there's no response
+6. Press F, wait for numbers to appear
+7. Press S, wait for numbers to appear
+8. Press P, music will be heard (it isn't very loud)
+
+Cassette
+--------
+To save a tape: SA name a b (where a = start address, b = end address)
+To load a tape: GE
+To list files on a tape: CA
+To load a tape and autorun it: XE
+
+Info shows when load is finished
+progname progbyte start size
+If preceeded by ERROR, then a load error occurred.
+If start address is 1AD9, then the game is for BASIC/5.
+If start address is 3C20, then it's for EXTENDED BASIC.
+
+In BASIC, use GET to load a file. Annoyingly you need to supply other parameters as well.
+GET name,type (name is the progname, type is C or S (not sure yet)).

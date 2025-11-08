@@ -1,0 +1,4 @@
+﻿Load from tape and run:
+C100R
+280.11FFR
+280R

@@ -1,0 +1,7 @@
+﻿Your goal is to catch all the friendly creatures and avoid getting hurt by the monsters lurking in the maze. When all the friendly creatures are caught, you are advanced to the next level. Teleports are scattered on each level. They will transport the dweller to a random location away from the monsters. You get a bonus life for every 350 points scored. If you finish a level in less than 150 seconds, you will also gain a bonus score.
+The game has 20 levels.
+
+Controls
+Use <Arrows> to control the dweller.
+Press <Enter> to use a teleport.
+Press <Esc> to exit the game or start a new game.

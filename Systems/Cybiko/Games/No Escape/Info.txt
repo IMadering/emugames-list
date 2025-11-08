@@ -1,0 +1,17 @@
+﻿Pass all five levels of the ominous cave with your hero your and grab a pile of points for destroying the evil spirits as you search for the entrance to the cave!
+You move around in the underground maze by overcoming the obstacles and shooting the monsters along your way. Your goal is to get to the stairs - the passageway the next level.
+Pick up these bonuses:
+"Bullet" - to get a bullet and some points.
+"Boots" - to pass through the fire.
+"Key" - to open the doors (which will lead you toward the entrance to the cave).
+"Flower" - a bonus that makes you invincible for a short time (it also lets you destroy enemies upon touching them).
+
+Press fairy button at any end of the maze to raise the bar that blocks your way. When you reach a revolving door, think about which side you have come to the door from. Don't fall down on the banana peel.
+As you go upstairs, you'll go to the next level and get a large amount of points. Upon starting the game, you have 3 lives. Each time you run into a monster, you lose a life. If your hero loses all his lives, the game ends.
+If you pass all the levels, the game has a happy end. Try to get the maximum number of points to get into the Top 10!
+
+Controls
+Use <Arrows> to move the hero.
+Press <Enter> to shoot.
+Press <Select> to view/hide the info bar.
+Press <Esc> and choose the "Quit" button to exit to the Game Menu.

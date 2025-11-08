@@ -1,0 +1,9 @@
+﻿Apple I BASIC
+
+Along with the Apple I Cassette Interface the buyer used to receive a cassette containing Apple I Basic. This Basic was later enhanced with a few new commands and was sold with the first Apple ][ computers as Apple Integer Basic.
+In order to run Apple I Basic you needed at least 8kB bytes of RAM, which required an additional investment of $120 back in '76. Thus if you wanted to run Apple 1 Basic on your computer you had to buy the computer for $666.66, 4kB extra RAM for $120.00 and the ACI for another $75,00. This all adds up to a grand total of $861.66, needles to say that this was quite a considerable amount of money at the time. (And I didn't even mention the money you'd have to spend on a keyboard, power supply, TV/monitor and casing material).
+
+Load from tape and run:
+C100R
+E000.EFFFR
+E000R

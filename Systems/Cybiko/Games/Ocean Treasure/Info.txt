@@ -1,0 +1,6 @@
+﻿As a treasure hunter, you dived into the sea depths with hopes of finding pearls and sunken chests full of gems and gold. You are equipped only with an oxygen tank and a harpoon with an infinite number of shots. Your object is to pass all 7 game levels and score the most points. All the creatures of the sea seek to destroy you. If they touch you, you'll lose some health points. Some of them can also shoot at you. You can swim in and out of some underwater caves to obtain more treasures. You score points for each treasure chest and pearl you find, and also for killing your adversaries. Each game level lasts 100 seconds: you only have enough air in your oxygen tank to last this amount of time. Before you pass each level, you have to fight against one of the sharks. After you kill the shark (this is rather hard), you can play the next level. You have 3 lives in the game, each of which has 100 health points. After your health points run out, you lose a life. Upon entering the next level, the health points are restored (but not all your lives). The game ends after you lose all your lives.
+
+Controls
+Use <Arrows> to move.
+Press <Enter> to shoot.
+Press <Esc> to exit to the Main Menu.

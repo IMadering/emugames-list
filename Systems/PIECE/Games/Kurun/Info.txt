@@ -1,0 +1,19 @@
+﻿★ History ★
+Once upon a time, far, far away, there was a small island.
+On the island lived many different kinds of animals, but they did not get along with each other, and there were constant fights every day.
+One day, unable to bear this sight any longer, God said:
+"You associate with the same people, so you have disagreements with others. Take a break for a while."
+The animals began to move around the small island.
+Will there ever be true peace on this small island shrouded in tension?
+
+★ Rules ★
+The goal is to rearrange the animals so that animals of the same species are not next to each other.
+There are three types of animals on the screen. Among them, there are three animals located next to each other in a triangle, which can be swapped by rotating them to the right or left.
+By moving the animals in this way, you can complete the game, making sure that animals of the same species are not next to each other.
+
+★ Controls ★
+Arrow keys to move the cursor.
+A button - turn right.
+B button - turn left.
+START button - end game.
+SELECT button - sound ON/OFF.

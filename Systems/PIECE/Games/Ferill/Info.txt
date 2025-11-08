@@ -1,0 +1,36 @@
+﻿"FERILL" was released in 1989 by the Doujin SSG community software developers for PC-8801SR and later.
+It is an action puzzle game.
+This time, we thought it would be a shame to lose such a quality game, so we decided to port it to P/ECE.
+
+Use the help of the wizard Ferill to return the crystal ball to its pedestal.
+
+During the game, you can move Ferill by pressing a direction, create or remove the magic wall on the right with A and on the left with B.
+Also, SELECT will cause self-destruction.
+
+Saving occurs automatically every 5 levels.
+
+- Rules -
+The stage will be cleared when you carry the crystal ball to the top of the pedestal.
+If there are multiple pedestals, you can use any of them.
+
+The crystal ball rolls on its own and changes direction when it hits the wall.
+At this time, POWER will decrease by 1 point, and if POWER reaches 0, it will be a miss.
+
+If the crystal ball is dropped from a height of more than two steps, it will break, and this will be a mistake.
+
+If you make five mistakes, the game is over.
+
+There are three types of walls: normal walls, moving walls, and magic walls.
+
+If you move a movable wall one space, it will become a normal wall.
+Also, if you click from below when there is a crystal ball on top, the crystal ball will also move up one frame.
+
+"Magic walls cannot be built where there are rubies.
+
+The crystal ball also rolls above Ferill's head.
+Ferill cannot move when there is a crystal ball above his head.
+
+Ferill manages to stop the rolling crystal ball.
+During this time (when you are near the crystal ball), you will no longer be able to create or remove magical walls.
+
+*Level 54 may be unsolvable!

@@ -1,0 +1,29 @@
+﻿This game is very similar to Star Sweep (Namco/Axela, 1997).
+
+How to play
+Use the arrow keys to move the cursor, the spin key to select a direction, and the confirm key to throw a block.
+You can throw a block anywhere on the screen as long as there is an empty space. To remove blocks, connect star blocks of the same color.
+To remove an interfering cloud, remove the block next to it.
+
+The boss has durability, and each time you remove a block next to it, you lose one life (a heart mark).
+To defeat the boss, remove blocks next to it as many times as the number of hearts appears.
+
+New blocks will rise from the bottom of the screen at regular intervals.
+Also, when the cursor is at the bottom of the screen, press and hold the down arrow key, this will allow the next block to appear quickly.
+
+When a block reaches the top of the screen, a countdown begins.
+Please clear the blocks before the count reaches 0.
+If you do not clear the blocks in time and the count reaches zero, the game will end.
+
+As you clear blocks in a chain reaction, the stock (star) displayed in the upper right corner of the screen will increase. If you collect eight stocks, you will receive bonus points.
+
+Stocks also slow down the countdown.
+When a block reaches the top of the screen, if you have stocks, they will be depleted before the countdown begins.
+When all stocks are depleted, the countdown will begin.
+
+Up, Down, Left, Right buttons: Move the cursor.
+If you press further, the next block will immediately appear at the very bottom of the screen.
+B button: Rotates the cursor.
+A button: Place a block at the cursor position.
+
+Naoyuki Sawa

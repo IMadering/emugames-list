@@ -1,0 +1,14 @@
+﻿Draw artistic patterns based on Pascal's triangle.
+
+Load from tape and run:
+C100R
+300.05FFR
+300R
+
+A first BASIC version of this artistic program is listed by Creative Computing magazine in the beginning of 1977. It explaines how it works:
+
+Pascal's triangle is one of the most famous number patterns in mathematics. The triangle is very easy to construct. The first two rows consist of only 1's. Each of the subsequent have a 1 at either end of the row, but all other numbers in the pattern are the sum of the two numbers to the right and left in the row above.
+
+The resulting triangle is then rotated to form a table of numbers. After that it is translated to a graphic picture built up from asterisks (*) depending on a few variables that change this behavior.
+
+In 2007, Ken Wesson rewrote this program in assembly for the Apple-1.

@@ -1,0 +1,8 @@
+﻿The game "23 matches" is a classic logic game, often implemented in BASIC. It is a game for two players (or a player versus the computer), where the goal is to take the last match from a pile of 23 matches. Players take turns taking 1, 2, or 3 matches, and the one who takes the last one wins (or loses in some variants - it depends on the rules of the particular implementation).
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

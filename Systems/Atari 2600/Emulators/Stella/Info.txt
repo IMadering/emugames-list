@@ -1,0 +1,9 @@
+﻿Stella is an emulator of the Atari 2600 game console, and takes its name from the console's codename. It is open-source, and runs on most major modern platforms including Windows, Mac OS X, and Linux. Stella started development in late 1995.
+
+The emulator supports all Atari 2600 cartridge bank switching schemes and has support for nearly all Atari 2600 titles. It has cycle-exact emulation for the TIA chip (graphics and sound); the Stella Team estimates that current TIA emulation is nearing 100% completion.
+
+Stella supports cassette games designed to work with the Starpath Supercharger and also supports games designed to work with the Spectravideo Compumate and Coleco KidVid.
+
+Official website: https://stella-emu.github.io
+Repository: https://github.com/stella-emu/stella
+Pre-release builds: https://www.emucr.com/search/label/Stella

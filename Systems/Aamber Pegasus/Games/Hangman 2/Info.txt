@@ -1,0 +1,9 @@
+﻿Hangman is a classic word guessing game where the player tries to reveal a hidden word by guessing letters.
+
+Player inputs one letter at a time, and the program checks if that letter is in the target word. If the letter is there, it's revealed in its correct position. If not, a part of the hangman is added.
+
+Load from Cassette:
+Insert the cartridge with XBASIC and after the monitor boots, press: X
+Then type the command: TLOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN

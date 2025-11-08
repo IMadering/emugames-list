@@ -1,0 +1,13 @@
+﻿This is a single-player game. Your object is to pass each of the levels with your spaceship, catching all of the bonuses and destroying all of the enemy objects: mines, two types of enemy ships (one shoots at you, the other chases you), meteorites of different types. If they shoot you or collide with you, you lose one of your lives. After some time, the meteorites will break down into smaller meteorites or into a mine.
+
+Shoot to destroy the enemies and catch the bonuses: hearts (a life), or a gun shield (temporary invincibility from all enemies except the Black Hole). For each destroyed enemy or bonus, you will receive points. Avoid the indestructible Black Hole, for it may take one of your lives! You have to hit all of the objects (including bonuses) to go to the next level. The direction that your ship will accelerate is the direction that the gun is pointed.
+
+If you destroy all of the enemies and catch all of the bonuses, the game ends and you are a winner. The game also ends if you lose all your lives.
+
+Controls
+Press <Left/Right arrows> to spin the spaceship counter-clockwise or clockwise.
+Press repeatedly or hold <Up/Down arrows> to accelerate the spaceship forward or backward.
+Press <Enter> to fire a bullet.
+Press <Select> to activate the shield.
+Press <Space> to pause/redo the game.
+Press <Esc> to exit or restart the game.

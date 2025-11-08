@@ -1,0 +1,3 @@
+﻿Welltris is a puzzle video game, developed by Doka and licensed to Bullet-Proof Software. It is an official game in the Tetris series. Adaptations were made by Sphere, Inc., for Spectrum HoloByte, and by Infogrames. It was released for MS-DOS compatible operating systems in 1989. Ports for Macintosh, Amiga, Amstrad CPC, and Atari ST followed in 1990, then ZX Spectrum and Commodore 64 in 1991.
+
+Naoyuki Sawa

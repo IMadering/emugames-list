@@ -1,0 +1,9 @@
+﻿Simple Laser
+
+This game is very similar to "Spacewar" (Rejac, 1979).
+It is better known by its nickname "Chameleon Army" than by its real name.
+
+Incidentally, Rejac is what later became Konami Industries.
+At the time, I played this game without really thinking about the manufacturer, but I guess it can also be considered one of the good old Konami games.
+
+Naoyuki Sawa

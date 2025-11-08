@@ -1,0 +1,14 @@
+﻿Fukuro is an action game where you get beat up.
+
+The figure in the center of the screen is you.
+Arrow keys: Move
+A button / B button: Punch
+
+Enemies will gather around you to attack you.
+Please knock them down.
+
+If you are hit by an enemy, your stamina will decrease.
+Your stamina is displayed as a bar at the bottom of the screen.
+When your stamina runs out, the game ends.
+If you stand still without moving or hitting,
+Your stamina will gradually recover.

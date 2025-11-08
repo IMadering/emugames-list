@@ -1,0 +1,55 @@
+﻿Hearts dates back to around 1850, having evolved from older games in which the object was to avoid taking certain cards. Hearts is a classic four player card game played by all kinds of people, particularly college students during finals and sailors out at sea.
+
+Rules
+Object of the game
+Hearts is a four-player card game in which the object is to try to get the lowest score by avoiding taking tricks containing hearts and the queen of spades. The game ends when any player has 100 or more points. Each player who gets less than 100 points is winner.
+
+Deck
+A standard deck of 52 playing cards is used in Hearts. The cards are ranked (from high to low) Ace, King, Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2. There are four suits (spades, hearts, diamonds, and clubs); however, no suit is better or ranked higher than another.
+
+Hand
+Cards are dealt out so that each of the 4 players holds 13 cards.
+
+Lead
+The card played to start a trick, or the obligation to play the first card of a hand; a player is "has the lead" or is "on lead" when he or she has won the previous trick.
+
+Tricks
+The four cards played during a round. The highest card of the lead suit takes the four cards in the trick and the player that does this gets to lead for the next trick. You must play the lead suit if you have it, or, if you don't, you can play any card.
+
+Heart
+The heart suite is worth 1 point per card.
+
+Queen of Spades
+This is the only point-valued card that is not a heart. The queen of spades is worth 13 points.
+
+Shooting the moon
+When a player takes all the heart cards and the queen of spades, this is known as shooting the moon. The player's score for that hand is 0 and 26 points are added to the scores of the other players.
+
+2 of clubs
+The first card thrown in any game will be the 2 of clubs. The other players must play a card in the same suit if they can. If they can't follow suit, they may play a card from another suit.
+Attention! In the first round, you may not play a heart or the queen of spades.
+
+Passing Cards
+At the beginning of each round you have to pass 3 of the cards you have been dealt to another player. In the first hand, you pass to the player on your left. In the second, you pass to the player on your right. In the third, you pass to the player across from you. No cards are passed on the fourth deal. This sequence of passing cards is repeated for subsequent hands.
+
+Playing
+After the pass, the player who holds the two of clubs begins play by placing it face up on the table. Each player in turn, going clockwise around the table, plays a card until all four players have done so. A player must follow suit when able to. If unable to, a player may play any card - except that on the very first trick, a player may not play a heart or the queen of spades. A player may not lead a heart unless hearts have been "broken" - that is, unless someone has already played a heart in a previous trick. A player with nothing left but hearts, or with nothing but hearts and the queen of spades, may lead a heart. The queen of spades may always be led (though it's usually very unwise to do so) even if hearts have not been broken. Avoid taking hearts or queen of spades! After 13 tricks are played, the points are added up and cards are dealt again. Scores are continually updated on the Score Board so you can see who's winning. If you play a card illegally, you get a message about it.
+
+End of Game
+Game play continues until any player breaks 100 points. When this happens, the player with the lowest score wins, the next-to-lowest score takes second, and so on.
+
+Controls
+How to pass 3 cards
+1. Use <Left/Right arrows> to mark a card by the highlight.
+2. Use <Up arrows> or <Select> to lock in the card selection.
+3. You may unselect the selected card by pressing <Select> or <Down arrows>.
+Make the points 1 and 2 three times. The selected cards will stick out from your hand.
+4. Press <Enter> to pass currently selected card to respective player. At the same time you will get the 3 cards from your opponent.
+5. Press <Enter> to start playing.
+
+How to make your turn
+1. Use <Right/Left arrows> to mark a card by the highlight.
+2. Press <Enter> to place marked card on playing table.
+
+Press <Tab> to see your score in Score Board.
+Press <Esc> to close the Board.

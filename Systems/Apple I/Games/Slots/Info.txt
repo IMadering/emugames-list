@@ -1,0 +1,8 @@
+﻿Slot Machine simulation by Fred Mirabelle and Bob Harper of Creative Computing in Morristown, NJ on January 29, 1973. Written in BASIC.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.0FFFR
+E2B3R
+RUN

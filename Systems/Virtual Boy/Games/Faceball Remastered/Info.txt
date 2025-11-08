@@ -1,0 +1,3 @@
+﻿This Faceball (NikoChan Battle) ROM hack features 56 unique levels instead of the original 14 demo levels, a reactivated Hidden Faceball enemy, a reactivated Menu Image, reactivated Hidden Music (instead of the same song over and over again), Improved controls, a disabled debug menu, a new Faceball start-logo, and New text in credits (without typos).
+
+https://www.virtual-boy.com/forums/t/faceball-remastered-release/

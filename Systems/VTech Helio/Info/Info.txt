@@ -1,0 +1,12 @@
+﻿The VTech Helio is a personal digital assistant (PDA) released by VTech in the late 1990s.
+
+Technical Specifications
+CPU: Toshiba TMPR3912AU, 75 MHz, 32-bit RISC
+Storage (RAM): 8 MB SDRAM
+Storage (Flash): 2 MB
+Audio: built-in microphone and speaker
+Display: 160 x 160 resolution (59 x 59 mm), 16-level grayscale LCD
+OS: VT-OS, which is VTech's Palm OS clone
+
+Sites:
+https://www.capitalware.com/helio.html

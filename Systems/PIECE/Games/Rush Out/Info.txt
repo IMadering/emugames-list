@@ -1,0 +1,9 @@
+﻿A simple and addictive side-scrolling game!
+
+How to play
+This is a classic side-scrolling action game, so you'll probably get the hang of it by feel. The only rule is that you can't beat the game until you collect at least one flag in each level before heading to the goal. Other than that, there are no complicated rules.
+If you fall into a hole by mistake, the game won't end, but you'll be returned to the normal position where you last stepped. You can't respawn in special places, so be careful in later levels.
+
+Hidden Stage
+This time it's there too. Beat the entire game, get a rank, then return to the main screen to see that STAGE 13 has been added to PRACTICE mode. This is the hidden stage.
+The hidden stage is a completely random stage with auto-generated dungeons. There are often stages that are impossible to complete, so if you're not sure you can do it, just press SELECT and return to the main screen.

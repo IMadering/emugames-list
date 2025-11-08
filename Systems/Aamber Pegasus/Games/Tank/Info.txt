@@ -1,0 +1,37 @@
+﻿Load from Cart:
+After the monitor boots up, press: L
+Then press: T
+
+Load from Cassette:
+After the monitor boots up, press: M
+Then press: L and Enter
+Turn on the tape playback.
+After the boot is complete, do a Soft Reset
+Then press: T
+
+The aim of the game is to kill the opponent's tank, both players have a total of nine tanks, eight of which appear below the field with the current tank on the field. The player on the left hand side of the keyboard controls the white tank, while the player on the right controls the black tank. Also appearing on the screen are mines which must be avoided, if you run over one you lose one life, and trees which can rot be run over but must be shot down as can mines. The walls can not be damaged by ramming nor by shooting then.
+To control the tank one has two buttons for each of the left and right tracks, one for forwards, and one for backwards. To move your tank forwards press both forward buttons, Likewise to move your tank backwards press both backwards buttons. If you want to turn your tank press only one button e.g. to move clockwise either press the left track's forward button or the right track's backwards button.
+Bullets (or rather guided missiles) can be launched by pressing the fire button, the when they are in the air their path can be altered by either holding down the clockwise button, or the anti-clockwise button. Bullets will remain in flight until they contact something. When a bullat comes in contact with a tank the tank will explode losing one life and the opposing player's tank will be rotated by 180° thus preventing further inmediate shots. It should be noted that it is all too easy to shoot one's self (which also rotates the opposing player).
+
+Controls
+White Tank Controls
+Tab - FORWARD LEFT
+Q - CLOCK-WISE
+W - FORWARD RIGHT
+Tab+W - FORWARD
+CapsLock - BACKWARD LEFT
+Shift - ANTI-CLOCK
+Z - BACKWARD RIGHT
+CapsLock+Z - BACKWARD
+E - FIRE BULLET
+
+Black Tank Controls
+[ - FORWARD LEFT
+\ - CLOCK-WISE
+Line-Feed (Num Enter) - FORWARD RIGHT
+[+Line-Feed (Num Enter) - FORWARD
+? - BACKWARD LEFT
+Shift - ANTI-CLOCK
+Blank Left (Num 0) - BACKWARD RIGHT
+?+Blank Left (Num 0) - BACKWARD
+Del - FIRE BULLET

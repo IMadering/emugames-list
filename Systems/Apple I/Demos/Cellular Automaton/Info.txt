@@ -1,0 +1,22 @@
+﻿This program draws cells on the screen, it is like Conway's Game of Life. These cells are being born and die depending on a set of logic rules, they form a cellular automaton. Their evolution, or artificial life, creates interesting patterns.
+
+Instructions
+The cells are represented by a * on the screen. The program asks a few questions before the drawing starts, this way the user can change the behavior of the automaton:
+
+Choose the inital state, being:
+1 for a single cell,
+2 for a random set of cells
+or 3 to enter the cells in hex.
+Type the radius, this can be 1 or 2. This changes the amount of cells being a neighbour to each other and changes the effect of the rule.
+Type the rule to follow. Read more about this here.
+Note that the drawing is continues, an early screen saver.
+
+Cellular 1 (Simple) - Load from tape and run:
+C100R
+300.036FR
+300R
+
+Cellular 2 (Extended) - Load from tape and run:
+C100R
+300.052FR
+300R

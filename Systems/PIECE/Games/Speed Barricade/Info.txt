@@ -1,0 +1,1 @@
+﻿Speed ​​Barricade: Control a barricade that expands and destroys enemies.

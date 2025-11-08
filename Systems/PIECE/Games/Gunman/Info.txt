@@ -1,0 +1,19 @@
+﻿Gunman
+
+It's a game where you watch an apple hanging on a tree start to fall and then shoot it with a gun before it hits the ground.
+
+The game has the following:
+The tension of not knowing when the apple will fall
+Reflexes from the moment the apple starts to fall until the moment you can shoot it.
+
+Controls
+[→]: Take up firing position.
+[←]: Return to waiting position.
+[A]: Fire.
+
+The basic rules are:
+You cannot fire the gun until you are ready to fire.
+After you fire, you cannot fire again until you return to the waiting position.
+If you are ready to fire and do nothing, the gun will return to the waiting position after a certain amount of time.
+If you fire while the apple is falling, the throw counts.
+If the apple hits the ground, the throw is lost.

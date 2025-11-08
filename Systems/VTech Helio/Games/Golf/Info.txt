@@ -1,0 +1,1 @@
+﻿Golf is a card game where players try to earn the lowest number of points (as in golf, the sport) over the course of nine deals (or "holes").

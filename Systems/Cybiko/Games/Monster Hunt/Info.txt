@@ -1,0 +1,16 @@
+﻿Your object is to pass all levels by finding all of the monsters' dens and placing traps there.
+There are 16 levels in the game.
+You begin the game with 1 monster and their number Increases every 4 levels.
+
+As soon as the player places the goat as bait, the invisible monsters will run to it. At first they move around the goat, but when they intersect with the vertical or horizontal axis of the bait, they move vertically or horizontally to it. While moving toward the bait, the monsters demolish all objects on their way.
+Place flags that will help you to define the way that the monster moves. Upon starting the game, you have 1000 bananas. You need bananas to buy goats and place the traps and flags. If you correctly ocate the monster's den, you will see the monster's head in place of the trap. When you entrap all of the monsters on the level, you will go to the next level and your score will Increase. Your score lessens for each hut destroyed by the monsters.
+
+The game ends if you don't have enough bananas to place the trap.
+You win the game if you place all your traps correctly to capture the monsters.
+
+Controls
+Use <Arrows> to move the hero.
+Press <Select> to place the flag.
+Press <Tab> to place the trap.
+Press <Enter> to place/take back the bait.
+Press <Esc> to quit or restart the game.

@@ -1,0 +1,17 @@
+﻿This game is very similar to Pazuri (Metro, 1995).
+This is Pazuri, an arcade puzzle game from Metro.
+
+How to play
+- Remove all the fish and bubbles from the screen.
+- When three or more of the same fish are next to each other on the surface of the ocean, they disappear.
+- Bubbles disappear when they rise to the surface of the water.
+- The sea level will decrease every time you perform the operation a certain number of times.
+・If the fish touches the current at the bottom of the ocean, the game is over.
+
+Controls:
+Left and Right buttons: Move the boat.
+Button: Place the fish.
+B Button: Change the fish.
+SELECT Button: Return to the title screen.
+
+Naoyuki Sawa

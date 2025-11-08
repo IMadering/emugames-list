@@ -1,0 +1,35 @@
+﻿The portal between Earth and another mysterious dimension has opened, and the intrepid Jack Brothers have come through for an adventure in our world. Having lost track of time, they now have only one hour to return to their home or be banished forever. Help them battle hoards of loathsome enemies through six electrifying 3-D levels, each with many floors to explore and conquer. This is one phenomenal adventure you can’t afford to miss!
+
+Cheats (VBjin, Mednafen Emulator):
+05000112 46 - Infinite Time
+05000150 FFFF - Invincible
+
+Cheats (ArtMoney):
+70[-1] (1 byte) - Time
+3[-1] (1 byte) - Stars
+
+Secret
+Using the Left D-Pad, enter the following button combination on the Title Screen to access "Super Players Mode":
+Right, Right, Right, Right, Right, Right, Left, Left, Left, Right, Right, Right, Right, Right, Right
+
+Passwords
+Jack Frost (Normal):
+Grim Reaper’s Cavern (Floor 4): 3267
+Temple of Nightmare (Floor 8): 8453
+Dragon’s Belly (Floor 15): 1309
+Mecha Fortress (Floor 25): 7285
+Crystal Palace (Floor 40): 6378
+
+Jack Lantern (Normal):
+Grim Reaper’s Cavern (Floor 4): 4965
+Temple of Nightmare (Floor 8): 5923
+Dragon’s Belly (Floor 15): 0919
+Mecha Fortress (Floor 25): 2827
+Crystal Palace (Floor 40): 6313
+
+Jack Skelton (Normal):
+Grim Reaper’s Cavern (Floor 4): 0248
+Temple of Nightmare (Floor 8): 2745
+Dragon’s Belly (Floor 15): 9537
+Mecha Fortress (Floor 25): 3598
+Crystal Palace (Floor 40): 0531

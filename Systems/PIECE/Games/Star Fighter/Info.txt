@@ -1,0 +1,3 @@
+﻿Star Fighter is a 3D shooting game. (Version 0.50)
+
+Ken Motoaki

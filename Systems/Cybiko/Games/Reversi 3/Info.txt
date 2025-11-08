@@ -1,0 +1,22 @@
+﻿The game is played on an 8x8 square board. Each player has a colored disk to use, the object is to dominate the board with your color! Black always moves first. Players take turns one after another placing one disk on the board.
+
+Rules
+The game is played on an 8x8 square board. Each player has uses a certain color disk.
+The object of the game is simple: dominate the board with your color!
+
+Black always moves first.
+Players take turns one after another placing one disk on the board.
+Capture - when any of one player's disks that are surrounded at both ends (in any direction) by another player's disks. Captured disks then are converted to another player's color.
+
+A player's disk must be placed next to one of the partner's disks to create a capture.
+If a player cannot make a legal move then the partner takes successive turns until the other player can make a legal move.
+When it is no longer possible for either player to move, the game is over. Disks are counted and the player with the majority of his color disks on the board is the winner.
+
+How to Play
+1. Use <Arrows> to select a square.
+Note: The pointer will be a blinking rounded square if the move is legal. The pointer will be blinking cross if the move is illegal.
+2. Press <Enter> to place the disk.
+The opponent's disks will change color according to the rules.
+Note: If you position your pointer on the squares where your disk can't move, you'll see a cross sign on the square. If you try to make an illegal move, you will hear an error crack sound.
+
+If you cannot make a legal move, you'll see "Wait… " and your partner continues to play until you can make a legal move.

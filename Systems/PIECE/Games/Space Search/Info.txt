@@ -1,0 +1,16 @@
+﻿Tcl version of Space Search simulation
+
+This game is very similar to Space Search (Epoch, 1980).
+
+How to play
+This is a game where you search for four spaceships hidden somewhere in a 9x7 coordinate system.
+You can find out how many axes a spaceship is on based on any coordinate.
+Use the search results to find spaceships efficiently.
+
+Space Search is a board game by Epoch.
+It's similar to Minesweeper, but because you can search at a greater distance, Space Search requires more thinking.
+Originally, the best part of Space Search was the competitive mode, but this time we made it specifically for single-player mode.
+Moreover, we made the CPU take care of the coordinate markings entirely, so there is almost no thinking required.
+In the end, it turned into a space search that doesn't really feel like a space search.
+
+This time I tried to create a simple board game using the Tcl interpreter for P/ECE.

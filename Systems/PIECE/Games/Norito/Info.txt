@@ -1,0 +1,6 @@
+﻿Norito is a demon-repelling ema master who uses votive tablets to exorcise evil spirits.
+This time, the goal is to destroy the monster that has taken up residence in the shrine.
+
+From the player's perspective, this is a 3D wireframe shooter.
+
+For information on the game's controls, see the "Controls" section in the main menu.

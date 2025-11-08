@@ -1,0 +1,14 @@
+﻿This one is for all you classic arcade game fans out there. This is a variation on the ball and paddle games of yesteryear. Finally, you'll know what your parents were talking about when they talk of playing Pong way back in the day. Bounce the ball off the paddle and get rid of all of the blocks on the top of the screen. It is a whole lot more fun than it seems at first. Give it a shot: you'll have fun and feel nostalgic all at once!
+
+Rules of the Game
+This is a single player game. The object of the game is to pass all of the levels by eliminating all blocks from the playing field. Each level has a certain number of blocks and it's own layout. You control the paddle, which deflects the ball back up toward the blocks. The paddle moves left and right along the bottom edge of the playing field. You must deflect the ball so that it collides with one block on the playing field. When the ball collides with a block, the block disappears from the screen. It re-appears in 2 minutes, at which time you will have to get rid of it again.
+You have to be very fast to clear all the blocks from each level. For each hit block, you get 10 points. If there are no more any visible blocks in the game field, the level is over and you go on to the next one. If you pass a level and none of the blocks have re-appeared on the screen, a bonus 1000 points are added to your score. You have an inventory of three balls for the duration of the game. If you fail to deflect the ball with the puddle, and the ball reaches the bottom of the playing field, the ball is lost and a new ball is provided from your inventory. If you pass the level without losing a ball, you go to the next level with additional 500 points.
+
+The end of the game:
+The game ends if you clean all the levels or if you lose all the balls.
+
+Controls
+Press <Enter> to begin the game or to continue the game with a new ball.
+Use <Right arrow> to move the puddle right.
+Use <Left arrow> to move the puddle left.
+Press <Esc> and choose the "Quit" button.

@@ -1,0 +1,47 @@
+﻿The Psion Series 3 range of personal digital assistants were made by Psion PLC. The four main variants are the Psion Series 3 (1991), the Psion Series 3a (1993), the Psion Series 3c (1996), and the Psion Series 3mx (1998).
+Acorn Computers sold renamed versions of the Psion Series 3 and 3a marketed as the Acorn Pocket Book and Acorn Pocket Book II.
+
+One unique feature of the Psion Series 3 software package was a built-in programming language, Organiser then Open Programming Language (OPL), which enabled users to create their own applications that ran and looked just as system programs.
+
+Technical Specifications - Psion Series 3 (Introduced 1991)
+CPU: NEC V30H 3.84 MHz
+RAM: 128 KB / 256 KB
+ROM: 256 KB
+Screen: Monochrome LCD with resolution of 240x80
+Sound: Internal piezo beeper
+OS: SIBO 16-bit (EPOC)
+
+Technical Specifications - Psion Series 3a (Introduced 1993)
+CPU: NEC V30H 7.68 MHz
+RAM: 256 KB - 2 MB
+ROM: 1 MB
+Screen: Monochrome LCD with resolution of 480x160
+Sound: Internal membrane speaker, built-in microphone
+OS: SIBO 16-bit (EPOC)
+
+Technical Specifications - Psion Series 3c (Introduced 1996)
+CPU: NEC V30H 7.68 MHz
+RAM: 1 MB / 2 MB
+ROM: 1 MB / 2 MB
+Screen: Monochrome LCD with resolution of 480x160
+Sound: Internal membrane speaker, built-in microphone
+OS: SIBO 16-bit (EPOC)
+
+Technical Specifications - Psion Siena (Introduced 1996)
+CPU: NEC V30H 7.68 MHz
+RAM: 512 KB / 1 MB
+ROM: 512 KB / 1 MB
+Screen: Monochrome LCD with resolution of 240x160
+Sound: Internal piezo beeper
+OS: SIBO 16-bit (EPOC)
+
+Technical Specifications - Psion Series 3mx (Introduced 1998)
+CPU: NEC V30MX 27.6 MHz
+RAM: 2 MB
+ROM: 2 MB
+Screen: Monochrome LCD with resolution of 480x160
+Sound: Internal membrane speaker, built-in microphone
+OS: SIBO 16-bit (EPOC)
+
+Sites:
+http://www.mypsion.ru

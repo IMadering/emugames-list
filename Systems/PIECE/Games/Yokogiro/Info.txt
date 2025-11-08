@@ -1,0 +1,11 @@
+﻿The number corresponds to the number of times the line crosses between the chips. Draw lines so that all the chips reach 0.
+
+Rules
+Draw lines that form a loop on a 6x6 grid.
+Only one line can pass through a square. Lines cannot cross or connect (except to the starting point at the end).
+The numbers on the grid are counters, which represent the total number of lines that cross numbers. Each time a line crosses a tile, the counters at both ends decrease by one. To beat the game, reset all counters to 0, return to the starting point, and close the loop.
+
+Controls
+Direction buttons: Draw a line
+START key: Exit the game
+SELECT key: Sound on/off

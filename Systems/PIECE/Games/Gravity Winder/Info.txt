@@ -1,0 +1,14 @@
+﻿A side-scrolling game where you have to avoid obstacles.
+
+How to play
+The line on the left side of the screen is your plane. It only requires two buttons to control: A and B.
+Your ship will rise as long as you hold the A button, and will fall when you release it.
+As long as you hold the B button, your ship will move forward in a straight line.
+Use these two controls to avoid approaching ceilings, floors, and obstacles.
+Points will be awarded when moving forward, but points will be deducted when moving straight forward with the B button.
+If you hit a ceiling, floor, or obstacle, the game will be over.
+
+Bonus
+At the title screen, press the Up button and then the B button to start from LEVEL 11.
+Alternatively, if you press the Down button and then the B button at the title screen, you will start from LEVEL 21.
+If either command is successful, the message "Start from LV.11 (or 21)" will appear in the upper left corner of the title screen.

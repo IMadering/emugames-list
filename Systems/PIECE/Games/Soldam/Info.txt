@@ -1,0 +1,26 @@
+﻿Imitation Soldam
+
+I made a game that is very similar to Soldam (Jaleco, 1992).
+
+Introduction
+As I wrote in my previous P/ECE research report, I like this game.
+I want to play Soldam on the go! However, with Jaleco gone, there is little hope that Soldam will be ported to modern consoles.
+So I made an imitation Soldam for P/ECE.
+
+Rules
+In simple terms, it is Tetris + Reversi.
+Flip the tiles vertically, horizontally or diagonally, then erase them by making a horizontal row of the same color.
+The erased row will move to the bottom row and become clear solvent.
+Once you use Clear Soldam (mix it with Clear Soldam), it will disappear.
+At the beginning of the game, you will be in two-color mode, so only two types of Soldam will appear.
+As the game progresses, the mode changes to three-color, four-color, and so on, increasing the total number of types to four.
+It can be a bit tricky to understand the direction in which to clamp the material and the presence of a transparent solder bridge.
+Try searching for "Jaleco", "Soldam", "Rules", etc. in a search engine.
+
+I tried to follow the rules of the original version as much as possible, but there are some changes in the falling speed,
+The parts that I did not fully understand, such as the scoring system, have been adjusted accordingly.
+In the future, once I know the rules of the original version, I would like to adapt it to them.
+Also, in the original version, the more colors on the screen, the higher the probability of their appearance.
+The characteristic is there, but since we did not know its distribution, we skipped it.
+
+Naoyuki Sawa

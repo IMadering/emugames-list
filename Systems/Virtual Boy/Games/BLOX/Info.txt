@@ -1,0 +1,83 @@
+﻿BLOX is a clone of Sokoban, a puzzle game where you have to push all boxes in a level onto a goal field. It features 3 difficulty levels with 60 puzzles in total, plus two unlockable bonus stages, passwords and simple sounds and more.
+
+When it was released in 2003, BLOX was the first and only complete homebrew Virtual Boy game. 10 years later, in 2013, it was the first ever Virtual Boy homebrew game to see a physical release through UncleTusker.
+
+Alternate graphics
+To change the graphics to an alternate set, use the following password: 3297
+
+Unlockable: Bonus stages
+To reach the first bonus stage, play through Easy difficulty level in one go, without leaving a level and using a password once. For the second bonus stage complete stage 7 of Medium difficulty with less than 103 moves.
+
+Level Passwords
+Easy:
+Stage 01: 1234
+Stage 02: 9941
+Stage 03: 6765
+Stage 04: 6799
+Stage 05: 4365
+Stage 06: 2665
+Stage 07: 1436
+Stage 08: 3663
+Stage 09: 3153
+Stage 10: 2984
+Credits: 3232
+
+Medium:
+Stage 01: 4567
+Stage 02: 6231
+Stage 03: 5729
+Stage 04: 5672
+Stage 05: 7681
+Stage 06: 9871
+Stage 07: 9112
+Stage 08: 6464
+Stage 09: 4861
+Stage 10: 3125
+Stage 11: 2358
+Stage 12: 4279
+Stage 13: 6591
+Stage 14: 7492
+Stage 15: 9692
+Stage 16: 8843
+Stage 17: 6618
+Stage 18: 5933
+Stage 19: 4858
+Stage 20: 3215
+Credits: 5332
+
+Hard:
+Stage 01: 6789
+Stage 02: 4991
+Stage 03: 6116
+Stage 04: 6184
+Stage 05: 7346
+Stage 06: 8982
+Stage 07: 5731
+Stage 08: 3987
+Stage 09: 1167
+Stage 10: 8992
+Stage 11: 4536
+Stage 12: 4811
+Stage 13: 5297
+Stage 14: 3151
+Stage 15: 1335
+Stage 16: 4488
+Stage 17: 4662
+Stage 18: 6627
+Stage 19: 9883
+Stage 20: 6338
+Stage 21: 1686
+Stage 22: 4384
+Stage 23: 1561
+Stage 24: 4492
+Stage 25: 1756
+Stage 26: 4391
+Stage 27: 5423
+Stage 28: 5943
+Stage 29: 4456
+Stage 30: 5115
+Credits: 1995
+
+Bonus:
+Stage 01: 9715
+Stage 02: 9435

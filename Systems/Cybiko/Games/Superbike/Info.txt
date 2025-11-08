@@ -1,0 +1,11 @@
+﻿You are a motorcycle racer and your goal is to archive the fastest time while completing the Motocross competitions!
+
+There are three tracks in the game: the simplest "Training", more puzzle "Advanced" and the most difficult "Expert". Upon starting the game, you have to choose the track that you prefer to race on. Each race has 2 phases. First, you run the Qualifying Lap phase alone. The shown lap time determines your starting position at the start of the race. Then, there will be a countdown from 3 on the screen. After "Go!!!" flashes, you'll begin to control your racer in the race phase.
+The race on the chosen track is over when you complete all laps of the track. If you show the fastest time you prove that you are the best Cybiko rider on that track! If you want to continue playing, choose the next track.
+
+Controls
+Use <Left/Right arrows> to turn your racer left or right.
+Press <Enter> and hold to accelerate.
+Press <Select> and hold to decelerate.
+Press <Del> to place the racer In the center of the road.
+Press <Esc>, and choose the "Quit" button, to exit the game.

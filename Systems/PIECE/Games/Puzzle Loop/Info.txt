@@ -1,0 +1,12 @@
+﻿This game is very similar to Puzzle Loop (Mitchell, 1998).
+
+How to Play
+・Shoot the gems to match three or more of the same color to remove them.
+・If there are gems of the same color in front of or behind the gem that disappears, they will be attracted to each other and cause a chain reaction.
+・When a gem reaches the deadline, the game ends.
+
+Left and Right buttons: Rotate the tower.
+A or B button: Launches the gems.
+START button: Pause/resume the game.
+
+Naoyuki Sawa

@@ -1,0 +1,17 @@
+﻿Simple Fruit Smash
+
+This game is very similar to Fruit Smash (Electrotank, 2006).
+
+How to play
+
+Swap adjacent fruits to form three or more in a row vertically or horizontally to clear them.
+
+If you swap fruits without making three or more in a row, they will return to their original position before you swapped them.
+
+The fruit that you erase will turn into juice and fill the juice meter on the right side of the screen.
+Fill the juice meter before the timer reaches zero.
+When the juice meter is full, your level will increase and the timer will reset.
+
+When the timer reaches 0, the game ends.
+
+Naoyuki Sawa

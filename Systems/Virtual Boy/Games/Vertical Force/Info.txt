@@ -1,0 +1,13 @@
+﻿Pilot a Futuristic Star Fighter in a Battle for Mankind!
+
+GALACTIC YEAR 210. The earth and its colonies face annihilation in a futuristic war against the human race. YOU have been chosen to pilot RAGNAROK, a star fighter from an advanced alien civilization.
+
+Reinforced by fearless AI CHARACTERS, you must locate and destroy menacing fighters and enemy droids. With sheer VERTICAL FORCE blast your way into another dimension to the final Virtual frontier. This mission for mankind is brutal. Be prepared, for it has only just begun!
+
+* Battle an endless onslaught of enemy fighters and special attack droids!
+* Collect power-up items including lasers, wide-shots and shields to enhance your weapon system!
+* Single-player action for the ultimate Virtual play!
+
+Cheats (VBjin, Mednafen Emulator):
+05003F6D 08 - Energy
+05003F70 FE15 - Invincible

@@ -1,0 +1,16 @@
+﻿Moesyu (Version 1.01)
+
+We aimed to create an exciting shooting game, not just a shooter.
+
+Use the joystick to move and the A button to shoot.
+The B button is for rapid shots.
+
+This game is a shield system.
+When you take damage, you lose 1 shield point.
+If you take damage without a shield, the game is over.
+
+When you take damage, your ship will lose hit detection for a short time.
+In addition, your shield will recover by 1 point every time you pass a stage.
+Now do your best to destroy the enemy's large ship.
+
+After the 15th stage, the same stages will repeat.

@@ -1,0 +1,19 @@
+﻿BASIC (Beginner's All-purpose Symbolic Instruction Code) is a computer programming language characterized by versatility and ease of use. Its resemblance to standard mathematical notation and simple English statements enables novices and professionals to program solutions to a variety of problems in the shortest possible time.
+
+Here, we present only Processor Technology's Sol BASIC programming language, its features and restrictions. One of the best ways to learn Sol BASIC is to experiment with your system.
+
+Sol BASIC is a program for use with SOLOS, CONSOL and CUTER with at least 8K bytes of memory available for use by Sol BASIC.
+
+This is the second (of three) basic interpretors PT produced. It is basically the first with fixes. It is fast and the math wasn't bad. The main flaw was that it did not support string variables but it did allow system calls to machine code, with argument passing, that did allow some games to become really spiffy.
+
+Basic/5 - a simple BASIC
+The released version assumes system has 8KB of RAM.
+Use "SET M=xxxxx" to change this.
+Basic5_48K.ent has been patched to assume a 48KB system.
+
+Launch commands in the Solace emulator:
+Load Program: Basic5_48K.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.

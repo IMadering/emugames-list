@@ -1,0 +1,18 @@
+﻿3D Maze
+
+This is a game that displays a maze in 3D.
+Move from the start (coordinates (0,0)) to the goal (coordinates (125,85)).
+
+When you start, a maze will be created.
+Press the START or A button to go to the movement screen.
+
+On the movement screen, press the UP or A button to move forward, LEFT to turn left, RIGHT to turn right, and DOWN to turn back.
+Also, pressing the B button will display the entire maze (map).
+SELECTION is complete.
+
+Your current location will flash on the entire maze (map) screen.
+When you press the B button, a cross line will appear on the screen indicating your current location.
+Press the START or A button to go to the movement screen.
+
+When you score a goal, the screen will display "GOAL!".
+Press START to return to the beginning.

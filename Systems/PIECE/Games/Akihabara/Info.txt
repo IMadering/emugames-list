@@ -1,0 +1,24 @@
+﻿Akihabara SHT!
+
+How to do it:
+A - Shot (hold to shoot continuously).
+B - Change (Mariko -> Fumi -> Cynthia).
+SELECT - Crash (effects vary depending on character).
+START - Pause.
+
+Recovery items:
+Soft Ice Cream - Recovers 4 HP.
+Oden Can - Recovers 10 HP.
+Dolnesand - Fully recovers HP.
+Takoyaki - Resurrects the dead.
+
+Bonuses:
+Nurse Uniform - Increases HP limit.
+Chinese Clothes - 100 EXP gained.
+Maid Uniform - Increases accidents.
+
+Experience Points:
+LV2 - Accident UP.
+LV3 - Shot speed increased.
+LV4 - Rapid Fire UP.
+LV5 - BOOSTER.

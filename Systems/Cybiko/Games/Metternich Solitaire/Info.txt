@@ -1,0 +1,23 @@
+﻿This solitaire is played with one full deck without Kings (48 cards).
+First, seven cards are laid out (faces up) on the board to form the shape of a horseshoe — they are auxiliary stacks. The eighth card — the base card — is placed in the center of the horseshoe. The goal here is to move all the cards from the deck and auxiliary stacks on that base.
+Each card is assigned several points: Ace — 1, 2, Jack — 11. Each card is assigned the slot, which is assigned a point; auxiliary stacks can play any card provided that the value of that card is two times the value of that base; e.g., you can play the four on the two. If the doubled value is greater than 13, then you simply subtract 13 and thus get the required card.
+When no card can be played from the auxiliary stacks, you start looking through the deck. You can play either the current or previous card from the deck on either the base card or an auxiliary stack. The deck can be looked through at will.
+
+Here is a table for your convenience:
+Ace on Seven
+Two on Eight
+Three on nine
+Four on ten
+Six on three
+Seven on ten
+Eight on four
+Nine on Jack
+Ten on five
+Jack on Queen
+Queen on six
+
+Controls
+Press <Arrows> to move focus through the cards.
+Press <Enter>, <Select> or <Ins> to pick up the necessary card.
+Press <Enter> to place the card.
+Press <Esc> to end the game.

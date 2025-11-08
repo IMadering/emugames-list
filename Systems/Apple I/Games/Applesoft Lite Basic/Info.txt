@@ -1,0 +1,12 @@
+﻿Applesoft BASIC Lite is a reduced version of Applesoft BASIC specifically designed for the Apple I computer. According to a2central.com, this version omits features like high-resolution graphics and cassette I/O, which were not available on the original Apple I hardware. It was created as a port by Tom "Cowgod" Greene and discussed on Vince Briel's Replica 1 support site.
+The primary reason for this "lite" version is that the original Apple I didn't support the full range of features found in Applesoft BASIC for the Apple II.
+
+Site: https://cowgod.org/replica1/applesoft/
+
+Load from tape and run:
+C100R
+6000.7ECCR
+6000R
+
+Supported tokens:
+FOR/NEXT, DATA/READ/RESTORE, INPUT, DIM, CALL, HIMEM/LOMEM, ONERR/RESUME, LET, GOTO, RUN/STOP/CONT, IF/THEN, GOSUB/RETURN/POP, END, REM, ON, POKE, PRINT (or "?"), LIST, CLEAR, GET, NEW, TO, SPC, NOT, STEP, +, -, *, /, ^, AND, OR, >, =, <, SGN, INT, ABS, FRE, SQR, RND, LOG, EXP, PEEK, LEN, STR$, VAL, ASC, CHR$, LEFT$, RIGHT$, MID$, CLS

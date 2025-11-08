@@ -1,0 +1,91 @@
+﻿Let's Sell in Inagawa!
+
+Manage Inagawa Yuu and see how many doujins you can sell in a year and how big you can become.
+
+This is a game that challenges you.
+
+How to Play
+
+There are two main turns in this game: "weekday turns" and "sale turns".
+There are 12 "weekdays" during which you write your manuscript.
+There are three "selling rounds" during which you will appear at Comiket and sell doujins.
+Repeat this four times.
+
+Applications are submitted between the "weekday" and "sale event".
+We will create a book with the current page count and specifications.
+Set the print run and distribution price.
+The lower the distribution price, the easier it will be to sell.
+
+Events occur when you use cards.
+First, five cards are dealt. At the start of your turn, draw one card and combine it with the cards in your hand.
+Out of six cards, you play one, which will be your action for this turn.
+
+After selecting a card, press "START" to display its status.
+The status consists of "Basic Parameters" and "Book Parameters".
+
+When selecting a card, press "SELECT" to display the menu.
+
+Card Types
+
+The card types are as follows:
+
+・Manuscript Card
+Used during the weekday shift.
+You can take as many manuscripts as are written on the card.
+You can only discard during your trading turnover.
+Even discarding the card will take one turn.
+
+・Character Card
+It will be used during both weekday sales and sales.
+You can meet the character depicted on the card.
+
+・Sales Event Card
+Used during a sale.
+You can then perform the action written on the card.
+On weekdays, you can only discard.
+Even discarding the card will take one turn.
+
+・Pandemonium Card
+Used during the weekday shift.
+The completed manuscript will be duplicated.
+If the manuscript has zero pages, it is meaningless.
+You can only discard during your trading turnover.
+Even discarding the card will take one turn.
+
+・Yoshi Card
+It will be used during both Weekday Sales and Sales.
+The effect is random.
+
+・Shuffle the Cards
+It will be used during both Weekday Sales and Sales.
+Replace all your cards.
+
+Status
+
+Number of Pages
+The more pages you have, the more expensive it will be to print, but the easier it will be to sell.
+The maximum number of pages is 98.
+
+Cover
+The type of cover.
+There are single-color, multi-color, and full-color options, and the more colors you use, the higher the cost to print.
+It will be easier to sell.
+
+Classify
+This is your current rank. It is determined by the total number of doujinshi you have sold.
+The higher the rank, the easier it is to sell.
+
+Cash in Hand
+Even if you end up in the red, you can still play the game. (You can pay at Inobo Ryokan)
+
+Genre
+This is a doujinshi genre.
+If it's the same as your favorite genre, it will be easier to sell.
+The genre at the beginning is "girly game".
+
+・Doujinshi I own
+This is the number of doujinshi I bought at a sale.
+
+Reservation options
+This is an option added to the doujinshi.
+The more options you add, the higher the printing costs will be, but the easier it will be to sell.

@@ -1,0 +1,15 @@
+﻿Simple Tetris
+
+This is a standard Tetris game created with the Simple Library.
+
+The controls are basically the same as the Sega version of Tetris.
+
+- Use the left and right buttons to move the blocks left and right.
+- Press the down button to make the block fall faster.
+- The B button rotates the block to the left.
+- The A button rotates the block to the right.
+- Use the up button to rotate the block to the left (for one-handed play).
+
+You can pause the game at any time by pressing the START button.
+
+Naoyuki Sawa

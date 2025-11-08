@@ -1,0 +1,19 @@
+﻿This game is very similar to Soroban Gu.
+
+Rules
+Move the blocks and line them up in rows of three or more to remove them.
+You can also add another block to the block before it disappears.
+
+At regular intervals, a "spawn marker" will appear, as well as new blocks.
+At this time, if there is a block in the place of the "spawn marker", it will be an error.
+When the error indicator in the upper left corner of the screen reaches 0, the game ends.
+
+If you connect four or more blocks to erase them, the number of errors will decrease by one.
+
+The difference between the A and B buttons is whether the cursor moves with the block or not.
+If you press the A button, the cursor will not move, but if you press the B button, the cursor will move.
+
+*The control using the A button is the same as the real Soroban Gu "Type B".
+The operation using the B button is somewhat unique. (I think it's easier to use, what do you think?)
+
+Naoyuki Sawa

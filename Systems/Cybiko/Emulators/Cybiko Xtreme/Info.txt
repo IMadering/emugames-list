@@ -1,0 +1,18 @@
+﻿Cybiko Xtreme emulator that runs in your browser.
+
+https://www.schuerewegen.tk/cybiko/emu/
+
+* There might be some audio issues depending on the used device and browser. For the best experience, use Firefox.
+
+Creator: Tim Schuerewegen
+https://www.schuerewegen.tk
+Discord ID: 776502285345620008
+The Cybiko Zone: https://discord.gg/ZUt2hFKwSS
+https://www.youtube.com/user/timschuerewegen
+https://x.com/timschuerewegen
+https://www.reddit.com/user/F_i_r_e_F_l_y/
+
+Improved graphics display
+Modifications in the cybiko.css file:
+#cybiko {width: 642px;}
+#canvas {image-rendering: pixelated;}

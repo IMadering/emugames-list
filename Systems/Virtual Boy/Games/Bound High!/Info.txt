@@ -1,0 +1,85 @@
+﻿In Bound High!, Chalvo, the bouncing robot, travels through space In full 3-D motion in pursuit of alien invaders that threaten the peaceful inhabitants of Earth. Angling from above, players control rolled up Chalvo, who must destroy all enemies on the playfield by landing on them and throwing them down from the playfield. Falling off the playfield himself, Chalvo will loose a life.
+
+The playfield is in space, or high above the earth, and is made of many little squares, which are composed differently from level to level, once big plain areas, once many small, scattered blocks. Bouncing over the platforms can be quite incalculable and dangerous, while some are solid, other ones vanish after one hit or reveal puzzles, items or other objects and besides a lot of different enemies, Chalvo also has to carefully avoid winds, the deep crevices, sharp spikes and highly charged electric “shockers” that cause his demise. Adding to the difficulty is the rebound angle when you hit a moving enemy – you don’t necessarily bounce straight up in the air.
+
+Sometimes blocks lead to an “Another Stage”, some kind of mirrored parallel universe with inverted colors and without the dangerous winds.
+
+The game offers four modes of game play:
+
+“Adventure of Chalvo”
+The story mode and core of the game starts with an intro sequence taking place in a cinema, where the audience is watching – you guessed it – “Adventure of Chalvo”. After that you start into the first level. Now the player is challenged with new platform configurations, riddles and enemies every level. There are three different levels of difficulty with “Easy”, “Normal” and “Hard”. It starts quite easy, but in the higher levels it can become really difficult even on the lower difficulty levels. It never becomes unfair though, you alway have the feeling to be able to beat the level in the next try. That’s how it has to be done to motivate the player, but the fact, that you always have to start over in the first or seventh level are seeing the game over screen, can drive you crazy.
+
+There are a total of 4 worlds with 10 levels each (world 4 only ends after 11 levels, though), plus bosses and bonus stages after every tenth level, while every sixth level is a so called “Plasma Stage”. In those, the player finds equal numbers of balls, marked with “-” and “+”, which have to be added to pairs. This makes 3000 points a pair. There’S also a blinking pair, which brings 6000 points.
+
+“Score Attack”
+This is some kind of puzzle mode. In 16 special levels, you have to get a given score. In most cases it is not enough to just destroy every enemy, though, and you have to get bonus points for clever maneuvers.
+
+“Random Game”
+In the “Random Game” mode, Chalvo is challenged with random level setups and varying levels of difficulty. Here the focus is only on fun, levels or points mean nothing.
+
+“Pocket and Cushion”
+In this mode, some kind of mixture between pool and mini golf, you find yourself on a course with several holes and have to get a number of balls into those in a given time limit. You have not only to do that, but also earn enough points to surpass a given score, otherwise you have to try again. You get bonus points for the rermaining time, getting balls in the holes, letting balls bounce of objects or other balls, or for destroying objects. You are given 16 levels at first, but earn 4 more for completing those.
+
+For some reason Bound High! also doesn’t utilize a save battery, like way to many VB games, but uses a password system to save completed levels in the “Score Attack” or “Pocket and Cushion” modes or let you start from the first or seventh level of a world in the “Adventure of Chalvo” mode.
+
+Originally developed by Japan System Supply, Nintendo liked the game idea of Bound High! and took over the project later. The game was, besides Dragon Hopper, going to be one of the games, which should have saved the system with a relaunch, but it was delayed again and again until it was cancelled because of the lack of success of the Virtual Boy. At this time, the game already was completely finished.
+
+Unlockable: Expert Mode
+Finish the game in “Hard” Mode to get access to an even harder “Expert” Mode. In this you get stunned by every enemy, not only electric shockers and such.
+
+Cheats (VBjin, Mednafen Emulator):
+05005F34 FFFF - Unlimited Lives
+
+Cheats (ArtMoney):
+5[-1] (1 byte) - Lives
+
+Passwords
+Adventure of Chalvo:
+Easy:
+World 1, Level 7: DBX
+World 2, Level 1: KBC
+World 2, Level 7: R5X
+World 3, Level 1: P5C
+World 3, Level 7: ZBG
+World 4, Level 1: GBK
+World 4, Level 7: N5G
+Final Boss: Q5K
+
+Normal:
+World 1, Level 7: BDX
+World 2, Level 1: CDC
+World 2, Level 7: HZX
+World 3, Level 1: AZC
+World 3, Level 7: 5DG
+World 4, Level 1: QDK
+World 4, Level 7: 6ZG
+Final Boss: 3ZK
+
+Hard:
+World 1, Level 7: DF3
+World 2, Level 1: KF8
+World 2, Level 7: R13
+World 3, Level 1: P18
+World 3, Level 7: ZFQ
+World 4, Level 1: GFP
+World 4, Level 7: N1Q
+Final Boss: Q1P
+
+Expert:
+World 1, Level 1: B76
+World 1, Level 7: C7H
+World 2, Level 1: HT6
+World 2, Level 7: 8TH
+World 3, Level 1: 57N
+World 3, Level 7: X7R
+World 4, Level 1: 6TN
+World 4, Level 7: 3TR
+Final Boss: BJ9
+
+Pocket and Cushion:
+Stages 1-16 Clear: HQFJF
+Stages 1-20 Clear: 7JSJ0
+
+Score Attack:
+Stages 1-16 Clear: XPJCZ
+Stages 1-20 Clear: XDJHZ

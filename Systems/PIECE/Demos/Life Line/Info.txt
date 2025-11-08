@@ -1,0 +1,5 @@
+﻿This program is a cellular automaton simulator.
+
+Essentially, it allows you to enjoy watching the process of creating and destroying "lives" located on the grid.
+
+The most famous cellular automaton in the world is perhaps the Game of Life, invented by mathematician John H. Conway.

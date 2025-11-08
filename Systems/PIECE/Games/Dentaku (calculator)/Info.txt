@@ -1,0 +1,4 @@
+﻿Calculator program version 1.10
+
+This is a calculator that can be used by entering a formula.
+Parentheses can be used, and multiplication and division take precedence in calculations.

@@ -1,0 +1,2 @@
+﻿VBjin is an open-source Virtual Boy emulator for Windows.
+It comes from the merging of the PCEjin emulator with the mednafen.9 Virtual Boy core.

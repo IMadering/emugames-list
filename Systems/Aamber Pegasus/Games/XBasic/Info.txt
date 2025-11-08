@@ -1,0 +1,6 @@
+﻿Pegasus Extended BASIC (XBASIC) is a very powerful interpreter supporting all standard BASIC features plus a wide range of special features unique to the Pegasus computer.
+
+While this version of XBASIC will run without problems in a 4K Pegasus, program size is limited. It is adequate but for small programs and most teaching applications it is recommended that the 64K RAM expansion be fitted for large programing tasks.
+
+Load from Cart 1 [A] + Cart 2 [B] + Cart 3 [C]:
+After the monitor boots up, press the first letter of the program on the cartridge: X

@@ -1,0 +1,28 @@
+﻿In November 2001, Aquaplus produced P/ECE (pronounced piece), a mobile gaming platform that allows user to download games via USB or infrared port.
+Games could be downloaded for free on their website and commercial games could also be purchased.
+The device quickly gain a cult following among the developer’s community of all background.
+On August 20, 2004, Aquaplus archived the P/ECE to their main website. While Aquaplus stop supporting the device, the community never stopped developing for it, with new commercial games still being made as far as 2021.
+
+Technical Specifications
+CPU: EPSON S1C33209 24 MHz (32-bit RISC)
+Storage (RAM): 256 KB
+Storage (Flash): 512 KB (348 KB usable)
+Sound: Mono
+Display: FSTN LCD technology, 128 x 88 resolution, 4 greyscale colours (2-bit)
+Battery: 1×AA (type), 2h (active), 1w (standby)
+
+Sites:
+https://aquaplus.jp/piece/index.html
+https://www.piece-me.org
+
+Aquaplus P/ECE CD - https://archive.org/details/piece_202109
+This is a disk of material included with the Aquaplus P/ECE. It includes the development environment, sources for several applications, and the drivers needed to use the device.
+
+P/ECE Handbook Disc - https://archive.org/details/piecehb-1
+Rip of the disc included with P/ECE Handbook volume one. Includes some development tools/documentation, a wide variety of user-made software/games, example code, resources, and much more.
+
+P/ECE Handbook Vol 2 Disc - https://archive.org/details/piecehb-2
+Rip of the disc included with P/ECE Handbook volume two. Includes some development tools/documentation, a wide variety of user-made software/games, example code, resources, and much more.
+
+Nick's P/ECE Collection - https://archive.org/details/piece_202204
+My personal collection of P/ECE software, compiled from various sources. Contains games, applications, source code, software updates, etc. There's quite a lot of stuff in here, although it's by no means an exhaustive collection of everything released for the P/ECE. Many games are still missing.

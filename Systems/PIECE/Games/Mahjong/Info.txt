@@ -1,0 +1,2 @@
+﻿This game came out of the first of two P/ECE Hand Books written by Hiroshi Makabe.
+The development of the game was outlined in the book and on an accompanying website. It has impressive greyscale graphics, nice animation, wonderful chip tune music, sampled voice clips, win/lose scenes, and hosts a nice VS CPU game of Mahjong. And that’s Riichi/Japanese Mahjong, not the Solitaire type you might associate with the name. I’d say this game is definitely of retail-release quality and was a good showcase for what is possible on the platform.

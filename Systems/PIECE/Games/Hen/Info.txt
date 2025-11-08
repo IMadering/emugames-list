@@ -1,0 +1,13 @@
+﻿Hen (ver. 2.1.023)
+
+Move the hen and the chickens and return the hen to her coop.
+This is a puzzle game where you have to complete levels.
+
+Controls
+Direction keys - Move the chicken and chicks in the direction you press.
+However, it will not move unless both the chicken and chick can move in that direction.
+[A], [B] - Rotate the chicken 90 degrees clockwise and counterclockwise around the chicken.
+However, the chicken will not move unless the destination is somewhere it can fly through.
+Terrain other than the destination does not matter.
+[START] Restart the current stage from the beginning.
+[SELECT] You can select a stage you have already played.

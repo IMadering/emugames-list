@@ -1,0 +1,9 @@
+﻿Welcome to the Creative Computing country club, an 18 hole championship layout located a short distance from scenic downtown Morristown.
+The commentator will explain the game as you play.
+Enjoy your game, and see you at the 19th hole...
+
+Load from Cassette:
+Insert the cartridge with XBASIC and after the monitor boots, press: X
+Then type the command: TLOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN

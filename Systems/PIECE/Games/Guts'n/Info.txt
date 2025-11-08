@@ -1,0 +1,20 @@
+﻿Gatsun Imitation
+
+This game is very similar to Gatsun (Kaneko/Kouyusha, 2000).
+
+How to play
+Line up three or more germs horizontally to destroy them. Vertical and diagonal lines are not allowed.
+Germs can be moved in three directions: shooting left, right, and down.
+By clearing the germs in a row, you will get a high score.
+You will also get bonus points if you clear all the germs on the screen.
+The germs rise from the bottom to the top at a set interval.
+When the germs reach the top of the screen, the game ends.
+
+Controls
+Right/Left - Moves the player left and right.
+Up - Instantly causes the next germ to appear.
+A -　Shoots right.
+B -　Shoots down.
+SELECT Button -　Shoots left.
+
+Naoyuki Sawa

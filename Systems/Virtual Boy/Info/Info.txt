@@ -1,0 +1,21 @@
+﻿The Virtual Boy is a 32-bit tabletop portable video game console, developed and manufactured by Nintendo and released in 1995 in Japan and North America. It was promoted as the first system capable of rendering stereoscopic 3D graphics for the mass consumer market.
+
+Concept: The system used a parallax effect to simulate depth, creating the illusion of a three-dimensional image. The player had to peer into a binocular-like viewer mounted on a tripod stand, making gameplay a stationary and static experience.
+
+Display: The main feature and primary source of criticism. The Virtual Boy used two linear arrays of 224 red LEDs (one for each eye), which were rapidly scanned by oscillating mirrors. This produced a monochrome image of red on a black background with a resolution of 384×224 pixels and 4 shades of red.
+
+Despite its innovative and daring concept, the Virtual Boy became one of Nintendo's biggest commercial failures. Only about 770,000 units were sold worldwide, and production was quietly discontinued after only a year on the market (and only five months in Japan).
+
+Technical Specifications
+CPU: NEC V810 32-bit RISC @ 20 MHz
+RAM: 1 Mbit DRAM, 512 KB P-SRAM
+Display: Dual-scanned linear arrays of red LEDs (LEDs + Oscillating Mirror)
+Resolution: 384×224 pixels per eye
+Color Palette: Monochrome (4 shades of red)
+Sound: 16-bit Stereo
+Power: 6 AA batteries (or separately sold AC adapter)
+Controller: Unique double-grip controller with two D-pads
+
+Sites:
+https://www.virtual-boy.com
+https://emulation.gametechwiki.com/index.php/Virtual_Boy_emulators

@@ -1,0 +1,10 @@
+﻿PATTERN is a pattern generating program for use with the Sol computer or a computer with a VDM-1 Video Display Module. The patterns are generated in a kaleidoscopic format using a horizontal and a vertical value as the initial input data.
+
+The pattern may be selected from a possible list of 256 different patterns. Each combination of vertical and horizontal values will produce a unique pattern. There is also an automatic pattern mode which generates a sequence of some of the more interesting patterns.
+
+Launch commands in the Solace emulator:
+Load Program: ptrn.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.

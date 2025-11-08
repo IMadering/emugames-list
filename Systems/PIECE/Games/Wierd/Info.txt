@@ -1,0 +1,14 @@
+﻿Wierd (version 1.26)
+
+This is an action-packed shooter.
+
+Use regular shots and charged bombs to defeat enemies.
+If your ship comes into contact with enemy bullets or the enemy itself, you will die.
+
+Wired Bomb:
+When the gauge in the upper left corner of the screen is full, you can shoot. When it hits an enemy, it explodes. The explosion can also destroy enemy bullets.
+
+Controls
+Pilot movement: D-pad
+Normal shot: B button
+Wired bomb: A button

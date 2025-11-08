@@ -1,0 +1,10 @@
+﻿The game of LIFE was originally described in SCIENTIFIC AMERICAN magazine, October, 1970, in an article by Martin Gardner. The game was originated by John Conway of Cambridge University, England.
+The computerized version of LIFE can be found on many computer systems--in many cases with Teletype print routines. This version, using the Sol computer's video display capabilities or the VDM-1 Video Display Module with other computers, allows initial patterns to be composed directly on-screen and instant visualization of each generation as it is created. In addition, patterns may be stored and recalled from seven memory pattern registers. The generation
+speed may be controlled from the console.
+
+Launch commands in the Solace emulator:
+Load Program: life.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.

@@ -1,0 +1,18 @@
+﻿Be a Bad Guy and Team Up with Devious Wario in a Virtual Underground World!
+
+Yikes!!! Get ready for a devious treasure hunt with the infamous scheming Wario. Capture the shining gold and vast treasures locked deep inside a hidden cave. But, beware of poison ponds, perilous prisons, endless walls and creepy woods!
+
+Make a quick change into Sea Dragon Wario, Eagle Wario or Bull Wario and utilize their mighty strengths. Blow away enemy cave defenders with body attacks and power actions. Succeed in this greedy plot to seize the riches of this underground world and find this key to freedom!
+
+* Wario returns, and this time he’s gone VIRTUAL!
+* Incredible 3-D graphics and astounding levels of scheming action!
+* Amazing multi-dimensional cave environments take you deep into a secret underground world!
+* New enemies and bosses increase the fun and challenge!
+
+Cheats (VBjin, Mednafen Emulator):
+050087A4 09 - Infinite Lives
+050087AA B0 - Infinite Time
+05001063 01 - Invincibility
+05001087 01 - Cap Modifier (01 - Helmet Cap; 02 - Bull Cap; 03 - Sea Dragon Cap; 04 - Eagle Cap; 05 - King Dragon Cap)
+050087A6 63 - 99 Hearts
+050087A8 270F - 9999 Coins

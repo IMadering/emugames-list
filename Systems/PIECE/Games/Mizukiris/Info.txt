@@ -1,0 +1,4 @@
+﻿How to play
+When you start, the title screen will appear. Use the left and right arrow buttons to select one of the four difficulty levels, then press START to start immediately.
+The rules of the game are very simple: all you have to do is press the correct buttons until the stone bouncing in the center of the screen sinks into the water. There are about seven symbols displayed at the top of the screen. Of these seven, only the underlined option is correct, so please press it. And if the button was pressed correctly at the moment of sinking, the stone will continue to bounce.
+If you do not press the correct button before the game sinks into the water, the game will end and you will return to the title screen with the number of bounces displayed.

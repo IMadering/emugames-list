@@ -1,0 +1,9 @@
+﻿You are a fighter pilot armed with a machine gun and missiles. Your enemies are equipped with the latest technology! They come at you in planes, helicopters, and super-sonic fighters! You must destroy them all!
+Each 5,000 points you rack up will give you an additional life.
+There are also bonuses in the air: speed, rapid fire, extra life, health, and missiles. Destroy as many of the enemy you can before your end closes in! Good luck!
+
+Controls
+Use <Arrows> to control the plane.
+Press <Enter> to fire the machine gun.
+Press <Select> to fire missiles if you have them.
+Press <Esc> to exit.

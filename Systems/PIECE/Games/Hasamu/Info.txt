@@ -1,0 +1,13 @@
+﻿This game is very similar to Hasamu (Irem, 1991).
+
+How to play
+
+・Select two tiles of the same type.
+・You can only move one of the two selected tiles in one direction only.
+・The selected tile and the tile between them will disappear.
+・When all the tiles are removed, the game is cleared.
+The real Hashamu is a game where you go through stages, but this imitation of Hashamu is designed to be cleared in one stage.
+
+The game is similar to Shanghai and Sichuan Province, but Hasamu offers more freedom in how you take the pieces, making the game easier and more interesting.
+
+Naoyuki Sawa

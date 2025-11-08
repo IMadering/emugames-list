@@ -1,0 +1,21 @@
+﻿Futuristic Bouts of In-Your-Face Fighting Action!
+
+In a savage display of pounding moves and lightning action, robotic boxers from around the globe step into a futuristic ring. Mirroring the movements of the humans in control, each Teleroboxer is capable of surviving defense matches unbearable to mankind.
+
+Slug it out to the staggering end to determine the true world champion. Created with specialized Techtronic powers and unique personalities, these responsive machines show no mercy on their way to the brutal top.
+
+* Incredible 3-D graphics put players right in the middle of the fight!
+* Nine futuristic Teleroboxers attempt to become world champion!
+* Automatically saves your progress at the end of each brutal match!
+* Throw right and left crosses, upper cuts and stunning jabs, in the barbaric Teleroboxing Tournament!
+* Single-player action for the ultimate boxing experience!
+
+Unlockable: Fight against cat robot
+To fight against the “Legendary Champ”, a hidden cat-like boxer, complete the game with a perfect balance of 0 losses.
+
+Cheats (VBjin, Mednafen Emulator):
+0500477C 7F - Infinite Health
+05004780 01 - 1-Hit Knock Outs
+
+Cheats (ArtMoney):
+127[-] (1 byte) - HP

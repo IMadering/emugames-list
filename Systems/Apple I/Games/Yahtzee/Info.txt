@@ -1,0 +1,8 @@
+﻿Yahtzee is a dice game that involves rolling five dice to create various scoring combinations. The game consists of 13 rounds, and in each round, players have up to three rolls to try and achieve the best possible score. Players strategically choose which combinations to aim for, and once a combination is scored, it cannot be used again. The goal is to accumulate the highest score by the end of the 13 rounds.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.1FFFR
+E2B3R
+RUN

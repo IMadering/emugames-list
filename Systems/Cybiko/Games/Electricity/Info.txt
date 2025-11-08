@@ -1,0 +1,7 @@
+﻿Make the short circuit by linking the positive and negative charges. The descending wires must be fitted to connect a plus to a minus. The goal is to score the highest number of points.
+
+Controls
+Press <Left/Right arrows> to maneuver the falling wire.
+Press <Enter> to begin, pause, or resume the game.
+Press <Down arrow> to drop the wire.
+Press <Esc> to exit the game.

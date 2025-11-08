@@ -1,0 +1,16 @@
+﻿The original inspiration for this game was Espgaluda (CAVE, 2003), a shooter game with an addictive scoring system.
+
+When you defeat an enemy, a gem will appear.
+Gems provide energy for awakening.
+
+Press the B button to awaken it, and the enemy bullets will become slower.
+If you defeat an enemy while in an awakened state, the bullets fired by the defeated enemy will turn into gold nuggets.
+If you collect gold nuggets in succession, you will get a high score.
+
+When awakening, your gem supply will decrease.
+If you run out of gems while awakening, the enemy bullets will become faster.
+
+Controls:
+Up, Down, Left, Right buttons: Move the player.
+B button - Awakens or cancels awakening.
+A button - Fires a shot.

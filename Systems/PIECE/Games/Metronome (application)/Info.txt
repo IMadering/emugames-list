@@ -1,0 +1,7 @@
+﻿Metronome v1.0
+
+This is the standard "electronic metronome" for P/ECE.
+
+When you start, the beat will be 60 beats per minute, and the left and right bars will flash to indicate changes in the beat. You can change the tempo and beat.
+
+Hiroshi Chonan

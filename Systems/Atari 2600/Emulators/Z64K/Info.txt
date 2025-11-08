@@ -1,0 +1,4 @@
+﻿Pixel exact emulation of the Commodore 128, Commodore 64, Spectrum 48/128K, VIC 20 and Atari 2600.
+Z64K should run on any platform with an updated java runtime environment installed.
+
+Official website: https://www.z64k.com

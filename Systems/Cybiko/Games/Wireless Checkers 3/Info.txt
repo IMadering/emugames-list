@@ -1,0 +1,14 @@
+﻿Checkers is played using a 4x4-square board and two players. White moves first. The object of checkers is to capture all your opponent's pieces, or to prevent your opponent from being able to move any of their pieces; either situation meets the victory conditions.
+
+A move is made forward to an adjacent open square; a capture is made by jumping forward over an adjacent opponent's piece into a vacant square. You must jump and capture an opponent's piece whenever possible (or when the opportunity arises). You will not be allowed to make another move until you make a capture when it is available to you. If you can continue to jump and make multiple captures, you must do so and take all the pieces.
+
+A single checker piece is made a "King" when it has successfully reached the opponent's back or "starting" row. A King is denoted by a crown image. Kings may move and capture diagonally forward and backward. Single pieces may capture Kings.
+
+In the game on two Cybikos, each player has the same time — the time for a player's own moves. If you exceed this time, you lose. The game can end in a draw.
+
+Controls
+Use <Arrows> to move the pointer.
+Press <Enter> to pick up and place the checker.
+Press <Select> to make multiple jumps in one move.
+If you want to see your rating and that of your opponent, press <R>. Press <Enter> to close the rating box.
+Press <Esc> to exit the game or to propose a draw.

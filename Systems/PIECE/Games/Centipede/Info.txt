@@ -1,0 +1,16 @@
+﻿Simple Centipede
+This game is similar to Centipede (Atari, 1980).
+
+Control the player to shoot down the centipede.
+When you shoot the centipede, the part you hit turns into a mushroom and the centipede splits.
+When the player and the centipede touch, that's one mistake.
+Three mistakes means game over.
+
+In the real Centipede, there are various enemies besides centipedes, such as spiders and scorpions, but in this Simple Centipede, there are only centipedes.
+Just keep defeating centipedes.
+
+Controls
+Up, Down, Left, Right - Buttons　Controls the player.
+A or B - Button　Shoots bullets.
+
+Naoyuki Sawa

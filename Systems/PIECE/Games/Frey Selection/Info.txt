@@ -1,0 +1,5 @@
+﻿This game is a vertical scrolling action game.
+Head towards the heroine and use options to defeat her.
+
+When you defeat the heroine, the stage will be cleared.
+The game ends when all the heroines are defeated.

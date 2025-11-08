@@ -1,0 +1,8 @@
+﻿This is a traditional pseudo-3D racing game.
+
+Pass the checkpoint within the allotted time. The time limit will be extended when you cross the checkpoint. When the time runs out, the game ends.
+
+Left and right buttons: Control the steering wheel.
+A button: Control the accelerator.
+B button: Control the brake.
+SELECT button: Return to the title screen.

@@ -1,0 +1,10 @@
+﻿Qulipp is a purely thinking puzzle game running on the P/ECE platform.
+Control the main character, a frog named Clip, and collect all the flowers that bloom on the screen.
+
+There are six types of terrain:
+Water surface: Clip cannot be moved. Leaves can be moved.
+Ground: Clip can be moved. Leaves cannot be moved.
+Water plants: Neither clips nor leaves can be moved.
+Leaves...Clip can be moved. Leaves cannot be moved. Use A + direction to move.
+Leaf eaten by insects...Neither clip nor leaf can be moved. Use A + direction to move.
+Flowers...are the same as the ground. Once you pass through it, it becomes just ground.

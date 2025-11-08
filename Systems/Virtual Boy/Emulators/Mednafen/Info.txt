@@ -1,0 +1,53 @@
+﻿Mednafen is a portable, utilizing OpenGL and SDL, argument(command-line)-driven multi-system emulator. Mednafen has the ability to remap hotkey functions and virtual system inputs to a keyboard, a joystick, or both simultaneously. Save states are supported, as is real-time game rewinding. Screen snapshots may be taken, in the PNG file format, at the press of a button. Mednafen can record audiovisual movies in the QuickTime file format, with several different lossless codecs supported.
+
+The following systems are supported(refer to the emulation module documentation for more details):
+1. Apple II / II+ / IIe / Enhanced IIe
+2. Atari Lynx
+3. Neo Geo Pocket (Color)
+4. WonderSwan
+5. GameBoy (Color)
+6. GameBoy Advance
+7. Nintendo Entertainment System
+8. Super Nintendo Entertainment System / Super Famicom
+9. Virtual Boy
+10. PC Engine / TurboGrafx 16 (CD)
+11. SuperGrafx
+12. PC-FX
+13. Sega Game Gear
+14. Sega Genesis / Megadrive
+15. Sega Master System
+16. Sega Saturn (64-bit only)
+17. Sony PlayStation
+
+Due to the threaded model of emulation used in Mednafen, and limitations of SDL, a joystick is preferred over a keyboard to play games, as the joystick will have slightly less latency, although the latency differences may not be perceptible to most people.
+
+Official website: https://mednafen.github.io
+Mednaffe is a front-end (GUI): https://github.com/AmatCoder/mednaffe
+Cheats: https://github.com/FrodeSolheim/cheats
+
+- - - - - - - - -
+
+Cheats (Mednafen Emulator):
+(Alt + T to enable/disable cheats, Alt + C open/close cheats console)
+R A 1 L 0 05000300 09 Infinite Time (example)
+
+This format is the internal syntax used by Mednafen for its .cht (cheat file) system and reflects the options available in the emulator's cheat console.
+
+Here is the breakdown of each part of the code:
+Mednafen Cheat Code Syntax Explained
+
+R   Type of Operation (Replace)   R stands for Replace. This is the most common type of cheat. It instructs the emulator to continuously write (replace) a specific value into the game's RAM at the specified address.
+
+A   Initial Status (Active)   A stands for Active. This sets the initial state of the cheat to Enabled when the game loads. If it were I (Inactive), it would be disabled by default.
+
+1   Byte Length (1 Byte)   1 indicates the size of the data block to be written, which is 1 byte (8 bits). Since your value (09) is two hexadecimal digits, it fits perfectly into one byte (values from 00 to FF).
+
+L   Endianness (Little Endian)   L stands for Little Endian. This specifies the byte order for multi-byte values. For a 1-byte cheat like this one, endianness is irrelevant, but the parameter is still required by the format.
+
+0   Conditional ID (No Condition)   0 means there are No conditions attached to this cheat. This cheat is applied unconditionally and permanently. This field is used for referencing complex codes (like Master Codes).
+
+05000300   RAM Address   This is the Hexadecimal Memory Address in the emulated system's RAM where the game stores the "Time" value.
+
+09   Value to Write   This is the Hexadecimal Value that Mednafen will write to the address 05000300 every frame. The value 09 is likely a persistent high or static timer value, resulting in "Infinite Time".
+
+Infinite Time   Cheat Name   This is the user-defined name or description for the cheat, making it easy to identify in the cheat list.

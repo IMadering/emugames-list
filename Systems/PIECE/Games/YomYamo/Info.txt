@@ -1,0 +1,3 @@
+﻿Card fighting game.
+
+This is a one-on-one fighting game. Choose a card to attack, and the first one to reduce the opponent's HP to 0 wins.

@@ -1,0 +1,36 @@
+﻿Have you been in love? Love is the most beautiful feeling on earth. It's many-sided and enigmatic, so wonderful, yet, at the same time, it can result in terrible, heartbreaking pain. Your mission in this game is to help reunite to separated lovers. Our hero, Angel, has had his love, Princess Violet, torn from him by an evil sorcerer. Once upon a time, Angel fell in love with Princess Violet, the benevolent and kind ruler of a small, peaceful country called Floweret. He gave her many presents, serenaded her from under her windows, and told her all of his dreams of traveling to the fantastic, magical island of SkyLand. One day, Angel's dream of going to SkyLand came true, and he was able to visit this mythical place. However, when he returned, he learned that beauty Princess had been abducted by a wicked sorcerer. The sorcerer locked her in the high tower with 12 keys. At the gates, he placed his three strongest guards, and ordered them with these words: "No man shall pass by day or night lest he possess all 12 keys". This sly and clever wizard played a spiteful trick on Angel, concealing these keys in bewitched town. Legend has it that no one has ever survived the intricate maze of this town. Many treacherous situations lie around every corner. You must help Angel overcome all odds and seek his way through the town. Once he does this, he will surely find all the keys and will rescue his one true love!
+
+Rules of the Game
+Your object is to overcome 12 complicated labyrinths (levels) in the deserted town with your hero, Angel Angel. You must pass these levels with as few moves and shots as possible. By the end of each level, Angel must reach the key Key by any means necessary, solving the many riddles on his way. By the end of game, the hero must collect all 12 keys. After this, all doors of the prison will be opened, and Angel will rescue his love, Princess Violet.
+The playing field is a labyrinth in which the hero can move in any direction. It's larger than the Cybiko screen, so it'll scroll while you play.
+
+How to pass the levels
+Our hero can move about the maze in four directions. The goal on each level is to find one of the 12 keys. When the hero obtains this key, he goes to the next level. On each level, he may take only one key. To get through labyrinth, Angel has a chance to throw stones at each of his obstacles. Each step that he takes will cost him a point, as well as each stone he casts on any obstacles.
+In the maze, you will find boulders Boulder and reflectors Reflector. Reflectors can be used to deflect a stone throw when cast on the mirrored surface. They reflect stones at right angles. You can move boulders as well as reflectors by throwing the stones at them (only on the unreflecting surface of reflectors).
+Along his path, our hero will encounter different traps and obstacles.
+
+All of these obstacles will shoot at you if you pass in front of them, and, if you are hit, you will die. If you throw a stone at one of their sides, you can push them around, even into water. If you cast a stone at one of them, and strike them in the right side (the side from which they shoot) using the reflectors, you will destroy them . However, you can't still walk through them, because, though they are destroyed, they are still obstacles.
+
+The end of the game:
+When the hero passes all 12 levels and gathers all of the keys to open the doors of tower, the game ends and you are a winner. The game also ends if you hero dies by falling into a lava-stream or being shot by one of the traps. Sometimes your actions may lead to situation (in which you can no longer get to the key) in which there is no use in continuing the game: you must restart or quit the game.
+If you pass the game, and use up the least number of points for steps taken and stones thrown, you will have the High Score. If your score is in the top ten, it'll be noted in the table of the high scores.
+Optional Feature
+If you are dissatisfied with your last move or throw you can cancel it.
+
+End of the Game
+When your pass all 12 levels, the game ends and you'll see a short film. Congratulations! You've released the beautiful Princess and demonstrated that you are a courageous and brave adventurer.
+
+Controls
+Use <Arrows> to move the hero.
+Use <Enter> to throw a stone.
+Press <BkSp> to undo last move or throw.
+Press <Ins> to show your current score.
+
+How to switch in scroll mode
+1. Use <Tab> to switch on scrolling mode to view the labyrinth.
+2. Use <Arrows> to scroll the map.
+3. Use <Tab> again to return to the game mode.
+
+How to leave the game
+1. Press <Esc>.
+2. Choose Exit option from the menu screen.

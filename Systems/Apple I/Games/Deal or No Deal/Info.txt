@@ -1,0 +1,8 @@
+﻿"Deal or No Deal" is a game show where contestants choose from a set of briefcases, each containing a different cash prize, and must decide whether to accept an offer from the "Banker" or continue opening cases, risking the potential loss of a larger prize.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.3FFFR
+E2B3R
+RUN

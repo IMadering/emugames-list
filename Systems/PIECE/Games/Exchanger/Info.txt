@@ -1,0 +1,31 @@
+﻿Exchanger Simulation
+
+This game is very similar to Money Idol Exchanger (c) 1997 FACE.
+
+During the game:
+- Left and Right buttons: Move the exchanger.
+- B button: Collect coins.
+- A button: Flips a coin.
+- Down button: Immediately draws the next line.
+
+Same rules as the original Money Idol Exchanger.
+
+Please glue the coins together and exchange them.
+- Five 1 yen coins glued together make a 5 yen coin.
+- Two 5 yen coins glued together make a 10 yen coin.
+- Five 10 yen coins glued together make a 50 yen coin.
+- Two 50 yen coins glued together make a 100 yen coin.
+- Five 100 yen coins stuck together make a 500 yen coin.
+- When two 500 yen coins stick together, they disappear.
+
+You can have as many of the same type of coin as you want at the same time.
+You cannot have different types of coins at the same time.
+
+When exchanging coins, the stuck coins
+The bottom and rightmost coins will change.
+
+The coins on the field will fall at regular intervals.
+You can also force it down with the down button.
+If a coin goes beyond the bottom row, the game is over.
+
+Naoyuki Sawa

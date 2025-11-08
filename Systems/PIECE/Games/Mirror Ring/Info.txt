@@ -1,0 +1,66 @@
+﻿Mirror Ring (version 1.09)
+
+Mirror Ring is a very orthodox (and sloppy) RPG.
+I would be flattered if you could play it casually.
+
+Controls
+D-pad: Move in different directions.
+B-Button: Cancel, bring up the system menu.
+A-Button: Confirm, continue conversation.
+
+Magic
+[Magic] [Effect] [MP Cost]
+ファス - Minor HP recovery for one ally - 2
+ファレス - Moderate HP recovery for one ally - 6
+ファレクス - Full HP recovery for one ally - 20
+ジ・ファス - Minor HP recovery for all allies - 10
+ジ・ファレス - Full HP recovery for all allies - 45
+剣撃剣 - Minor damage for one enemy - 10
+烈波導 - Moderate damage for one enemy - 40
+龍殺剣 - Major damage for one enemy - 80
+
+Notes
+You can stay at any inn in the world for free.
+
+Field
+In addition to the usual field encounters, you can also encounter living creatures called "Tabegoro".
+They reproduce infinitely, so please hunt them down.
+After the battle, you can get Tabegoro (recovery medicine), so eat it while you're in the early stages.
+I think it's relatively easy to progress if you go adventuring.
+
+Escape
+You can always escape from small enemies, so it's fun in an emergency.
+
+Experience points required to level up.
+Here's the list:
+Level Required Experience
+2 10
+3 25
+4 47
+5 80
+6 129
+7 202
+8 311
+9 474
+10 718
+11 1084
+12 1633
+13 2456
+14 3690
+15 5541
+16 8317
+17 12481
+18 18727
+19 28096
+20 38096
+21 48096
+22 58096
+23 68096
+24 78096
+25 88096
+26 108096
+27 128096
+28 148096
+29 168096
+30 188096
+Maximum level - 30.

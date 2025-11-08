@@ -1,0 +1,5 @@
+﻿Guide your sailing ship on the river. There are many things (or even sailors who need your help). Some of them score the points for you and others decrease your score. At the beginning of the game your ship has three "lives". Beware of crafty whirlpool — it will take off one "life" from your ship. If your ship passes definite distance and stays "alive", you'll get a bonus. You can control the speed of the ship by turning the sail down the wind or against the wind. The goal of the game is to score the most points.
+
+Controls
+Use <Left/Right arrows> to control the sail.
+Press <Esc> to exit.

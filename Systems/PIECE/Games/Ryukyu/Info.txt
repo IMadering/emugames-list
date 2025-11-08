@@ -1,0 +1,27 @@
+﻿Ryukyu
+
+Rules
+Fold playing cards vertically, horizontally, and diagonally to create poker hands.
+If you reach a certain number of points in each round, you pass the round, but if you don't reach a certain number of points, the game ends.
+If you finish each round with a score higher than the set one, you can carry over the remaining points to the next round.
+Hand Types:
+・High Card: No hand.
+・One Pair: A set of two cards with the same number.
+・Two Pair: Two sets of the same numbers.
+・Three of a Kind: Three cards of the same rank.
+・Flash: All of the same type.
+・Straight: Five numbers in a row.
+・Full House: Three cards of the same rank and two cards of the same rank.
+・Four of a Kind: Four cards of the same rank.
+・Straight Flush: Five numbers of the same suit in a row.
+・Royal Straight Flush: All cards of the same suit, "10JQKA".
+・Five of a Kind: Four cards of the same rank and a joker.
+The joker is an all-powerful card.
+
+Controls:
+Left and Right buttons: Select a card from the deck/Select a column to place a card in.
+A button: Remove a card from the deck/Discard a card.
+B button: Reselect a card from the deck.
+SELECT button: Displays the current score.
+
+Naoyuki Sawa

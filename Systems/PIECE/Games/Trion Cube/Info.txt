@@ -1,0 +1,21 @@
+﻿This game is very similar to the enjoyable chain puzzle game Trion Cube (Namco, 2006).
+The rules of the game have been adjusted based on the free trial version.
+
+How to play
+This is a game where you control falling blocks and arrange them in a 3x3 shape to remove them.
+
+If you arrange the blocks in a 3x3 shape, they will turn into Trion.
+Continuously arranging them in a "3x3" shape, we continue the "chain".
+As soon as the chain ends, the Trion will turn into coins and disappear behind the screen.
+
+Each time a Trion is created, the player's spaceship will gain speed.
+When the spaceship reaches the goal, the remaining time increases and it moves to the next "dimension".
+
+The game ends when the blocks reach the top or when there is no time left.
+As long as the chain continues, it's okay if you run out of time. Don't give up.
+
+Left / Right buttons: Move the block left or right.
+Down button: Makes the block fall quickly.
+A / B buttons: Rotate the block.
+
+Naoyuki Sawa

@@ -1,0 +1,46 @@
+﻿This game is very similar to Sujin Taisen (Mitchell 2007).
+
+How to Play
+This is a game where you match cards with numbers on them on the board to earn points and hinder your opponent.
+Match cards carefully to get a high score.
+If you reach the target value before your opponent, you win.
+
+There are two types of cards: colored and rainbow.
+The first card can be placed anywhere.
+Starting from the second turn, colored cards can only be placed next to colored cards of the same color or rainbow cards.
+Rainbow cards can be placed anywhere except next to a card of your opponent's color. (You can place it next to your opponent's colored card or next to your colored or rainbow card.)
+If there are no empty spaces on the board to place a piece according to the above rules, you lose 50 points and can place the piece anywhere once.
+
+Joints are made by joining the connecting parts of the cards together.
+You can make connections between cards of the same color, between a colored card and a rainbow card, or between rainbow cards.
+
+There are four types of joining:
+Sequence number joining (10 pieces per piece).
+Connect the numbers in order.
+
+Equal number of joints (10 pieces per piece).
+Connect the same numbers.
+
+Circular joint (10 points per piece).
+Regardless of the number, connect the joints in a circle.
+
+Fully glued (20 pieces per sheet).
+Regardless of the numbers, all joints are connected without any residue.
+
+Up, Down, Left, Right buttons: Select the square where you want to place the card.
+A button: Place the card.
+B button: Rotate the card.
+START button: Return to card selection.
+
+The game has unique rules that are difficult to compare with other board games, but its advantage is that once you start playing, you quickly understand the rules.
+I started playing this year and am currently playing "Extreme Chapter".
+
+That's why I made a P/ECE version.
+The unique features of this game are that you can see the computer's hand and that both players can be dealt the same cards.
+If so, I am willing to accept defeat.
+
+In this P/ECE version, the computer's thinking procedures are not very strong.
+This is because the number of preliminary moves cannot be increased, lest the computer's thinking time become too long.
+But I think I'd like to make it a little stronger.
+
+Naoyuki Sawa

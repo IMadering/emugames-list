@@ -1,0 +1,18 @@
+﻿Of all the places to get stuck! You’re trapped inside a labyrinth with a bunch of enemy tanks. The only way out is to destroy all of them. This is made more difficult by the fact that there are a ton of objects inside this place that can destroy you and help your enemies: tents that hide enemy tanks, monoliths that you can’t destroy… And, to top it all off, you have a limited time to destroy the tanks, so make it snappy!
+
+The object of the game is to destroy all enemy tanks as fast as possible on all 10 levels.
+While moving in the labyrinth, your hero has to destroy all enemy tanks by blowing them up. Upon starting the game, you have five lives. You have to destroy each of the tanks on the level to go to the next level. Find bonuses that will help you to perform your mission.
+
+How to control the hero
+Use <Arrows> to move the hero.
+Press <Enter> to leave a mine and press <Enter> to blow it up.
+Press <Select> to leave a bomb.
+Press <Tab> to view the level map. Look at the picture, showing you the level map.
+
+Here your hero is marked with a black circle, while the bonuses are marked with white circles.
+Press <Esc> or <Tab> to hide the map.
+
+Press <Ins> to show informational sheet. The sheet shows you:
+-the current level
+-the total time you play
+-the number of enemies remaining on the level

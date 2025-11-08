@@ -1,0 +1,15 @@
+﻿Lunar Lander for the Apple I, written in machine language.
+
+Take control of the Lunar Module and try to land on the moon.
+Sold by Apple Computer on cassette tape for $5, order code A1T003X.
+
+Load from tape and run:
+C100R
+300.09B8R
+300R
+
+The "original" Lunar Lander Text-Only version.
+Seems to be written by Mark Garetz as published by the Dr. Dobb's Journal of Computer Calisthenics & Orthodontia in 1976. The machine code that floats around for the Apple-1 has a lot of similarities (whole fragments of code are the same) with the assembly listing published in this journal. It is assumed that this work by Mark was adapted slightly to run on the Apple-1.
+
+Instructions
+Make sure the Lunar Module lands on the moon safely. This means a soft landing (not to fast) and before running out of fuel. A number (or zero) has to be entered each turn, representing the amount of fuel to burn. This effects the height and vertical velocity of the spacecraft.

@@ -1,0 +1,6 @@
+﻿This is a variation of tennis that has been around since ancient times.
+
+Chances are that everyone has played this game at least once. In simple terms, it is a very simple game where you hit a flying "rope-like object" with a racket and if it lands in your opponent's territory, you get a point, but if you fail to hit it, your opponent gets a point. It is a straightforward and classic game.
+
+About Gravity
+If you turn on gravity, gravity will be applied every 10 bounces. Use the movement of the stars in the background to determine which way gravity is applied. After a certain amount of time, everything will return to normal.

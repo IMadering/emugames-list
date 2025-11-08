@@ -1,0 +1,4 @@
+﻿This is a game where you defeat approaching aliens.
+
+- How to control the game -
+Please read the instructions.txt file.

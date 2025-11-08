@@ -1,0 +1,4 @@
+﻿It Forth as a language is very different from most other computer languages, such as Basic or Pascal. requires a structured approach, ( having no GOTO state-ment), yet has all the convenience of an interactive interpreter. An expert's definition of Forth might be: threaded, extensible, interactive, tree-structured, self-implementing, interpretive language.
+
+Load from Cart 1 [A] + Cart 2 [B]:
+After the monitor boots up, press the first letter of the program on the cartridge: F

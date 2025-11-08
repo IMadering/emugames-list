@@ -1,0 +1,6 @@
+﻿Aquaplus P/ECE ("piece") emulator on SDL2.
+This is my attempt to compile the emulator from the source code I got from here https://github.com/YonKuma/piemu
+This source code is a fork from https://github.com/autch/piemu
+
+This version does not work well. It has problems with sound and emulation of some games too fast.
+You should try compiling other versions of the source code from the main branch and its forks.

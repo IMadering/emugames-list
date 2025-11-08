@@ -1,0 +1,12 @@
+﻿Flipull Simulation
+
+This game is very similar to Flipull (Taito, 1989).
+
+How to play
+- Throw existing blocks and hit them with blocks of the same design to erase them.
+- If a block collides with a block of a different design after erasing, it is replaced and becomes a new block.
+- When the number of remaining blocks becomes less than the required level, the level is completed.
+- When there are no more blocks to erase, a special block is used.
+- When there are no more special blocks, the game ends.
+
+Naoyuki Sawa

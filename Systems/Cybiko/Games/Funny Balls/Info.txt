@@ -1,0 +1,9 @@
+﻿Funny Balls is a simple logical game for one player. The game is played on a 5x5 board filled with 6 different types of balls.
+
+The goal of the game is astonishingly simple: by moving two adjacent balls, you have to earn the most points. Every time three or more balls of one type are lined up (horizontally or vertically), they disappear, and you score 5 points for each disappeared ball. The balls that were above the disappeared ones fall down and the empty cells are filled with new balls. You can move adjacent balls only when this will lead to the disappearing of some balls. The game ends when you cannot interchange any balls.
+
+Controls
+Use <Arrows> to move the cursor over the playing field.
+Press <Select> to turn the cursor.
+Press <Enter> to interchange the balls inside the cursor.
+Press <Esc> and choose "Quit" to leave the game.

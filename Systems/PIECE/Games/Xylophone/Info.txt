@@ -1,0 +1,10 @@
+﻿Xylophone, xylophone, Mako training!
+Use the arrow keys to move the target and the A/B buttons to hit the xylophone sticks and defeat ♪!
+
+Control Keys:
+Move the target left and right.
+A, B Buttons - Hit the xylophone sticks.
+START - Press and hold for a certain period of time to reset.
+SELECT - "Activate your secret skill." While the target is active, it becomes larger.
+
+Your health will be restored by 1 unit for every 5 ♪ destroyed (when ♪ is defeated or disappears off-screen).

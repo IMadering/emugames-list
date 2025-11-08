@@ -1,0 +1,15 @@
+﻿This game is very similar to Libble Rabble (Namco, 1983).
+
+Draw a line around the mushrooms to erase them.
+When all the Mashlines are removed, the stage is clear.
+
+Touching the Hoblin (Wizard) is a mistake.
+Three mistakes will result in the game over.
+
+When the scissors touch the line, it becomes straight again.
+Touching the stock is not a mistake.
+
+Use the up, down, left, and right buttons to move the bar (left arrow).
+Use the START, B, SELECT, and A buttons to move the bar (right arrow).
+
+Naoyuki Sawa

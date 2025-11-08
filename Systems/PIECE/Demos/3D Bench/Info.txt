@@ -1,0 +1,12 @@
+﻿3D Bench Simulation
+
+3D BENCHMARK VGA is a benchmark program similar to 3D Bench (New Dimension International, 1990).
+
+Drag "p3dbench.pex" into P/ECE and run it.
+After the title is displayed, a 3D demo is played for about 10 seconds and the average frame rate is measured.
+After that, the same 3D demo will continue to play in a loop, so press the SELECT button to end it.
+
+This is 3D Bench, a nostalgic DOS benchmark program.
+It was mainly used to measure the speed of DOS rendering by a video card.
+
+Naoyuki Sawa

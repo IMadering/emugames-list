@@ -1,0 +1,8 @@
+﻿Use the mysterious robot "BIT" to destroy other robots.
+
+Defeat enemies and reach the goal. Enemies can be defeated by jumping on them or hitting them with boxes.
+
+Controls:
+・Left and Right buttons - Accelerate "BIT".
+・A button - Jump "BIT". Also, depending on how long you press during the jump, you can adjust the height of the jump.
+・B button - When a box appears in front of "BIT", pick it up.

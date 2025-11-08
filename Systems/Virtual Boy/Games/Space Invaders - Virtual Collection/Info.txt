@@ -1,0 +1,5 @@
+﻿Pop out! Invaders
+
+A new game having stereoscopic effects has appeared!
+
+There are 3 different game modes. You can enjoy Original Mode, which is classic Invaders, Virtual Mode, which has a new sense of depth, and Challenge Mode, where you try the Time Attack and Score Attack challenges. In Original Mode and Virtual Mode, you can play Invaders Part I and Part II.

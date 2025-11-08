@@ -1,0 +1,20 @@
+﻿The Apple I was the first computer created by Steve Jobs and Steve Wozniak, introduced in 1976. It was one of the first personal computers available to the general public and laid the foundation for Apple's success.
+
+Designed in Jobs' garage, the Apple I was sold as an assembled circuit board without a case, keyboard, or monitor, requiring users to build their own system.
+
+The Apple I sold approximately 200 units. Despite its simplicity, it was revolutionary for its time, inspiring the development of personal computers.
+
+Technical Specifications
+CPU: MOS Technology 6502, 1 MHz.
+RAM: 4 KB, expandable to 8 KB.
+Storage: None; programs were loaded via a cassette interface.
+Video output: Composite signal for connecting to a TV or monitor, text mode 40x24 characters.
+
+Sites:
+https://www.applefritter.com/apple1
+https://www.applefritter.com/forum/80
+https://www.apple.asimov.net
+https://emulation.gametechwiki.com/index.php/Apple_I_emulators
+https://p-l4b.github.io/sdcard/fw.html
+http://www.vintage-basic.net/games.html
+https://github.com/jefftranter/6502

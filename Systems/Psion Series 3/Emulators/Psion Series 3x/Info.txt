@@ -1,0 +1,4 @@
+﻿A collection of DOS versions of PDA Psion Series 3 emulators, including models such as: 3, 3a, 3c and Siena.
+The emulators are already configured to run in the DOSBox environment.
+
+To install programs in the directory of each emulator there is an APP folder, into which you need to copy the program file, then in the EPOC OS interface, on the main screen, press the F9 key and select from the menu: Apps > Install > Disk A

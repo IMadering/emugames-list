@@ -1,0 +1,10 @@
+﻿In this single player game you are a racer and your goal is to show the best time in any race! There are 3 races to choose from in the game.
+In Single Race, you choose a track and compete against 6 other racers. In Time Attack, you have a limited time to complete a lap of your chosen track.
+In Tournament mode, races are organized by elimination: at the end of the race on each track, the driver who took the last place is eliminated from the race. Thus, at the end of the fifth race, one player remains. This player becomes the winner.
+
+Controls
+Press <Tab> to switch on/off the map.
+Press <Esc> and choose the "Quit" button to quit the race.
+Use <Left/Right arrows> to move your car left or right.
+Press <Select> to accelerate.
+Press <Enter> to decelerate.

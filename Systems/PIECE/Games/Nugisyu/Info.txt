@@ -1,0 +1,8 @@
+﻿Nugishu (version 1.01)
+
+This is a shooting game with a simple name.
+The fact that I couldn't decide between this and Sujishu is a closely guarded secret.
+
+If you get a high score, you will be rewarded with some spicy pictures of the cameraman's daughter (500, 1000, 2000 or more points).
+Good luck finding the best reward.
+

@@ -1,0 +1,15 @@
+﻿Symbian OS is an operating system designed for mobile devices, widely used in the 2000s, particularly in Nokia smartphones.
+
+Developed in 1998 by Symbian Ltd., a consortium including Nokia, Ericsson, Motorola, and Psion, it was based on Psion’s EPOC OS for PDAs. In 2008, Nokia acquired Symbian, later making its code open-source through the Symbian Foundation, but the project was discontinued in 2011.
+
+Symbian was a microkernel system, optimized for devices with limited resources. It supported multitasking, energy efficiency, and mobile network functionality. Its modular architecture separated the kernel from the user interface. It ran applications written in C++, Java ME, and Python.
+
+In the 2000s, Symbian dominated the smartphone market, peaking at around 40% market share. Devices like the Nokia 6600, N95, and E71 were popular for their features, including cameras, GPS, internet, and customization options.
+
+The system was highly stable and optimized for low-end hardware. Applications were available through the Symbian Store and third-party sources, and it supported various form factors, such as touchscreens and QWERTY keyboards.
+
+However, Symbian suffered from interface fragmentation, complicating development. Its user interface became outdated compared to iOS and Android, and it was slow to adapt to touchscreens.
+
+With the iPhone’s launch in 2007 and Android’s rise, Symbian lost ground due to its less intuitive design and weaker app ecosystem. In 2011, Nokia shifted to Windows Phone, ending active Symbian support. The last devices, like the Nokia 808 PureView, were released in 2012.
+
+Symbian pioneered smartphone features like app installation, GPS navigation, and mobile internet. Its concepts influenced modern mobile OS, despite its eventual decline.

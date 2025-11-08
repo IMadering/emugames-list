@@ -1,0 +1,13 @@
+﻿ALERT is a shooter with boss generation.
+However, the boss is generated automatically.
+It does not use any complex algorithms, but it is quite good.
+It is touching, so I hope you will just accept it as it is and play the game with this in mind.
+
+Make full use of 3WAY and laser (?) shots to defeat bosses.
+If your ship comes into contact with enemy bullets or the enemy itself, you will die.
+When you destroy a boss or an option, the bullets on the screen turn into bonus items. Catch as many fish as possible to earn points.
+
+Explanation of the menu:
+EASY GAME: Only 6 levels. Quite an easy mode.
+HARD GAME: Only 12 levels. A mode that gets more and more difficult.
+ENDLESS: Mode that never ends.

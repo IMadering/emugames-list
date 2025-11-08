@@ -1,0 +1,39 @@
+﻿As fate would have it, you find yourself in the vast expanses of Mars' desert. You work for a large corporation as driver of a high-tech space exploration vehicle. It's a tough job, but you are experienced and fearless!
+
+Game Rules
+The object of the game is to attain the highest score by obtaining minerals from surface of the planet Mars while avoiding or destroying different obstacles. You control a planetary surface exploration vehicle  that obtains the minerals from the Mars surface using the special mechanism from the tail. At the beginning of the game you have 4 lives.
+
+Obstacles
+There are 3 obstacles in this game.
+
+Cracks are on the surface of Mars. Though they are not very wide, if your vehicle runs over one of these cracks and the vehicle will flip upside down you lose one life. You have to jump over these obstacles.
+
+Volcanoes are on the surface of Mars. Since volcanoes have a slope, the vehicle jumps it like a ramp, causing the vehicle to go off the surface of planet. As a result, you lose one life. You have to jump over these obstacles.
+
+Meteors are large rocks that appear on the screen from time to time. You must time your jump to avoid a collision with a meteor, or jump to have enough time to shoot the meteor with a stone before a collision occurs. Upon collision with a meteor, your vehicle explodes and you lose one life.
+
+Thrust Meter
+Your vehicle has thrusters on the bottom, which allow the vehicle to jump very high. You must make jumps in order to avoid collision with cracks and volcanoes on the surface of Mars. A Thrust Meter shows you how high the jump will go. The thrusters on the vehicle are variable, so you can control the height of the jump (height of jump is determined by the value of the Thrust Meter).
+
+Levels
+The game has 10 levels. As the game progresses, you will be faced with an increasing number of obstacles.
+
+Minerals
+As your vehicle moves on Mars' surface, it obtains minerals. The more minerals you get, the higher your score will be.
+
+Bonus
+On each level you can find mineral bonus  that are airborne. To get them, you have to jump!
+
+End of the game
+When you lose all 4 lives, the game is over. If you pass all of the levels, you are a successful explorer of the surface of Mars.
+
+Controls
+Press <Up arrow> to jump over cracks. The longer you hold <Up arrow>, the higher the jump will be. The jump will be completed when you release <Up arrow>.
+Press <Enter> to shoot a stone.
+Press <Tab> to view the Top Ten list.
+Note: don't hold <Up arrow> button too long when choose the height of jump. You can go off the screen.
+
+End of the Game
+When you lose all you lives, the game ends.
+You will see your score. If your score is the best, or if it is among the Top Ten, then you will have the opportunity to enter your name into the Top Ten list. If you enter your name, it will be placed on the list, and you will be able to view it.
+If you pass all of the levels, you are a successful explorer of the surface of Mars.

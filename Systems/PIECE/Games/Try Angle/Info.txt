@@ -1,0 +1,3 @@
+﻿TRY IT! Angle mini is a so-called "falling game" where you have to destroy blocks falling from above.
+You might think that this is a normal thing... The blocks in this game are actually triangular!
+Don't worry about it, just try it!

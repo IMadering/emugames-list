@@ -1,0 +1,13 @@
+﻿VAX11
+
+This is a score shooter where all characters are drawn using ASCII characters.
+
+Control your own ship "VT100" and defeat the approaching enemies.
+If you are hit by an enemy bullet or the enemy itself, you will die.
+Score as many points as possible before time runs out.
+
+A button - fires a shot.
+B button - activates a bomb.
+Up, down, left, right buttons - move your ship.
+
+Naoyuki Sawa

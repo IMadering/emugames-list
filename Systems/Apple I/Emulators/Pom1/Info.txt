@@ -1,0 +1,6 @@
+﻿Pom1 is an Apple 1 emulator ported to C and Android from the original Java version. The port to C uses Simple DirectMedia Layer library and works on most platforms.
+
+*Requires installation: Microsoft Visual C++ 2013 x86 Redistributable
+
+Official website: https://pom1.sourceforge.net
+Repository: https://sourceforge.net/projects/pom1

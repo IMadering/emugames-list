@@ -1,0 +1,8 @@
+﻿You are at the start of a labyrinth of many twisting, turning tunnels, you have a sack holding 30 pieces of silver. You must get to the end of the labyrinth with at least 20 to pay the Fearsome Minotaur.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 400.1FFFR
+E2B3R
+RUN

@@ -1,0 +1,13 @@
+﻿You are a small arrow at the bottom of the screen.
+For some reason, a wall will be coming towards you, so use the left and right keys (or AB buttons) to avoid it.
+
+Hold the left key (B button) to move left.
+Hold the right key (A button) to move right.
+As long as you don't press anything, you move forward.
+
+Depending on how far you move, you will get points.
+
+As time goes on, the energy in the gauge decreases,
+Collect the chips with the inscription "F" that appear from time to time to restore.
+
+The game ends if you hit a wall or run out of energy.

@@ -1,0 +1,1 @@
+﻿This is an action puzzle game where you need to rotate, line up and destroy tiles. The main goal of the game is to destroy as many tiles as possible at the same time.

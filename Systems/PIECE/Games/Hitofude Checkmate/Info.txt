@@ -1,0 +1,27 @@
+﻿This is a game very similar to the "Checkmate" mode from the Nintendo DS game Hitofude Detective Game (Nintendo / MITCHELL).
+
+You determine a path with a single stroke, and the selected tiles change to the opposite color (black or white). If all the tiles in one horizontal row become the same color, they disappear. If you manage to erase all the tiles with one stroke, you "clear" the level.
+
+Selecting a Puzzle
+Use ↑↓ to select a puzzle file, and press the A or START button to begin the game.
+Press the SELECT button to exit.
+
+Gameplay
+Move the rotating free cursor and press the A button to select the starting point for your single stroke.
+Move the cursor to make your stroke and press the A button at the ending point to invert the color of the tiles you passed over and check if you cleared the level.
+
+Each action can be undone with the B button, and the SELECT button returns you to the puzzle selection screen.
+
+How to Create Puzzles
+Puzzle files are located in the QUESTION folder.
+Using them as examples, you can create your own puzzles.
+The file format is as follows:
+Width Height (not including the outer frame, max 14 9)
+Next, the tile data (a sequence of 0=black, 1=white. No outer frame is needed)
+If you click and run "mkq.bat", all files in the QUESTION folder will be packaged into "hitofude.fpk".
+
+Puzzle files do not necessarily need to have a ".txt" extension.
+All files packaged in "hitofude.fpk" are considered puzzle files.
+Filenames are limited to half-width English characters and punctuation, and should not exceed 15 characters, due to the limitations of the fpk format.
+Additionally, files are not checked for errors, so please be careful.
+Up to 1024 puzzle files can be put into a single fpk file.

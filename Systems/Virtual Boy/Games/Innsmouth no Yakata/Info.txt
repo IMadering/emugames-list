@@ -1,0 +1,19 @@
+﻿The ultimate 3D horror adventure appears!
+
+Monsters lurk within the night that is darker than darkness, within the darkness that is deeper than night….
+
+They exist hidden inside a mansion. This mansion is called the “Mansion of Insmouse.”
+
+You must explore the 3D dungeon and escape each floor within the time limit by utilizing items and getting the key that opens the exit-door.
+
+However, even if you should beat the attacking monsters that come, you cannot escape so easily from the hand of the evil spirit of “Insmouse.”
+
+Can you ever escape safely from the monsters of “Insmouse” and from this mansion of horror…!?
+
+It’s all up to you, player!
+
+Cheats (ArtMoney):
+5[-1] (1 byte) - Health
+6[-1] (1 byte) - Bullets
+Bullets address+2E24 - (2 bytes) - Time
+59[-1],[address-4 byte] (2 bytes) - Time

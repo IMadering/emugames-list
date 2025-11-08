@@ -1,0 +1,1 @@
+﻿A variation of the game "Snake" with a time limit between eating treats. If the timer runs out, the game is over.

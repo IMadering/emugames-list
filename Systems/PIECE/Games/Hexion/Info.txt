@@ -1,0 +1,6 @@
+﻿This game is very similar to Konami's comedy Tetris game "Hexion" (Konami, 1992), which is well known to those who know about it.
+
+It's a Tetris with hexagonal blocks. (Due to the P/ECE screen resolution, it looks like a diamond...)
+The rules and controls are exactly the same as in Tetris.
+
+Naoyuki Sawa

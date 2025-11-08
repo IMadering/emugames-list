@@ -1,0 +1,16 @@
+﻿Bump as many of your opponents as you can while soaring in the sky with your parasol in attempt to get the highest score. You propel yourself into the air by opening and closing your umbrella. Knock the others out of the air by ramming them with your umbrella, or dropping on top of them.
+
+Pick power-ups to get these features (for a short while):
+Propeller - to move faster.
+'$' to get 10 points.
+Armor to be protected from all opponents.
+Eye - to be Invisible for others.
+Crossed picks - to get spikes and prick the opponents from any your side.
+
+If you are bumped, the pusher gets 5 points. You'll drop down to the ground and then may continue playing. The game ends when 3 minutes expire. There are 4 players in the game: you may play a single player game with 3 computers or a two-player game and two computers. Get the highest score by bumping the most opponents.
+
+Controls
+Hold <Enter> to open the umbrella and move straight up.
+While holding <Enter> press <Left/Right arrows> to move up left or right.
+Press <Select> to list through the players' scores.
+Press <Esc> and choose the "Quit" button to exit to the Game Menu.

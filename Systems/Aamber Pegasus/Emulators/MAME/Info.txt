@@ -1,0 +1,45 @@
+﻿MAME (originally an acronym for Multiple Arcade Machine Emulator) is a multi-platform, open-source, multi-system emulator written in C++. The philosophy behind the project is to focus on recreating the workings of various machines through emulation, with the software's ability to actually play console games being described as "a nice side effect". MAME is incredibly large, supporting thousands of machines and ROM sets.
+
+Official website: https://www.mamedev.org
+Repository: https://github.com/mamedev/mame
+Cheat Collection: https://www.mamecheat.co.uk
+GameInit.dat: https://www.progettosnaps.net/gameinit/
+Command.dat: https://www.progettosnaps.net/command/
+Mameinfo.dat: https://mameinfo.mameworld.info
+History.xml: https://www.arcade-history.com
+Snapshots: https://www.progettosnaps.net/snapshots/
+
+- - - - - - - - - - - -
+
+Aamber Pegasus - Tips
+The usual way of loading a new rom was to plug it into the board. This has been replaced with cartslots, to save having to recompile whenever a new rom is found. Single rom programs will usually work in any slot (if it is going to work at all). A working rom will appear in the menu. Press the first letter to run it.
+
+Although lowercase can be entered, it's preferable to use uppercase.
+
+Monitor Commands
+----------------
+G nnnn - Go
+L [nnnn] - Load from tape
+M nnnn - Modify Memory
+S aaaa bbbb - Save aaaa-bbbb to tape
+T hh mm ss - Set the time
+V - Verify tape
+
+Any mistakes will throw you out of the monitor and back to the menu.
+
+Cassette
+--------
+[b] - Use BASIC to LOAD the tape, then RUN.
+[m] - Use the MONITOR L command - when finished, hit enter, and the new program shows in the menu.
+[x] - Use XBASIC to TLOAD the tape, then RUN.
+[f] - Use FORTH to LOAD the tape. Do VLIST to look for an appropriate command, such as GO.
+
+Forth
+-----
+Some commands:
+VLIST - list all commands
+CLS - clear the screen
+LOAD - load a tape
+SAVE - save a tape
+MON - quit
+GO - Run program

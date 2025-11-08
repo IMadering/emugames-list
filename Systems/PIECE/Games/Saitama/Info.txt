@@ -1,0 +1,8 @@
+﻿This is a ball avoidance game for P/ECE. It is simple but also addictive.
+
+How to play
+The rules of the game are extremely simple; all you have to do is avoid Saitama's balls that fall endlessly from the top of the screen. The player is "I", he can move left and right with the cursor, and can also dash by pressing the A key while moving.
+
+Also, flowers will fall from the sky at regular intervals. If you do, your score will increase by +100 points on NORMAL difficulty and +300 points on HARD difficulty, and you will become invincible for a while.
+
+Don't let yourself get cornered on either side of the screen.

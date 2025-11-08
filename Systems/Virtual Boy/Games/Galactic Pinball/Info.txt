@@ -1,0 +1,17 @@
+﻿Defend the Galaxy from Invaders in a Space Pinball Game!
+
+Prepare to enter the vast expanse of the Milky Way. Put your pinball skills to an interstellar test with four incredible space tables.
+
+Blast your pinball at rotating planets and turn them into dust in the Cosmic world. Send your puck flying through galactic formations in the deep-space Colony. Defeat an evil skeleton and hit the ultimate UFO jackpot! Knock down multiple rings and destroy wicked assailants in an Alien place. Defy arduous obstacles and save the world from impending devastation!
+
+* Four spacy 3-D pinball games including Cosmic, Colony, UFO and Alien!
+* Incredible pinball moves forward, backward, up, down and around outrageous obstacles!
+* One player action with multiple hidden bumpers and rewarding bonus rounds!
+* Amazing dimensional environments for the ultimate space travel.
+
+Cheats (VBjin, Mednafen Emulator):
+05006F30 09 - Pucks
+05004F80 05 - Bonus Game
+
+Cheats (ArtMoney):
+5[-1] (1 byte) - Pucks

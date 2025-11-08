@@ -1,0 +1,13 @@
+﻿Place your bet on the roach you think will finish the race first.
+The game can be played in two modes: vs. Cybiko and vs. your friends (up to 5 people can participate in the game).
+In the game vs. Cybiko if the roach you bet on finishes first, your bet is paid back 5 to 1. Otherwise, your money is lost.
+Your goal is to get rich as fast as possible!
+In the game vs. your friends, your prize depends on how much the other players have bet on which roaches. All bets are added and divided between the winners. If a bunch of people all bet on the winning roach, you have to split the pot.
+Roach races start automatically every 2.5 minutes in multi-player mode, and every 2 minutes in a game against your Cybiko, or after all bets have been placed. If you make no bets in a race, you'll pay 10 Cy$ for watching the race.
+You win when your opponents are out of cash. In a game against your Cybiko, you win if you get 20,000 Cy$. You lose when you have no money left.
+
+Controls
+Use <Up/Down arrows> and press <Enter> to choose a roach from the list.
+Use numeric keys to enter your bet and press <Enter> to accept your bet. Press <Esc> to reject your bet.
+Press <Tab> to check results during 30 seconds after a multi-player race is over.
+Press <Esc> to exit.

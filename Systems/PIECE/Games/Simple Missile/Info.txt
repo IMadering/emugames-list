@@ -1,0 +1,12 @@
+﻿Simple Missile
+
+This game is very similar to Missile Command.
+
+Enemy missiles are targeting the city!
+Defend your city by intercepting enemy missiles.
+If the entire city is destroyed, the game is over.
+
+Interceptor missiles are replenished after the round is cleared,
+Destroyed cities will not return to their original state even if you pass the round.
+
+Naoyuki Sawa

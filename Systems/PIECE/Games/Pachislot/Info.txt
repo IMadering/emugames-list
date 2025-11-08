@@ -1,0 +1,26 @@
+﻿Pachislot P/ECE
+
+We have created "Pachislot P/ECE". This is the original pachislot game powered by P/ECE.
+
+- It (mostly) follows the rules of the 5th generation machine.
+- During the normal game and bonuses, the order in which you press the buttons does not matter, and there is no need to focus on pressing the buttons, so you will not miss anything. There is no need to focus on the bonus symbols, as they will always line up in a winning game.
+- The more triple cherries you get, the higher the setup you can expect. (If you do not press a cherry, you will get a double or less, or a watermelon.)
+
+To perform manual control, press the buttons in the following order:
+- B button: equivalent to the MAXBET button or inserting one coin.
+- Up button: equivalent to the start lever.
+- Left button: equivalent to the left stop button.
+- Middle button: equivalent to the middle stop button. In random order.
+- Right button: Equivalent to the right stop button.
+
+If you use one-key control, you can play by simply pressing the A button.
+
+- A button (1st time) Equivalent to the MAXBET button or inserting three medals.
+- A button (2nd time) Equivalent to the start lever.
+- A button (3rd time) Equivalent to the left stop button.
+- A button (4th time) Equivalent to the middle stop button.
+- A button (5th time) Equivalent to the right stop button.
+
+- SELECT button: Displays the data screen.
+
+Naoyuki Sawa

@@ -1,0 +1,3 @@
+﻿It's a shooter where you have to go through levels, and the enemies get stronger as you go through them.
+There's no end to it, so keep earning points.
+If you get past District 10, you're a god. ... maybe.

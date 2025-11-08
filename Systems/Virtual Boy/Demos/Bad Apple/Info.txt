@@ -1,0 +1,5 @@
+﻿Bad Apple!! is a musical track from Lotus Land Story, one of the games in the Touhou Project series. A remix with vocals was produced, and a shadow art music video was made for that remix. The video has since gained popularity as a sort of audio/video test case for retro computers, and this is its appearance on Virtual Boy.
+
+This production contains the entire three and a half minute song and music video, presented at the full frame rate of the original. It is unusual for Virtual Boy homebrew in that it occupies 16 MB, which is the maximum size for cartridge memory without supplemental mapping circuitry.
+
+To aid in viewing this demo without the needed kit to run it on the hardware, a slightly modified version has been provided that targets the Mednafen emulator. The audio timing is slightly different between the hardware and Mednafen, so select the version that matches the way you choose to experience it.

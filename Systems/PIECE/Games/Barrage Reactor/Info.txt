@@ -1,0 +1,12 @@
+﻿A barrage of bullets from all directions. Barrage reactor.
+
+Control your ship in the center of the screen and destroy the barrage of bullets that appear around you.
+
+Lasers can destroy barrage sources and bullets.
+Collect fragments when you destroy them. Each item is unique.
+
+Your ship will be destroyed if it comes into contact with a bullet or source of fire.
+If all your ships are destroyed, the game is over.
+For every 3000 points you will receive an additional plane.
+
+(C) Kenta Cho

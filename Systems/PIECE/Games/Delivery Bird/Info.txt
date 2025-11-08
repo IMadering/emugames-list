@@ -1,0 +1,24 @@
+﻿Delivery Bird (version 1.1.37)
+
+This is a puzzle game where you have to complete several levels by controlling a bird and delivering luggage to the specified location.
+
+Rules
+* The bird can move freely left, right, and down, one square at a time.
+* The bird can climb one square if there is a wall or luggage directly below it.
+* However, when holding luggage, the bird must support itself on the surface below it.
+* The bird can only push one piece of luggage at a time.
+* However, when holding luggage, the bird cannot push it.
+* The bird can grab and carry luggage that is directly below it.
+* If the bird does not hold luggage and there is no support underneath it, the luggage will fall.
+* The stage is considered completed when all the "decorated" luggage has been delivered to all the racks.
+* However, the luggage must remain stationary on the rack.
+(There are exceptions to the above rules for some types of baggage. For details, see the section "Types of baggage".)
+
+Controls
+[←][→] Move one space left or right.
+[↓] Decrease height by one space.
+[↑] Jump one space.
+[A] Grabs luggage directly below you. Press again to release.
+[B] When pressed, the birds and luggage will disappear, and you can check the location of the mailbox.
+[SL] Return to level selection.
+Press during level selection to return to the main screen.

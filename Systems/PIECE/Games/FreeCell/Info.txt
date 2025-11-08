@@ -1,0 +1,3 @@
+﻿This is the familiar Windows card game FreeCell.
+
+The goal of FreeCell is to move all your cards to your home cells, using the free cells as temporary storage for cards. To win the game, you need to place all four cards of the same type in your home cells. The cards are laid out in numerical order, from the lowest number (Ace) to the highest number (King), increasing by one.

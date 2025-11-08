@@ -1,0 +1,20 @@
+﻿You control the ship. Your opponent is an enemy submarine fleet. The game has three levels of difficulty: easy, medium, and hard. There are 12 game stages. To win the game, you have to pass all game stages.
+To pass any game stage, you must destroy all enemy submarines by throwing bombs at them. If a submarine reaches its headquarters in the underwater grotto, you lose the game.
+Your ship has 10 health points at the beginning; the submarines launch torpedoes and if they hit your ship, your health points are taken away. If your ship loses all its health points, the game ends.
+The sea current can be also your enemy in the game. It can bog down your ship and prevent you from fulfilling your mission. If your ship collides with the island shore, it loses its health points.
+
+Your ship can drop an anchor to stop your ship or to pull up the game bonuses from the sea bottom:
+"B" - bomb strength;
+"S" - ship speed;
+"F" - fast bomb throw;
+"Η" - +1 ship health.
+All bonuses except "H" have a lifetime - equal to 60 seconds.
+
+Controls
+Press <Ins> to show/hide status bar.
+Press <Left/Right arrows> to move the ship.
+Press <Enter> to throw a bomb.
+Hold <Select> to pull out the anchor, when the anchor touches the bottom the ship stops.
+When you release <Select>, the anchor is lifted and ship will move.
+To pick up a bonus, hold <Select> to pull out the anchor and move your ship by <Arrows> to touch the bonus, then release <Select>.
+Press <Esc> to exit or restart the game.

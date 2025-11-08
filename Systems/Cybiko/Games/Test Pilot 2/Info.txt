@@ -1,0 +1,7 @@
+﻿Test your finger speed and reaction time while navigating through the woods in this single player game. Your goal is to avoid collision with trees while piloting an aircraft in each round of the game. If you sustain a collision, you lose one of your shields. The higher your speed, the more points you get. Extra points for saved shields are added at the end of every round: up to 1,000 points for a damage-free run. The game lasts as long as you don't lose all your shields on any round.
+
+Controls
+Press <Left/Right arrows> to turn left or right.
+Press <Enter> to switch afterburner on (to accelerate).
+Press <Tab> to see the Top 10 list.
+Press <Esc> to exit.

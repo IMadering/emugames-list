@@ -1,0 +1,14 @@
+﻿File Viewer version 2001.12.24
+
+This is a file viewer. It has the following features:
+- You can see all the files in the flash memory.
+- You can carry text files with you and read them anywhere.
+- Support dump display.
+- Support pgd file display.
+- Support Windows Bitmap file display (1/4/8/24 bit, only the upper left corner is 128*88 pixels).
+- Files can be deleted (kernel version 1.12 or later).
+- Files can be sent and received via infrared (kernel version 1.12 or later).
+- Can execute pex files (kernel version 1.14 or later).
+- Can be used as a replacement for startup.pex (kernel version 1.14 or later).
+
+Programed by まかべひろし

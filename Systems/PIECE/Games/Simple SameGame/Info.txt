@@ -1,0 +1,8 @@
+﻿This is the most basic SameGame.
+Move the cursor up, down, left and right on the panel and use the A button to erase the balls.
+Balls cannot be erased unless two or more are connected.
+Pressing the B button will display the number of connected balls.
+
+The game ends when there are no more balls connected together or when all the balls are removed.
+
+Naoyuki Sawa

@@ -1,0 +1,8 @@
+﻿It's one of the earliest known video games for the platform and is often cited as an example of the simple, text-based games that were common in the early days of personal computing.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.0FFFR
+E2B3R
+RUN

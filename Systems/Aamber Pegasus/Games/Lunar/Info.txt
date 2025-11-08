@@ -1,0 +1,7 @@
+﻿Take control of the Lunar Module and try to land on the moon.
+
+Load from Cassette:
+Insert the cartridge with XBASIC and after the monitor boots, press: X
+Then type the command: TLOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN

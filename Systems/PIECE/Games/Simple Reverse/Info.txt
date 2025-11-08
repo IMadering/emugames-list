@@ -1,0 +1,10 @@
+﻿Simple Reverse
+
+This game is very similar to "Reverse" http://www.skipmore.com/app/linernotes/app_028.html
+
+Left and Right buttons: Move the ship.
+Down button: Increases the speed at which the pieces approach.
+A or B button: Release a fragment.
+SELECT button: Returns to the main screen.
+
+Naoyuki Sawa

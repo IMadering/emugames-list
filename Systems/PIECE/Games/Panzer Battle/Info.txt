@@ -1,0 +1,4 @@
+﻿You attack enemy unit cards by rolling dice.
+Use four types of actions - confirm, scout, attack, and get an event - to defeat enemy units.
+Destroy all cards. The winner is determined when one side loses all of its units. Each unit has its own score, and the player who destroys the units with the highest total score wins.
+In other words, you won't win just because you destroyed everything, so it's important to get a high score. Try to attack by focusing on a stronger unit.

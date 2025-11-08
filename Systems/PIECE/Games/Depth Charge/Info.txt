@@ -1,0 +1,12 @@
+﻿Simple Submarine
+
+This game is very similar to Depth Charge (c) SEGA.
+
+Rules
+Destroy as many submarines as possible within the allotted time of 99 seconds.
+The game ends when the time runs out or three battleships are destroyed.
+If the time runs out, 100 points will be added for each remaining battleship.
+
+Controls:
+Cursor keys to move the battleship left and right.
+A and B buttons to drop bombs left and right.

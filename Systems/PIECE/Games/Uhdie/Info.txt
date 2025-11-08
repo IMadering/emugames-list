@@ -1,0 +1,21 @@
+﻿Unheeded Die
+
+This is a two-player (human vs. computer) Sugoroku+ battle simulator game.
+
+Each character has their own personality, health, and skills.
+
+The battle begins with a roll of dice that determines the starting point.
+
+Roll - Roll the dice. Then the turn ends at that total.
+Item - Use an item (not implemented in this version).
+
+Attack - This performs an attack. You must be behind the opponent to be able to do this, and each turn consumes a different amount of PP. The stock is also different.
+Save - End your turn without rolling dice. Instead, you will accumulate PP.
+
+About the field
+Black floors can cause damage.
+"Floating beads will restore health."
+Things like crystals increase PP.
+Box-like items will give you items.
+
+The victory condition is to reduce the opponent's HP to 0 or below. Or you can beat your opponent and increase the difference by 16 points or more. He disappears behind the screen.

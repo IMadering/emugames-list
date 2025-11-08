@@ -1,0 +1,6 @@
+﻿The game known in the West as “backgammon” was also known and played in Japan. There, it was called "sugoroku".
+
+Controls
+Left/Right: Select a task, player, move around the Sugoroku map
+Button A: Roulette, confirm selection
+Button B: Quick Send

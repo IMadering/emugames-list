@@ -1,0 +1,12 @@
+﻿The game consists of an unlimited number of levels. To pass each level, you must successfully defend your dinner for 120 seconds. In each level, you'll have a table with some food on it. It consists of ravioli, candy, ice cream, and full glass of juice. Enemies appear and try to steal your food. They also may drink your juice and eat your ice cream. The goal of the game is to defend the food from the Invaders. Use improvised "weapons" for this purpose. You may use a stamp, your own fork, your hand or a fly swatter as "weapons". The weapon box is at the right lower corner of the playing screen. The game ends if: you hit the juice glass with the stamp, fork, or fly swatter; you hit the ravioli or ice cream with the fly swatter or stamp; your hand has touched the fork; an enemy hand has taken the ice cream; a fly or cockroach has drowned in the glass of juice.
+
+While playing, you get points. Try to get the best score. Your score will be better if you don't hit the food, or if you change the kind of weapon often.
+
+Controls
+Use <Arrows> to change your aim.
+Press <Del> to select the fly swatter.
+Press <Ins> to select a fork.
+Press <Tab> to select your hand.
+Press <Select> to select a stamp.
+Press <Enter> to use the selected weapon.
+Press <Esc> to exit or restart the game.

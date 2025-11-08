@@ -1,0 +1,10 @@
+﻿You have 100 points. By guessing numbers from 1 to 5, you can gain or lose points depending upon how close you get to a random number selected by the computer.
+
+You occasionally will get a jackpot which will double (!) your point count. You win when you get 500 points.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

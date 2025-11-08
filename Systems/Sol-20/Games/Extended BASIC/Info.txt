@@ -1,0 +1,38 @@
+﻿Extended BASIC is a special adaptation of BASIC (Beginner's All-purpose Symbolic Instruction Code) for the SOL with a SOLOS
+personality module or for other 8080-based computers with CUTER and the P.T. CUTS module. BASIC was selected for adaptation because it is simple and easy to learn while providing the powerful capabilities
+of a high-level language. Thus, it is ideal for the user who is a
+novice at using programming languages as well as for the advanced
+user who wants to work with subroutines, functions, strings, and
+machine-level interfaces.
+
+Some of the outstanding features available in Extended BASIC are:
+*Fully-formatted output to a variety of devices
+*Many function subprograms, including mathematical, string, and video functions
+*Program and data storage on cassette tape
+*Full eight-digit precision
+*User-defined functions on one or more lines
+*Calculator mode for immediate answers
+*Moving-cursor editing on video displays
+*Complete capability for string handling
+*Functions and statements for communicating with any number of
+input/output channels
+*Ability to view memory locations, change values, and branch to absolute addresses
+*DATA files
+*Matrix functions including INVert
+
+Launch commands in the Solace emulator:
+Load Program: ExtBasic.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.
+
+- - - - - - - - - - -
+
+ExtBasic.ent is the pristine original source. It has a bug where:
+10 FOR I=1 TO 0
+20 FOR K=1 TO 0
+30 PRINT "impossible"
+40 NEXT K
+50 NEXT I
+Will cause a CS (control stack) error. P.T. put out an errata sheet with a small patch to fix this bug. That has been applied and is in the file extbasic_patched.ent. This indeed fixes this problem. However, when running "ROMLN.BAS" (which uses a lot of NEXT 100 type statements and fiddles with the control index), we get a CS error with the patched version but not the original version.

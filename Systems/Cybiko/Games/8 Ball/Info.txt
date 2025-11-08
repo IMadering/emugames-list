@@ -1,0 +1,11 @@
+﻿There are two basic balls colors. The player, on the initial break, can choose any place on the quarter of the table to shoot from. Once the break is made, if any ball is sunk, the player that broke must shoot at that color for the rest of the game. In the case that both a solid and a stripe balls are sunk, the next sunk ball determines which player gets which color. If any ball is sunk on the break, the player that broke gets to shoot again. You must shoot the cue ball so it hits the ball of your color and at least one ball of your color is sunk in this turn. If one player sinks the cue ball, the turn goes to the other player, and he/she must place the cue ball on the table. If a player sinks the 8 ball before he/she sinks all his/her color balls, that player loses. Whenever a player sinks all of his/her balls, he/she must shoot at the 8 ball. If the 8 ball is sunk at this time, that player wins. If a player sinks the cue ball while shooting on the 8 ball, he/she loses.
+
+Controls
+Select the necessary angle of the cue by <Arrows>.
+Hold <Enter> for a length of time and then release.
+The longer you hold down <Enter>, the stronger the shot will be.
+The length of the cue during a shot shows you the strength of the hit.
+You can use numeric keys from <1> to <9> to hit with definite strength.
+To place the cue ball, use <Arrows> and press <Select>.
+Press <Tab> to switch on/off status info screen.
+Press <Esc> to exit the game.

@@ -1,0 +1,72 @@
+﻿A battle called the Great War of Gods and Demons took place.
+It was a fierce battle between God and the Demon King.
+The battle lasted a long time and claimed many lives.
+However, the battle ended in vain.
+Deeply wounded, the god and the demon king went into a long sleep to heal their wounds.
+Since both sides had no leader, the battle reached a stalemate.
+Hundreds of years have passed since then...
+
+And now the demons have begun to act again.
+The angel Kreis was the first to notice this, and to stop it, he used his piety. He sent his follower, Lin (the protagonist), to the demon realm.
+Will Lin be able to stop the demon invasion?
+
+How to Play
+All attacks are performed using magic.
+The only item you have at the beginning is the Magic Sword.
+More spells can be acquired as you progress through the game.
+Magic other than the Magic Sword consumes MP.
+MP will gradually recover if you do not use magic.
+
+There are many monsters in the dungeon.
+If you touch a monster, you will take damage.
+You can heal from your injuries with herbs or at the tavern.
+
+When an enemy takes damage, they become invincible for a certain period of time.
+During this time, attacks will not cause any damage.
+Be especially careful in the early stages when your MP is low.
+You will gain money by defeating enemies.
+
+There is a locked door in the dungeon. You can buy a key from the shop.
+To open the door, release the direction button after touching the door, and then enter the direction of the door again.
+Some doors require special keys, and some cannot be opened with a key.
+
+The game remembers information about defeated enemies on four screens (excluding bosses).
+Even if all the enemies on a screen are killed, they will respawn if you pass through four other screens.
+
+There are two types of ground: "floors" that cannot be slipped through, and "platforms" that can be slipped through.
+This is a platform from which you can jump from below and slip to the top.
+You can descend from the platform by pressing the "down" key.
+Underwater, your movement speed is reduced, and you cannot use any magic except the Magic Sword.
+
+Controls:
+・Left/Right - Move.
+・Up - Climb the stairs, enter the passage, read the stone tablet, press the switch, open the treasure chest.
+・Down - Descend the stairs or scaffolding.
+・A - Jump, confirm.
+・B - Attack, cancel.
+・Start: Open the menu.
+・Select: Change the attack magic.
+
+Magic:
+・Magic Sword - This is the magic that has been with you since the beginning. A magic sword appears in front of Lin.
+・Fire - This is a fire attack magic spell. It flies straight forward.
+・Water - This is a water attack magic spell.
+・Wind - This is a wind attack magic. If it hits a wall, it will bounce back. It will disappear if it hits an enemy or after a certain amount of time.
+
+Some enemies are resistant to certain types of magic.
+Also, frontal attacks will not work on enemies with shields.
+
+Elements:
+Items can be purchased at shops or found in treasure chests.
+Except for recovery items and keys, simply having any item will have an effect.
+・Medicinal Herbs - Restores a small amount of HP and MP.
+・Potions - HP and MP will be fully restored.
+・Small Key - You can open the door. It will disappear after use.
+・Magic Card - You can see the card.
+・Life Drop - Max HP will increase. Once obtained, it will be used immediately.
+・Spirit Drop - MP limit will increase. Once obtained, it will be used immediately.
+・Devil's Bracelet - Attack power increases. Once you obtain it, it will be considered equipped.
+・Saint's Talisman - Defense increases. Once you obtain it, it will be considered equipped.
+・Pendant - MP will no longer decrease during boss battles. It will be used automatically and will disappear after use. There is a different version for each stage.
+・Fireball - You will no longer be affected by fire.
+・Iceball - Ice will no longer affect you.

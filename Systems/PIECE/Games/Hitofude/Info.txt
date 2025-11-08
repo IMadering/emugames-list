@@ -1,0 +1,15 @@
+﻿This game is very similar to Gunpey (c) Bandai.
+
+How to Play
+
+Swap the panels on the field,
+Connect the lines on the panel with one move from left to right on the screen.
+When the lines are connected, the panel disappears.
+You can erase several elements at once by branching the lines or adding panels.
+When a certain number of panels are erased, the stage will be cleared.
+
+The line rises at regular intervals.
+You can also immediately pull out the next line by pressing the B button, without waiting for a certain time.
+If the panel goes beyond the top edge of the screen, the game is over.
+
+Naoyuki Sawa

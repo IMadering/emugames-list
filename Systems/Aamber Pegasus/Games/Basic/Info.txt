@@ -1,0 +1,7 @@
+﻿PEGASUS BASIC is a simplified form of BASIC (BASIC stands for Beginner's All-purpose Symbolic Instruction Code).
+BASIC is arguably the best language for beginning microcomputer programmers. It's easy to learn, and programs can be developed quickly. For more experienced programmers, BASIC can form the basis of a system whose complexity can be expanded infinitely.
+
+BASIC for the Aamber Pegasus computer is not just a programming language, but a part of the history of New Zealand's home computers. The Aamber Pegasus itself was the first computer designed and sold in New Zealand in 1981 by Technosys Research Labs.
+
+Load from Cart:
+After the monitor boots up, press the first letter of the program on the cartridge: B

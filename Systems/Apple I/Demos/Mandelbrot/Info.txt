@@ -1,0 +1,10 @@
+﻿Mandelbrot drawing for the Apple1
+
+This is the fastest Mandelbrot calculator for the Apple1. At minimum zoom, it computes the Mandelbrot 3 times faster than the Apple1 can display it.
+
+Load from tape and run:
+C100R
+280.08A8R
+280R
+
+Repository: https://github.com/fstark/mandelbrot65

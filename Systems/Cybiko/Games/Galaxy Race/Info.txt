@@ -1,0 +1,19 @@
+﻿In this single player game, you are a galaxy racer and your goal is to achieve the fastest time while completing the Galaxy Races! There are 2 races in the game: Regatta that includes 5 levels (tracks) and Single race. If you participate in the Regatta, you must be in the Top 3 of each interim level of the game to get to the last track and complete the Regatta! If you take part in Single race, upon starting, you have to choose the track (level) that you prefer to race on. Upon starting to be ready when you see your name and the word "Ready" on the indicator board. Then "Go!" flashes on the screen and you may control your yacht. You start the last on the first level and your time for each previous track for determines your starting position in the next level. Upon collision with meteorites, you lose your health and sometimes explode for a bit. You will soon reappear, but you will have lost an amount of time.
+
+Pick up bonuses:
+Arrow - to move faster for a while.
+Shield - to be protected from meteorites.
+Ammo - to get bullets.
+Hammer - to restore your health.
+"1" - to detain the leading yacht (if it's not yours).
+
+The track or Single race ends if you cross the finish line. The Regatta ends if you didn't place in the Top 3 on any track (level) or if you successfully pass all 5 levels of Regatta.
+
+Controls
+Use <Arrows> to control your yacht.
+Press <Enter> to accelerate.
+Press <Select> to shoot.
+Press <BkSp> to decelerate.
+Press <Tab> to view the table of current players positions.
+You may reconfigure all control buttons except <Arrows> by yourself if you press <k> while you are in the game menu.
+Press <Esc>, and choose the "Quit" button, to exit the game.

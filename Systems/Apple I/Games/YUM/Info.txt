@@ -1,0 +1,18 @@
+﻿This is a computer version of a game called Yum, similar to games like Yahtzee, Yacht, and Generala.
+
+Load from tape and run:
+C100R
+280.452FR
+280R
+
+Rules of the Game:
+Each player rolls five dice up to three times, then uses the result of the roll to get points in a certain category.
+
+Rounds:
+The game consists of 12 rounds, during which each player strives to get the most points in each category.
+
+Winner:
+The winner is the player with the most points at the end of the game.
+
+Number of Players:
+This version supports up to three players, who can be either human or computer opponents.

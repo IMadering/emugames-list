@@ -1,0 +1,16 @@
+﻿An Apple 1 emulator written in JavaScript and HTML5. Press F1 (or maybe Shift+F1) to Reset, F2 to enter fullscreen mode.
+
+Instructions for loading the program from the cassette:
+1. Open website https://www.scullinsteel.com/apple1
+2. Click "CLS" then "RESET" on the virtual keyboard.
+3. Type "C100R", enter. The monitor should print "C100: A9*".
+4. Enter the memory address and data length as specified in the program instructions (example: type "300.5FFR", enter).
+5. Just below the monitor, click button "Load".
+6. Drag & drop "cass_file.wav" into the large white rectangle.
+7. Click "OK".
+8. Wait for the red bar below the monitor to fill up.
+9. Click "RESET".
+10. Enter the start address to run the program as specified in the program instructions (example: "300R", enter).
+
+Official website: https://www.scullinsteel.com/apple1
+Repository: https://github.com/whscullin/apple1js

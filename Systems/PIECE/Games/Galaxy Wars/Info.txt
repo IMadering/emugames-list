@@ -1,0 +1,21 @@
+﻿Simple G-Wars
+
+This game is very similar to Galaxy Wars (© Universal).
+
+Control the rocket and launch it at the UFO.
+Hitting the meteorite or the beam is considered a miss.
+(Hitting the UFO is not considered a miss.)
+
+The closer you get to the center of the UFO, the higher your score.
+The highest scores are 300, 150, 100, and 50.
+
+Controls
+On the ground:
+Move the turret left and right.
+Press the A button to launch the rocket.
+
+In the air:
+Move the rocket left and right.
+Press the A button to accelerate.
+
+Naoyuki Sawa

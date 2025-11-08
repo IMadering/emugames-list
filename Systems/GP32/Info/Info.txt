@@ -1,0 +1,20 @@
+﻿The GP32 (GamePark 32) is a handheld video game console developed by the South Korean company Game Park. It was released on November 23, 2001, in South Korea and was intended as a competitor to the Game Boy Advance. However, due to the lifting of the ban on Japanese electronics imports in 2002, the GP32 faced tough competition.
+
+The GP32 stood out from many other handheld consoles due to its openness for developers. It used SmartMedia Cards (SMC) for game and data storage, making it accessible to enthusiasts and hobbyists, as no special proprietary hardware was required for development. This fostered an active community for homebrew games, emulators, and other applications.
+
+Despite its unique features, the console did not achieve great commercial success: only about 30,000 units were sold. However, it became an important precursor to subsequent open handheld gaming systems.
+
+Technical Specifications
+CPU: Samsung S3C2400X01 (ARM920T core), 133 MHz (overclockable to 157–166 MHz)
+RAM: 8 MB SDRAM
+ROM: 512 KB
+Storage: SmartMedia Card (SMC) up to 128 MB
+Display: 3.5 inches (89 mm) TFT, 16-bit colour, 320 × 240 pixels
+Sound: 44.1 kHz 16-bit stereo
+Power Supply: 2 × AA batteries or 3-V DC adapter
+
+Sites:
+https://en.wikipedia.org/wiki/List_of_commercial_GP32_games
+
+https://archive.org/details/GameParkGP32_201809
+https://archive.org/details/GP32Collection

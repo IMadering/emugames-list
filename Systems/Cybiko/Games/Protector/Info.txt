@@ -1,0 +1,81 @@
+﻿Heroes don't live an easy life. The day has finally come when the human memory is unable to keep all necessary knowledge, and a giant supercomputer has been built to house this vital information. This computer has been placed deep inside a maze. But aliens, who have always wished to enslave us, have found the maze and want to destroy the base where the computer is. They are far too close to achieving their objective! Please, do all you can to save humanity!
+
+Rules of the Game
+The object of the game is to pass all 10 levels and to obtain the highest score.
+
+You control a spaceship: use it to protect your base, which is located in a maze. Enemy spaceships controlled by the Cybiko computer aspire to destroy your base. To pass any game level, you have to protect your base for 3 minutes, or to destroy all the enemy bases (they may have several).
+
+Upon starting the game, you have 3 spaceships. After one of them is destroyed, another ship enters into the game.
+
+The objects in the game
+The base is the object you are to protect. Be aware, don't destroy own base! Destroy enemy bases.
+
+The brick walls are the main component of the labyrinth halls. They can be destroyed if you shoot at them.
+
+The monolith is an obstacle that can be destroyed only by using a super gun.
+
+The teleporter is an object that moves a ship instantly to another teleporter. After that, the teleporter doesn't work for 3 seconds and blinks to show this.
+
+There are 8 types of enemy ships that differ from each other by their speed, gun and solidity. They appear from the bases, and the higher the level is the more often they appear.
+
+Each ship (yours and your enemies') may be armed with a gun of one of the following types:
+  1. Ordinary gun;
+  2. Quick firing gun - its bullet moves twice as fast as an ordinary one;
+  3. Triple-barreled gun - shoots three bullets at a time;
+  4. Super gun - its bullet destroys a monolith.
+
+You start playing with an ordinary gun, and if 2 bullets hit you, you lose your ship. You can only shoot one bullet at a time after the previous bullet disappears.
+
+The power-ups
+The power-ups, if they are picked up, will help both you and your opponents.
+
+The gun will become a gun of the next type. If you already have the gun of type 4, nothing changes.
+
+The number of bullets that are needed to destroy your spaceship will increase with each one. If this number is 5, nothing changes.
+
+The rate of movement will be doubled. If it already is doubled, nothing changes.
+
+The mines can be used to destroy the enemies' ships. If any ship (yours or your enemies') is struck by a blasting mine, this ship is fully destroyed. You can have only one mine at a time. Left mine is designed as .
+
+You will be given an additional ship. If the enemies take this bonus, they will get a new ship on the playing field right away.
+
+This bonus reconstructs the walls around the base (or bases, if an enemy picks it).
+
+This bonus not only restores the walls around the base (bases), but these walls become monolith for 30 seconds.
+
+Scoring
+You earn points for each destroyed enemy ship, for each annihilated wall, for destroyed enemy base and even if you pick the power-up and use a teleporter. You also get points after you successfully pass the level, and if you pass the level ahead of time you are given more points.
+
+You are given an additional spaceship for every 500 points.
+
+End of the Game
+The game ends when you successfully pass the 10th level. The game also ends if your base is blown up, or if you lose all your spaceships.
+
+The informational field is in the lower part of the screen. It shows you:
+
+The number of your spaceships left;
+The number of bullets needed to destroy your spaceship;
+If you have a mine;
+The score;
+The timer that counts seconds left to pass the level.
+The game stops when you are shown the informational field.
+
+The playing screen shows you the maze with the ships. In the beginning, your ship is at the bottom of the screen to the right from your base.
+
+Before starting each level, you are informed about the level number.
+
+How to control your spaceship
+Press <Arrows> to move your ship.
+Press <Enter> to shoot.
+Press <Select> to leave a mine (if you have some).
+Press <Ins> to show/hide the informational field.
+Press <Tab> to view the Best Scores list.
+Press <Esc> to exit to the game menu or restart the game.
+
+End of the Game
+The game ends when you successfully pass the 10th level. The game also ends if your base is blown up, or if you lose all your spaceships.
+
+You will be shown the final window. If your score is in the Top 10, you are asked to enter your name. After you enter the name, it is placed in the Best Scores list, and you can view it. Then you find yourself in the Game Menu.
+
+How to Exit the Game
+Press <Esc> and choose the "Quit" button to exit to the Game Menu. Then select "Exit " or press <Esc>.

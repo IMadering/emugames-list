@@ -1,0 +1,16 @@
+﻿This game is very similar to Mega Panel (Namco, 1990).
+
+How to play
+Move the panels on the left screen to line up three or more panels of the same color vertically or horizontally.
+If you line up three or more panels of the same color, the panels will disappear and a bomb will fall on the screen on the right.
+Drop the bombs and destroy all the blocks to complete the round.
+
+Eventually, the panel will rise from the bottom.
+One mistake is if the panel goes beyond the top of the screen.
+If you make three mistakes, the game is over.
+
+Controls
+Up, Down, Left, Right buttons: Move the panel.
+A or B button: Raises the panel immediately.
+
+Naoyuki Sawa

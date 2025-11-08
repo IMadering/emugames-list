@@ -1,0 +1,11 @@
+﻿This is a single player game. The object of the game is to achieve the highest score by climbing as high up the beanstalk as possible. The score gets higher as your character climbs higher on the beanstalk. You must maneuver around the falling eggs that drop from the top of the screen to stop you. If you collide with a falling egg, you fall off and lose a life. At the start of the game, you have three lives. The number of lives may increase (up to 5) if you catch the special bonus. You can catch bonus points too!
+
+The game ends when you lose all your lives. When it happens, if your score is in the top ten, you are asked to enter your name to the top ten list.
+
+Controls
+Use <Left/Right arrows> to make the character climb to the left or right.
+Press <Up arrow> to make the character climb upwards on the beanstalk.
+Press <Down arrow> to stop the character.
+Press <Down arrow>, <Left/Right arrows> to move left or right.
+Press <Tab> to view the Top Ten list.
+Press <Esc> to exit to the game menu.

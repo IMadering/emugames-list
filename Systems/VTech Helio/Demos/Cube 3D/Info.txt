@@ -1,0 +1,5 @@
+﻿Cube 3D demonstration (Version 1.1)
+
+Cube3D is a simple application originally written for the Palm Computing Platform as a guide to help developers understand animation and writing applications.
+
+Cube3D is now available on the Helio! The sources are available, solely for the purpose to help developers understand animation and how to write applications for the Helio Computing Platform.

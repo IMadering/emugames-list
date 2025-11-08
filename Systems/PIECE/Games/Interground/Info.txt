@@ -1,0 +1,8 @@
+﻿Interground (Version 1.1)
+
+This is an avalanche-style adventure game where you bury your victim.
+
+How to Play
+Use the arrow keys to control the joystick and send sand flying to bury your enemies. At this point, if you fill in multiple boxes at once, you'll get a high score.
+If the stick hits an enemy that's still moving before it's completely buried, it's game over. Think of the bump in the center of the stick as a guide to tell if it's been hit.
+If you clear all the enemies within the time limit, you'll get bonus points equal to (time remaining * number of stages) and move on to the next stage. If the time runs out, it's game over.

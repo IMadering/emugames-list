@@ -1,0 +1,8 @@
+﻿TREK-80 is alive action game that was designed for Sol systems or an 8080 computer equipped with the Processor Technology VDM-1 Video Display Module. All action, as it occurs, is displayed on the monitor screen in a "real-time" manner. That is, you watch as the phasers move through space and strike their target. For further realism, an "audio" program has also been incorporated to provide sound effects on any nearby A.M. radio.
+
+Launch commands in the Solace emulator:
+Load Program: trk80.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.

@@ -1,0 +1,15 @@
+﻿Apple I "15 Puzzle"
+Move the letters and achieve alphabetical order.
+
+Most people played this sliding puzzle as a kid already, sometimes after winning it at a local fair. It is the game with 15 square tiles in a square plastic or wooden box. There is one unoccupied free spot and tiles can be moved around and put in the correct order.
+
+First a difficulty level (1 to 5) can be chosen. The prompt where the move can be entered shows the current count of moves.
+
+Repository: https://github.com/JeffJetton/apple1-15-puzzle
+
+By Jeff Jetton
+
+Load from tape and run:
+C100R
+300.06E5R
+300R

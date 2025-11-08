@@ -1,0 +1,8 @@
+﻿The classic game of bet when you think the next card value will land between the other two cards value.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

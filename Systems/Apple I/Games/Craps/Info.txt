@@ -1,0 +1,10 @@
+﻿Craps simulates the familiar casino dice game. The player bets and the computer throws the dice. The goal is to increase earnings.
+
+Simple version of craps in text.  They randomly give you some money to spend, and then you get to bet before you roll anything.  Then you roll, and see if you WIN.  You can win immediately with a 7 or 11, or if you roll one of the PASS numbers, it will keep rolling until you hit the same number or get craps.  The problem is… in real craps after you've rolled the first time, there are all sorts of other bets you can make… with different odds… and NONE of those are available here.  So very scaled down, but at least it's pretty speedy.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.0FFFR
+E2B3R
+RUN

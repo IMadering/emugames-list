@@ -1,0 +1,15 @@
+﻿P/ECE Minigame "Rorosuke's Close Call"
+
+Game Rules
+Only Roro's face is sticking out of the barrel.
+There are 12 holes in the barrel for the knife.
+Insert the knife first.
+Be careful, as the first hit will result in the game over.
+Insert the required number of knives into the barrel, and if they do not pierce Roro, the level will be completed.
+If the knife hit is dangerous, Roro's facial expression will change.
+The facial expressions of the figures follow a certain pattern, so be careful not to pierce Roro.
+
+You can get an item for completing the level: Food; Bones; Iron; Treasure.
+
+In P/ECE, it is impossible to determine the exact item.
+You will know once you transfer the item to the PC.

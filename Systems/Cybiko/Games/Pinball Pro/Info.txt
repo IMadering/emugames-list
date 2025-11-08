@@ -1,0 +1,12 @@
+﻿Prove that you're a true Pinball champion by playing this challenging version!
+
+Controls
+Press <Enter> to fire the ball.
+The longer you hold <Enter>, the stronger the shot will be.
+The shot will be completed when you release <Enter>.
+Press <Left arrow> or <1> or <2> to control the left bat.
+Press <Right arrow> or <0> or <BkSp> to control the right bat and the right batball.
+Press <Up arrow> or <6> to control the central batball.
+Press <Del> and <Ins> for horizontal and vertical tilt, respectively.
+The game has five levels. You can't control the central batball in the first two levels.
+Press <Esc> to exit.

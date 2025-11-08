@@ -1,0 +1,7 @@
+﻿The current release using SDL2 and OpenGL for Windows, Linux and Mac OS X is version 4.07.
+
+This version of z26 is known to work on Windows 10, Linux, and Intel Macintoshes. As this version of z26 is written in C, it is possible to compile and run this version of z26 on 64-bit Linux systems as well as the Raspberry Pi, but your system needs to support OpenGL.
+
+*The settings file is created in the folder c:\Users\User\z26.gui
+
+Official website: https://www.whimsey.com/z26

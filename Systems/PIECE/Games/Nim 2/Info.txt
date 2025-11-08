@@ -1,0 +1,27 @@
+﻿Nim 2 (Version 0.06)
+
+This is a shooter game where you fight and earn points within two minutes.
+
+How to play
+Arrow keys: Move yourself
+A, B buttons: Shoot
+START: Start the game, pause
+SELECT: Pause several times, press on the title screen to end
+
+The essence of the game is to destroy enemies until the time on the bar below runs out.
+Enemies will appear one after another as you defeat everyone on the screen, so destroy them as quickly as possible to get more points.
+When you defeat an enemy, "P" marks will appear. If you collect 10 of them, you will become stronger.
+
+There are six levels of power-ups.
+You can get more points by capturing "P" marks in a row without letting them disappear off the screen.
+The initial score is 100 points, but it can be increased to a maximum of 1600 points.
+(Format: 100 → 200 → 400 → 800 → 1600).
+If you remove one of them from the screen, your score will decrease by one level.
+There are two hidden bonuses. Find the conditions to achieve a high score.
+If you come into contact with an enemy bullet or the enemy itself, the timer will decrease a little.
+Try to avoid being hit as much as possible.
+The game ends when the timer at the bottom runs out.
+At the end, you will get a bonus score of 200 points multiplied by the number of "P"s you got.
+
+Your game data is stored in "nim2.dat" and your best score in "nim2_hi.dat".
+Deleting this file will delete your records and game data.

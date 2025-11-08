@@ -1,0 +1,11 @@
+﻿Towering Rescue Simulation
+
+This game is very similar to Towering Rescue (Gakken, 1981).
+
+Control a helicopter and rescue people from the roof of a damaged building.
+After the rescue, evacuate them to the building on the right.
+
+If the rescue operation is delayed, the building will collapse or start a fire and the game will be over.
+If you miscontrol the helicopter and it crashes into the building, the game is over.
+
+Naoyuki Sawa

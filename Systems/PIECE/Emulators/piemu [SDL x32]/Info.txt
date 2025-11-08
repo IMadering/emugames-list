@@ -1,0 +1,7 @@
+﻿Aquaplus P/ECE ("piece") emulator on SDL.
+This version of the emulator works quite well with many P/ECE games and programs.
+
+This version of the emulator was kindly provided by Mr^Burns on his Discord server https://discord.gg/gvU7ACyMRA
+His YouTube channel https://www.youtube.com/@MrBurnsObscureGamesTester
+
+I couldn't find the source code for this particular version of the emulator.

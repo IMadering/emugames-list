@@ -1,0 +1,12 @@
+﻿The Music System is an integrated package containing this manual, a circuit board kit, and a cassette containing the Music Program itself. The primary element of the system is the Music Program itself which performs the actual synthesis of notes being played.
+All that is needed in addition to the Music System is: an 8080 based system with at least 4K of memory (8K or more, however, is recommended), SOLOS, CUTER or other compatible interface (a SOLOS/CUTER surrogate can easily be implemented), some I/O device (keyboard, display or other ASCII type terminal), an amplifier, stereo or other sound system including all interconnecting cables.
+
+How to use the music system:
+1. Choose the "music" item from the software list
+2. Type XEQ press Enter
+3. When the program starts, press R, you are back in the monitor
+4. Type GET press Enter
+5. When this finishes loading, type EX 0 press Enter, there's no response
+6. Press F, wait for numbers to appear
+7. Press S, wait for numbers to appear
+8. Press P, music will be heard (it isn't very loud)

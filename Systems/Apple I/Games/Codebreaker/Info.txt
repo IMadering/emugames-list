@@ -1,0 +1,8 @@
+﻿CODEBREAKER! is a Mastermind implementation for the Apple-1 computer.
+
+Repository: https://github.com/datajerk/codebreaker
+
+Load from tape and run:
+C100R
+280.1AFFR
+280R

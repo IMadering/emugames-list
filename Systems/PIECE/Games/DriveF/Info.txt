@@ -1,0 +1,16 @@
+﻿DriveF (Wind drive)
+
+This is a 3D racing game that focuses on speed rather than looks.
+Race through the city and mountains!
+
+How to play
+Control the steering wheel and brake (automatic acceleration) to drive the car along the road, avoiding collisions with the walls on the left and right.
+The remaining time is displayed in the upper left corner. When it reaches 0, the game ends.
+The remaining time is added by passing checkpoints. After four checkpoints, the fifth one becomes the target.
+
+Controls
+Control keys: steering wheel
+A button: brake
+Acceleration is automatic, acceleration occurs when you release the A button.
+START key: pause
+SELECT key: sound on / off

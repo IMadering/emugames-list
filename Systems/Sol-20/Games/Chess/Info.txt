@@ -1,0 +1,13 @@
+﻿8080 Chess is a powerful, versatile video display game for S-100 bus
+microcomputers. The 8080 Chess program was designed and written for Processor Technology by Robert Arnstein of Dallas, Texas. The program has competed successfully in chess tournaments.
+
+Besides playing a regular game as either white or black according to the international chess rules, the 8080 Chess program can be controlled to provide different levels of opposition for players of varying degrees of proficiency. It can be handicapped or play a handicapped player, solve chess problems, continue playing a game saved from a previous time, show you what it is thinking, and how many moves it considered before making its move. It can even provide human spectators with a match between two chess robots.
+
+The program requires 16K of memory. Once loaded into memory it can be transferred to diskette using a Processor Technology Helios II system.
+
+Launch commands in the Solace emulator:
+Load Program: Chess.ent
+Run with command: EX 0
+
+Load and Run from Tape:
+Type the XE command and start playing the tape.

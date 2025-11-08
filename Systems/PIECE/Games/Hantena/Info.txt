@@ -1,0 +1,14 @@
+﻿The goal is to restore all the inverted parts and make the image correct.
+There are several divided squares in the picture, the cursor moves along the borders of these squares. When you move the cursor, the image in the square next to it will be inverted: white will become black, and black will become white.
+
+Controls:
+Arrow keys to move the cursor
+A key: Displays the correct image
+B key, START key Open the menu
+SELECT key Sound ON/OFF
+
+Menu items:
+EASY Make a 3x3 grid
+NORMAL Make a 4x4 grid
+HARD Make a 5x5 grid
+EXIT End the game

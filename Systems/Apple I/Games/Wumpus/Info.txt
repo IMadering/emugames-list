@@ -1,0 +1,8 @@
+﻿Wumpus or Hunt the Wumpus is a game written in BASIC. The player can move around a cave system of twenty rooms and must try to hunt the Wumpus monster with arrows. The player can fire five arrows into rooms to try to hit the Wumpus and move between the various rooms. The arrows will fly around corners and can possibly hit the player again. The player can also be attacked by bats and fall into pit traps.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.0FFFR
+E2B3R
+RUN

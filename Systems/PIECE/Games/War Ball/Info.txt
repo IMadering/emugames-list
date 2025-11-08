@@ -1,0 +1,14 @@
+﻿War Ball
+
+This game is very similar to Senkyu (developed by Save, 1995).
+
+How to play
+This is a game where you control falling colored balls and make rows of four or more balls to make them disappear.
+
+As you progress through the levels, annoying balls will fall along with the colored balls.
+No matter how many times you stack these annoying balls, they will not disappear.
+Remove the colored balls that are next to the unwanted ball and return them to their original color.
+
+When the colored balls accumulate at the top of the screen, the game ends.
+
+Naoyuki Sawa

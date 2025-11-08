@@ -1,0 +1,10 @@
+﻿Re: is a trance shooter where you shoot at approaching Re:.
+
+How to play
+The rhythmically moving geometric pattern at the bottom of the screen is your ship. You can use this pad to move your ship left and right. If your ship is hit by an enemy bullet fired by Re:, it's game over.
+
+Re: will attack from above, so use the pad to move your target.
+Press and hold the A or B button.
+Target Re: to lock on. When you release the button, the Laser fires, destroying Re:. You can also shoot enemy bullets in the same way.
+
+Aim at multiple enemies at once to earn points. It's important to move on to the next stage.

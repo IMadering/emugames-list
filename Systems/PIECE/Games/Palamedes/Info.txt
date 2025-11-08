@@ -1,0 +1,18 @@
+﻿Palamedes Imitation
+
+This game is very similar to Palamedes (Taito/Hotbee, 1990).
+
+How to Play
+
+This is a game where the player controls dice falling from the screen to destroy them.
+
+Use the left and right buttons to move the player, the B button to change the number on the dice, and the A button to shoot.
+If you hit a dice with the same number, that dice will disappear and fall into the dice area at the bottom of the screen.
+When the dice at the bottom of the screen have a winning combination, press the down button.
+You can erase dice at a time according to the number of lines that match your role.
+
+When the dice fall from the screen and reach the player's position, the game is over.
+
+This game is a vertical screen game. Hold P/ECE rotated 90 degrees clockwise.
+
+Naoyuki Sawa

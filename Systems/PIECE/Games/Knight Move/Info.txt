@@ -1,0 +1,22 @@
+﻿This is a game where you simply step on the panels.
+
+This game is very similar to "Knight Move" (Nintendo, 1990).
+
+How to play
+・Control a player who can only move a chess knight (two moves forward and one to the side).
+・Step on a panel three times and a hole will open. If you make holes in a row, your score will increase.
+You can also increase your score by accelerating with the A or B button.
+・When you remove a heart, the hole will close.
+Each time a heart is collected, the player's movement speed will increase and the difficulty level will increase.
+・If you fall into a hole, the game is over.
+
+The differences between the A and B buttons are as follows:
+If you accelerate with the A button, the acceleration will be canceled each time you land. You will move at normal speed until you press the A button again.
+If you accelerate with the B button, you will continue to accelerate until you release the B button.
+The A button has the same controls as the real Famicom version.
+The B button is the unique Simple Night Move control system.
+
+The real "Knight Move" is Alexey Pajitnov's Tetris game.
+Unfortunately, it is only available on Disk System, so it is a bit of an unknown compared to games like Tetris and Hattoris, but as is typical of his work, the game perfectly balances the tension between the pleasure of simple tasks and the difficulty of aiming for a high score.
+
+Naoyuki Sawa

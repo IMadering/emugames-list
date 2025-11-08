@@ -1,0 +1,13 @@
+﻿This simulation was written by mindbleach and running on an Apple I.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN
+
+BASIC code - Steps to start:
+1. Load and run BASIC: E000R
+2. Enter the BASIC code.
+3. Enter the command: RUN

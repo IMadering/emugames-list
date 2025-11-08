@@ -1,0 +1,4 @@
+﻿Altirra is an Atari 400, 800, XL, XE, XEGS and Atari 5200 emulator.
+
+Official website: https://virtualdub.org/altirra.html
+Pre-release builds: https://www.emucr.com/search/label/Altirra

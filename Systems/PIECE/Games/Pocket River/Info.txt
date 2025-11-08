@@ -1,0 +1,16 @@
+﻿Pocket River (version 1.03)
+This is what they call "Othello".
+
+During the game, the player and the computer take turns placing black and white stones.
+Use the up, down, left, and right arrow keys to move the cursor, and press the A button to place a stone.
+If there is no room for a stone, press the B button.
+Now it is the computer's turn.
+Conversely, if the computer cannot place a stone, the turn still goes to the player.
+Neither the player nor the computer can place a stone, or all the stones have already been placed.
+If you do this, the result of the game will be displayed and you will be returned to the title screen.
+
+If a "↓" icon appears under the message on the right side of the screen,
+Press the Down button, the A button, or the B button.
+The following message will appear:
+
+The current number of black and white stones is displayed at the top of the screen.

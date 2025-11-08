@@ -1,0 +1,5 @@
+﻿Nekopila!
+
+This program erases cats in the correct order without destroying the pyramid on the screen. It is a puzzle game.
+
+To play the game, follow the order in which the cats appear on the upper right panel. Click on the cat pyramids on the left side of the screen to make them disappear.

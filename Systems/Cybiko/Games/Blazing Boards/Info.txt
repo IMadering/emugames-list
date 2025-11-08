@@ -1,0 +1,19 @@
+﻿This is a single-player game. You are a skateboarder and your goal is to earn tons of points by performing tricks while flying around the skateboard track in record time! Crush the asphalt on the twisty city streets of Cybiko.
+
+Time your ramp jumps to catch a powerful flight and perform the coolest tricks. Ride 5 fire icons to get the FIRE board!
+
+Controls
+Press <Space> to pause the game and go to the main game menu.
+Use <Left> and <Right> arrows to move from side to side.
+Want to jump? Press <Enter>.
+Here are a few to get you started:
+<Select> + <Right> = Frontside 180
+<Enter> + <Down> = High Jump
+<Enter> then <Tab> = 360 Spin
+<Right> on Rail = Boardslide
+<Tab> = Kickflip
+<Del> + <Right> = No Match
+<Del> = Handstand
+<Select> when on fire = 540 Shove-It
+<Tab> + <Left> when on fire = Double Heel
+Find all 35 tricks in this game!

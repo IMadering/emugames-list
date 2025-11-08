@@ -1,0 +1,113 @@
+﻿Finally, a game that lets you create your own hero. Take this opportunity to create an invincible fighting machine, a robot that will annihilate all of the opponent's robots. The player who is both the better fighter and has created a better robot will emerge victorious!
+
+Rules of the Game
+This is a two player strategic game. Your object is to create a robot and fight your opponent's robot on all levels and try to beat them on each of the 7 levels.
+
+There are 7 levels in the game. The goal on each level is to construct a robot and beat the opponent's robot in combat. Upon starting the game, each player has the option of choosing 4 skills for their robot. When somebody wins the fight, the players go to the next level. There the players choose another skills that will result in a more perfect robot. The winner of the previous level chooses their skills first. The other player chooses after them from the list of remaining skills. First the winner chooses a skill, then other player chooses a skill, then the winner chooses second skill etc.
+
+Robots and theirs technical characteristics and components in the game
+Upon starting the game, the players in turn choose from a list of skills for their robots. Each player has to choose 4 technologies. There are basic characteristics that are on each level and additional characteristics that add to the basic ones, and there are different ones on each level. The players have to choose four characters from the list of basic and additional characteristics.
+
+Basic characteristics
+Generator - provides the energy
+Armor - provides the armor.
+Engine - provides the power for the engine, that makes better mobility.
+Computer - provides accuracy of shooting.
+Laser - provides the laser weapon.
+Shield - provides the shield, lessens enemy damage (by default is not activated).
+
+On each level the amount of each skill increases - on each successive level, there is an increased amount of each technology.
+
+Additional technologies
+On the first level there are
+Damage - Increases damage of the shooting weapon on 10%.
+Active Shield - Increases shield by 5 units.
+Titanium Disk -Provides a weapon which at close combat damages=30+d10
+
+On the second level there are
+Shield Waster - A weapon that lessens the opponent's shield every time you hit it.
+Torso Rotator - Allows the robot to shoot in any direction (360').
+Jumper - Provides the ability to jump without turning.
+
+On the third level there are
+Higher Damage - Greatly increases the damage of the shooting weapon on 25%
+Blur Device - The robot flickers when shot.
+Plasma Disk - Provides weapon which at close combat damages=50+d20
+
+On the forth level there are
+Hit Increase - Increases the accuracy of shooting long distances.
+Shield Analyzer - Lessens the opponent's shield.
+Auto Repair - Repairs armor.
+
+On the fifth level there are
+Teleport - Moves the robot to any part of the playing field.
+Dragger - Lessens the opponent's maneuverability.
+Stealing Skill - Your robot shifts each time the opponent tries to hit him.
+
+On the sixth level there are
+Gamma-Gun - Lessens the opponent's accuracy.
+Higher Repair - Greatly repairs the armor and demolished characteristics.
+Double Injury - Doubles damage to the opponent's robot.
+
+On the seventh level there are
+Time Squeeze - Your robot gets an additional move during each turn.
+Invisibility - If your robot has not shot and has not damaged the opponent's robot, he is invisible.
+Blocker Device - To block the enemy's weapon or special power when you hit them.
+
+All listed characteristics are grouped together in these categories: weapons, shields, computer, engines, armor and other (special characteristics).
+
+The player can choose four types of robots in the game. Upon determining the characteristics, the robots have:
+  1. Light robot. Mobility that you choose will increase by 30 units for this robot.
+  2. Two-Headed robot has two heads to which you may give 2 technologies: special or computer.
+  3. Three-Handed Robot has three hands to which you may give 3 weapons.
+  4. Armored Robot. Armor that you select will increase by 50% for this robot.
+
+Each robot in the game has head(s), hands, torsos, armor and legs. For each part of the robot, you may add any technical characteristic.
+
+To the head(s), you may add any special character or targeting computer.
+To the hand(s) you may add any weapon.
+To the torso you may add any special characteristic or a shield.
+To legs you may add an Engine.
+To armor you may set armor.
+
+The end of the game
+The game ends when any partner beat the opponent's robot on the 7th level. This player is the winner. The game also ends, when in the game with Cybiko Computer the player three-times loses on any level.
+
+How to Play
+In the middle part of the screen, you'll see the list of technologies or technical characteristics that you choose for your robot and in the lower part of the screen is shown the description of each technology.
+
+How to choose the technical characteristics for your robot
+Use <Up/Down> to choose the technology you wish to add.
+Press <Enter> to give the technology to your robot.
+Press <Esc> and choose the "Quit" button to quit the game.
+
+How to choose the robot
+Use <Left/Right arrows> to choose the robot.
+Press <Enter> to go to the robot's description screen.
+Press <Esc> and choose the "Quit" button to quit the game.
+
+How to set the characteristics
+Use <Up/Down> arrows to elect the robot's component.
+Press <Enter> to view available characteristics of the component. Using <Up/Down arrows>, select the characteristic and press <Enter> to set it or press <Esc> to exit.
+After you add all of the characteristics, press <Esc> and choose "Yes" to confirm the actions or choose "No" to go back to the Select Type Robot screen.
+
+After all players choose their robot and add their technologies or technical characteristics, the game begins. The playing field shows yours and your opponent's robot.
+
+Each robot has an upper line and lower line. The line that is above the robot shows his armor. The line that is under the robot shows their indicator of movement. Each robot has a limited possibility to perform any actions. This is shown in the indicator of movement. When the amount of action has expired, the opponent makes their move. The robot moves in the direction in which he is facing.
+
+How to control the robot
+Press <Up arrow> to move.
+Use <Left/Right arrows> to rotate the robot counterclockwise or clockwise.
+Press <Enter> to shoot.
+Press <Tab> to choose the place you to which you wish to move, then press <Tab> to jump there. (if this characteristic has been chosen. "X" shows that this place is impossible to jump to).
+Press <Select> to show/hide Info sheet.
+Press <Space> to finish your move.
+Press <Esc> and choose the "Quit" button to exit the game.
+
+End of the level
+The level ends when any player wins the fight (the other player's robot loses the armor). The winner will see the congratulatory screen, and both players will then go to the next level. They create a new robot by choosing the technologies they wish to add, and they compose the hero just as they did on the first level. After the players construct the new robots, the next level fight starts.
+
+End of the Game
+The game ends when any partner beat the opponent's robot on the 7th level. This player is a winner. Each player will see a message telling him if he has won or lost.
+
+The game also ends, when in the game with Cybiko Computer the player three-times loses on any level.

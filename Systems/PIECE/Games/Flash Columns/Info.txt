@@ -1,0 +1,15 @@
+﻿Flash Columns Simulation
+
+This game is very similar to the Flash Columns mode from Columns II (Sega, 1990).
+
+Line up three or more identical gems in a row vertically, horizontally, or diagonally to remove them.
+When you remove all the flashing gems, the stage will be cleared.
+
+A flashing gem will appear on the skull sign at regular intervals.
+When you clear the flashing gems from the skull sign, the bottom of the board will rise and become narrower.
+Be careful not to erase the flashing gems on the skull sign.
+(You can complete the level even if there are still flashing gems in the skull mark.)
+
+When the gems reach the top, the game is over.
+
+Naoyuki Sawa

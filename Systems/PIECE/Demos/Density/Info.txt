@@ -1,0 +1,7 @@
+﻿This is a demo program where you can watch the blocks move and play with them by dragging them. When blocks of the same type gather in one place, they will "ignite". After "igniting", it will catch fire or spread.
+
+Up, Down, Left, Right buttons: Move the mouse cursor.
+A button: Drag the block.
+B button: Causes the block to appear. (Even if you don't press the B button, it will appear automatically every second.)
+SELECT button: Reset and return to the state where there are no blocks. Press twice quickly to end the program.
+START button: Pause/resume.

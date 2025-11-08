@@ -1,0 +1,7 @@
+﻿It is a 2D fixed screen action game.
+
+Story
+Oh no! My flowerbed is being ruined by insects.
+Okay, I, the flower spirit Shide Shajin, will destroy them.
+But I can't remain materialized for too long.
+I have to hurry.

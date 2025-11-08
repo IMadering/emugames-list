@@ -1,0 +1,4 @@
+﻿Escape (Version 1.4.2)
+
+Move your triangle ship and keep moving forward. After a while, the path will split into upper and lower, so follow the instructions to choose the indicated path. The wrong path is a dead end.
+Your ship will slowly move to the right, and you will complete the level if you reach the right edge of the screen without hitting any walls.

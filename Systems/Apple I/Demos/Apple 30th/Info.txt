@@ -1,0 +1,9 @@
+﻿By Dave Schmenk, posted on Applefritter
+Who said that there was no graphics capability on the Apple 1?
+
+http://www.applefritter.com/node/24600#comment-60100
+
+Load from tape and run:
+C100R
+280.0FFFR
+280R

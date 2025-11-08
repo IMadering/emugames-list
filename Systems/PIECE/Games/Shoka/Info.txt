@@ -1,0 +1,24 @@
+﻿A puzzle game where you have to move blocks to put out fires.
+
+The player takes on the role of the protagonist, Shotaro, and must spray water on blocks to move them and clear the level once all the fire blocks in the level are extinguished.
+
+There are 10 stages in total, but the original program is also included as standard, allowing users to freely modify or add stages.
+
+Rules
+There are three types of water blocks and three types of fire blocks in the game. The rules are: spray water on the water blocks to move them, then hit them with fire blocks to put out the fire.
+
+By the way, if you move a block by spraying water on it, the water block will continue to move until it hits something.
+
+Block Description
+In short, from left to right, they are "Blob", "Bucket", "Fire Truck", "Cigarette Fire", "Bonfire" and "Building Fire".
+
+Also, when two water blocks of the same type collide with each other, the water blocks become more powerful.
+
+Power-up example: Blob + Blob = Bucket
+
+Also, if you collide with another type of water block or a fire block that cannot be extinguished, nothing will happen and the block will simply stop moving, so please remember this rule.
+
+If you follow the rules above and extinguish all the fire blocks in the stage, the stage will be completed.
+
+There is no time limit in the game, so if you fail and can no longer complete it, just press the START button to give up. You will be returned to the beginning of this stage.
+

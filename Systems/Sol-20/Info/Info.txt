@@ -1,0 +1,20 @@
+﻿The Sol-20 was the first fully assembled microcomputer with a built-in keyboard and television output, what would later be known as a home computer. The design was the integration of an Intel 8080-based motherboard, a VDM-1 graphics card, the 3P+S I/O card to drive a keyboard, and circuitry to connect to a cassette deck for program storage. Additional expansion was available via five S-100 bus slots inside the machine. It also included swappable ROMs that the manufacturer called 'personality modules', containing a rudimentary operating system.
+
+Technical Specifications
+CPU: Intel 8080 at 2.048 MHz
+RAM: 8 KB static RAM standard (expandable to 64 KB with additional S-100 cards)
+ROM: Up to 1 KB on the main board, which contained the SOLOS (SOL Operating System)
+Keyboard: Built-in 85-key keyboard with a numeric keypad
+Display: 12-inch, 128x48 pixel raster-scan display (a separate video monitor or TV was required) with a dedicated video processor. It could display 64 characters per line and 16 lines of text.
+Storage: Cassette tape interface for loading and saving programs.
+Expansion: Five S-100 bus slots for adding peripherals.
+
+Software
+Operating System: SOLOS in ROM, which allowed for basic keyboard input and control.
+Languages: It could run various high-level languages, including Processor Technology's own PTDOS (a disk operating system) and a version of BASIC.
+Modules: The computer used "Personality Modules," which were plug-in ROM cards that contained different software, such as BASIC or a text editor.
+
+Sites:
+https://www.sol20.org
+https://github.com/kidmirage/Sol-20-Reproduction
+https://deramp.com/downloads/processor_technology/sol-20/software/

@@ -1,0 +1,1 @@
+﻿Pyramid Solitaire is a card game whose ideal goal is to move all the cards in pairs from a so-called "pyramid" into a separate deck.

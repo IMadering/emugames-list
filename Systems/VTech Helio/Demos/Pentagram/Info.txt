@@ -1,0 +1,1 @@
+﻿Demonstrating the smooth display of all 16 shades of gray supported by the VTech Helio display.

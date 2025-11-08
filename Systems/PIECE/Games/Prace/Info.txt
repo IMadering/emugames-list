@@ -1,0 +1,10 @@
+﻿This software is a 3D racing game for P/ECE.
+However, there are no other modes except time trials.
+
+← Turn the steering wheel to the left.
+→ Turn the knob to the right.
+Button A - press the gas pedal.
+Button B - press the brake.
+Button SELECT - cancels the game and returns to the menu.
+
+(C) «Azunet»

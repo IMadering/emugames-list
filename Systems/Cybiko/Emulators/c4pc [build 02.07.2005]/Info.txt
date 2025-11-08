@@ -1,0 +1,11 @@
+﻿Cybiko 4 PC (build 02.07.2005)
+
+This software is not intended to be used to PLAY / RUN / USE, but to TEST Cybiko software with.
+Only experienced Cybiko software developers should use this software.
+
+This emulator is unoffical, which means Cybiko Inc. has nothing to do with it, don't ask them questions about it, they don't even know it exists :)
+
+Also don't judge the Cybiko software from using this emulator.
+The emulation is very unstable and does NOT represent the Cybiko device/games/apps in any way. Hence, many games/apps don't work, which isn't the case on a REAL Cybiko.
+
+* Sound emulation is not implemented.

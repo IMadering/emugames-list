@@ -1,0 +1,13 @@
+﻿The Apple I game Batnum (short for "Battle of Numbers"), published in 1976 by Creative Computing, is a variant of the Nim puzzle game. It is a strategy game for one player against a computer, where players take turns removing objects from a pile.
+At the start of the game, a pile of objects (such as coins or matches) is given.
+The player determines: The minimum and maximum number of objects that can be taken in one turn.
+Winning conditions:
+  1. Take the last object (the one who takes the last object wins).
+  2. Or avoid taking the last object (the one who is forced to take the last object loses).
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

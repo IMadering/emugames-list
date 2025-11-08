@@ -1,0 +1,10 @@
+﻿Apple I Enhanced Checkers 8k
+
+Modified version of Vince Briel's Checkers for the Apple I. I made some usability modifications like printing the grid numbers on the board and reprinting the board if you enter an incorrect move. I also changed the messages to make more sense.
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 300.0FFFR
+E2B3R
+RUN

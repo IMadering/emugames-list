@@ -1,0 +1,4 @@
+﻿Collect dropped items while avoiding the trees approaching from the front.
+The game will end after the specified number of seconds.
+Items are often found on the back side of trees, so press the left and right buttons at the right moment to collect as many as possible.
+If you hit a tree even once, the game will end.

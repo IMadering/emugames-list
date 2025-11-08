@@ -1,0 +1,9 @@
+﻿2048 is a simple and addictive puzzle game.
+
+Objective: Get the 2048 tile.
+
+How to Play
+Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one, doubling their value.
+
+Game Over
+You lose when the board is full and no more moves are possible.

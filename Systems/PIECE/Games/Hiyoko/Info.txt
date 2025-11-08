@@ -1,0 +1,16 @@
+﻿This is a puzzle game where you eliminate falling blocks by following certain rules.
+
+A simple circle is an "unfertilized egg."
+Round, weird-looking eggs with lines running down the sides are "fertilized eggs."
+Bird-like - "Chicken."
+There are three colors: white, black, and gray.
+
+When two or more "things" of the same color line up horizontally, they disappear. However, there must be chickens among these "things of the same color lined up side by side."
+
+If something is placed on top and has no support underneath, it will fall. At that point, a chicken will hatch from the fertilized egg that was "knocked out."
+Specifically, when one of the following conditions is met:
+When something falls on a fertilized egg.
+When a fallen fertilized egg hits something below (or the lower floor) and lands.
+
+You can use abilities by pressing the select button while falling.
+There is a limit to how many times you can use it (marked as Pow on the right side of the screen).

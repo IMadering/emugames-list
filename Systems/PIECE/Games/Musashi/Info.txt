@@ -1,0 +1,5 @@
+﻿The main character Musashi and the monsters take turns.
+This is a game where you just keep moving forward.
+Use weapons, armor, and seeds that you find along the way to move forward.
+
+In this game, you collect seeds that fall along the way to strengthen the main character (he also gets stronger when you level up).

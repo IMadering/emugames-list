@@ -1,0 +1,28 @@
+﻿The Atari 2600 is a home video game console developed and produced by Atari, Inc. Released in September 1977 as the Atari Video Computer System (Atari VCS), it popularized microprocessor-based hardware and games stored on swappable ROM cartridges, a format first used with the Fairchild Channel F in 1976. Atari rebranded the VCS as the Atari 2600 in November 1982, alongside the release of the Atari 5200.
+
+The Atari VCS launched in 1977 with nine games on 2 KB cartridges. Beginning with the VCS version of Asteroids in 1980, many games used bank switching to allow 8 KB or larger cartridges. By the time of the system's peak in 1982-3, games were released with significantly more advanced visuals and gameplay than the system was designed for, such as Activision's Pitfall!.
+
+The Atari 2600's CPU is the MOS Technology 6507, a version of the 6502, running at 1.19 MHz in the 2600. Though their internal silicon was identical, the 6507 was cheaper than the 6502 because its package included fewer memory-address pins 13 instead of 16. The designers of the Atari 2600 selected an inexpensive cartridge interface that has one fewer address pins than the 13 allowed by the 6507, further reducing the already limited addressable memory from 8 KB (213 = 8,192) to 4 KB (212 = 4,096). This was believed to be sufficient as Combat game was only 2 KB. Later games circumvented this limitation with bank switching.
+
+The console has 128 bytes of RAM for scratch space, the call stack, and the state of the game environment.
+
+Regional releases of the Atari 2600 use modified TIA chips for each region's television formats, which require games to be developed and published separately for each region. All modes are 160 pixels wide. NTSC mode provides 192 visible lines per screen, drawn at 60 Hz, with 16 colors, each at 8 levels of brightness. PAL mode provides more vertical scanlines, with 228 visible lines per screen, but drawn at 50 Hz and only 13 colors. SECAM mode, also a 50 Hz format, is limited to 8 colors, each with only a single brightness level.
+
+The Atari 2800 is the Japanese version of the 2600 released in October 1983. It is the first Japan-specific release of a 2600, though companies like Epoch had distributed the 2600 in Japan previously. The 2800 was released a short time after Nintendo's Family Computer (which became the dominant console in Japan), and it did not gain a significant share of the market.
+
+In 1982, a small company called Starpath released an accessory for the Atari 2600 called the Supercharger. The Supercharger plugged into the 2600's cartridge port, and added 6K of RAM and a cable that plugged into any audio cassette deck's headphone jack. (You provided the tape deck.) The idea was to distribute games on cassette rather than cartridge, reducing their cost. The Supercharger did more than that though. It allowed all of its memory to be used as RAM (in addition to the 2600's 128 bytes, for a total of 6 1/8K), where ordinary cartridges were stuck with 4K or 8K of ROM and 128 bytes of RAM. And it allowed developers to test their games more quickly.
+Three of the Supercharger's games are considered among the best ever made for the 2600: Dragonstomper, Escape from the MindMaster, and Phaser Patrol. 
+
+Activision DPC - A coprocessor for the Atari 2600, used in the Pitfall II: Lost Caverns game cartridge, it expands the console's graphics and music capabilities.
+
+Technical Specifications
+CPU: MOS 6507 (1,19 MHz)
+RAM: 128 bytes (additional RAM may be included in the game cartridges)
+Media: ROM cartridge (2 KB - 8 KB), Tape
+Screen resolution:  maximum 160x192 (NTSC 60Hz), 160x228 (PAL 50Hz)
+Colors: 128 (NTSC), 104 (PAL), 8 (SECAM)
+Sound: 2 channels of 1-bit monaural sound with 4-bit volume control
+
+Sites:
+https://emulation.gametechwiki.com/index.php/Atari_2600_emulators
+http://www.emu-france.com/emulateurs/5-consoles-de-salon/46-atari-vcs-2600

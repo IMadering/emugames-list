@@ -1,0 +1,11 @@
+﻿Cell division aomydrone v0.02
+
+- Match three blocks of the same color to remove them.
+- Vertical and horizontal blocks also count as "one."
+- When a block disappears next to a vertical or horizontal block, the vertical or horizontal block is split into two.
+- By performing a chain wipe, you can send cubes to your opponent's field (only in battle mode).
+- If a block disappears next to a cube, the cube will also disappear.
+- Super Blocks appear from time to time and destroy or split all blocks on the screen that are the same color as the block they landed on. This is your chance to turn the tide!
+- The NEXT block in the center of the screen serves those who arrived first. Hurry up or your opponent will get a Super Block!
+
+In short, it's like Puyo Puyo.

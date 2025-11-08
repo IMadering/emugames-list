@@ -1,0 +1,20 @@
+﻿This is a port of the original P/ECE game, originally developed for the X68000 in 2000-2001.
+
+Controls
+Right - Turns the robot to the right. Fires a shot depending on the situation.
+Left - Turns the robot to the left. Fires a shot depending on the situation.
+B Button - Launches the robot's head.
+
+Robot Movement
+The robot has two modes: Drift mode and Orbit mode.
+
+The robot is normally in Drift mode. No movement controls are available. The only controls are rotation (left and right buttons) and throwing the head (B button).
+Then throw the head and collide with an object to grab it. If you continue to grab the object (hold the B button), the robot will begin to orbit it. This is Orbit mode. Returning the head (releasing the B button) and stopping the grab will switch from Orbit mode to Drift mode.
+
+Toggle between left and right rotation in Orbit mode will fire a shot. This shot will track the grabbed object.
+Also, rewinding the wire (A button) in Orbit mode will shorten its length. If you destroy an enemy that you are holding in Orbit mode, you will enter Drift mode as if you had released them.
+
+About the Robot Barrier
+There is a barrier around the robot. It can block a few enemy attacks, but if it can withstand too many, it will disappear.
+If the robot is attacked while the barrier is down, the game will end.
+The barrier's durability will regenerate a little after each area is cleared.

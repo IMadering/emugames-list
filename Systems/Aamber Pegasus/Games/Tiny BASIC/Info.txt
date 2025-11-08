@@ -1,0 +1,20 @@
+﻿All I could find was this post by Paul Carter and a broken TinyBASIC.bin image
+The image turned out to be broken because the utility or programmer that was used to take the image duplicated the data starting from 2048 bytes. Some kind of unfortunate error in the way the dump was taken in 1988.
+
+Submitted by Paul Carter on August 11, 2004 - 8:52am.
+Nice to see the Aamber Pegasus on show.
+
+The hardware was designed by Stewart J Holmes - sad to hear he passed away - I didn't know that he had.
+
+The basic system came with 4k RAM, and later versions had 64K RAM.
+There was an optional rotating switch that allowed you to select one of up to 6 language environments from 12 different eproms - there was Xtended basic, Pascal, Tiny Basic, MAD (assembler) and Forth.
+
+I wrote the Tiny Basic interpreter for the Aamber Pegasus - in 6809 assembler.
+
+I still have my machine -it's in working order. I also have the original SWTPC 6809 system that was used to develop and test the software for the Pegasus - also in working order. I also have much of the original hardware and software documentation.
+
+If you need anything, let me know.
+
+We had some real fun times at Technosys back then - e.g. to demonstrate the Tiny Basic interpreter, I invented and wrote a version of snakes where the snake grows by eating a block - it was different from versions of snake/worms that existed back then, where you simply had to avoid obstacles. The growing version is the version that you can now find on cell-phones and all-round the net. I sent it to Paul G. and got a shock 2 days later when many of the folks at Technosys (the firm that developed the Pegasus) were crowded around a Pegasus and betting real money on snakes ! To my delight, when snakes was installed on the demonstration Pegasus in the Byte Shop in down-town Auckland, people were queing to play snakes on the Pegasus and were ignoring all the much more fancy games and computers.
+
+I have very fond memories of those hectic and very fulfilling days at Technosys, and it's great to see the Aamber Pegasus given some recognition !

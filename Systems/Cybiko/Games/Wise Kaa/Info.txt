@@ -1,0 +1,5 @@
+﻿You are placed in a role of a boa whose object is to eat the rabbits on the playfield. Kaa's growing tail and brick walls may impede you. The game has 30 levels. Eating a special key advances you to the next level. The key appears on the playfield after you eat enough rabbits. In the game, you may find and eat bonuses: a heart (additional life) and a hatchet that shortens Kaa's body by a third. You earn points for every eaten rabbit, although this causes Kaa to grow. You lose a life if Kaa's head touches its body or bumps into the walls or edges. The game continues until you lose all your lives. You win the game when you pass the 30th and last level.
+
+Controls
+Use <Arrows> to change the movement direction. Once you start moving, the boa will stop only after a loss of life.
+Press <Esc> to go to the Game Menu.

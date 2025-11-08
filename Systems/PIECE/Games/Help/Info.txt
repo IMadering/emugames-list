@@ -1,0 +1,38 @@
+﻿"Help me..." the girl's voice comes from inside the castle.
+This is a 10-level puzzle game where you have to save her from the castle.
+
+How to Play
+Use the [arrow keys] to move the cursor and click on the block or the boy with the [A button].
+You can move up, down, left and right with the [directional keys] and spacebar.
+
+Pressing the [A] button (or the [B] button) again will return it to the cursor state.
+
+If you move the boy to the target indicated by the arrow (↑), you will clear that floor.
+If you repeat this process, you must reach the back of the castle before time runs out. Please save this girl.
+
+Note! !
+Black blocks (and keyhole blocks), items and enemies cannot be moved.
+
+Items (keys, watches, swords) can be crushed by blocks.
+Unfortunately, enemies cannot be crushed by blocks.
+
+Items
+You can move the boy and pick up items from the floor.
+You can only have one item.
+Please note that if you pick up another item, the previous item will disappear.
+
+Key: You can open the keyhole block (only works once).
+
+Clock: While you hold it, the time limit decreases more slowly.
+
+Sword: You can crash into the enemy and defeat him (this only works once).
+
+Items can be carried to the next floor.
+There are also some moments where you can complete the level more efficiently by taking items with you that you think you might need on the next floor.
+
+GAME OVER
+・Time limit disappeared (became 0).
+・Boy attacked the enemy without a weapon (sword).
+・Crushed the boy with a block.
+・Select DISCONNECT on the PAUSE screen
+Unfortunately, under the above conditions, the game is over.

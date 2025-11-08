@@ -1,0 +1,30 @@
+﻿P.K.O.
+This is a bullet hell shooter where you control two princesses from Onkamiyamukaya: the first princess Ultri and the second princess Camyu. By the will of the Great God (Onkama), their mission is to crush the "axis of evil" that worships the Evil God (Nugwisokami).
+
+Controls
+D-pad: Move, select
+A button: Shoot, confirm
+B button: Bomb, cancel
+SELECT button: Switch weapons
+START button: Pause
+
+Weapons
+Each character has two different types of shots that can be switched at any time during the game using the SELECT button.
+
+Bombs
+You can use a bomb by pressing the B button as long as you have charges available, which are displayed in the upper-left corner of the screen. The bomb's effect depends on the character. You can also use a "damage bomb" (喰らいボム) by activating it immediately after taking damage to avoid being destroyed.
+
+Ultri: A laser bomb that destroys enemy bullets. You cannot shoot while the bomb is active.
+
+Camyu: A bomb that clears the entire screen of enemies but does not destroy bullets. You can continue shooting while the bomb is active.
+
+Items
+Defeated enemies may drop items. Collecting them will power up your attack. Be careful, as the power-up level will decrease if your character is destroyed. Bosses may drop items to replenish your bomb stock or increase your number of lives.
+
+Chain System
+By continuously defeating regular enemies, you will receive more points:
+100 → 200 → 400 → 800 → 1600 → 3200 → 6400 → 12800 → 25600 → 51,200 (maximum)
+
+If an enemy you didn't manage to defeat disappears off-screen, the chain is reset, and the score will start from 100 again. Use weapon switching and bombs to defeat enemies as effectively as possible.
+
+Additionally, by collecting power-up items consecutively, you will receive an analogously increasing number of points for them.

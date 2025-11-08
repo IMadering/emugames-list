@@ -1,0 +1,5 @@
+﻿This is a game where you control an outer wall, trying to bounce a jumping ball and prevent it from going outside the playing area.
+
+As you play, your score will increase. Once you reach a certain score, the ball's speed will gradually pick up.
+
+The game ends the moment the ball gets past the outer wall.

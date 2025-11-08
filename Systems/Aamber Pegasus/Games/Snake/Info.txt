@@ -1,0 +1,19 @@
+﻿Simple game Snake.
+Implementation in BASIC, but unfortunately it works very slowly.
+You can speed up the emulator by 140% to get acceptable speed!
+
+The basic am of the game is to manoeuvre the snake around the screen avoiding the small blocks and eating the large blocks thus growing. You must not let the head of the snake collide with either the wal's of the screen, the rest of the snake, or the small blocks. Another MUST-NOT, is to reverse your direction exactly i.e. if you are moving sight do not start moving left or you will instantly collide with yoursclf.
+Do not hold the keys down, you only need to tap then once to change the direction of your snake which will then continue in the new direction until another key is depressed.
+The larger your snake the better you are playing, a good score is over 20, over 50 is excellent, over 90 is exceptional.
+
+Controls
+Q - Up
+A - Down
+] - Left
+\ - Right
+
+Load from Cassette:
+Insert the cartridge with BASIC and after the monitor boots, press: B
+Then type the command: LOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN

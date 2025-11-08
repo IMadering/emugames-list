@@ -1,0 +1,3 @@
+﻿This is a modified version of P/ECE P/EMU emulator by Naoyuki Sawa.
+
+https://github.com/autch/piemu/tree/piemu_old

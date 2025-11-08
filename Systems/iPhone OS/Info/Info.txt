@@ -1,0 +1,13 @@
+﻿iPhone OS 2, released July 11, 2008, with the iPhone 3G, was optimized for a 412 MHz ARM11 processor and 128 MB RAM. Built on the XNU kernel, it introduced the App Store (July 10, 2008) with 500 apps, using Cocoa Touch and Objective-C, but lacked third-party multitasking. 
+
+It supported 3G (HSDPA 3.6 Mbps), Wi-Fi (802.11b/g), and GPS, with Core Location API for apps. OpenGL ES 1.1 ensured smooth visuals, and power management optimized 3G/GPS usage.
+
+iPhone OS 2 set the stage for iOS with apps and enterprise tools, despite performance limits.
+
+iPhone OS 3, released on June 17, 2009, enhanced functionality and performance for iPhone, especially the iPhone 3GS with an ARM Cortex-A8 (600 MHz, up to 833 MHz) and 256 MB RAM.
+
+iPhone 3GS introduced video recording (VGA, 30 fps, H.264), a 3 MP autofocus camera, Voice Control, and Bluetooth A2DP.
+
+The system optimized the Mach kernel, reducing interface response time by 20-30% and power consumption. Compatible with iPhone, iPhone 3G, iPhone 3GS, but some features were exclusive to 3GS.
+
+iPhone OS 3 strengthened Apple's position, laying the groundwork for future iOS versions.

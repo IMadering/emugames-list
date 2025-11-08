@@ -1,0 +1,16 @@
+﻿Load from Cart:
+After the monitor boots up, press the first letter of the program on the cartridge: I
+
+Load from Cassette:
+After the monitor boots up, press: M
+Then press: L and Enter
+Turn on the tape playback.
+After the boot is complete, do a Soft Reset
+Then press: I
+
+When the game is running, there are seven rows of invaders which slowly move sideways and downwards, your aim is to kill all of the invaders before they reach the bottom of the screen and invade, or before you lose all of your four lives (by being hit by bombs).
+
+Controls
+K - Left
+L - Right
+, - Shot

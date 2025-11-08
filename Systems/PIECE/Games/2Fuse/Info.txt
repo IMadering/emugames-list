@@ -1,0 +1,21 @@
+﻿2Fuse
+
+This game is very similar to 2Fuse (Mojo Forest, 2012).
+
+How to play
+- Select two panels with the same color and number to erase them.
+- If you select two "1" panels, they will become one "2" panel.
+- If you select two "2" panels, they will become one "star" panel.
+- If you select two "star" panels, a special effect will be activated for a certain period of time.
+- The white star's special effect is to increase the speed at which panels appear on the field.
+- The black star's special effect is to increase the score multiplier.
+- The gray star's special effect is to make time flow more slowly.
+- When time runs out, the game ends.
+
+Up, Down, Left, Right buttons: Move the cursor.
+A button: Select a panel.
+B button: Deselect a panel.
+SELECT button: Return to the title screen.
+START button: Pause/resume.
+
+Naoyuki Sawa

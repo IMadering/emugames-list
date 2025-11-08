@@ -1,0 +1,7 @@
+﻿This game is very similar to Space Mouse (Geimu Kyoujin, 1981).
+
+Control the player and go up to the 200th floor.
+If you press the spacebar, the game will end.
+The less time it takes to reach the 200th floor, the higher your score will be.
+
+Naoyuki Sawa

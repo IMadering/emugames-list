@@ -1,0 +1,23 @@
+﻿Space Squash for the Virtual Boy is a futuristic sports game that essentially plays like a 3D version of cosmic squash or tunnel ping-pong.
+
+You control a robot named Peatron who is competing in a tournament against space pirates.
+
+The main objective is to smash a spiked ball back and forth through a 3D corridor, aiming to get it past your opponent to score points, or hitting the opponent directly to deplete their energy bar.
+
+Gameplay: You move around your half of the court and use the Virtual Boy's dual D-pads for movement and precise, angled shots. The ball ricochets off the arena walls.
+
+Features: The game includes various power-ups (like speed boosts, shields, or homing shots) and features boss battles at the end of each area.
+
+Visuals: It makes effective use of the Virtual Boy's signature red-and-black 3D effect, creating a strong sense of depth down the corridor.
+
+It was a Japanese-exclusive title, well-regarded for its unique and engaging use of the console's 3D capabilities.
+
+Cheats (VBjin, Mednafen Emulator):
+05000130 04 - Infinite HP
+05000134 04 - Enemy HP
+05000046 01 - Current level
+
+Cheats (ArtMoney):
+3[-1] (1 byte) - HP
+0[+1] (1 byte) - Score
+3[-1] (1 byte) - Lives

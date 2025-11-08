@@ -1,0 +1,30 @@
+﻿Load from Cart:
+After the monitor boots up, press the first letter of the program on the cartridge: G
+
+How to Play
+The game will first ask you for settings.
+Difficulty (No. of asteroids): Enter 1 for easy (fewer asteroids) or 2 for difficult (many asteroids).
+Number of torpedoes (No. of torpedoes): Enter 1 or 2.
+Game speed (Speed of game): Enter 1 for slow or 2 for fast.
+
+After you select your options, the battle scene will appear on the screen.
+Objective: Your main goal is to pilot your spaceship to the top of the screen while avoiding asteroids and bombs. Colliding with an enemy at the top will earn you points.
+
+Controls
+K - Left
+L - Right
+, - To move upward, press and hold; releasing the key will slow your upward movement.
+N - restart game.
+
+Rules
+You start with three spare platforms. If you are hit by a bomb or collide with an asteroid, you will lose one platform.
+You can continue to play as long as you have platforms remaining.
+
+Scoring
+Successfully colliding with an enemy will increase your score by 200–900 points, and the enemy will disappear.
+If you manage to destroy all the enemies, they will all reappear, and you will gain one extra platform.
+
+Standard Settings
+Asteroids: 1 
+Torpedoes: 2 
+Speed: 2

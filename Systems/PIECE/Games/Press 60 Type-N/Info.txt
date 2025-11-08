@@ -1,0 +1,5 @@
+﻿This is a speed game where you use six buttons—up, down, left, right, A, and B—to clear all 60 icons from the screen as fast as you can.
+
+After you start the game and the countdown finishes, 60 icons will appear on the screen. Begin clearing them by moving from left to right, then moving to the next row. To clear an icon, press its corresponding button (↑ ↓ ← → A B). The game ends when you clear the last icon in the bottom right corner. Your time will then be displayed. Press the START button to return to the title screen.
+
+To exit the game, press and hold START and SELECT simultaneously.

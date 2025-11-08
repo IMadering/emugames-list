@@ -1,0 +1,18 @@
+﻿This game is very similar to Hopping Mappy (Namco, 1986).
+
+How to play
+Control Mappy and capture the target.
+If you capture the same type of target in succession, your score multiplier will increase. If possible, it is beneficial to capture targets of the same type in succession.
+
+If Mappy touches Nyamco or Myukies, he is eliminated.
+When Nyamco gets tired and stops standing, you can step on him to knock him down.
+
+After a certain amount of time has passed from the start of the round, enemies will start moving faster.
+After a certain amount of time, your ancestors will appear.
+Be careful not to waste too much time on completing the round.
+
+Controls
+Up, Down, Left, Right buttons: Control Mappy.
+A or B button: Speeds up Mappy.
+
+Naoyuki Sawa

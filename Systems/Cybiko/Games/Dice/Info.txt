@@ -1,0 +1,23 @@
+﻿An ancient hazardous game.
+Try it — maybe fortune will smile on you.
+
+Your goal is to get more points. There are two game modes: mode of throw and mode of combinations selection. To switch between the modes, use <Tab>.
+To select dice, move the pointer by <Left/Right arrows> and press <Select> or <Ins>. To throw selected dice, press <Enter>. If you don't need to throw the dice, go to the combinations mode, select the combination by <Left/Right arrows> and press <Enter>.
+The combination must be completed in three throws. The combination can be used only once during the game.
+
+Scoring:
+Aces Total Aces only
+Twos Total Twos only
+Threes Total Threes only
+Fours Total Fours only
+Fives Total Fives only
+Sixes Total Sixes only
+3 of a Kind Total of all Dice
+4 of a Kind Total of all Dice
+Full house 25 points (3 of a Kind + 2 of a Kind)
+Small Straight 30 points (Any 4 Consecutive Dice)
+Large Straight 40 points (Any 5 Consecutive Dice)
+Total Total of all Dice
+Pocker 50 points (5 of a Kind)
+
+Press <Esc> to exit.

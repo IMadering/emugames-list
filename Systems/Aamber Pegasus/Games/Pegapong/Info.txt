@@ -1,0 +1,20 @@
+﻿A simple Pong game.
+Implementation in BASIC, but unfortunately it works very slowly.
+You can speed up the emulator by 400% to get acceptable speed!
+
+Controls
+Left paddle
+Q - Up
+A - Stop
+Z - Down
+
+Right paddle
+P - Up
+L - Stop
+, - Down
+
+Load from Cassette:
+Insert the cartridge with BASIC and after the monitor boots, press: B
+Then type the command: LOAD and press Enter
+Turn on the tape playback.
+After the boot is complete, type the command: RUN

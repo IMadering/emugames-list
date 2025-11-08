@@ -1,0 +1,18 @@
+﻿This is a version of freecell I ported and modified first to Texas Avigo and then to Helio from Jeremy Dewey's 4Cell for Palm Pilot Pocket C. He used  a card library by Rich Heslip modified by John Vann.
+
+I have added  multicard move, and a simple undo  which was also not included in the Palm version.
+
+Multicard Move: Tap the highest (of value ) to be moved - it  will be hilighted. This is different from other Freecell where you click on the lowest and it asks to move one or more card.
+
+Undo: As of now it will only undo one-card moves and not if there has been an autofinish move to the build up pile in between.
+
+Some time the hiliting of the cards doesn't reset. 
+
+Double clicking a card will move it to the reserve pile. Some times it doesn't work.
+
+After a while the random function stops producing new games. Just go out of the program and then back in. Perhaps it means you have been playing too much!!!!
+
+As far as I know, it should work fine without any adverse effect on the Helio.
+However I do not make any guarantees.
+
+Heidi Gerstle
