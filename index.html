@@ -12,50 +12,358 @@
 <meta property="og:type" content="website" />
 <style>
   :root{
-    --bg:#0b0b0d; --panel:#0f1113; --muted:#9aa0a6; --accent:#7dd3fc;
-    --card:#111316; --gap:14px; font-family: Inter, Roboto, Arial, sans-serif;
+    --bg:#0c141a; 
+    --bg-subtle:#121e27;
+    --panel:#16232e; 
+    --muted:#8a9ba8; 
+    --accent:#4da6ff;
+    --card:#1a2a38; 
+    --text-primary:#e6f0fa;
+    --text-secondary:#a3b8c8;
+    --border:#25394a;
+    --gap:14px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
-  html,body{height:100%;margin:0;background:linear-gradient(180deg,#070708 0%, #0b0b0d 100%);color:#e6eef6}
-  .wrap{max-width:1100px;margin:18px auto;padding:18px;display:grid;grid-template-columns:260px 1fr;gap:18px}
-  header{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:12px}
-  header h1{margin:0;font-size:18px}
-  .panel{background:var(--panel);border-radius:10px;padding:12px;box-shadow:0 6px 20px rgba(0,0,0,.6)}
-  .search{width:100%;padding:10px;border-radius:8px;border:1px solid #222;background:#0b0b0b;color:#e6eef6}
-  /* Специальные стили для SELECT */
-  #system-select{appearance:none; padding-right:30px;}
-  #game-list{height:60vh;overflow:auto;padding:10px}
-  .game-item{padding:10px;border-radius:8px;margin-bottom:8px;background:var(--card);cursor:pointer;border:1px solid rgba(255,255,255,0.02)}
-  .game-item:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.6)}
-  .meta{color:var(--muted);font-size:13px;margin-top:6px}
-  #details{padding:12px;height:76vh;overflow:auto}
-  .tabs{display:flex;gap:8px;margin-bottom:12px}
-  .tab{padding:8px 12px;border-radius:8px;background:#0e1112;border:1px solid rgba(255,255,255,.03);cursor:pointer}
-  .tab.active{background:linear-gradient(90deg,#08303c,#0b4a55);color:#fff}
   
-  /* Стили для карусели скриншотов */
-  #screenshot-carousel { position: relative; width: 100%; max-width: 600px; margin: 0 auto; }
-  .screenshot-item { display: none; } /* Скрываем все, кроме активного */
-  .screenshot-item.active { display: block; }
+  /* Стилизация скроллбаров */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--bg);
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--bg-subtle);
+    border-radius: 6px;
+    border: 3px solid var(--bg);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--panel);
+  }
+  
+  /* Для Firefox */
+  html {
+    scrollbar-color: var(--bg-subtle) var(--bg);
+    scrollbar-width: thin;
+  }
+  
+  html,body{
+    height:100%;
+    margin:0;
+    background: linear-gradient(180deg, #0a1118 0%, #0c141a 100%);
+    color: var(--text-primary);
+  }
+  
+  .wrap{
+    max-width:1100px;
+    margin:18px auto;
+    padding:18px;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:18px;
+    height: calc(100vh - 36px);
+  }
+  
+  header{
+    grid-column:1/-1;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  header h1{
+    margin:0;
+    font-size:18px;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  
+  .panel{
+    background: var(--panel);
+    border-radius:12px;
+    padding:12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search{
+    width:100%;
+    padding:10px;
+    border-radius:10px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text-primary);
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .search:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(77, 166, 255, 0.2);
+  }
+  
+  /* Специальные стили для SELECT */
+  #system-select{
+    appearance:none; 
+    padding-right:30px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238a9ba8'%3e%3cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+  }
+  
+  #game-list{
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding:10px;
+    margin-top: 8px;
+    background: var(--card);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+  
+  #game-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #game-list::-webkit-scrollbar-track {
+    background: var(--card);
+    border-radius: 4px;
+  }
+  
+  #game-list::-webkit-scrollbar-thumb {
+    background: var(--bg-subtle);
+    border-radius: 4px;
+  }
+  
+  #game-list::-webkit-scrollbar-thumb:hover {
+    background: var(--panel);
+  }
+  
+  .game-item{
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:10px;
+    background: var(--card);
+    cursor:pointer;
+    border: 1px solid var(--border);
+    transition: all 0.2s ease;
+  }
+  
+  .game-item:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    border-color: var(--accent);
+  }
+  
+  .game-item.selected {
+    border-color: var(--accent);
+    background: rgba(77, 166, 255, 0.12);
+    box-shadow: 0 0 0 2px rgba(77, 166, 255, 0.2);
+  }
+  
+  .meta{
+    color: var(--text-secondary);
+    font-size:13px;
+    margin-top:6px;
+  }
+  
+  #details{
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .tabs{
+    display:flex;
+    gap:8px;
+    margin-bottom:16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  
+  .tab{
+    padding:8px 16px;
+    border-radius:10px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    cursor:pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+  }
+  
+  .tab:hover {
+    background: var(--bg-subtle);
+  }
+  
+  .tab.active{
+    background: linear-gradient(90deg, #0d2b45, #123c5f);
+    color: white;
+    border-color: #2a5d8a;
+  }
+  
+  /* Стили для карусели скриншотов - обновленные */
+  #screenshot-carousel { 
+    position: relative; 
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .screenshot-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .screenshot-item { 
+    display: none; 
+    max-width: 100%;
+  }
+  
+  .screenshot-item.active { 
+    display: block; 
+  }
 
-  .screens img{max-width:100%;border-radius:8px;display:block;box-shadow:0 8px 20px rgba(0,0,0,.6); cursor:pointer;}
+  .screens img{
+    max-width:100%;
+    border-radius:10px;
+    display:block;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    cursor:pointer;
+    border: 1px solid var(--border);
+  }
   
   .carousel-control {
-    position: absolute; top: 50%; transform: translateY(-50%); 
-    background: rgba(0, 0, 0, 0.5); color: white; border: none; 
-    padding: 10px; cursor: pointer; z-index: 10; font-size: 24px;
-    line-height: 1; border-radius: 4px; user-select: none;
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background: rgba(10, 17, 24, 0.85); 
+    color: white; 
+    border: none; 
+    padding: 12px 16px;
+    cursor: pointer; 
+    z-index: 10; 
+    font-size: 24px;
+    line-height: 1; 
+    border-radius: 6px; 
+    user-select: none;
+    backdrop-filter: blur(6px);
+    transition: all 0.2s ease;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
-  #prev-btn { left: 10px; }
-  #next-btn { right: 10px; }
   
-  .info-row{margin-bottom:8px}
-  iframe{width:100%;height:360px;border-radius:8px;border:0;background:#000}
-  .no-data{color:var(--muted);padding:12px}
+  .carousel-control:hover {
+    background: rgba(77, 166, 255, 0.4);
+    transform: translateY(-50%) scale(1.05);
+  }
+  
+  #prev-btn { 
+    left: -60px; 
+  }
+  
+  #next-btn { 
+    right: -60px; 
+  }
+  
+  .info-row{
+    margin-bottom:10px;
+    color: var(--text-primary);
+  }
+  
+  .info-row strong {
+    color: var(--text-secondary);
+    display: inline-block;
+    min-width: 120px;
+  }
+  
+  iframe{
+    width:100%;
+    height:360px;
+    border-radius:10px;
+    border:0;
+    background:#000;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .no-data{
+    color: var(--text-secondary);
+    padding:20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .tab-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-top: 8px;
+  }
+  
   @media(max-width:900px){
-    .wrap{grid-template-columns:1fr; padding:10px}
-    #game-list{height:220px}
-    #details{height:auto}
-    #screenshot-carousel { max-width: 100%; }
+    .wrap{
+      grid-template-columns:1fr; 
+      padding:10px;
+      height: auto;
+    }
+    
+    #game-list{
+      height:220px;
+    }
+    
+    .panel {
+      height: auto;
+    }
+    
+    /* На мобильных устройствах кнопки карусели могут перекрывать контент */
+    #prev-btn { 
+      left: -40px; 
+    }
+    
+    #next-btn { 
+      right: -40px; 
+    }
+  }
+  
+  @media(max-width:600px){
+    #prev-btn { 
+      left: -30px; 
+    }
+    
+    #next-btn { 
+      right: -30px; 
+    }
+    
+    .carousel-control {
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      font-size: 20px;
+    }
   }
 </style>
 </head>
@@ -63,23 +371,25 @@
   <div class="wrap">
     <header>
       <h1>Retro games catalog</h1>
-      <div style="color:var(--muted);font-size:13px">Screenshots · Descriptions · Gameplay</div>
+      <div style="color:var(--text-secondary);font-size:13px">Screenshots · Descriptions · Gameplay</div>
     </header>
 
     <aside class="panel">
-      <div style="margin-bottom:10px">
-        <label style="color:var(--muted);font-size:13px" for="system-select">Systems</label>
-        <select id="system-select" class="search" style="margin-top:8px"></select>
+      <div style="margin-bottom:12px">
+        <label style="color:var(--text-secondary);font-size:13px" for="system-select">Systems</label>
+        <select id="system-select" class="search" style="margin-top:8px">
+          <option value="" disabled selected>Select a system...</option>
+        </select>
       </div>
 
-      <div style="margin-bottom:10px">
-        <label style="color:var(--muted);font-size:13px">Search Games</label>
-        <input id="search" class="search" placeholder="By title..." />
+      <div style="margin-bottom:12px">
+        <label style="color:var(--text-secondary);font-size:13px">Search Games</label>
+        <input id="search" class="search" style="margin-top:8px" placeholder="By title..." />
       </div>
 
-      <div style="margin-top:8px">
-        <label style="color:var(--muted);font-size:13px">Games</label>
-        <div id="game-list" style="margin-top:8px"></div>
+      <div style="margin-top:8px; flex: 1; display: flex; flex-direction: column;">
+        <label style="color:var(--text-secondary);font-size:13px">Games</label>
+        <div id="game-list"></div>
       </div>
     </aside>
 
@@ -88,8 +398,8 @@
         <div class="no-data">Select a system and a game on the left — then switch between Screenshots / Info / Gameplay.</div>
       </div>
 
-      <div id="game-area" style="display:none">
-        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px">
+      <div id="game-area" style="display:none; flex: 1; display: flex; flex-direction: column;">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px; flex-shrink: 0;">
           <div>
             <div id="game-title" style="font-weight:700;font-size:18px"></div>
             <div id="game-sub" class="meta"></div>
@@ -102,22 +412,25 @@
           <div class="tab" data-tab="youtube">Gameplay</div>
         </div>
 
-        <div id="tab-screens">
-            <div id="screenshot-carousel">
-                <div class="screens" id="screens-list">
-                    </div>
-                <button id="prev-btn" class="carousel-control" style="display:none;">&#10094;</button>
-                <button id="next-btn" class="carousel-control" style="display:none;">&#10095;</button>
-            </div>
-            <div id="screens-empty" class="no-data" style="text-align:center;display:none;margin-top:20px;">Screenshots not found.</div>
-        </div>
+        <div class="tab-content">
+          <div id="tab-screens" style="display:block;">
+              <div id="screenshot-carousel">
+                  <button id="prev-btn" class="carousel-control">‹</button>
+                  <div class="screenshot-container">
+                      <div class="screens" id="screens-list"></div>
+                  </div>
+                  <button id="next-btn" class="carousel-control">›</button>
+              </div>
+              <div id="screens-empty" class="no-data" style="text-align:center;display:none;margin-top:20px;">Screenshots not found.</div>
+          </div>
 
-        <div id="tab-info" style="display:none">
-          <div id="info-area"></div>
-        </div>
+          <div id="tab-info" style="display:none;">
+            <div id="info-area"></div>
+          </div>
 
-        <div id="tab-youtube" style="display:none">
-          <div id="youtube-area"></div>
+          <div id="tab-youtube" style="display:none;">
+            <div id="youtube-area"></div>
+          </div>
         </div>
       </div>
 
@@ -188,16 +501,79 @@ let shownGames = [];
 let currentGame = null;
 let currentScreenshots = []; 
 let currentScreenIndex = 0; 
+let gameItemElements = new Map(); // Сопоставление gameId -> DOM элемент
 
 // Параметры для GitHub API, основанные на вашем URL
 const GITHUB_USERNAME = 'imadering';
 const GITHUB_REPO_NAME = 'emugames-list';
 
+// Показываем EGL.jpg при старте или когда игра не выбрана
+function showDefaultView() {
+  document.getElementById('placeholder').style.display = 'none';
+  document.getElementById('game-area').style.display = 'flex';
+  
+  // Снимаем выделение со всех игр
+  gameItemElements.forEach(el => el.classList.remove('selected'));
+  
+  // Обновляем заголовок
+  document.getElementById('game-title').textContent = 'EmuGames List';
+  document.getElementById('game-sub').textContent = 'Retro Games Catalog';
+  
+  // Info tab
+  document.getElementById('info-area').innerHTML = `
+    <div class="info-row"><strong>Welcome to EmuGames List</strong></div>
+    <div class="info-row">Select a system and a game on the left to view details.</div>
+  `;
+  
+  // YouTube tab
+  document.getElementById('youtube-area').innerHTML = '<div class="no-data">Select a game to see gameplay videos.</div>';
+  
+  // Screenshots tab — показываем EGL.jpg
+  const screensList = document.getElementById('screens-list');
+  screensList.innerHTML = '';
+  
+  const eglUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/main/EGL.jpg`;
+  const img = document.createElement('img');
+  img.src = eglUrl;
+  img.style.maxWidth = '100%';
+  img.style.borderRadius = '10px';
+  img.style.display = 'block';
+  img.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.4)';
+  img.style.cursor = 'pointer';
+  img.style.border = '1px solid var(--border)';
+  img.onclick = () => window.open(eglUrl, '_blank');
+  
+  const wrapper = document.createElement('div');
+  wrapper.className = 'screenshot-item';
+  wrapper.style.display = 'block';
+  wrapper.appendChild(img);
+  
+  screensList.appendChild(wrapper);
+  
+  // Обновляем состояние карусели
+  currentScreenshots = [{ element: wrapper }];
+  currentScreenIndex = 0;
+  
+  // Обновляем отображение кнопок
+  updateScreenshotDisplay();
+  
+  // Активируем вкладку Screenshots
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelector('.tab[data-tab="screens"]').classList.add('active');
+  
+  // Показываем только Screenshots
+  document.getElementById('tab-screens').style.display = 'block';
+  document.getElementById('tab-info').style.display = 'none';
+  document.getElementById('tab-youtube').style.display = 'none';
+}
+
 async function init(){
+  showDefaultView(); // Показываем EGL.jpg сразу при загрузке
+  
   const systems = await fetchIniFile('Systems.ini');
-  systemSelectEl.innerHTML = '';
+  systemSelectEl.innerHTML = '<option value="" disabled selected>Select a system...</option>';
   if (!systems || Object.keys(systems).length === 0){
-    systemSelectEl.innerHTML = '<option disabled selected>Systems.ini not found or empty</option>';
+    systemSelectEl.innerHTML = '<option value="" disabled selected>Systems.ini not found or empty</option>';
     return;
   }
   
@@ -212,23 +588,25 @@ async function init(){
     option.textContent = sec;
     systemSelectEl.appendChild(option);
     
-    if (i === 0) {
-      firstDir = dir;
-      option.selected = true;
-    }
+    // Не выбираем первую систему автоматически
   }
 
   systemSelectEl.addEventListener('change', (e) => {
-    loadGamesForSystem(e.target.value);
+    if (e.target.value) {
+      loadGamesForSystem(e.target.value);
+    } else {
+      // Если выбрана пустая опция - очищаем список игр
+      gameListEl.innerHTML = '<div class="no-data">Select a system to load games.</div>';
+      allGames = [];
+      shownGames = [];
+      currentGame = null;
+      gameItemElements.clear();
+      showDefaultView();
+    }
   });
   
   prevBtn.addEventListener('click', () => changeScreenshot(-1));
   nextBtn.addEventListener('click', () => changeScreenshot(1));
-
-
-  if (firstDir) {
-    loadGamesForSystem(firstDir);
-  }
 }
 
 /* === load and merge Games.ini / Emulators.ini / Demos.ini === */
@@ -286,38 +664,51 @@ function renderGameList(){
   const q = (searchInput.value||'').toLowerCase();
   shownGames = allGames.filter(g => (g.name||'').toLowerCase().includes(q));
   gameListEl.innerHTML = '';
+  gameItemElements.clear();
+  
   if (shownGames.length===0){
     gameListEl.innerHTML = '<div class="no-data">No games found.</div>';
     return;
   }
   
   if (currentGame && !shownGames.find(g => g.id === currentGame.id)) {
-      showPlaceholder();
+      showDefaultView(); // Вместо showPlaceholder — показываем EGL.jpg
   }
   
   for (const g of shownGames){
     const el = document.createElement('div');
     el.className = 'game-item';
+    if (currentGame && currentGame.id === g.id) {
+      el.classList.add('selected');
+    }
     el.innerHTML = `<div style="font-weight:600">${escapeHtml(g.name)}</div>
       <div class="meta">${escapeHtml(g.dir)} ${g.year ? ' • ' + g.year : ''} ${g.rating ? ' • ⭐'+g.rating : ''}</div>`;
     el.onclick = () => showGame(g);
     gameListEl.appendChild(el);
+    gameItemElements.set(g.id, el);
   }
 }
 
 function showPlaceholder(){
-    document.getElementById('placeholder').style.display='block';
-    document.getElementById('game-area').style.display='none';
-    prevBtn.style.display = 'none';
-    nextBtn.style.display = 'none';
+    showDefaultView(); // Единообразное поведение
     currentGame = null;
 }
 
 /* === show game details (tabs, screenshots, info, youtube) === */
 function showGame(g){
   currentGame = g;
-  document.getElementById('placeholder').style.display='none';
-  document.getElementById('game-area').style.display='block';
+  
+  // Обновляем выделение в списке игр
+  gameItemElements.forEach((el, gameId) => {
+    if (gameId === g.id) {
+      el.classList.add('selected');
+    } else {
+      el.classList.remove('selected');
+    }
+  });
+  
+  document.getElementById('placeholder').style.display = 'none';
+  document.getElementById('game-area').style.display = 'flex';
   document.getElementById('game-title').textContent = g.name || '(No Name)';
   document.getElementById('game-sub').textContent = `${g.dir || ''} • Source: ${g.source} ${g.year ? ' • ' + g.year : ''}`;
   
@@ -401,10 +792,20 @@ async function loadScreenshots(g) {
               const img = new Image();
               img.className = 'screenshot-item';
               img.src = rawUrl;
+              img.style.maxWidth = '100%';
+              img.style.borderRadius = '10px';
+              img.style.display = 'block';
+              img.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.4)';
+              img.style.cursor = 'pointer';
+              img.style.border = '1px solid var(--border)';
               img.onclick = () => window.open(rawUrl, '_blank');
               
-              currentScreenshots.push({ path: item.path, element: img });
-              screensList.appendChild(img);
+              const wrapper = document.createElement('div');
+              wrapper.className = 'screenshot-item';
+              wrapper.appendChild(img);
+              
+              currentScreenshots.push({ element: wrapper });
+              screensList.appendChild(wrapper);
           });
           
           currentScreenIndex = 0;
@@ -426,12 +827,19 @@ async function loadScreenshots(g) {
 // ====================================================================
 
 function updateScreenshotDisplay() {
-    const screens = document.querySelectorAll('#screens-list .screenshot-item');
-    screens.forEach((el, index) => {
-        el.style.display = (index === currentScreenIndex) ? 'block' : 'none';
+    const total = currentScreenshots.length;
+    if (total === 0) return;
+    
+    // Скрываем все
+    currentScreenshots.forEach(item => {
+        item.element.style.display = 'none';
     });
+    
+    // Показываем текущий
+    currentScreenshots[currentScreenIndex].element.style.display = 'block';
 
-    if (currentScreenshots.length > 1) {
+    // Управление кнопками
+    if (total > 1) {
         prevBtn.style.display = 'block';
         nextBtn.style.display = 'block';
     } else {
@@ -465,9 +873,13 @@ document.getElementById('tabs').addEventListener('click', (e)=>{
   document.getElementById('tab-info').style.display = tabName==='info' ? 'block' : 'none';
   document.getElementById('tab-youtube').style.display = tabName==='youtube' ? 'block' : 'none';
   
-  const isScreensTab = tabName === 'screens' && currentScreenshots.length > 1;
-  prevBtn.style.display = isScreensTab ? 'block' : 'none';
-  nextBtn.style.display = isScreensTab ? 'block' : 'none';
+  // Обновляем отображение кнопок карусели только если это вкладка скриншотов
+  if (tabName === 'screens') {
+      updateScreenshotDisplay();
+  } else {
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+  }
 });
 
 /* === search handler === */
