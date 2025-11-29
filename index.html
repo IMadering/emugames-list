@@ -18,13 +18,12 @@
     --text-secondary:#a3b8c8;
     --border:#25394a;
     --scrollbar-thumb:#3f5263; 
-    --scrollbar-hover:#5a7285; /* Более темный цвет при наведении */
+    --scrollbar-hover:#5a7285; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
   
-  * { box-sizing: border-box; } /* 4. Важно для корректных размеров */
+  * { box-sizing: border-box; }
 
-  /* Скроллбары */
   ::-webkit-scrollbar { width: 10px; height: 10px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { 
@@ -38,65 +37,60 @@
     margin: 0; padding: 0;
     background: linear-gradient(180deg, #0a1118 0%, #0c141a 100%);
     color: var(--text-primary);
-    overflow: hidden; /* Запрет скролла страницы целиком */
+    overflow: hidden; 
   }
   
   .wrap {
     width: 100%;
-    /* 4. Использование dvh для точного попадания в видимую область */
     height: 100vh; 
     height: 100dvh; 
-    
-    max-width: 1600px; /* Чуть шире, так как расширили сайдбар */
+    max-width: 1800px; 
     margin: 0 auto;
-    
-    padding: 8px 12px 12px 12px; /* Компактные отступы */
-    
+    padding: 8px 12px 12px 12px; 
     display: grid;
-    /* Шапка (auto) и основная часть (занимает всё остальное) */
     grid-template-rows: auto minmax(0, 1fr); 
-    /* 2. Расширенная левая колонка (было 320px) */
-    grid-template-columns: 380px 1fr; 
+    grid-template-columns: 420px 1fr; 
     gap: 10px; 
   }
   
-  /* --- HEADER --- */
   header {
     grid-column: 1 / -1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 28px;
-    padding: 0 4px;
+    display: flex; align-items: center; justify-content: space-between;
+    min-height: 28px; padding: 0 4px;
   }
   header h1 { margin: 0; font-size: 18px; font-weight: 600; line-height: 1; }
 
-  /* --- PANELS --- */
   .panel {
     background: var(--panel);
     border: 1px solid var(--border);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    height: 100%; /* Заполняет ячейку грида */
-    position: relative;
+    display: flex; flex-direction: column;
+    overflow: hidden; height: 100%; position: relative;
   }
 
   aside.panel { padding: 10px; }
 
-  /* --- SEARCH AREA --- */
+  /* 3. Отступы заголовков увеличены снизу. 
+     4. margin-left: 1px - сдвиг влево (было 4px) */
   .search-group { margin-bottom: 8px; flex-shrink: 0; }
-  .lbl { color: var(--text-secondary); font-size: 11px; margin-bottom: 2px; display: block;}
-  
-  .search {
-    width: 100%;
-    padding: 6px 8px; 
-    border: 1px solid var(--border);
-    background: var(--card);
-    color: var(--text-primary);
-    font-size: 13px;
-    height: 30px;
+  .lbl { 
+    color: var(--text-secondary); 
+    font-size: 12px; 
+    margin-bottom: 4px; /* 3. Одинаковый отступ */
+    display: block; 
+    font-weight: 600; 
+    margin-left: 1px; /* 4. Сдвиг влево */
   }
+  
+  /* 5. Убрана скругленная рамка фокуса.
+     6. Уменьшена высота (26px) */
+  .search {
+    width: 100%; padding: 4px 6px; 
+    border: 1px solid var(--border);
+    background: var(--card); color: var(--text-primary);
+    font-size: 13px; height: 26px;
+    border-radius: 0; outline: none; /* 5. Убираем дефолтный outline */
+  }
+  .search:focus { border-color: var(--accent); } /* 5. Кастомный фокус */
 
   #system-select {
     cursor: pointer;
@@ -107,112 +101,79 @@
     appearance: none;
   }
   
-  /* --- GAME LIST --- */
   .list-header {
     margin-top: 4px; 
-    margin-bottom: 6px; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: flex-end;
+    margin-bottom: 2px;  
+    display: flex; justify-content: space-between; align-items: flex-end;
     flex-shrink: 0;
-    padding-bottom: 4px;
-    border-bottom: 1px solid var(--border);
+    padding-bottom: 2px;
   }
 
-  #game-list-container {
-    flex: 1; 
-    position: relative;
-    min-height: 0; 
-  }
+  /* 4. Цифра сдвинута правее (margin-right: 1px) */
+  #games-count { font-size: 11px; color:var(--text-secondary); margin-right: 1px; }
+
+  #game-list-container { flex: 1; position: relative; min-height: 0; }
 
   #game-list {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    overflow-y: auto; 
-    /* 5. Отступ списка от скроллбара */
-    padding-right: 8px; 
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    overflow-y: auto; padding-right: 8px; 
   }
 
+  /* 6. Компактные кнопки (padding уменьшен) */
   .game-item {
-    padding: 8px 10px; 
+    padding: 5px 8px; 
     margin-bottom: 4px; 
     background: var(--card);
     cursor: pointer;
-    border: 1px solid transparent; /* Чтобы не прыгало при ховере */
-    border-bottom: 1px solid var(--border);
-    
-    /* 2. Текст переносится, слова не режутся */
+    border: 1px solid var(--border); 
     white-space: normal;
-    word-wrap: break-word; 
-    word-break: break-word; 
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    word-wrap: break-word; word-break: break-word; 
+    display: flex; flex-direction: column; justify-content: center;
     transition: background 0.15s;
   }
   
-  .game-item:hover { background: var(--bg-subtle); border-color: var(--border); }
-  /* 4. Убрано смещение, только цвет */
-  .game-item.selected { 
-    background: rgba(77, 166, 255, 0.15); 
-    border-color: var(--accent); 
-  }
+  .game-item:hover { background: var(--bg-subtle); border-color: var(--accent); }
+  .game-item.selected { background: rgba(77, 166, 255, 0.15); border-color: var(--accent); }
 
   .g-name { font-weight: 600; font-size: 13px; line-height: 1.3; color: #fff;}
-  .g-meta { font-size: 12px; color: var(--text-secondary); font-weight: 400; margin-left: 4px;}
-
-  /* --- MAIN CONTENT --- */
+  
   #details { padding: 0; }
   
   .content-pad {
-    padding: 10px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    padding: 10px; height: 100%; display: flex; flex-direction: column; overflow: hidden;
   }
 
-  /* Header inside details */
+  /* 7. Убрана линия снизу, уменьшен margin */
   .game-header {
-    flex-shrink: 0;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border);
+    flex-shrink: 0; margin-bottom: 6px; padding-bottom: 0;
+    border-bottom: none; 
   }
-  .gh-title { font-size: 18px; font-weight: 700; color: #fff; line-height: 1.2; }
-  .gh-sub { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+  .gh-title { font-size: 16px; font-weight: 700; color: #fff; line-height: 1.3; }
 
-  /* TABS */
   .tabs { display: flex; gap: 4px; margin-bottom: 0; flex-shrink: 0; }
+  
+  /* 7. Уменьшена высота табов */
   .tab {
-    padding: 6px 16px; 
-    background: var(--bg-subtle);
-    border: 1px solid var(--border);
-    border-bottom: none;
-    color: var(--text-secondary);
-    font-size: 13px; cursor: pointer;
+    padding: 4px 12px; 
+    background: var(--bg-subtle); border: 1px solid var(--border); border-bottom: none;
+    color: var(--text-secondary); font-size: 13px; cursor: pointer;
   }
   .tab:hover { color: var(--text-primary); }
   .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
   .tab-body {
-    flex: 1;
-    border: 1px solid var(--border);
-    background: var(--bg); /* Контраст для контента */
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 0;
+    flex: 1; border: 1px solid var(--border);
+    background: var(--bg);
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column; min-height: 0;
   }
 
-  /* SCREENSHOTS */
   #tab-screens { height: 100%; display: flex; flex-direction: column; }
   
+  /* 7. Уменьшена высота тулбара */
   .screens-toolbar {
     display: flex; justify-content: space-between; align-items: center;
-    padding: 6px 8px; background: var(--bg-subtle); border-bottom: 1px solid var(--border);
+    padding: 4px 8px; background: var(--bg-subtle); border-bottom: 1px solid var(--border);
     flex-shrink: 0;
   }
   
@@ -227,41 +188,30 @@
   #screenshot-area {
     flex: 1; position: relative; overflow: hidden;
     display: flex; align-items: center; justify-content: center;
-    background: #000;
+    background: var(--bg); 
   }
   .screen-img {
     max-width: 100%; max-height: 100%; width: auto; height: auto;
     object-fit: contain; cursor: pointer;
   }
   
-  /* INFO & VIDEO */
   #tab-info, #tab-youtube { padding: 15px; overflow-y: auto; }
-  .info-block { font-size: 14px; line-height: 1.5; white-space: pre-wrap; margin-top: 10px;}
-  .meta-row { font-size: 13px; margin-bottom: 6px; color: var(--text-secondary); }
-  .meta-val { color: var(--text-primary); font-weight: 500; }
+  
+  /* 8. Инфо блок: убрал отступ сверху, так как метаданных нет */
+  .info-block { font-size: 14px; line-height: 1.5; white-space: pre-wrap; margin-top: 0;}
   
   iframe { border:0; width:100%; height:100%; }
 
-  /* --- 5. MOBILE FIXES --- */
   @media(max-width: 900px){
     .wrap {
-      /* Переключаем на одну колонку */
       grid-template-columns: 1fr;
-      /* 5. ФИКС: Три строки: Шапка, Список (фиксированный %), Детали (остальное) */
       grid-template-rows: auto 35vh 1fr; 
-      height: 100dvh; /* Строго высота экрана */
-      overflow: hidden;
-      padding: 5px;
-      gap: 5px;
+      height: 100dvh; overflow: hidden;
+      padding: 5px; gap: 5px;
     }
-    
     header { min-height: auto; margin-bottom: 2px; }
     header h1 { font-size: 16px; }
-    
-    /* Список игр на мобильном - свой скролл */
     aside.panel { padding: 8px; }
-    
-    /* Для деталей убираем лишние паддинги */
     .content-pad { padding: 8px; }
   }
 </style>
@@ -271,7 +221,7 @@
 <div class="wrap">
   <header>
     <h1>Retro Games Catalog</h1>
-    <div style="font-size:11px; color:var(--text-secondary)">v1.2</div>
+    <div style="font-size:11px; color:var(--text-secondary)">v1.4</div>
   </header>
 
   <aside class="panel">
@@ -289,8 +239,8 @@
       </div>
 
       <div class="list-header">
-        <span class="lbl" style="font-weight:600; color:var(--text-primary)">Games List</span>
-        <span id="games-count" style="font-size:11px; color:var(--text-secondary)"></span>
+        <span class="lbl">Games List</span>
+        <span id="games-count"></span>
       </div>
     </div>
 
@@ -300,11 +250,10 @@
   </aside>
 
   <main class="panel" id="details">
-    
     <div id="placeholder" style="height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:20px;">
       <div style="font-size:16px; color:var(--text-primary); margin-bottom:8px;">Ready Player One</div>
       <div style="font-size:13px; color:var(--text-secondary); max-width:250px;">
-        Select a system and a game from the list to view screenshots and details.
+        Select a system and a game from the list.
       </div>
     </div>
 
@@ -312,7 +261,6 @@
       
       <div class="game-header">
         <div id="game-title" class="gh-title"></div>
-        <div id="game-sub" class="gh-sub"></div>
       </div>
 
       <div class="tabs" id="tabs">
@@ -322,7 +270,6 @@
       </div>
 
       <div class="tab-body">
-        
         <div id="tab-screens">
           <div class="screens-toolbar" id="screens-toolbar">
             <span style="font-size:11px; color:var(--muted)">Preview</span>
@@ -339,14 +286,12 @@
         </div>
 
         <div id="tab-info" style="display:none;">
-          <div id="meta-container"></div>
           <div id="game-description" class="info-block"></div>
         </div>
 
         <div id="tab-youtube" style="display:none;">
           <div id="yt-container" style="height:100%"></div>
         </div>
-
       </div>
     </div>
   </main>
@@ -374,7 +319,6 @@ function parseIni(text){
   return result;
 }
 
-// Натуральная сортировка (1, 2, 10 вместо 1, 10, 2)
 const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 
 async function fetchFile(path, type='text'){
@@ -397,14 +341,10 @@ const els = {
   gameArea: document.getElementById('game-area'),
   tabs: document.getElementById('tabs'),
   
-  // Content
   title: document.getElementById('game-title'),
-  sub: document.getElementById('game-sub'),
   desc: document.getElementById('game-description'),
-  meta: document.getElementById('meta-container'),
   yt: document.getElementById('yt-container'),
   
-  // Screens
   screenWrap: document.getElementById('img-container'),
   screenMsg: document.getElementById('screens-msg'),
   screenCounter: document.getElementById('screen-counter'),
@@ -418,7 +358,8 @@ let appState = {
   filtered: [],
   currentG: null,
   screens: [],
-  screenIdx: 0
+  screenIdx: 0,
+  activeTab: 'screens'
 };
 
 /* --- CORE --- */
@@ -445,15 +386,18 @@ async function init(){
     if(!t) return;
     document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
     t.classList.add('active');
-    
-    const mode = t.dataset.tab;
-    document.getElementById('tab-screens').style.display = mode==='screens'?'flex':'none';
-    document.getElementById('tab-info').style.display = mode==='info'?'block':'none';
-    document.getElementById('tab-youtube').style.display = mode==='youtube'?'block':'none';
+    appState.activeTab = t.dataset.tab;
+    updateTabContent();
   });
 }
 
-// 1. Загрузка и сортировка (Emulators -> Games -> Demos)
+function updateTabContent(){
+  const mode = appState.activeTab;
+  document.getElementById('tab-screens').style.display = mode==='screens'?'flex':'none';
+  document.getElementById('tab-info').style.display = mode==='info'?'block':'none';
+  document.getElementById('tab-youtube').style.display = mode==='youtube'?'block':'none';
+}
+
 async function loadSystem(dir){
   resetView();
   els.list.innerHTML = '<div style="padding:10px; color:var(--muted)">Loading...</div>';
@@ -465,7 +409,6 @@ async function loadSystem(dir){
     const data = await fetchFile(`Systems/${encodeURIComponent(dir)}/${type}.ini`, 'ini');
     if(!data) continue;
     
-    // Преобразуем объект в массив
     let group = Object.values(data).map((obj, idx) => ({
       rawId: idx,
       name: obj['Name'] || obj['NAME'] || obj['name'] || '',
@@ -477,14 +420,28 @@ async function loadSystem(dir){
       source: type
     })).filter(g => g.name || g.dir);
 
-    // Сортировка внутри группы по алфавиту (натуральная)
     group.sort((a, b) => collator.compare(a.name, b.name));
-
     tempGames = tempGames.concat(group);
   }
 
-  appState.games = tempGames.map((g, i) => ({...g, id: i})); // Переназначаем ID сквозным
+  appState.games = tempGames.map((g, i) => ({...g, id: i})); 
   renderList();
+}
+
+function getGameDisplayText(g) {
+  // 1. Порядок: Название, затем Суффикс
+  let suffix = '';
+  if (g.source === 'Emulators') suffix = ' *Emulator';
+  else if (g.source === 'Demos') suffix = ' *Demo';
+  
+  // Добавляем суффикс к названию
+  let html = escapeHtml(g.name) + suffix;
+  
+  // Затем год и рейтинг
+  if(g.year) html += ` (${escapeHtml(g.year)})`;
+  if(g.rating) html += ` ⭐${escapeHtml(g.rating)}`;
+  
+  return html;
 }
 
 function renderList(){
@@ -499,7 +456,6 @@ function renderList(){
     return;
   }
 
-  // Virtual render is not needed for <1000 games usually, but simple DOM is fine
   const frag = document.createDocumentFragment();
   
   appState.filtered.forEach(g => {
@@ -507,14 +463,7 @@ function renderList(){
     el.className = 'game-item';
     if(appState.currentG && appState.currentG.id === g.id) el.classList.add('selected');
     
-    // 3. Формат: Имя (Год) Rating. Без Dir.
-    let metaHTML = '';
-    if(g.year) metaHTML += `(${g.year}) `;
-    if(g.rating) metaHTML += `⭐${g.rating}`;
-    
-    el.innerHTML = `
-      <div class="g-name">${escapeHtml(g.name)} <span class="g-meta">${metaHTML}</span></div>
-    `;
+    el.innerHTML = `<div class="g-name">${getGameDisplayText(g)}</div>`;
     
     el.onclick = () => loadGame(g, el);
     frag.appendChild(el);
@@ -526,26 +475,16 @@ function renderList(){
 async function loadGame(g, elBtn){
   appState.currentG = g;
   
-  // Highlight
   document.querySelectorAll('.game-item').forEach(x => x.classList.remove('selected'));
   if(elBtn) elBtn.classList.add('selected');
 
-  // UI
   els.placeholder.style.display = 'none';
   els.gameArea.style.display = 'flex';
   
-  // Header
-  els.title.textContent = g.name;
-  els.sub.textContent = `${els.sysSelect.options[els.sysSelect.selectedIndex].text} / ${g.source}`;
+  // 2. Используем innerHTML для корректного отображения спецсимволов (&amp; -> &)
+  els.title.innerHTML = getGameDisplayText(g);
   
-  // Meta
-  els.meta.innerHTML = `
-    <div class="meta-row">Directory: <span class="meta-val">${escapeHtml(g.dir)}</span></div>
-    <div class="meta-row">Year: <span class="meta-val">${escapeHtml(g.year||'-')}</span></div>
-    <div class="meta-row">Rating: <span class="meta-val">${g.rating ? '⭐'+g.rating : '-'}</span></div>
-  `;
-  
-  // Description (Info.txt)
+  // Info
   els.desc.textContent = 'Loading info...';
   const infoPath = `Systems/${els.sysSelect.value}/${g.source}/${g.dir}/Info.txt`;
   const infoTxt = await fetchFile(infoPath, 'text');
@@ -555,14 +494,15 @@ async function loadGame(g, elBtn){
   const q = encodeURIComponent(g.name + ' gameplay');
   els.yt.innerHTML = `<iframe src="https://www.youtube.com/embed?listType=search&list=${q}" allowfullscreen></iframe>`;
 
-  // Screenshots
   loadScreens(g);
   
-  // Reset Tabs
-  document.querySelector('.tab[data-tab="screens"]').click();
+  document.querySelectorAll('.tab').forEach(x => {
+    if(x.dataset.tab === appState.activeTab) x.classList.add('active');
+    else x.classList.remove('active');
+  });
+  updateTabContent();
 }
 
-// 1. Загрузка скриншотов (Относительные пути)
 async function loadScreens(g){
   appState.screens = [];
   appState.screenIdx = 0;
@@ -575,7 +515,6 @@ async function loadScreens(g){
   const typeDir = encodeURIComponent(g.source);
   const gameDir = encodeURIComponent(g.dir);
   
-  // Путь к images.json относительно корня
   const basePath = `Systems/${sysDir}/${typeDir}/${gameDir}`;
   const jsonPath = `${basePath}/images.json`;
 
@@ -584,8 +523,7 @@ async function loadScreens(g){
     if(r.ok){
       const list = await r.json();
       if(Array.isArray(list) && list.length > 0){
-        // Формируем список URL
-        appState.screens = list.map(f => `${basePath}/${f}`); // Имена файлов из JSON обычно не энкодятся повторно, если только там нет спецсимволов
+        appState.screens = list.map(f => `${basePath}/${f}`); 
         
         els.screenMsg.style.display = 'none';
         els.toolbar.style.display = 'flex';
@@ -602,7 +540,6 @@ function showScreen(idx){
   if(!appState.screens.length) return;
   appState.screenIdx = idx;
   
-  // Loop
   if(appState.screenIdx < 0) appState.screenIdx = appState.screens.length - 1;
   if(appState.screenIdx >= appState.screens.length) appState.screenIdx = 0;
 
@@ -616,7 +553,6 @@ function showScreen(idx){
   img.onclick = () => window.open(url, '_blank');
   els.screenWrap.appendChild(img);
   
-  // Disable btns if single
   const single = appState.screens.length <= 1;
   els.prev.disabled = single; 
   els.next.disabled = single;
