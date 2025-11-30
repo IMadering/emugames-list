@@ -24,11 +24,13 @@
   
   * { box-sizing: border-box; }
 
-  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  /* 3. SCROLLBARS WIDER */
+  ::-webkit-scrollbar { width: 16px; height: 16px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { 
     background: var(--scrollbar-thumb); 
-    border: 2px solid var(--bg); 
+    border: 3px solid var(--bg); /* Adjusted border for wider scroll */
+    background-clip: padding-box;
   }
   ::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-hover); }
   
@@ -69,28 +71,27 @@
 
   aside.panel { padding: 10px; }
 
-  /* 3. Отступы заголовков увеличены снизу. 
-     4. margin-left: 1px - сдвиг влево (было 4px) */
   .search-group { margin-bottom: 8px; flex-shrink: 0; }
   .lbl { 
     color: var(--text-secondary); 
     font-size: 12px; 
-    margin-bottom: 4px; /* 3. Одинаковый отступ */
+    margin-bottom: 4px; 
     display: block; 
     font-weight: 600; 
-    margin-left: 1px; /* 4. Сдвиг влево */
+    margin-left: 1px; 
   }
   
-  /* 5. Убрана скругленная рамка фокуса.
-     6. Уменьшена высота (26px) */
   .search {
     width: 100%; padding: 4px 6px; 
     border: 1px solid var(--border);
     background: var(--card); color: var(--text-primary);
     font-size: 13px; height: 26px;
-    border-radius: 0; outline: none; /* 5. Убираем дефолтный outline */
+    border-radius: 0; outline: none; 
   }
-  .search:focus { border-color: var(--accent); } /* 5. Кастомный фокус */
+  .search:focus { border-color: var(--accent); }
+
+  /* 1. HIDE PLACEHOLDER IN DROPDOWN */
+  select option[disabled] { display: none; }
 
   #system-select {
     cursor: pointer;
@@ -101,25 +102,27 @@
     appearance: none;
   }
   
+  /* 5. HEADER ALIGNMENT */
   .list-header {
-    margin-top: 4px; 
-    margin-bottom: 2px;  
-    display: flex; justify-content: space-between; align-items: flex-end;
+    margin-top: 8px; /* Slightly lower as requested */
+    margin-bottom: 4px;  
+    display: flex; justify-content: space-between; 
+    align-items: center; /* Centered vertically */
     flex-shrink: 0;
     padding-bottom: 2px;
   }
 
-  /* 4. Цифра сдвинута правее (margin-right: 1px) */
   #games-count { font-size: 11px; color:var(--text-secondary); margin-right: 1px; }
 
   #game-list-container { flex: 1; position: relative; min-height: 0; }
 
+  /* 4. DYNAMIC LIST WIDTH */
   #game-list {
     position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-    overflow-y: auto; padding-right: 8px; 
+    overflow-y: auto; 
+    padding-right: 0; /* Removed fixed padding so items touch edge if no scroll */
   }
 
-  /* 6. Компактные кнопки (padding уменьшен) */
   .game-item {
     padding: 5px 8px; 
     margin-bottom: 4px; 
@@ -143,16 +146,20 @@
     padding: 10px; height: 100%; display: flex; flex-direction: column; overflow: hidden;
   }
 
-  /* 7. Убрана линия снизу, уменьшен margin */
   .game-header {
     flex-shrink: 0; margin-bottom: 6px; padding-bottom: 0;
     border-bottom: none; 
   }
   .gh-title { font-size: 16px; font-weight: 700; color: #fff; line-height: 1.3; }
 
-  .tabs { display: flex; gap: 4px; margin-bottom: 0; flex-shrink: 0; }
+  /* 6. TAB BAR LAYOUT */
+  .tabs-bar {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    margin-bottom: 0; flex-shrink: 0; gap: 10px;
+  }
+
+  .tabs { display: flex; gap: 4px; }
   
-  /* 7. Уменьшена высота табов */
   .tab {
     padding: 4px 12px; 
     background: var(--bg-subtle); border: 1px solid var(--border); border-bottom: none;
@@ -160,6 +167,20 @@
   }
   .tab:hover { color: var(--text-primary); }
   .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab[style*="display: none"] { display: none !important; }
+
+  /* 6. CONTROLS IN HEADER */
+  .sc-controls { 
+    display: flex; gap: 8px; align-items: center; 
+    padding-bottom: 2px;
+  }
+  .btn-icon {
+    width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;
+    background: var(--card); border: 1px solid var(--border); color: var(--text-primary);
+    cursor: pointer; padding: 0;
+  }
+  .btn-icon:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-icon:disabled { opacity: 0.3; cursor: default; border-color: var(--border); color: var(--text-secondary); }
 
   .tab-body {
     flex: 1; border: 1px solid var(--border);
@@ -169,21 +190,6 @@
   }
 
   #tab-screens { height: 100%; display: flex; flex-direction: column; }
-  
-  /* 7. Уменьшена высота тулбара */
-  .screens-toolbar {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 4px 8px; background: var(--bg-subtle); border-bottom: 1px solid var(--border);
-    flex-shrink: 0;
-  }
-  
-  .sc-controls { display: flex; gap: 8px; align-items: center; }
-  .btn-icon {
-    width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;
-    background: var(--card); border: 1px solid var(--border); color: var(--text-primary);
-    cursor: pointer; padding: 0;
-  }
-  .btn-icon:hover { border-color: var(--accent); color: var(--accent); }
   
   #screenshot-area {
     flex: 1; position: relative; overflow: hidden;
@@ -197,10 +203,25 @@
   
   #tab-info, #tab-youtube { padding: 15px; overflow-y: auto; }
   
-  /* 8. Инфо блок: убрал отступ сверху, так как метаданных нет */
   .info-block { font-size: 14px; line-height: 1.5; white-space: pre-wrap; margin-top: 0;}
   
-  iframe { border:0; width:100%; height:100%; }
+  /* 2. IFRAME STYLING */
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+  }
+  .embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 
   @media(max-width: 900px){
     .wrap {
@@ -221,7 +242,7 @@
 <div class="wrap">
   <header>
     <h1>Retro Games Catalog</h1>
-    <div style="font-size:11px; color:var(--text-secondary)">v1.4</div>
+    <div style="font-size:11px; color:var(--text-secondary)">v1.5</div>
   </header>
 
   <aside class="panel">
@@ -229,7 +250,7 @@
       <div class="search-group">
         <label class="lbl" for="system-select">System</label>
         <select id="system-select" class="search">
-          <option value="" disabled selected>Loading...</option>
+          <option value="" disabled selected hidden>Loading...</option>
         </select>
       </div>
 
@@ -263,22 +284,22 @@
         <div id="game-title" class="gh-title"></div>
       </div>
 
-      <div class="tabs" id="tabs">
-        <div class="tab active" data-tab="screens">Screenshots</div>
-        <div class="tab" data-tab="info">Info</div>
-        <div class="tab" data-tab="youtube">Gameplay</div>
+      <div class="tabs-bar">
+        <div class="tabs" id="tabs">
+          <div class="tab active" data-tab="screens">Screenshots</div>
+          <div class="tab" data-tab="info">Info</div>
+          <div class="tab" data-tab="youtube" id="tab-btn-yt">Gameplay</div>
+        </div>
+
+        <div class="sc-controls" id="sc-controls">
+          <button id="prev-btn" class="btn-icon">‹</button>
+          <span id="screen-counter" style="font-size:12px; min-width:30px; text-align:center; tabular-nums:true;">0 / 0</span>
+          <button id="next-btn" class="btn-icon">›</button>
+        </div>
       </div>
 
       <div class="tab-body">
         <div id="tab-screens">
-          <div class="screens-toolbar" id="screens-toolbar">
-            <span style="font-size:11px; color:var(--muted)">Preview</span>
-            <div class="sc-controls">
-              <button id="prev-btn" class="btn-icon">‹</button>
-              <span id="screen-counter" style="font-size:12px; min-width:30px; text-align:center; tabular-nums:true;">0/0</span>
-              <button id="next-btn" class="btn-icon">›</button>
-            </div>
-          </div>
           <div id="screenshot-area">
              <div id="img-container" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center;"></div>
              <div id="screens-msg" style="position:absolute; color:var(--text-secondary); font-size:13px;">Loading...</div>
@@ -340,6 +361,7 @@ const els = {
   placeholder: document.getElementById('placeholder'),
   gameArea: document.getElementById('game-area'),
   tabs: document.getElementById('tabs'),
+  tabBtnYt: document.getElementById('tab-btn-yt'),
   
   title: document.getElementById('game-title'),
   desc: document.getElementById('game-description'),
@@ -350,7 +372,7 @@ const els = {
   screenCounter: document.getElementById('screen-counter'),
   prev: document.getElementById('prev-btn'),
   next: document.getElementById('next-btn'),
-  toolbar: document.getElementById('screens-toolbar')
+  scControls: document.getElementById('sc-controls')
 };
 
 let appState = {
@@ -365,7 +387,8 @@ let appState = {
 /* --- CORE --- */
 async function init(){
   const sysData = await fetchFile('Systems.ini', 'ini');
-  els.sysSelect.innerHTML = '<option value="" disabled selected>Select System</option>';
+  // 1. HIDDEN ATTRIBUTE FOR PLACEHOLDER
+  els.sysSelect.innerHTML = '<option value="" disabled selected hidden>Select System</option>';
   
   if(sysData){
     for(const key of Object.keys(sysData)){
@@ -396,6 +419,9 @@ function updateTabContent(){
   document.getElementById('tab-screens').style.display = mode==='screens'?'flex':'none';
   document.getElementById('tab-info').style.display = mode==='info'?'block':'none';
   document.getElementById('tab-youtube').style.display = mode==='youtube'?'block':'none';
+  
+  // 6. TOGGLE CONTROLS VISIBILITY
+  els.scControls.style.visibility = mode==='screens' ? 'visible' : 'hidden';
 }
 
 async function loadSystem(dir){
@@ -429,15 +455,12 @@ async function loadSystem(dir){
 }
 
 function getGameDisplayText(g) {
-  // 1. Порядок: Название, затем Суффикс
   let suffix = '';
   if (g.source === 'Emulators') suffix = ' *Emulator';
   else if (g.source === 'Demos') suffix = ' *Demo';
   
-  // Добавляем суффикс к названию
   let html = escapeHtml(g.name) + suffix;
   
-  // Затем год и рейтинг
   if(g.year) html += ` (${escapeHtml(g.year)})`;
   if(g.rating) html += ` ⭐${escapeHtml(g.rating)}`;
   
@@ -481,21 +504,48 @@ async function loadGame(g, elBtn){
   els.placeholder.style.display = 'none';
   els.gameArea.style.display = 'flex';
   
-  // 2. Используем innerHTML для корректного отображения спецсимволов (&amp; -> &)
   els.title.innerHTML = getGameDisplayText(g);
   
   // Info
   els.desc.textContent = 'Loading info...';
   const infoPath = `Systems/${els.sysSelect.value}/${g.source}/${g.dir}/Info.txt`;
   const infoTxt = await fetchFile(infoPath, 'text');
-  els.desc.textContent = infoTxt || g.comment || 'No description available.';
+  const safeInfo = infoTxt || g.comment || 'No description available.';
+  els.desc.textContent = safeInfo;
 
-  // YouTube
-  const q = encodeURIComponent(g.name + ' gameplay');
-  els.yt.innerHTML = `<iframe src="https://www.youtube.com/embed?listType=search&list=${q}" allowfullscreen></iframe>`;
+  // 2. PARSE YOUTUBE FROM INFO
+  let videoId = null;
+  if (safeInfo) {
+    const match = safeInfo.match(/Gameplay:\s*(https?:\/\/[^\s]+)/);
+    if (match && match[1]) {
+      // Regex to extract ID from youtube links (standard, embed, short)
+      const idMatch = match[1].match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i);
+      if (idMatch && idMatch[1]) {
+        videoId = idMatch[1];
+      }
+    }
+  }
+
+  if (videoId) {
+    els.tabBtnYt.style.display = 'block'; // Enable tab
+    // 2. EMBED CODE
+    els.yt.innerHTML = `
+      <div class="embed-container">
+        <iframe src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    `;
+  } else {
+    els.tabBtnYt.style.display = 'none'; // Disable tab
+    els.yt.innerHTML = '';
+    // If we were on youtube tab, switch back to screens
+    if (appState.activeTab === 'youtube') {
+      appState.activeTab = 'screens';
+    }
+  }
 
   loadScreens(g);
   
+  // Reset active classes
   document.querySelectorAll('.tab').forEach(x => {
     if(x.dataset.tab === appState.activeTab) x.classList.add('active');
     else x.classList.remove('active');
@@ -507,7 +557,8 @@ async function loadScreens(g){
   appState.screens = [];
   appState.screenIdx = 0;
   els.screenWrap.innerHTML = '';
-  els.toolbar.style.display = 'none';
+  // Toolbar gone, we toggle visibility of header controls instead
+  
   els.screenMsg.style.display = 'block';
   els.screenMsg.textContent = 'Checking images...';
 
@@ -526,7 +577,6 @@ async function loadScreens(g){
         appState.screens = list.map(f => `${basePath}/${f}`); 
         
         els.screenMsg.style.display = 'none';
-        els.toolbar.style.display = 'flex';
         showScreen(0);
         return;
       }
@@ -534,6 +584,9 @@ async function loadScreens(g){
   } catch(e){ console.log('No images.json', e); }
   
   els.screenMsg.textContent = 'No screenshots found.';
+  els.screenCounter.textContent = '0 / 0';
+  els.prev.disabled = true;
+  els.next.disabled = true;
 }
 
 function showScreen(idx){
@@ -544,7 +597,8 @@ function showScreen(idx){
   if(appState.screenIdx >= appState.screens.length) appState.screenIdx = 0;
 
   const url = appState.screens[appState.screenIdx];
-  els.screenCounter.textContent = `${appState.screenIdx+1}/${appState.screens.length}`;
+  // 6. SPACES IN COUNTER
+  els.screenCounter.textContent = `${appState.screenIdx+1} / ${appState.screens.length}`;
   
   els.screenWrap.innerHTML = '';
   const img = new Image();
@@ -556,8 +610,7 @@ function showScreen(idx){
   const single = appState.screens.length <= 1;
   els.prev.disabled = single; 
   els.next.disabled = single;
-  els.prev.style.opacity = single ? 0.3 : 1;
-  els.next.style.opacity = single ? 0.3 : 1;
+  // Use visibility or opacity for disabled state logic handled in CSS
 }
 
 function navScreen(d) { showScreen(appState.screenIdx + d); }
