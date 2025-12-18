@@ -1,0 +1,10 @@
+﻿This is a single player puzzle game of 20 levels. You have a character that you can control on grid area of the playfield. The object of the game is to push balls around on the grid in an attempt to match them with a corresponding ball that is placed off the grid in a matching area. Your ultimate goal is to solve all 20 puzzles and spend the smallest amount of time solving each of them.
+
+Besides the balls, there are boxes on the grid. The objects - boxes and balls - can be pushed in the direction the character is moving. Once the object is pushed, it will keep going until it hits another object, a wall, or collides with a matching object in the matching area. The character cannot push an object if there is another object or wall on the opposite side that would stop it.
+
+The level is over if a ball hits nothing or a non-matching object in a matching area. A puzzle is beaten if all the objects in the matching area have disappeared. A beaten puzzle can still be selected in an attempt to get a faster time.
+
+Controls
+Use <Arrows> to control the character.
+Press <Bksp> to cancel the last move.
+Press <Esc> to return to the select puzzle menu.

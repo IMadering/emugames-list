@@ -1,0 +1,10 @@
+﻿I tested Google AI Gemini 3.0 to write a Rock Paper Scissors game in Integer BASIC for the old Apple I (Apple-1) computer, and I was very pleased. We even added ASCII graphics. It turned out well and was very interesting.
+
+by TRG & Google AI Gemini
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

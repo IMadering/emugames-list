@@ -1,0 +1,10 @@
+﻿Show your stuff on the halfpipe by attempting the most outstanding tricks on your board! Squeeze as many tricks as you can into the 2 minutes that you have. Jump and hang in the air to hit some awesome combinations — if you COMBO, you get a lot more points. Earn 1000 points to go to the second level, and to play each successive level, you need to score twice as many points that were necessary on the previous one.
+
+The most outstanding tricks can be done in the air. You must jump to perform the trick in the air. Use the following buttons to perform tricks:
+Press and release <Enter> to jump.
+Press <Down arrow> for Tail Grab.
+Press <Select> for 180-Degree Twist; double press <Select> for 360 Degree Twist.
+Press <Del> for Hand Stand.
+Press <Tab> for Kick Flip.
+Press <Insert> for Backflip.
+Press <Esc> to pause or exit the game. The Game Menu will appear.

@@ -1,0 +1,16 @@
+﻿This is a single player game with 10 levels. Your goal is to win all 10 tournaments destroying all 10 knights. A knight has a definite number of lives. If he loses all his lives, he is destroyed. The next level begins when you destroy the opponent on current level. If you're defeated the game ends and you're the loser.
+
+At the beginning of the game, you can select one of three knights, who will be your hero in the game. Each knight has its own features; you have to decide which feature is most important for you. After each level, you'll get an experience level that is evaluated in numbers. The greater the lives that remain on that level, the greater the experience rating will be. The experience will influence the amount of damage that your opponent receives upon being hit. Well-experienced knights deliver more damage than non-experienced knights.
+
+After each level, you can select one of three prizes. You can see the features of each prize and decide whether you need it or not.
+
+Controls
+Use <Left/Right arrows> to move your Knight.
+Press <Up arrow><Enter> to make an upper hit.
+Press <Down arrow><Enter> to make a lower hit.
+Press <Enter> to make a middle hit.
+Press <Up arrow><Tab> to make an upper block.
+Press <Down arrow><Tab> to make a lower block.
+Press <Tab> to make a middle block.
+Press <Del> to see your characteristic.
+Press <Esc> to exit or restart the game.

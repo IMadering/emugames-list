@@ -1,0 +1,21 @@
+﻿This collection represents a time capsule of PC children's software from the CD-ROM era (1995-2010), primarily consisting of edutainment titles and early adventure games.
+
+Sites:
+https://archive.org/details/clearancebin_kidsoftware
+https://archive.org/details/@howaboutretro
+https://archive.org/details/@howaboutretro
+https://archive.org/details/@austinrichardson29
+https://archive.org/details/@soup-time
+https://archive.org/details/@cd-rom_preservation_project
+https://archive.org/details/@jacob_henson
+https://archive.org/details/js3dvw
+https://archive.org/details/whiz-kid_202110
+
+Tools:
+https://dege.freeweb.hu/dgVoodoo2/
+https://github.com/dege-diosg/dgVoodoo2
+
+*LeapFrog
+*Fisher-Price
+*Jakks Pacific
+*Hasbro

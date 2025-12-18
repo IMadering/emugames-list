@@ -1,0 +1,15 @@
+﻿This is a multi-player game. You can play with up to four opponents. You can also invite virtual opponents. You have one catapult that can throw a ball. The object of the game is to be the last remaining player in the game. You can achieve this goal in two ways: hitting the opponents or dodging opponents' attacks. If a catapult loses all its hit-points, it is considered killed and loses the game.
+
+You can scroll the view of the playing field and see your partners' location. When you point the crosshair on a catapult, its nickname and hit-points are shown.
+
+The game round consists of command phases and execution phases. At command phase, you select an action and set action parameters. When all the partners finish the command phase, the execution phase begins.
+
+Controls
+Use <Arrows> to move the cursor around the field.
+Press <Enter> to enter the command phase.
+In the move/fire selection dialog: Use <Arrows> to choose an action and press <Enter>.
+In the parameter dialog: Use <Up/Down arrows> to increase/decrease power; <Shift>+<Up/Down arrows> set power to maximum/minimum; Use <Left/Right arrows> to change aiming or direction; Use <Shift>+<Left/Right arrows> to set aiming to its extreme positions. When you're done, press <Enter> to settle the values.
+Press <Select> to turn on/off the follow mode.
+Press <Ins> to hide/show the hit-points table.
+Press <Tab> to quickly move the cursor to your catapult.
+Press <Esc> to exit.

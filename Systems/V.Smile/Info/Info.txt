@@ -1,0 +1,31 @@
+﻿The V.Smile (full name: V.Smile TV Learning System) is a unique educational game console developed by VTech specifically for preschool and early school-aged children (typically 3 to 7-9 years old).
+Manufacturer: VTech (a Hong Kong-based company specializing in educational electronics).
+Release Date: First launched in 2004.
+Purpose: Education and development (edutainment). Games focus on teaching letters, numbers, spelling, logic, and other core educational concepts.
+
+The V.Smile was a highly successful console for its segment, selling over 11 million units. It served as an "intermediate step" between traditional toys and full-fledged video game consoles, offering parents a compromise between entertainment and education, often using popular licensed characters (Disney, Nick Jr., etc.).
+
+Technical Specifications
+CPU: Sunplus SPG200, clock speed ~27 MHz
+Graphics: 2D sprite-based graphics. 320x240 pixels.
+Media: V.Smile Smartridges (based on ROM flash memory)
+Audio: Mono / Stereo
+
+List of V.Smile Models:
+1st Generation (2004)
+- - -
+V.Smile Pocket (2004)
+
+2nd Generation (2007)
+This 2nd generation added various things such as microphone support, and a new controller with a built in drawing pad. This version also can store up to 8 cartridges. The early name for this version is V.Smile Plus.
+- - -
+V.Smile Motion (2007) (also known as V.Smile V-Motion) is a revision and update of the original V.Smile system. It was released by VTech around 2007-2008. In terms of the basic "hardware" (processor and graphics), the V.Smile Motion remained very close to the original V.Smile, using the same architecture to ensure backward compatibility with older games.
+- - -
+V.Smile Pocket (2007)
+Added microphone support.
+
+3rd Generation (2008)
+The last console released in the original series, it has become smaller in size still retaining the two controller ports, and adding V-Link, but making the storage compacity for games in the slot only 4 instead of the previous 6 and 8.
+- - -
+V.Smile Cyber Pocket (2008)
+Added V-Link and Drawing Pad support.

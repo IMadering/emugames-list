@@ -1,0 +1,8 @@
+﻿Frog Hop is a single player logical game of 10 levels. At each level, you have to navigate the frog through the line of floating/sinking lily pads in an attempt to reach the other side of the river without drowning. Your ultimate goal is to make it as far into the game as possible while completing each level in the smallest amount of time. You can only land on lily pads that are above the water; if you land on a pad that is sinking or has already sunk, you will lose a life and the frog must restart from the left side of the pond. Starting the first level, you have 3 lives in store. The level is beaten and you are rewarded with an additional life, when the frog gets to the other side of the river. The game ends when you pass all 10 levels or when the frog drowns and has no more lives remaining.
+
+Controls
+Use <Up/Down arrows> to select the option.
+Press <Enter> to run it.
+Select "Start" to start the game.
+Select "Scores" to view the best results list.
+Select "Exit" to exit the game.

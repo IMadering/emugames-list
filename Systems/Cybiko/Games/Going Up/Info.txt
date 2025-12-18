@@ -1,0 +1,13 @@
+﻿This is a single player game. You are an elevator operator. You see Cy-Bs that come to the elevator, and under their heads you'll see the floor to which they want to go. There can't be more than four Cy-Bs in the elevator. When the elevator stops on a floor, Cy-Bs that want to go on that floor get out. The awaiting Cy-Bs can come in. You get the points for delivered Cy-Bs. If a Cy-B has been waiting a long while, the Cy-B will leave and you'll be fined. If you see that there are too many awaiting Cy-Bs, you can start preventive repair until all of them go out; but in this case you'll be fined, too.
+
+You have 100 points at the beginning. The more points you score, the higher skill level you achieve. You'll be promoted to the next prestigious hotel if you achieve certain skill level. Each next hotel has more floors. If you lose your skill level, you'll be downgraded and start working in the low-level hotel. The game ends if your score is zero or if you exit. The goal of the game is to achieve the best score during the game.
+
+Controls
+Press a numeric key <1>, <2>, <3>... to move the elevator to that floor.
+Press <Up/Down arrows> to move the elevator up and down.
+Press <Enter> to interrupt the moving of elevator and to stop it on the nearest floor.
+Press <P> to pause/resume the game.
+Press <Tab> to show/hide the status bar.
+Press <Del> to start preventive repair.
+Press <Enter> after you read any game message about your status to continue the game.
+Press <Esc> to exit.

@@ -1,0 +1,6 @@
+﻿Nine is a four-player card game in which the object is to get rid of all of your cards before any of your opponents can do the same. The ultimate goal of each player is to win as much money as possible. Each player begins with $10 in his/her pocket. The game may consist of one or more rounds. Before each round, the players ante up $1 into the pot. If you are dealt the 9 of diamonds, you lead the first hand. The next player can continue this row of diamonds by putting 8 or 10 of diamonds or begin a new row placing on the table 9 of any other suit. In each move, you can put one of your cards on the table next to a matching card. Nines are put on the table first. The players make their moves one by one. If you cannot put any card on the table, you should pay $1 to the pot and pass. The whole pot is taken by a player who rids of all his cards first, before other players can. However, the others continue playing until the next player plays all their cards. This player gets to put the pot into his/her pocket. When the third player gets rid of all their cards, the next round will start. The game will end if the pocket of at least one of the players is empty.
+
+Controls
+Use <Left/Right arrows> to mark a card by the highlight.
+Press <Enter> to place marked card on playing table.
+Press <Esc> to exit the game.

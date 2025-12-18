@@ -1,0 +1,20 @@
+﻿V.Smile Baby (full name: V.Smile Baby Infant Development System) is a unique educational game console released by VTech in 2006.
+
+It was designed specifically for very young children (from 9 months to 3 years old) and was marketed not just as a video game, but as an "Infant Development System." Its primary goal was early learning through interactive play, introducing toddlers to colors, shapes, sounds, and language basics.
+
+Key Features
+Design: The system consists of two main parts: the console itself, which plugs into the TV, and a wireless Activity Panel.
+
+Controls: The controller is designed as a large panel with huge, colorful buttons, a roller ball, and toggle switches. It operates via an infrared port (like a TV remote), so there are no messy wires, making it safe for toddlers.
+
+Two Modes of Play:
+1. TV Mode: The panel controls the action on the TV screen.
+2. Standalone Mode: The panel can be used as a standalone toy without a TV—it lights up and plays sounds when buttons are pressed.
+
+Educational Content: The games (sold on cartridges called "Smartridges") were developed with input from educators. Popular game series included Disney characters (Winnie the Pooh, Mickey Mouse), Barney, and "Baby Einstein."
+
+Technical Specifications
+CPU: Sunplus SPG280, clock speed ~27 MHz
+Graphics: 2D sprite-based graphics. 320x240 pixels.
+Media: V.Smile Baby Smartridges
+Audio: Mono

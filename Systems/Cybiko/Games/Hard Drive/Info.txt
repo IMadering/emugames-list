@@ -1,0 +1,11 @@
+﻿Hard Drive is for 2 players (or single player vs. CyBiko). The object of the game is to be the first player to complete 3 laps. At the beginning, a countdown begins; once the word "GO!" is displayed, the players start racing.
+
+Be careful, don't collide with the signs or billboards because it'll take time to bring your car on the track.
+
+The first car to complete 3 laps wins the game.
+
+Controls
+Use <Enter> to accelerate the car.
+Use <Select> to brake the car.
+Use <Right/Left arrows> to maneuver the car left or right.
+Press <Esc> to exit game.

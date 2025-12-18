@@ -1,0 +1,4 @@
+﻿This is a single player game. The mice run out of their holes to the cheese that sits in the center of the room. Each mouse has a name — the symbol of any key on its back. You must type this symbol to stop the mouse before it bites off a piece of the cheese. If you do this, the mouse returns back to its hole and you get points. You have to save the cheese from being eaten during the certain time. If you press incorrect symbol, 5 sec is added to this time. The higher the level you play the longer the amount of time you'll have and the more mice appear at the same time. Once the time runs out and the cheese is saved, the next level begins. The game ends if the mice eat the cheese or when you successfully complete the last 9th level.
+
+To stop the mouse, press the same button on your keyboard.
+Press <Esc> and choose the "Quit" button to exit to the game menu.

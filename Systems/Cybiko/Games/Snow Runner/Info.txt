@@ -1,0 +1,7 @@
+﻿This is a two-player race game in which the object is to be the first player to complete the snowmobile course. If you play against your Cybiko computer, you have to outrun six other racers who are controlled by the computer. There are 3 different tracks for your choice. Along the course, you can see the traffic signs that tell what the upcoming path does. You can steer your snowmobile, accelerate and slow down. If you drive off the road, you can't move very fast, so don't do this. You have to complete 3 laps on the course to win. The first player to complete 3 laps wins the game.
+
+Controls
+Use <Left/Right arrows> to steer.
+Hold <Enter> to accelerate. Once you release <Enter>, the speed goes down.
+Hold <Select> to slow down.
+Press <Esc> to exit.

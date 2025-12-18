@@ -1,0 +1,14 @@
+﻿This is a single-player game. The object of the game is to banish various ghouls, while avoiding getting scared to death. You can find banishing objects, which help you to get rid of scary monsters. Each ghoul has an object, which banishes it. If you don't use it for a while, the item will go back to the same place it was at in the maze. If the active banishing object matches the ghoul, the spirit disappears. If it is not the correct banishing object for the ghoul, the spirit is left unharmed, and this item is removed from your inventory and placed in the ghoul's inventory. When the ghoul disappears, it leaves behind all objects in its inventory and you can pick them up again. There are also different keys that must be found to unlock doors. The spook meter shows your spook value. The more time you spend around a ghoul, the more scared you get. When the spook meter reaches its maximum, the game will be over. When you are not having run-ins with the ghouls, the spook value will regenerate. If you banish all the ghouls, the game will end.
+
+Controls
+<Up arrow> = move forward
+<Down arrow> = move back
+<Right arrow> = turn clockwise
+<Left arrow> = turn counter-clockwise
+<Shift> = shift to the left
+<Fx> = shift to the right
+Press <Select> to show the inventory screen.
+Use <Up/Down arrows> to choose banishing object from the inventory.
+Press <Enter> to make the selected banishing object active.
+Press <Enter> to banish ghoul.
+Press <Esc> to show menu screen.

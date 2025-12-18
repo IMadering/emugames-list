@@ -1,0 +1,10 @@
+﻿Use your chopper to reduce the enemy into piles of smoking garbage. You control what happens in this battle; blast those scumbags with your machine guns, bombs, and self-guided missiles. Use the bombs to take out the ones in the sea, and the rest for the ones coming at you from the air! Be careful of the subs; they're guided by a chopper radar ship! Watch your fuel level! You're going to have to fill up on gas and repair your armor. To do that, just pick up fuel cans and repair boxes. The game has 8 levels. Watch your back; and you may just live long enough to pull some rank!
+
+Controls
+Press <Arrows> to move the chopper.
+Press <Enter> or <Space> to shoot.
+Press <Select> to detonate a bomb.
+Press <Tab> to launch a self-guided missile.
+Press <Ins> to hide/show the status bar.
+Hold <Del> to pull out the rope for picking up the repair parts or to refuel by picking up the fuel can. Release <Del> when you've picked up a box or a can.
+Press <Esc> to end the game.

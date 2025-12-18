@@ -1,0 +1,7 @@
+﻿Race your opponent and find the fastest way to the other side of the maze.
+
+The maze has two gates on opposite ends, you start off on one gate while your opponent starts off on the other gate. Your goal is to get to the other end of the maze before your opponent makes it to the opposite end. You'll be operating a cool black train engine.
+
+Controls
+Press <Arrows> to move your train engine.
+Press <Esc> to exit the game.

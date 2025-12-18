@@ -1,0 +1,13 @@
+﻿This is a single player game. Your object is to help Santa Claus to be in time to give out all of his presents to the children. Santa has to put one present in every window of the house, getting the points, to pass the level.
+
+The hero moves up the house from the ground floor by using the stairs, pipes and eaves. While moving up, avoid the flowerpots falling from the windows, as well as the cats and ravens that will try to stop your hero. If the hero collides with them, he'll fall to the ground, and must begin his ascent again. If he has a present when he falls, he'll lose it. He must find the lost present, because, if he doesn't, there will be a child without a present. Don't go near a window when a child appears, or they will try to drag Santa into their apartment and he will stay there for some time.
+
+When Santa Claus puts a present in each window of the house in a limited time, he goes to the next level. If he finishes before the time expires, he gets 5 points for every second that he saves. You are a winner if you pass all levels of the game. The game also ends when Santa fails to put presents in every window of the house in limited time. If your score is in the top ten, you are asked to enter your name there.
+
+Controls
+Use <Arrows> to move Santa.
+Press <Enter> to jump.
+Press <Enter>+<Left/Right arrows> to jump left or right.
+Press <Select> to show/hide informational field.
+Press <Tab> to view the Top Ten list.
+Press <Esc> to exit to the game menu.

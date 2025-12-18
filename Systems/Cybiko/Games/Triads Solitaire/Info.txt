@@ -1,0 +1,12 @@
+﻿In this solitaire the deck is dealt in groups of three cards — from here the game gets the name Triads.
+
+This solitaire is played with one small deck (36 cards). The deck is dealt by groups, three cards per group, faces up. In each group, the upper (rightmost) card is available for play – you can move it either on a suit stack, stacking in descending order, according to their suits, or on another group, according to their rank. Other cards (should be played on), in ascending order, according to their suits. You can play a card on a group provided that in that group there are less than three cards and its upper card is of the same rank. Emptied groups cannot be reused.
+
+Where there are no legal moves left, unused (not yet moved to suit stacks) cards are collected and dealt again. You win the game by moving all cards to suit stacks in not more than three deals.
+
+Controls
+Press <Arrows> to move focus through the cards.
+Press <Enter>, <Select> or <Ins> to pick up the necessary card.
+Press <Enter> to place the card.
+Press <Esc> to end the game.
+Press <Tab> to re-deal the cards.

@@ -1,0 +1,11 @@
+﻿The game is played by two players: One uses white stones; while the other uses black stones. Black moves first. The game is played on a board containing a square grid of black lines. The stones are placed alternatively on empty intersections, including the intersections at the edge and corners of the board's grid. Either player may pass at their turn instead of placing a stone; stones do not move after being played.
+
+A stone or string of stones is captured if no empty points ("liberties") are around on the vertical and horizontal directions. "Self-capture" moves (if no partner's stones are captured) are not allowed; so it moves to the last space cleared by the partner's intersection (called "ko place").
+
+The game ends after two consecutive passes. A player's score is the sum of his own stones, number of captured stones and "dead zones". "Dead zone" is a set of the partner's stones with only one liberty. The player with the higher score at the end of the game wins. Equal scores result in a draw.
+
+Controls
+Use <Arrows> to select the intersection.
+Press <Enter> to make the move.
+Press <P> to pass.
+Press <Esc> to exit the game.

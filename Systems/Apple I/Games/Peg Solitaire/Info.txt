@@ -1,0 +1,12 @@
+﻿Also known as "Peg Game" or "Hi-Q".
+
+Start by removing one "peg" (pegs are represented by letters) to leave an empty spot. Hop a peg over an adjacent peg and onto the empty spot beyond it to remove the hopped-over peg. Repeat until no more moves can be made.
+
+The fewer pegs left, the better! Can you leave only one?
+
+Source: https://github.com/JeffJetton/apple1-peg-solitaire
+
+Load from tape and run:
+C100R
+300.05FFR
+300R

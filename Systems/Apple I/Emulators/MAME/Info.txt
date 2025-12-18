@@ -5,7 +5,7 @@ Repository: https://github.com/mamedev/mame
 Cheat Collection: https://www.mamecheat.co.uk
 GameInit.dat: https://www.progettosnaps.net/gameinit/
 Command.dat: https://www.progettosnaps.net/command/
-Mameinfo.dat: https://mameinfo.mameworld.info
+Mameinfo.dat + MAMEUI Inifiles: https://mameinfo.mameworld.info
 History.xml: https://www.arcade-history.com
 Snapshots: https://www.progettosnaps.net/snapshots/
 

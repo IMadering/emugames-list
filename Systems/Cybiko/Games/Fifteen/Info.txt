@@ -1,0 +1,8 @@
+﻿Absolutely the best trainer for your imagination. Expands your ability to evaluate a given situation.
+
+Controls
+Select the type of game and press <Enter>.
+Classic: you must arrange bricks in numeric order.
+Other: you must arrange bricks to get a full picture.
+During the game press <Arrows> to move bricks to an empty square.
+Press <Esc> to exit the game.

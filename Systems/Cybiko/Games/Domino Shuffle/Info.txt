@@ -1,0 +1,8 @@
+﻿This is a single player game. The object is to flip as many dominos as possible with an increasing number of points on all 7 levels.
+
+At the beginning of the game, you can see all the dominos face up. After some time, they are turned over and some of them trade places. You need to flip the dominos face up by the following rule: the number of points on each successive flipped domino must be higher than on the previous one. As soon as you break this rule (flip the domino with lower number of points than on the previous one), the level ends. The points on the dominos that you've flipped face up are added to your score and the next level starts. Your goal is to get the highest score. The higher the level you play, the higher the number of dominos that trade places. This will make it more difficult to remember the points on the dominos and makes harder for you to enter the Top 10.
+
+Controls
+Press <Arrows> to move the cursor over the dominos.
+Press <Enter> to open the selected domino.
+Press <Esc> and choose the "Quit" button to exit to the game menu.

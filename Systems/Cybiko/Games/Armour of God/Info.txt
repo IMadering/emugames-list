@@ -1,0 +1,7 @@
+﻿This is a single player game. Your object is to pass all the levels of the crypt and gather all the parts of the armour: the headpiece, the boots, the sword, the sun shield and the corselet. On each level, the hero may take one object then go to the next level. Any encounter the hero with his enemies: ghosts, skeletons, zombies and rats takes some of his health. He has to find certain objects to fight his enemies and get past all the walls: swords to throw at his enemies, bombs to throw at either the enemies or at walls and picks to smash through the walls. Three kicks or bombs destroy the enemy. If the hero finds a bottle with health elixir in it and drinks it, his health increases. For gold, he gets the money. For $1000, he may buy any one of the objects. Information field shows your bottles with elixir, your swords, your bombs, your picks, your money and your health. Upon starting each level, the hero has fully health. If the hero loses all his health, the game ends. If he gathers all parts of the armour, the game ends and you are a winner. The game is also over when it is impossible to get to any part of the armour.
+
+Controls
+Use <Arrows> to move the hero.
+Press <Enter> to throw the sword.
+Press <Select> to choose the any of the weapons; or press <1/2/3/4> to choose the elixir, sword, bomb and pick respectively.
+Press <Esc> to exit to the game menu.

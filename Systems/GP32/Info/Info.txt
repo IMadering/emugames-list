@@ -14,7 +14,13 @@ Sound: 44.1 kHz 16-bit stereo
 Power Supply: 2 × AA batteries or 3-V DC adapter
 
 Sites:
+https://www.schuerewegen.tk/gp32/
 https://en.wikipedia.org/wiki/List_of_commercial_GP32_games
+https://dl.openhandhelds.org/cgi-bin/gp32.cgi
 
 https://archive.org/details/GameParkGP32_201809
 https://archive.org/details/GP32Collection
+https://archive.org/details/netmanyagi_gamepark-gp32
+https://archive.org/details/tpb4663159
+https://archive.org/details/gp32_full
+https://archive.org/details/openhandhelds032019

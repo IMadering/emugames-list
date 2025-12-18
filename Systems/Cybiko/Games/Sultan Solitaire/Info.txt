@@ -1,0 +1,11 @@
+﻿Train your brain and relax your mind with Sultan Solitaire.
+
+This solitaire is played with two full decks (104 cards). Eight kings and the ace of hearts are taken off the deck – they are the Sultan’s harem. The king of hearts at the center is the Sultan; you can’t play a card on it. First, six cards take their places on the top of the screen – they are the Sultan’s divan. You can place the cards from the deck to the divan in ascending order. As soon as one of these places gets emptied, it should be filled with a new card from the deck. You can play cards from the divan or from the deck on kings or on the ace of hearts in ascending order.
+
+You win the game by surrounding the Sultan with a harem – eight queens. You’re allowed to look through the deck three times.
+
+Controls
+Press <Arrows> to move focus through the cards.
+Press <Enter>, <Select> or <Ins> to pick up the necessary card.
+Press <Enter> to place the card.
+Press <Esc> to end the game.

@@ -1,0 +1,8 @@
+﻿This is a two-player game. The object is to beat your opponent in a game of arm wrestling. You are one of the characters in the match. When the game starts, you'll see the two characters: yourself and your partner. You have to wait for three numbers to flash on the screen: "three", then "two", then "one". After this, the word "GO" flashes on the screen and you may begin building up your power. You have to force the opponent's hand to the table. When somebody has the advantage, you see their arm dominant over the other character. The character's faces become animated, showing more confidence while they are winning, and showing great strain while they are losing. If you force your opponent's hand to the table, you win the game. Otherwise, you lose the game.
+
+Controls
+If you play with another Cybiko computer, repeatedly press <Down arrow> to build up your power; your strength depends on how quickly you can repeatedly press <Down arrow>. If you want to see your rating and that of your opponent, press <Tab>; Press <Enter> to close rating box.
+
+If you and your partner play on one Cybiko computer, to build up the power of their characters the first player must press <Down arrow>; the second player must press <BKSP>.
+
+Press <Esc> to exit or restart the game.

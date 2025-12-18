@@ -1,0 +1,11 @@
+﻿This is a two-player game, and you also can compete against a Cybiko computer. Each player controls a spaceship that can shoot missiles. The object of the game is to destroy the opponents' ship by carefully calculating the angle, speed and gravitational pulls of the surrounding planets, all of which affect the shot.
+
+The game is played in rounds. Before game play starts, you can choose where you will place your spaceship in this round. In a round, you may make 10 attempts. During your turn, you can fire one shot at the opponent. You are allowed to rotate the ship and control the power of the shot. However, you can't move your ship. Once the missile is fired, you'll see its movement, which is influenced by the gravitational pull of the surrounding planets. When the missile goes too far off the screen, or collides with a planet, that turn is over.
+
+The play continues until one of the ships is destroyed by a missile; in this case, the player who succeeded gets a point. The play also stops when both players have made 10 attempts; that round is considered a draw, and no one gets a point. The first player to score 5 points wins the game.
+
+Controls
+Use <Left/Right arrows> to rotate the ship to aim the shot.
+Use <Up/Down arrows> to change the power of the shot.
+Press <Enter> to fire.
+Press <Esc> to return to the select partner menu (if you are the host), or to the Games Desktop.

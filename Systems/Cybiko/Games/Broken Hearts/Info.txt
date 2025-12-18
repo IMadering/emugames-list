@@ -1,0 +1,7 @@
+﻿This is a single player game. Stick as many broken hearts together as possible in this Tetris style game! You control the heart halves of different colors, falling from the top of the screen. Try to unite the hearts' halves that fit each other and form a single whole. When the two hearts of the same color are next to each other, they fly off the screen flapping and joining with wedding rings. You go to the next level each time a certain number of hearts has dropped. The game ends when there is no place to put the heart half.
+
+Controls
+Press <Left/Right arrows> to move the falling heart half left or right.
+Press <Enter> to move the falling arrow down.
+Press <Select> to revolve the heart half on its point.
+Press <Esc> to quit the game.

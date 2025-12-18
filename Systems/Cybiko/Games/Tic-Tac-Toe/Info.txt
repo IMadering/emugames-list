@@ -1,0 +1,7 @@
+﻿The game is played on a 3x3 grid of 9 squares. The game is broken down into turns. Each player gets his/her own game piece, either an X or an O. The player with X has the first turn. During a turn, a player places his/her sign in the empty square. The game ends when either all the squares are taken up (draw), or if a player gets 3 of his/her pieces in a line, horizontally, vertically, or diagonally. The player that gets a line of three X's or O's first wins the game.
+
+Controls
+Use <Arrows> to select the square where you want to make an X or an O.
+Press <Enter> to make an X or an O in the selected square.
+If you want to see your rating and that of your opponent, press <R>. Press <Enter> to close rating box.
+Press <Esc> to exit the game.

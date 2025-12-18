@@ -5,6 +5,7 @@ Magazine issues:
 https://archive.org/details/byte-magazine
 https://archive.org/details/byte-magazine-rescans
 Byte Magazine Complete - from 1975 to 1998 - https://archive.org/details/1982-10-byte-magazine-october-1-byte-magazine-21533/
+https://archive.org/details/@decryption
 
 *Byte Magazine 1975.09 - https://archive.org/details/byte-magazine-1975-09
 *Byte Magazine 1975.10 - https://archive.org/details/byte-magazine-1975-10
@@ -143,44 +144,48 @@ Byte Magazine Complete - from 1975 to 1998 - https://archive.org/details/1982-10
 *Byte Magazine 1985.12 - https://archive.org/details/198512_byte_magazine_vol_10_12_graphics_hardware_pdf__mlib
 *Byte Magazine 1985.13 - https://archive.org/details/198512_byte_magazine_vol_10_13_computer_conferencing_pdf__mlib
 
-*Byte Magazine 1986.01 - 
-*Byte Magazine 1986.02 - 
-*Byte Magazine 1986.03 - 
-*Byte Magazine 1986.04 - 
-*Byte Magazine 1986.05 - 
-*Byte Magazine 1986.06 - 
-*Byte Magazine 1986.07 - 
-*Byte Magazine 1986.08 - 
-*Byte Magazine 1986.09 - 
-*Byte Magazine 1986.10 - 
-*Byte Magazine 1986.11 - 
-*Byte Magazine 1986.12 - 
+*Byte Magazine 1986.01 - https://archive.org/details/byte-magazine-1986-01 | https://archive.org/details/BYTE_Vol_11-01_1986-01_Robotics
+*Byte Magazine 1986.02 - https://archive.org/details/byte-magazine-1986-02
+*Byte Magazine 1986.03 - https://archive.org/details/byte-magazine-1986-03
+*Byte Magazine 1986.04 - https://archive.org/details/byte-magazine-1986-04
+*Byte Magazine 1986.05 - https://archive.org/details/byte-magazine-1986-05
+*Byte Magazine 1986.06 - https://archive.org/details/byte-magazine-1986-06
+*Byte Magazine 1986.07 - https://archive.org/details/byte-magazine-1986-07
+*Byte Magazine 1986.08 - https://archive.org/details/byte-magazine-1986-08
+*Byte Magazine 1986.09 - https://archive.org/details/byte-magazine-1986-09
+*Byte Magazine 1986.10 - https://archive.org/details/byte-magazine-1986-10 | https://archive.org/details/BYTE_Vol_11-10_1986-10_Apple_II_GS
+*Byte Magazine 1986.11 - https://archive.org/details/byte-magazine-1986-11
+*Byte Magazine 1986.12 - https://archive.org/details/byte-magazine-1986-12
 
-*Byte Magazine 1987.01 - 
-*Byte Magazine 1987.02 - 
-*Byte Magazine 1987.03 - 
-*Byte Magazine 1987.04 - 
-*Byte Magazine 1987.05 - 
-*Byte Magazine 1987.06 - 
-*Byte Magazine 1987.07 - 
-*Byte Magazine 1987.08 - 
-*Byte Magazine 1987.09 - 
-*Byte Magazine 1987.10 - 
-*Byte Magazine 1987.11 - 
-*Byte Magazine 1987.12 - 
+*Byte Magazine 1987.01 - https://archive.org/details/byte-magazine-1987-01
+*Byte Magazine 1987.02 - https://archive.org/details/byte-magazine-1987-02
+*Byte Magazine 1987.03 - https://archive.org/details/byte-magazine-1987-03
+*Byte Magazine 1987.04 - https://archive.org/details/byte-magazine-1987-04
+*Byte Magazine 1987.05 - https://archive.org/details/byte-magazine-1987-05
+*Byte Magazine 1987.06 - https://archive.org/details/byte-magazine-1987-06
+*Byte Magazine 1987.07 - https://archive.org/details/byte-magazine-1987-07
+*Byte Magazine 1987.07 Bonus - https://archive.org/details/198706ByteMagazineVol1207BonusEditionApplicationSoftwareToday
+*Byte Magazine 1987.08 - https://archive.org/details/byte-magazine-1987-08
+*Byte Magazine 1987.09 - https://archive.org/details/byte-magazine-1987-09
+*Byte Magazine 1987.10 - https://archive.org/details/eu_BYTE-1987-10_OCR | https://archive.org/details/byte-magazine-1987-10-rescan/1987_10_BYTE_12-11_Heuristic_Algorithms/
+*Byte Magazine 1987.11 - https://archive.org/details/byte-magazine-1987-11
+*Byte Magazine 1987.12 - https://archive.org/details/byte-magazine-1987-12 | https://archive.org/details/byte-magazine-1987-10-rescan/1987_10_BYTE_12-12_Inside_the_IBM_PCs/
+*Byte Magazine 1987.12+ - https://archive.org/details/byte-1987-12
 
-*Byte Magazine 1988.01 - 
-*Byte Magazine 1988.02 - 
-*Byte Magazine 1988.03 - 
-*Byte Magazine 1988.04 - 
-*Byte Magazine 1988.05 - 
-*Byte Magazine 1988.06 - 
-*Byte Magazine 1988.07 - 
-*Byte Magazine 1988.08 - 
-*Byte Magazine 1988.09 - 
-*Byte Magazine 1988.10 - 
-*Byte Magazine 1988.11 - 
-*Byte Magazine 1988.12 - 
+*Byte Magazine 1988.01 - https://archive.org/details/byte-1988_01
+*Byte Magazine 1988.02 - https://archive.org/details/byte-1988_02
+*Byte Magazine 1988.03 - https://archive.org/details/byte-magazine-1988-03
+*Byte Magazine 1988.04 - https://archive.org/details/byte-magazine-1988-04
+*Byte Magazine 1988.05 - https://archive.org/details/byte-magazine-1988-05 | https://archive.org/details/BYTE-1988-05
+*Byte Magazine 1988.06 - https://archive.org/details/byte-magazine-1988-06 | https://archive.org/details/BYTE-1988-06
+*Byte Magazine 1988.07 - https://archive.org/details/byte-magazine-1988-07 | https://archive.org/details/BYTE-1988-07 | https://archive.org/details/byte-1988-07_202104 | https://archive.org/details/byte-magazine-1988-07_201802
+*Byte Magazine 1988.08 - https://archive.org/details/byte-magazine-1988-08 | https://archive.org/details/BYTE-1988-08
+*Byte Magazine 1988.09 - https://archive.org/details/byte-magazine-1988-09 | https://archive.org/details/BYTE-1988-09
+*Byte Magazine 1988.10 - https://archive.org/details/byte-magazine-1988-10 | https://archive.org/details/BYTE-1988-10
+*Byte Magazine 1988.11 - https://archive.org/details/eu_BYTE-1988-11_OCR
+*Byte Magazine 1988.12 - https://archive.org/details/BYTE-MAGAZINE-1988-12 | https://archive.org/details/BYTE-1988-12
+*Byte Magazine 1988.12+ - https://archive.org/details/eu_BYTE-1988-12_OCR
+*Byte Magazine 1988 Special - https://archive.org/details/eu_BYTE-1988-fall-5-IBM_special_OCR
 
 
 

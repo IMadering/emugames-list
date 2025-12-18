@@ -1,0 +1,6 @@
+﻿Reaction Time is a single player game that tests your reaction time. The object of the game is to achieve the lowest reaction time. The game has 10 levels. At every level, a random directional arrow image is displayed on the playing field. Once this image appears, you have to press the same arrow on the keypad as quickly as possible. A timer keeps track of the time taken to press the corresponding directional arrow key. The lower your reaction time, the more points you will score.
+
+Controls
+Use <Arrows> to choose the corresponding arrow key.
+Press <Enter> to start a level.
+Press <Esc> to exit or restart the game.

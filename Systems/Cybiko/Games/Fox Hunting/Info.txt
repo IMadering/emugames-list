@@ -1,0 +1,6 @@
+﻿There are foxes hidden on the board. Your goal is to retrieve all of them. You must choose the cell and make a "shot". If there is a fox in the cell, it is retrieved. If there is no fox, some number is displayed in the cell. This number is the amount of foxes visible from the cell in all directions — horizontal, vertical and both diagonals (foxes don't enclose each other). After a number in the cell is displayed, some cells can be grayed down to help avoid wrong moves. Your score will be totaled during the game and show you the power of your logical prowess! You reach the next level of the game if power index is not less than 70%. If your result is less than 70%, you have to try the level again. Number of foxes is increased by one in the next level. The first level has 3 foxes; the upper level has 9 foxes. When you reach the upper level, you can continue playing the same without advancing to the next level. But don't think you can slack off just because you already won! You still have to achieve the best result!
+
+Controls
+Use <Arrows> to select the cell where you want to make a shot.
+Press <Enter> to make a shot into the selected cell.
+Press <Esc> to exit the game.

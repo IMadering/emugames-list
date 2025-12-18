@@ -1,0 +1,9 @@
+﻿Attain the highest score and pass all 6 levels by eliminating or avoiding different enemies in this single-player game. You control the little penguin, Plucky, who has learned to fly throughout the sky by means of two balloons attached to his back. Enemy penguins strive to peck at your balloons in order to burst them, causing you to fall. Try to do the same to them first! Eliminate a certain number of penguins to pass a level. After losing their balloon, the enemy penguins will fall to earth with a parachute and begin to pump up a balloon to fly again. If you tear their parachutes, they will fall and perish. Don't fly too low over the water's surface; you run the risk of being swallowed by a killer whale. The silly pelican will peck at all that he sees. Plucky has to rest sometimes; if his supply of strength is exhausted, he can no longer fly and will descend. At the beginning of each level, you will be given 30 seconds. For each enemy penguin you eliminate, you'll receive a few additional seconds. If this time has run out, you lose the game.
+
+You can receive different bonuses: it may be a single balloon or angel. Catch a single balloon as fast as you can if you are flying with one balloon at the moment you see this bonus! You will get additional balloon. The angel comes down from the heavens from time to time and gives you one additional life. When you lose all 3 lives, the game is over. If you pass all of the levels, it means that you beat all your rivals.
+
+Controls
+Press and hold <Enter> to fly.
+Use <Right/Left arrows> to maneuver your penguin.
+Press <Tab> to view the Best Scores list.
+Press <Esc> to exit to the game menu.

@@ -1,0 +1,28 @@
+﻿This is a single-player, step-by-step strategy game.
+
+You control a hero who must lead an army, fight enemies, and explore the kingdom. Before the game starts, you must choose the mission to complete and what race will supply you with mercenaries. The object of the game is to complete the mission you've selected within 500 game days. In the game, you may enchant enemies to weaken them and empower your warriors to by endowing them with additional abilities. In the book of magic, you can read the descriptions of what each sort of magic can do. There are 7 artifacts that can be found around the country and used to empower your hero. Your hero gains experience in battles, and also can find experience points around the country in chests. Your hero's level increases with the experience he earns and finds. Your castle yields 10 pieces of gold a day, and you can find gold treasures while wandering the land. A conquered mine will also provide you with gold. In the beginning of the game, you get an army, some gold, and some incantations. You can obtain more of each as you proceed through the game. The game ends when the time to complete the mission runs out. You win the game after you fulfill the mission in the time allotted. You score points when you win the game, and you'll be rewarded for completing the levels in a smaller amount of time.
+
+Controls
+Use <Up/Down arrows> to cycle through the menu options.
+Press <Enter> to run the option you've selected.
+
+How to Go
+Run the "Go" option, and the cursor will appear on the playing area.
+Use <Arrows> to move the cursor and press <Enter> to place it.
+The bar of the "Go" option will display the length of your move. Once it is entirely filled, it means that a game day has passed.
+Stop to fight when the sword inside the cursor appears.
+Press <Tab> to shift the focus back to the menu.
+
+How to Scroll
+Run the "Scroll" option, and use <Arrows> to view both already seen and undiscovered places.
+Press <Tab> to return to your focus position and shift the focus to the menu.
+
+How to Inspect the Castle
+Run the "Castle" option to view the castle screen.
+Press <Esc> to return to the playing screen.
+
+Select "Go" to move your hero around the map.
+Select "Scroll" to scroll the screen to view both explored and undiscovered places.
+Select "Castle" to inspect your castle.
+Select "Save" to save up to 5 games.
+Select "Info" to see information about the chosen mission, your hero and your army, and also to read the book of magic.

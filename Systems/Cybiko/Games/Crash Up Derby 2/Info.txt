@@ -1,0 +1,10 @@
+﻿This is a single player game. The object of the game is to smash the enemies' cars on the playing field by using your car. It has 8 levels. Your car is also damaged if it collides with the edges of the playing field. Your car is separated into 4 damage zones: the front, the rear, and the sides. The higher the level, the more damage you'll sustain in each impact. High speed causes more damage. Bump the edge of the board rather than hitting another car. If you get hit in the rear, it screws up the acceleration; if you get hit in the front, it's hard to steer, so try to make enemy cars hit your sides... it'll shake you up, but it won't do as much serious damage! The enemy car is destroyed if you hit it.
+
+Find bonuses: armor to protect your car; lightning to increase damage to other cars; a gas can with benzine; or a crossed hammer with spanner to repair your own car. Also, don't forget to drive your car onto the platform with letter "F" to refuel. The game ends when you smash all the other cars on the 8th level, or when they smash you!
+
+Controls
+Press <Up/Down arrows> or <Enter/Bksp> to accelerate the car forward or backward.
+Press <Left/Right arrows> to maneuver the car left or right.
+Press <Select> to refuel your car.
+Press <Tab/Del> to list the items on the status line or return to the previous position; repeatedly press <Tab> to scan down the list on your status line.
+Press <Esc> to exit to the game menu.

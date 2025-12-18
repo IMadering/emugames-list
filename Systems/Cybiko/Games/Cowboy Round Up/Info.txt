@@ -1,0 +1,7 @@
+﻿Be the coolest cowboy and lasso all of the cattle in each level to pass to the next one in this single player game! You are a dashing cowboy, tossing a lasso to catch unbridled cattle. There is a counter in the lower center part of the screen. This is the number of attempts (tosses) on each level that you have to catch the cattle. At some time in the level, a rodeo clown appears, running around in the field among the cattle. If you lasso him, the counter of attempts will increase by 5 units and all cattle will freeze for a while, which allows you to easily lasso more cattle. Each level has a certain number of cattle and a number of attempts, which will increase on each successive level. The game ends when the counter of attempts reaches zero and not all of the cattle have been lassoed.
+
+Controls
+Use <Arrows> to move the crosshairs.
+Press <Enter> to toss the lasso toward the crosshairs.
+Press <Tab> to view the Top 10 list.
+Press <Esc> to exit to the game menu.

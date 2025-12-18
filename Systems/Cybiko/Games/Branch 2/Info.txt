@@ -1,0 +1,6 @@
+﻿The playing field is divided into square cells. Each square can have a fragment, or segment, of the branch that can be rotated within the cell, or can be empty. If you rotate a segment correctly, it will grow onto neighbor pieces and the branch will revive. The initial cell is colored black. All other parts must be connected to it either directly or through other segments already connected to it. You will achieve the best result if you solve this puzzle more quickly than in previous attempts. The hard level game has a special playing surface; i.e., the left part of the playing board is connected with the right part, and the upper part is connected with the lower part. You can imagine it like the surface of a doughnut.
+
+Controls
+Use <Arrows> to select a fragment.
+Rotate fragments using <Enter> = clockwise or <Del> = counter-clockwise.
+Press <Esc> to exit or to restart the game.

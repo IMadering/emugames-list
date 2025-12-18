@@ -1,0 +1,11 @@
+﻿Help the gardener to store the apples.
+
+The goal of the game is to move all the apples to certain positions. The gardener can push only one apple at the same time. Crosses mark places where the gardener has to push all the apples. The game has 15 levels.
+
+Controls
+Use <Arrows> to move gardener.
+Press <Enter> to restart level.
+Press <Tab> to choose next level.
+Press <Shift><Tab> to choose previous level.
+Press <Select> to switch the speed of the gardener.
+Press <Esc> to exit the game.

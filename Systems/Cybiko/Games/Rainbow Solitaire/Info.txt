@@ -1,0 +1,18 @@
+﻿Show the rainbow of your ability in solving this interesting solitaire!
+
+This solitaire is played with two full decks (104 cards), and 26 cards form an open stack. You can play its topmost card or you can play another card on it, in descending order, disregarding cards’ suits.
+
+Two rows, four cards each, are the base cards. You move a card on a base card in ascending order; the suit is not taken into account.
+
+If a card cannot be moved on either an open stack or base card, it must be played on either of three auxiliary stacks. You will want to keep cards within these auxiliary stacks in descending order, to ease subsequent moves on base cards.
+
+You win the game by moving all the cards from open and auxiliary stacks on base cards.
+
+When you’re finished looking through the deck for the first time, you have an option of gathering and shuffling cards of auxiliary stacks by pressing <Enter> where the deck should be.
+
+Controls
+Press <Arrows> to move the focus through the cards.
+Press <Left/Right arrows> on a stack to move through the stack.
+Press <Enter>, <Select> or <Ins> to pick up the necessary card.
+Press <Enter> to place the card.
+Press <Esc> to end the game.

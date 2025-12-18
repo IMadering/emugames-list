@@ -1,0 +1,7 @@
+﻿Think through different combinations and enjoy this popular game of logic.
+
+The object of the game is to play all your bones ahead of your opponent.
+
+To select a bone, press <Select>. Use <Left/Right arrows> to define a bone and press <Select> or <Enter>. To place the bone, use <Arrows> if you need to define the position and press <Enter> or <Select>. When you must pass a turn, press <Select> or <Enter> to close the "Select bone" screen and press <Enter> to pass the turn to your partner.
+
+Press <Ins> to view the game information.

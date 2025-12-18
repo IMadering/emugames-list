@@ -1,0 +1,10 @@
+﻿Test your logic and mathematical skills while pouring water into bottles.
+The objective is to bring the quantity of water in one of the bottles. Water is poured from and into bottles of different sizes.
+
+Water is poured from and into bottles of different sizes. The objective is to bring the quantity of water indicated in the task bar in one of the bottle with the least amount of steps.
+
+Controls
+Press <Left/Right arrows> to indicate the bottle.
+Press <Enter> to mark and to pour the water into another bottle.
+Press <Space> if you think that your task is completed.
+Press <Esc> to exit.

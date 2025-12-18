@@ -1,0 +1,14 @@
+﻿Plucky Penguin is a single-player game. The object of the game is to attain the highest score and to pass all the levels while avoiding different obstacles and enemies. You control the little penguin swimming in ocean. At the beginning of the game, you have 3 lives.
+
+These are obstacles and enemies in the game: ice-flows and snags drift in the ocean depths; on fishing boats, malicious poachers set traps for our penguin; mines are attached to the ocean floor; volcanoes erupt, sending out burning lava-streams; bloodthirsty sharks and killer whales are chasing you.
+
+Our little penguin has to fill up his oxygen supply regularly. Therefore, the penguin has to come up to the ocean surface for a deep breath. If your supply of oxygen is exhausted, the penguin loses one life.
+
+The game has 7 levels. From time to time in the ocean depths, schools of fish appear. Eating fish helps you get points added to your score and a piece of "health" for the penguin. On each level, you can find the different bonuses: piece of "health" for your penguin, extra life, or chest full of gold. If you pick up a chest, you will get the additional points added to your score, but only if you pass the level.
+
+When you lose all 3 lives, the game is over. If you pass all of the levels, it means that your little penguin successfully found his parents!
+
+Controls
+Use <Arrows> to control your penguin.
+Press <Ins> to show/hide informational field.
+Press <Esc> to exit to the game menu.

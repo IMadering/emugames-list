@@ -1,0 +1,12 @@
+﻿This is a single player game. You control a spaceship and try to complete this mission: to land on the newly discovered planet. The object of the game is to pass all 9 game levels by completing each mission and obtaining the highest score.
+
+The planet's gravity makes your ship move down faster and faster, so avoid being smashed. Your ship may land only on the special areas between mountains. You may navigate by adding upward speed to your spaceship, as well as horizontal (left/right) speed. The mission is completed if you land with the vertical and the horizontal speeds both at no more than 5.
+
+Some of the mountains can be volcanoes that may erupt suddenly. A collision with aliens' spaceships will take one of your lives off. You also lose a life if you are hit by the lava eruption, if you have driven your ship out of the screen edges, if you land with the speed (horizontal or vertical) at more than 5, or if you collide with the mountains. You have 3 lives in the game. The number of lives left is shown as hearts in the info field.
+
+Every change of the ship's speed consumes fuel. The amount of fuel left after landing and the points below the landing area are added to your score. The game ends when you pass all the levels, or if you lose all your lives.
+
+Controls
+Press <Left/Right arrows> to increase the rate of movement to the left/right.
+Press <Up arrow> to increase the rate of up motion.
+Press <Esc> to exit.

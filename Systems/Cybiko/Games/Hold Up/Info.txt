@@ -1,0 +1,8 @@
+﻿This is a single player game in which you take on a series of tasks such as: robbing a bank; driving the getaway car; being surrounded in your hideout and trying to escape; and attempting to escape the jail. The object of the game is to make it through each of the four game levels by completing the appointed task. To pass Level 1, you have to get past the cops in the bank; Level 2, stay alive for 200 seconds while driving from the police car shooting at you; Level 3, to get past the cops surrounding you in your hideout; and Level 4, to escape from the jail in 99 seconds while avoiding security guards. You are armed only on the first and third levels. You have three lives in the game; once your health runs out, you lose a life and start the level from the beginning. Depending on a level, you can score points for killed policemen, for the health remaining, for the time elapsed, and for completing a level. The item for which you are rewarded is blinking at the end of the level. The game ends when you lose all your lives. You win the game after you pass the 4th and last level. See help for controls of each level.
+
+You have three lives in the game. Once your health runs out, you lose a life and start the level from the beginning. At this level, you can score points for the slain policemen and for the health remaining, plus for completing the level.
+
+Controls
+Use <Arrows> to move.
+Press <Enter> to shoot.
+Press <Esc> to exit to the Start Menu.

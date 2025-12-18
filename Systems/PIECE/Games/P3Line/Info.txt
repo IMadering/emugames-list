@@ -1,3 +1,5 @@
 ﻿This work was featured in the March 2003 issue of Beemaga magazine. It won the award for best program!
 
 Each player constantly moves around the screen, avoiding touching the lines drawn by themselves and their opponents. Touching a line instantly kills them.
+
+Gameplay: https://youtu.be/Y-ITR1DqjVo

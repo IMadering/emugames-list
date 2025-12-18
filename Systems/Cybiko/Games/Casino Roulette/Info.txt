@@ -1,0 +1,9 @@
+﻿A ball is made to circle in the rotating Roulette wheel until it comes to rest in a particular number with a particular color. There are 37 numbers and two colors. The player's goal is to predict the outcome of each spin by placing bets in the fields of the Roulette table. Each player bets against the bank. Player's winnings are based on how well he/she guesses the ball's final resting place on the wheel.
+
+At the beginning you have $1000 (virtual) in your wallet. You can play against virtual Cybiko bank = Free game. You can be an owner of casino: you organize the game = New table. You can join already an organized table = Nickname of table owner.
+
+Controls
+To choose a mode use <Up/Down arrows> and press <Enter>.
+To set a chip on the table use <Arrows> to move the pointer; press <Select> to switch chip amount or press corresponding number key and press <Enter>. If you want to repeat previous chips disposition press <Ins>. When you fill table by your chips, as you want, press <Space> to run Roulette in Free game or to send your bet to Casino table.
+Press <Select> to view players list if you are Casino table owner.
+Press <Esc> to exit.

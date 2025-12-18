@@ -1,0 +1,11 @@
+﻿This is single player game with three levels. The barman has three attempts in the game to cater to the customers giving them ice cream, drinks and bones (for their dogs, of course). He puts the orders on the tables where the customers appear. Beginning on the second level the girls order ice cream, the boys - drinks. He has to clear the table, cleaning off all the used things. For each correctly and timely serviced customer, he gets points. He can get tips if he comes out to the tables to pick them up. The tips will disappear from the table after some time. If he doesn't place a needed order or gives an unnecessary order, he's fined a great number of points. If he doesn't cater to a customer, he loses one attempt. He also loses one attempt if he doesn't have the points to pay a fine.
+
+The clown is your assistant. His job is to distract the attention of the customers. However, you must pay for his show. If the barman successfully helps all the customers of one level, he goes to the next level. If the barman loses all his attempts, the game ends. If you pass all of the levels, the game ends and you are a winner.
+
+Controls
+Use <Arrows> to move the barman.
+Press <Space> to start clown's show.
+Press <Enter> to serve an ice cream.
+Press <Tab> to serve a cocktail.
+Press <Del> to give a bone.
+Press <Esc> to exit or restart the game.

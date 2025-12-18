@@ -1,0 +1,12 @@
+﻿WAR! by Landon Smith is a text-based adaptation of the popular card game "War," designed to be played on the Apple I against the computer. The game begins with both the player and the computer having 26 cards each. In each round, both sides "draw" a random card, represented by a number from 1 to 13. The side that draws the card with the higher value is declared the winner of the round. The winner takes both cards, increasing their total card count by the sum of the two card values. Conversely, the losing side loses that same number of cards.
+
+If the cards drawn at the start of the round are equal, "WAR!" is declared. In the War mode, after a brief pause ("3 CARDS DOWN...") , both sides draw one "final war card". The winner is determined by the higher final card , and they take the entire pot, consisting of all cards involved in that conflict. If the final cards are also equal, "TIE! WAR AGAIN!" is announced , and the drawing of new final war cards repeats until a single winner is determined. The objective of the game is to collect all 52 cards , or to leave the opponent with zero cards. The player can quit the game at any time to see the final score.
+
+Source: https://landonjsmith.com/hcdownload
+
+Load from tape and run:
+First load BASIC
+C100R
+4A.00FFR 800.0FFFR
+E2B3R
+RUN

@@ -1,0 +1,8 @@
+﻿Offer the maximum cups with coffee and repulse the hooligans; tomatoes attack on all 8 levels of this very funny single player game! You are a waiter whose duty is to offer coffee to the cafe visitors. Customers are sitting at 4 tables, arranged in a semicircle on the screen. When the customers need coffee, they will pound their cups on their tables, and if they don't receive a refill fairly quick, that they will get up and leave. For each offered cup of coffee you get some points. Time to time a hooligan runs into the cafe and throws the tomatoes to the visitors; you have to repel the attack with your coffee tray; otherwise, if hooligan hits a visitor, the visitor leaves the cafe. When you offer 25 cups of coffee, you go to the next level. The little men in the left corner of the screen show you the visitors that have already left the cafe. If there are unoccupied tables in the cafe a new visitor may enter to it. If five visitors leave the cafe the game ends. The game also ends, when you are successful on all 8 levels!
+
+You must come to the table and then offer coffee.
+
+Controls
+Press <Del, Ins, Tab, Select> to come and protect the visitor to the 1st, 2nd, 3rd and 4th table respectively or use <Up/Down arrows> to move through the tables and protect the visitors.
+Press <Enter> to offer coffee to the visitor.
+Press <Esc> to pause the game and go to the game menu.

@@ -1,0 +1,14 @@
+﻿This is a single player game. The object of the game is to achieve the highest score by climbing to the top each of the mountains on all 5 levels. You must maneuver your character around the falling boulders that drop from the top of the screen or are thrown by the Yeti, as well as avoiding the birds. If you are hit, you lose some health. When your health supply is used up, you lose a life. You have 3 lives in the game. When you reach to the top of a mountain you go to the next level.
+
+Pick up bonuses:
+Edelweiss as all other bonuses = to increase your score;
+Medicine chest = to increase your health;
+Shield = to be timely protected from boulders;
+Boot = to increase your speed till the end of the level.
+
+The game ends when you successfully pass the fifth level or when you lose all your lives. When the game is over, if your score is in the top ten, you are asked to enter your name to the top 10 list.
+
+Controls
+Use <Arrows> to make the character climb.
+Press <Tab> to view the Top 10 list.
+Press <Esc> to exit to the game menu.

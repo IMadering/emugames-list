@@ -1,0 +1,9 @@
+﻿Beat your opponent in the Japanese version of chess played on a 9x9 square board. Shogi distinguishes from other chess variations by its 'parachuting rule': the pieces taken from the opponent can be used as reinforcements. Each player's goal is to attack the enemy king so that the king cannot prevent the attack or escape. When a king is attacked, it is in check. The player whose king is in check must attempt to escape on the next move. If he can't do this, the king is checkmated. The player who is checkmated loses. If players play the time-limited game, it is over when any player exceeds this time and accordingly loses.
+
+Controls
+Press <Arrows> to move the pointer.
+Press <Enter/Space> to select or unselect a figure. Choose the place and press <Enter> to move the piece there or press <F1>+<Enter> to move the piece by promoting it (promoting is possible if you move starting and finishing in the last 3 rows of opponents side of the board).
+Press <Select> to view allowed moves for a selected figure.
+Press <Tab> to switch between main and reserve board.
+If you want to see your rating and that of your opponent, press <R>. Press <Enter> to close the rating box.
+Press <Esc> to exit the game.

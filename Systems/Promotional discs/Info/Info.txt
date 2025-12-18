@@ -3,6 +3,10 @@ After the dawn of CD-ROMs, packed-in CD-ROMs (and later DVD-ROMs) expanded out i
 This very large collection of cover disc images and files provides invaluable assistance to historical research, access to long-gone game and software company material, and early steps for genres of software that either took root or disappeared.
 
 Sites:
+https://myrient.erista.me/files/Redump/DVD-Video/
+https://myrient.erista.me/files/Redump/Video%20CD/
+https://myrient.erista.me/files/Redump/BD-Video/
+https://myrient.erista.me/files/Redump/HD%20DVD-Video/
 https://archive.org/details/coverdiscs
 https://archive.org/details/coverdiscs_misc
 https://archive.org/details/cd-roms

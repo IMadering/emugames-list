@@ -1,0 +1,8 @@
+﻿This is a version of billiards. You must shoot the cue ball so it hits the ball with the lowest number on the table. Don't sink the cue ball. To win, sink the 9 ball.
+
+Controls
+Use <Arrows> to move the band with a cue ball and to set the side hit direction.
+Press <Select> to place the cue ball.
+Hold <Enter> for a length of time and then release; the longer you hold down <Enter>, the stronger the hit will be.
+Press <Tab> to switch on/off status info screen.
+Press <Esc> to exit the game.

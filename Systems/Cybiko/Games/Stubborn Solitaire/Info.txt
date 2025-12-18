@@ -1,0 +1,14 @@
+﻿Train your brain and relax your mind with Stubborn Solitaire.
+
+This solitaire is played with two full decks (104 cards). Fifteen cards form a stack. Three cards are placed nearby the deck – they start auxiliary stacks and define the starting rank of base stacks. Next, you have to select one of those three cards of auxiliary stacks and move it on either of eight base stacks. The upper card of the stack immediately takes place of the card that was just moved.
+
+You move a card on the base stack in ascending order, disregarding the suit. You play cards from a stack on either the base or auxiliary stacks. You can also play cards on auxiliary stacks in descending order (the suit is also not taken into account). Finally, you can move cards between auxiliary stacks, in descending order.
+
+You cannot play a card on the stack.
+You can look through the deck one time only.
+
+Controls
+Press <Arrows> to move focus through the cards.
+Press <Enter>, <Select> or <Ins> to pick up the necessary card.
+Press <Enter> to place the card.
+Press <Esc> to end the game.

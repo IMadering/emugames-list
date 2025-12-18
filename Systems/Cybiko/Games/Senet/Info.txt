@@ -1,0 +1,10 @@
+﻿This is a two-player logical game played in turns on a 3x10 playfield. Both of the players have 5 chips that are off of the board at the beginning of the game. The number of sticks (1 - 4) turned with the white side out is the number of points; all black sides give you 6 points. A chip can be placed on the playfield only if you have 4 or 6 points. On your turn, you can move one of your chips according to the number of points you have; your chip will be eaten and taken off the board if your opponent moves their chip to the place on which your chip is located. If you stand on the "Power & Life" square, that chip can't be eaten. You are given an additional turn if you move your chip to the "Good" square, or if you get 6 points. If you move your chip to the "Water" square, it returns to the start position; the chip leaves the game after it crosses the finish line, which can't occur if you've got more points than necessary. The winner is the first player whose chips have all crossed the finish line.
+
+Controls
+Press <Enter> to stop the rotation of the sticks.
+Press <Enter> to move the marked chip to the marked square.
+Use <Left/Right arrows> to move the marks through the chips (if there are two or more of your chips on the playing field that can be moved).
+
+If you have something to say to your opponent, press <C> to open the comment box, type what you want and press <Enter> to send it!
+
+Press <Esc> to exit.

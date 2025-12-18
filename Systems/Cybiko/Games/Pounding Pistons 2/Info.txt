@@ -1,0 +1,16 @@
+﻿This is a single-player game. The object of the game is to finish the races in the fastest time, and to place in the top 3 to advance to the next track. You must maneuver around the track as fast as you can without running into other cars or going off the track. If you go off the road, you will have fight to get back in the race!
+
+There are 3 different tracks in the game, and each track gets progressively harder to negotiate. All cars must complete 3 laps on the current track, and the first one to do so wins that track. At the beginning of each track, you have to complete one qualifying lap on the track alone. The time from this lap is used to determine your starting position at the track, somewhere between 1 and 9. The game is considered finished when you place in the top 3 on the 3rd track.
+
+Controls
+Use <Enter> to accelerate the car.
+Use <Select> to brake the car.
+Use <Right/Left arrows> to maneuver the car left or right.
+Press <Tab> to open/close track information.
+
+Characteristics of Car:
+A = Acceleration;
+S = Top Speed;
+H = Handling;
+
+Press <Esc> to exit.

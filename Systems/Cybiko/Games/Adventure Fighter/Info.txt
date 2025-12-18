@@ -1,0 +1,19 @@
+﻿Adventure Fighter is a fighting game for one player. The object of the game is to defeat all your opponents, through a series of 3 levels. To pass each level you must vanquish a certain number of enemies. You take on one enemy at a time.
+
+These are your enemies in the game: Fierce dog, Security guard, and Fighter. Heading forward, you meet with the different traps: traps on the ground, toppling arches, and swinging axes hanging from the ceiling. A trap can easily be destroyed by a well-aimed kick; but only after you defeat the enemy. If you try to run past an opponent, you'll get caught in a trap and die. If there are no enemies, your health will be restored. But if you wait too long for your health to return, a fighting eagle comes flying down and attacks you.
+
+At the end of third level, you have to fight with the Big Boss. He is the very powerful and strong head instructor. Each time you hit an opponent, kill an enemy, destroy a trap, or pass to the next level, you get a certain amount of points. If you pass 3 levels and defeat all your enemies, the game ends and you win. If you lose all 3 lives, the game will be over.
+
+Controls
+Use <Left/Right arrows> to go forward/backward.
+Press <Right arrow><Del> to crouch.
+Press <Enter><Down arrow> to kick down.
+Press <Enter> to kick to the body.
+Press <Enter><Up arrow> to kick up.
+Press <Tab><Down arrow> to punch down.
+Press <Tab> to punch to the body.
+Press <Tab><Up arrow> to punch up.
+
+Floor traps are destroyed by kicking down. The others traps are destroyed by kicking up.
+
+Press <Esc> to exit or restart the game.

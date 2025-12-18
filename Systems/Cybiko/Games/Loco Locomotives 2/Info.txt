@@ -1,0 +1,12 @@
+﻿This is a two-player game. The path (it may be a maze) has two gates on opposite ends. You start off on one gate while your opponent starts off on the other gate. Your goal is to get to the other end of the maze while driving your locomotive on the track before your opponent makes it to the opposite end.
+
+Upon starting the game, you choose the level of difficulty (agree with your opponent to play with chosen game). Be skilful while driving your locomotive and don't forget to decelerate on turns or your train may be broken for a few seconds; this results in a delay, and you will lose precious time.
+
+The game ends when any player reaches his/her finish. This player is a winner.
+
+Controls
+Press <Arrows> to move your locomotive.
+Hold <Enter> to accelerate in the chosen direction; the longer you hold the button, the higher your speed will be.
+Press <Tab> to view/close the map.
+Press <BkSp> to decelerate in the chosen direction.
+Press <Esc> to exit game.

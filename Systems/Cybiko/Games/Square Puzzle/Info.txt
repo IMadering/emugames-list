@@ -1,0 +1,9 @@
+﻿This is a two-player strategic game played on a dotted board. The players place lines (a line connects two unconnected dots) on the board. When a box is created with four lines, it's marked with the color of the player who places the complete line in the box. If the player creates a box, he takes the next turn. Otherwise, the players place their lines in turn.
+
+The goal of the game is to make as many boxes as possible by the end of the game. The player who creates the most boxes is the winner. The game ends if there is no place for a line (the board is full).
+
+Controls
+Use <Arrows> to select a position for your line.
+Press <Select> or <Tab> to choose a line orientation (horizontal or vertical).
+Press <Enter> to place a line.
+Press <Esc> to quit the game.

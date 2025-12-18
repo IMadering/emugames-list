@@ -1,0 +1,8 @@
+﻿Make it as far as you can into this single player game and achieve the highest score! You will travel across the galaxy with your futuristic spacecraft and you must hit the enemy spaceships to get points. You have 3 lives in the game. When your health is exhausted, you lose a life. Shoot with your Pulse Laser any time and with your Ion Cannon (if you have bullets for cannon) to hit the larger enemy. Upon collision with an enemy, or if the fire and hit you, an explosion occurs and you lose a great amount of your health. Hit the enemy UFOs and shuttles to get points. If you hit the Satellite, it will disappear and leave behind one of the power-up bonuses: "S" to increase your speed, "R" to increase your health, "I" to give you bullets for the cannon, and "L" to increase the rate of fire when you shoot with the Laser. Try to pick up them! Beat the terrible Boss at the end of each level and you'll go to the next level. With every three levels, all the enemies increase in speed, making it harder for you to destroy them. The game will continue getting faster until you use up all your lives.
+
+Controls
+Use <Arrows> to turn the spacecraft.
+Press <Enter> to fire with the Pulse Laser.
+Press <Select> to fire with the Ion Cannon if you have bullets for it.
+Press <Del> if you need to be encouraged.
+Press <Esc> to exit to the game menu.

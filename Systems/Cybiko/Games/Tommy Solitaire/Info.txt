@@ -1,0 +1,13 @@
+﻿Tommy Solitaire is an ancient solitaire, probably the oldest of all known.
+
+This solitaire is played with one full deck (52 cards). You start by turning over the cards, one at a time, from the stock. When you move it onto the suit stack, you have to move all other cards on these suit stacks, in ascending order. If you cannot play a card on either suit stack, you play it on either of four auxiliary stacks. You cannot move cards between auxiliary stacks, though you can play a card from an auxiliary stack on the suit stack by moving all the cards on their respective suit stack.
+
+You win the game by moving all the cards on their respective suit stacks. The deck can be looked through one time only.
+
+Note: You will not want to play a card from the deck on an auxiliary stack which already contains (probably deep inside) the card of lower rank but the same suit - e.g., queen of spades on the stack containing the seven of spades. In such a case, you will definitely lose the game. Instead, you will want to collect (in each auxiliary stack) cards of each suit in descending order. In spite of such a simple rules, this solitaire is very challenging, since taking this hint into account requires exceptionally good memory.
+
+Controls
+Press <Arrows> to move focus through the cards.
+Press <Enter>, <Select> or <Ins> to pick up the necessary card.
+Press <Enter> to place the card.
+Press <Esc> to end the game.

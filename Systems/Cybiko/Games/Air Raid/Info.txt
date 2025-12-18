@@ -1,0 +1,13 @@
+﻿Your goal in this game is to defend the city from enemies and to keep as many buildings as you can. You take control of powerful antiaircraft gun that can fire by shells and missiles. The shells are shot more often than missiles, but the missiles have a large blasting radius.
+
+There is a factory, laboratory and communication center in the town. The factory produces the shields. By putting the shields over buildings, you can protect your town from destruction. The laboratory makes the upgrade of your weapon whereupon it will move faster than before. The communication center lets know you beforehand about the direction of enemy's movement. All the buildings function while they are absolutely safe. The enemy attacks you by warplane, stealth fighter, ballistic missile and cruise missile. If enemy's rockets don't hit a house for a period of time, it gets repaired.
+
+The game has 4 levels. You will go to the next level if protect the town during the given time. If all buildings are demolished, the game will be over.
+
+Controls
+Press <Left/Right arrows> to move the antiaircraft.
+Press <Enter> to fire by shell.
+Press <Select> to shoot a missile. Press <Select> again to detonate a missile (if missile hits an object it explodes by itself.)
+To move a shield, position the antiaircraft under it and press <Tab> to catch the shield. Then move the shield and press <Tab> to separate the shield and the antiaircraft.
+
+Press <Esc> to exit or restart the game.

@@ -1,0 +1,8 @@
+﻿A simple version of Billiards. You must knock the balls into the billiard pockets by hitting them with a second billiard ball struck by the cue.
+
+How to hit the ball with a cue:
+1. Wait until the message on the right side of the screen says "MOVE".
+2. Choose a ball with <Tab> or <Up/Down arrows>.
+3. Select the necessary angle of the cue with <Left/Right arrows>.
+4. Press <Enter> and then release.
+5. Press <Ins> for spinning ball forward. Press <Del> for spinning ball backward. Icon at the bottom right of the screen shows spinning mode. The longer you hold the <Enter>, the stronger the shot will be. The shot will be completed when you release the <Enter>.

@@ -1,0 +1,9 @@
+﻿This interesting arcade game allows you to test your reaction and attention. Help Cy-B provide its family with food.
+
+The goal is to score the most points by collecting apples and mushrooms. If four apples and mushrooms are dropped or allowed to fall, the game will end.
+
+Fallen apples and mushrooms are cancelled if you gather 200, 500, or 1,000 points.
+
+Controls
+Use <Arrows> or <1>, <0>, <BkSp>, <-> to control Cy-B.
+Press <Esc> to exit the game or start a new game.

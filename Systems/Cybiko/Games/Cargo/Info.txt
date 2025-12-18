@@ -1,0 +1,10 @@
+﻿Cargo is a one-player game. The object of the game is to find a special box in a warehouse of crowded boxes in the shortest amount of time possible. You must push the boxes around to navigate through the warehouse. The stockman can push only a single box at the time. There are holes on the floor, and if the stockman steps on a hole, he falls down in it. These holes can be filled in if you push a box into them. Your goal in the level is to navigate the way to the target box (marked with cross sign), and stand on its place. When this happens, the current level ends and the next begins.
+
+The game has 10 levels. You can choose previous level to play. You can choose the next level to play if you've passed it in your previous plays.
+
+Controls
+Use <Arrows> to move the stockman.
+Press <Enter> to restart current level.
+Press <Shift>+<Tab> to choose previous level.
+Press <Tab> to choose next level if you have passed it previous plays.
+Press <Esc> to exit or restart the level.
