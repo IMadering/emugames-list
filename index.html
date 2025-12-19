@@ -205,7 +205,7 @@
     border-top-left-radius: 4px; border-top-right-radius: 4px;
   }
   .tab:hover { color: var(--text-primary); background: var(--card); }
-  .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab.active { background: var(--accent); color: #000; border-color: var(--accent); }
   .tab[style*="display: none"] { display: none !important; }
   
   .sc-controls {
@@ -382,6 +382,8 @@
 </div>
 
 <script>
+const STAR_ICON = `<svg viewBox="0 0 24 24" style="width:1em; height:1em; fill:#ffcc00; vertical-align: middle; margin-top: -0.15em; display:inline-block; margin-right:3px;" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`;
+
 function parseIni(text){
   const result = {}; let section = null;
   text = text.replace(/\ufeff/g, '').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
@@ -576,7 +578,7 @@ function getGameDisplayText(g) {
   
   let html = escapeHtml(g.name) + suffix;
   if(g.year) html += ` (${escapeHtml(g.year)})`;
-  if(g.rating) html += ` ⭐ ${escapeHtml(g.rating)}`;
+  if(g.rating) html += ` <span>${STAR_ICON}${escapeHtml(g.rating)}</span>`;
   return html;
 }
 
