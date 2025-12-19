@@ -113,7 +113,7 @@
   
   .search {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 9px;
     border: 1px solid var(--border);
     background: var(--card); color: var(--text-primary);
     font-size: 15px;
@@ -155,7 +155,7 @@
   }
   
   .game-item {
-    padding: 4px 10px;
+    padding: 4px 9px;
     margin-bottom: 6px;
     background: var(--card);
     cursor: pointer;
@@ -175,7 +175,13 @@
   }
   .game-item.selected { background: rgba(77, 166, 255, 0.15); border-color: var(--accent); }
   
-  .g-name { font-weight: 500; font-size: 15px; line-height: 1.4; letter-spacing: 0.01em; color: var(--text-primary); }
+  .g-name, .gh-title {
+    font-size: 15px;
+    font-weight: 500; 
+    line-height: 1.4; 
+    letter-spacing: 0.01em; 
+    color: var(--text-primary); 
+  }
   
   #details { padding: 0; }
   
@@ -184,9 +190,8 @@
   }
   
   .game-header {
-    flex-shrink: 0; margin-bottom: 4px; padding: 0px 2px;
+    flex-shrink: 0; margin-bottom: 5px; padding: 0px 2px;
   }
-  .gh-title { font-size: 16px; font-weight: 500; line-height: 1.4; letter-spacing: 0.01em; color: var(--text-primary); }
   
   .tabs-bar {
     display: flex; justify-content: space-between; align-items: flex-end;
@@ -382,7 +387,7 @@
 </div>
 
 <script>
-const STAR_ICON = `<svg viewBox="0 0 24 24" style="width:1em; height:1em; fill:#ffcc00; vertical-align: middle; margin-top: -0.15em; display:inline-block; margin-right:3px;" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`;
+const STAR_ICON = `<svg viewBox="0 0 24 24" style="width:15px; height:15px; fill:currentColor; display:inline-block; vertical-align: text-top; margin-top: 1px; margin-right:3px; flex-shrink:0;" aria-hidden="true"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`;
 
 function parseIni(text){
   const result = {}; let section = null;
@@ -573,12 +578,18 @@ async function loadSystem(dir){
 
 function getGameDisplayText(g) {
   let suffix = '';
-  if (g.source === 'Emulators') suffix = ' *Emulator';
-  else if (g.source === 'Demos') suffix = ' *Demo';
-  
-  let html = escapeHtml(g.name) + suffix;
-  if(g.year) html += ` (${escapeHtml(g.year)})`;
-  if(g.rating) html += ` <span>${STAR_ICON}${escapeHtml(g.rating)}</span>`;
+  if (g.source === 'Emulators') {
+    suffix = ` <span style="color:var(--accent); display:inline-block;">Emulator</span>`;
+  } else if (g.source === 'Demos') {
+    suffix = ` <span style="color:var(--accent); display:inline-block;">Demo</span>`;
+  }
+  let html = `<span>${escapeHtml(g.name)}</span>` + suffix;
+  if(g.year) {
+    html += ` <span style="color:var(--text-secondary); display:inline-block;">(${escapeHtml(g.year)})</span>`;
+  }
+  if(g.rating) {
+    html += ` <span style="color:#ffcc00; display:inline-block; white-space:nowrap;">${STAR_ICON}${escapeHtml(g.rating)}</span>`;
+  }
   return html;
 }
 
